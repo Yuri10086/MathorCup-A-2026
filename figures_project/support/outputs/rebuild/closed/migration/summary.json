@@ -1,0 +1,7 @@
+{
+  "n_unique_sources": 9,
+  "policies": 4,
+  "rows": 36,
+  "independent_evaluator": "serialized and unchanged; per original context, same bundle for all four policies",
+  "stop_model_exploration": true
+}

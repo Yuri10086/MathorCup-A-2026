@@ -1,0 +1,21 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% 默认设置集中在 mathorcup2026.sty；未用组件的可编译示例也已保留。
+\documentclass[UTF8,a4paper,12pt,fontset=none]{ctexart}
+\usepackage{mathorcup2026}
+\renewcommand{\papertitle}{论文题目}
+\renewcommand{\teamnumber}{MCB260XXXX}
+\renewcommand{\competitiontrack}{（A/B）}
+\renewcommand{\paperkeywords}{关键词一；关键词二；关键词三}
+\begin{document}
+\makecoverheading
+\begin{papersummary}
+（摘要正文）此处替换为研究背景、建模方法、主要结果与结论。
+
+本模板的正文、图表、算法、文献和附录均保留可编译示例。示例数字、图框和文献占位均不代表真实研究成果，写作时请替换。
+\end{papersummary}
+\makepapertoc
+\startpaper
+% 正式写作直接修改下面的正文文件；不用的组件可注释保留。
+\input{sections/template-content}
+\end{document}

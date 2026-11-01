@@ -1,0 +1,11 @@
+{
+  "rows": 264,
+  "styles": 22,
+  "models": [
+    "PCA_Gaussian",
+    "CopulaIndependent",
+    "CopulaJoint",
+    "CVAE"
+  ],
+  "scope": "Same original roles. No-test styles retain NA distribution evidence; n<4 correlations not estimated. Style classifier scoring is diagnostic, never generator selection. Existing selected.csv remains frozen."
+}

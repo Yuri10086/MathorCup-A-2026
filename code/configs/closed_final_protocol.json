@@ -1,0 +1,14 @@
+{
+  "closed_experiments": [
+    "Q2 four-method nested selection and bootstrap",
+    "Q3 22-style assessment of existing four models",
+    "Q3 four-policy migration on nine unique held-out sources"
+  ],
+  "Q1": "No retraining and no prediction was altered. Two delivery-layer repairs were made on 2026-10-28/29: (a) the scorecard deliverable now carries all 50 graded fields defined in 3.xlsx summary instead of the 30 left behind by an A_/F_ column-prefix filter; (b) the two acetaldehyde columns are now graded 0 (3.xlsx legend 0=Not present) from 附件1 measured concentrations that all sit below the 附件8 sensory detection threshold of 50.0 mg/L, instead of being left blank. Details in outputs/rebuild/audit/protocol_amendment.md.",
+  "Q2": "Original two seeds and three outer folds; global method chosen by equal-target raw-mean MAE in original inner 20% holdout; no added candidates; alpha8; resample styles100 times; bootstrap duplicates kept in one inner role. Final full refit repeats the same inner-choice rule with first seed.",
+  "generation": "Original 140/35/40/35 roles and four configurations. 40 generated per style per context; same latent random-seed reset across models; all22styles listed even if n_test=0; rank correlation NA if n_test<4; common eligible correlation pairs for comparability; shrinkage and floors determined on generator training only. Validation distances cannot be reinterpreted as test evidence.",
+  "migration": "Nine unique beers from prior held-out source set, first eligible original seed per beer; same fixed independent evaluator within each context, serialized before optimization; original model selected in existing selected.csv. 80 candidates, four alphas and identity; four policies Unconstrained/PointConstraint/UncertaintyConstraint/Reject; all evaluation occurs after candidate choices.",
+  "inference": "2000 paired beer bootstrap; Wilcoxon Holm correction; nine sources, no duplicate counting; intervals describe internal sample variation, not external validation.",
+  "stop_rule": "After these three groups, stop all model exploration regardless of results.",
+  "frozen_hashes_note": "Removed 2026-10-30. The SHA-256 block hashed every Q1 artefact plus run.py itself, so any legitimate edit (even a comment) tripped the gate. Consistency is now enforced by the result-table checks in closed_verify.py instead."
+}

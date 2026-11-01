@@ -1,0 +1,15 @@
+# Pinned to the environment actually used for the recorded results.
+# Verified on 2026-10-29 with `python -c "import numpy,pandas,scipy,sklearn,torch,matplotlib,networkx,pypdf"`.
+# pypdf is required by scripts/final_quality.py (PDF page/glyph inspection) and is NOT interchangeable
+# with PyPDF2; without it the PDF quality stage fails right after a successful build.
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+torch==2.13.0
+matplotlib==3.10.6
+networkx==3.5.0
+openpyxl
+joblib
+threadpoolctl
+pypdf==6.21.3

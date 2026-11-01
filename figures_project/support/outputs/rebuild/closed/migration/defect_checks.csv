@@ -1,0 +1,181 @@
+﻿beer,seed,policy,defect,source,generated,encoded_nonincrease,physical_status,risk_kind
+81,20261028,Unconstrained,DMS,0.947369259,1.390597106,False,observed_encoding_order,direct observed chemical
+81,20261028,Unconstrained,X2.3.butanedione,0.284814332,0.142412516,True,observed_encoding_order,direct observed chemical
+81,20261028,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+81,20261028,Unconstrained,X.E..2.nonenal,0.003422001,0.0036336815000000003,False,observed_encoding_order,direct observed chemical
+81,20261028,Unconstrained,stale_hops,0.1877199686458946,0.18775345196641505,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+81,20261028,PointConstraint,DMS,0.947369259,0.947369259,True,observed_encoding_order,direct observed chemical
+81,20261028,PointConstraint,X2.3.butanedione,0.284814332,0.16388964649999999,True,observed_encoding_order,direct observed chemical
+81,20261028,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+81,20261028,PointConstraint,X.E..2.nonenal,0.003422001,0.003422001,True,observed_encoding_order,direct observed chemical
+81,20261028,PointConstraint,stale_hops,0.1877199686458946,0.13444875940246306,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+81,20261028,UncertaintyConstraint,DMS,0.947369259,0.947369259,True,observed_encoding_order,direct observed chemical
+81,20261028,UncertaintyConstraint,X2.3.butanedione,0.284814332,0.284814332,True,observed_encoding_order,direct observed chemical
+81,20261028,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+81,20261028,UncertaintyConstraint,X.E..2.nonenal,0.003422001,0.003422001,True,observed_encoding_order,direct observed chemical
+81,20261028,UncertaintyConstraint,stale_hops,0.1877199686458946,0.17010126019385285,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+81,20261028,Reject,DMS,0.947369259,0.947369259,True,observed_encoding_order,direct observed chemical
+81,20261028,Reject,X2.3.butanedione,0.284814332,0.284814332,True,observed_encoding_order,direct observed chemical
+81,20261028,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+81,20261028,Reject,X.E..2.nonenal,0.003422001,0.003422001,True,observed_encoding_order,direct observed chemical
+81,20261028,Reject,stale_hops,0.1877199686458946,0.18771996864589463,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+124,20261028,Unconstrained,DMS,1.155214236,1.413487762,False,observed_encoding_order,direct observed chemical
+124,20261028,Unconstrained,X2.3.butanedione,0.051620797,0.3829495015,False,observed_encoding_order,direct observed chemical
+124,20261028,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+124,20261028,Unconstrained,X.E..2.nonenal,0.000803907,0.0281747385,False,observed_encoding_order,direct observed chemical
+124,20261028,Unconstrained,stale_hops,0.17042266803840903,0.18195441218589367,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+124,20261028,PointConstraint,DMS,1.155214236,1.155214236,True,observed_encoding_order,direct observed chemical
+124,20261028,PointConstraint,X2.3.butanedione,0.051620797,0.051620797,True,observed_encoding_order,direct observed chemical
+124,20261028,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+124,20261028,PointConstraint,X.E..2.nonenal,0.000803907,0.000803907,True,observed_encoding_order,direct observed chemical
+124,20261028,PointConstraint,stale_hops,0.17042266803840903,0.1855919783234598,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+124,20261028,UncertaintyConstraint,DMS,1.155214236,1.155214236,True,observed_encoding_order,direct observed chemical
+124,20261028,UncertaintyConstraint,X2.3.butanedione,0.051620797,0.051620797,True,observed_encoding_order,direct observed chemical
+124,20261028,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+124,20261028,UncertaintyConstraint,X.E..2.nonenal,0.000803907,0.000803907,True,observed_encoding_order,direct observed chemical
+124,20261028,UncertaintyConstraint,stale_hops,0.17042266803840903,0.1895980399915585,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+124,20261028,Reject,DMS,1.155214236,1.155214236,True,observed_encoding_order,direct observed chemical
+124,20261028,Reject,X2.3.butanedione,0.051620797,0.051620797,True,observed_encoding_order,direct observed chemical
+124,20261028,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+124,20261028,Reject,X.E..2.nonenal,0.000803907,0.000803907,True,observed_encoding_order,direct observed chemical
+124,20261028,Reject,stale_hops,0.17042266803840903,0.170422668038409,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+218,20261028,Unconstrained,DMS,1.426105161,1.4812991325,False,observed_encoding_order,direct observed chemical
+218,20261028,Unconstrained,X2.3.butanedione,0.056959527,0.29042273399999996,False,observed_encoding_order,direct observed chemical
+218,20261028,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+218,20261028,Unconstrained,X.E..2.nonenal,0.001110656,0.0137944245,False,observed_encoding_order,direct observed chemical
+218,20261028,Unconstrained,stale_hops,0.17811448582281936,0.20218123954235065,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+218,20261028,PointConstraint,DMS,1.426105161,1.426105161,True,observed_encoding_order,direct observed chemical
+218,20261028,PointConstraint,X2.3.butanedione,0.056959527,0.056959527,True,observed_encoding_order,direct observed chemical
+218,20261028,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+218,20261028,PointConstraint,X.E..2.nonenal,0.001110656,0.001110656,True,observed_encoding_order,direct observed chemical
+218,20261028,PointConstraint,stale_hops,0.17811448582281936,0.20359556595667708,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+218,20261028,UncertaintyConstraint,DMS,1.426105161,1.426105161,True,observed_encoding_order,direct observed chemical
+218,20261028,UncertaintyConstraint,X2.3.butanedione,0.056959527,0.046463602500000006,True,observed_encoding_order,direct observed chemical
+218,20261028,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+218,20261028,UncertaintyConstraint,X.E..2.nonenal,0.001110656,0.001110656,True,observed_encoding_order,direct observed chemical
+218,20261028,UncertaintyConstraint,stale_hops,0.17811448582281936,0.132184263781486,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+218,20261028,Reject,DMS,1.426105161,1.426105161,True,observed_encoding_order,direct observed chemical
+218,20261028,Reject,X2.3.butanedione,0.056959527,0.056959527,True,observed_encoding_order,direct observed chemical
+218,20261028,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+218,20261028,Reject,X.E..2.nonenal,0.001110656,0.001110656,True,observed_encoding_order,direct observed chemical
+218,20261028,Reject,stale_hops,0.17811448582281936,0.1781144858228193,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+96,20261029,Unconstrained,DMS,1.191966329,1.2103120285,False,observed_encoding_order,direct observed chemical
+96,20261029,Unconstrained,X2.3.butanedione,0.523885941,0.406753938,True,observed_encoding_order,direct observed chemical
+96,20261029,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+96,20261029,Unconstrained,X.E..2.nonenal,0.011935009,0.014586208,False,observed_encoding_order,direct observed chemical
+96,20261029,Unconstrained,stale_hops,0.05846814707925823,0.10562216076104966,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+96,20261029,PointConstraint,DMS,1.191966329,1.191966329,True,observed_encoding_order,direct observed chemical
+96,20261029,PointConstraint,X2.3.butanedione,0.523885941,0.406753938,True,observed_encoding_order,direct observed chemical
+96,20261029,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+96,20261029,PointConstraint,X.E..2.nonenal,0.011935009,0.011935009,True,observed_encoding_order,direct observed chemical
+96,20261029,PointConstraint,stale_hops,0.05846814707925823,0.10425852439741329,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+96,20261029,UncertaintyConstraint,DMS,1.191966329,1.191966329,True,observed_encoding_order,direct observed chemical
+96,20261029,UncertaintyConstraint,X2.3.butanedione,0.523885941,0.2619874705,True,observed_encoding_order,direct observed chemical
+96,20261029,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+96,20261029,UncertaintyConstraint,X.E..2.nonenal,0.011935009,0.011935009,True,observed_encoding_order,direct observed chemical
+96,20261029,UncertaintyConstraint,stale_hops,0.05846814707925823,0.10877324835658174,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+96,20261029,Reject,DMS,1.191966329,1.191966329,True,observed_encoding_order,direct observed chemical
+96,20261029,Reject,X2.3.butanedione,0.523885941,0.523885941,True,observed_encoding_order,direct observed chemical
+96,20261029,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+96,20261029,Reject,X.E..2.nonenal,0.011935009,0.011935009,True,observed_encoding_order,direct observed chemical
+96,20261029,Reject,stale_hops,0.05846814707925823,0.05846814707925823,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+185,20261029,Unconstrained,DMS,0.823676657,1.127379542,False,observed_encoding_order,direct observed chemical
+185,20261029,Unconstrained,X2.3.butanedione,0.035773067,0.25308892,False,observed_encoding_order,direct observed chemical
+185,20261029,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+185,20261029,Unconstrained,X.E..2.nonenal,0.001743376,0.0067439965,False,observed_encoding_order,direct observed chemical
+185,20261029,Unconstrained,stale_hops,0.08491759526481754,0.10577427716316604,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+185,20261029,PointConstraint,DMS,0.823676657,0.823676657,True,observed_encoding_order,direct observed chemical
+185,20261029,PointConstraint,X2.3.butanedione,0.035773067,0.035773067,True,observed_encoding_order,direct observed chemical
+185,20261029,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+185,20261029,PointConstraint,X.E..2.nonenal,0.001743376,0.001743376,True,observed_encoding_order,direct observed chemical
+185,20261029,PointConstraint,stale_hops,0.08491759526481754,0.10653816605205492,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+185,20261029,UncertaintyConstraint,DMS,0.823676657,0.823676657,True,observed_encoding_order,direct observed chemical
+185,20261029,UncertaintyConstraint,X2.3.butanedione,0.035773067,0.035773067,True,observed_encoding_order,direct observed chemical
+185,20261029,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+185,20261029,UncertaintyConstraint,X.E..2.nonenal,0.001743376,0.001743376,True,observed_encoding_order,direct observed chemical
+185,20261029,UncertaintyConstraint,stale_hops,0.08491759526481754,0.10653816605205492,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+185,20261029,Reject,DMS,0.823676657,0.823676657,True,observed_encoding_order,direct observed chemical
+185,20261029,Reject,X2.3.butanedione,0.035773067,0.035773067,True,observed_encoding_order,direct observed chemical
+185,20261029,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+185,20261029,Reject,X.E..2.nonenal,0.001743376,0.001743376,True,observed_encoding_order,direct observed chemical
+185,20261029,Reject,stale_hops,0.08491759526481754,0.08491759526481754,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+230,20261029,Unconstrained,DMS,1.179344439,1.180416652,False,observed_encoding_order,direct observed chemical
+230,20261029,Unconstrained,X2.3.butanedione,0.041743092,0.31538075449999997,False,observed_encoding_order,direct observed chemical
+230,20261029,Unconstrained,X4VG,-1.712127385,-1.4911068795,False,observed_encoding_order,direct observed chemical
+230,20261029,Unconstrained,X.E..2.nonenal,0.001499421,0.004989042000000001,False,observed_encoding_order,direct observed chemical
+230,20261029,Unconstrained,stale_hops,0.07488045133878476,0.12000988723210945,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+230,20261029,PointConstraint,DMS,1.179344439,1.179344439,True,observed_encoding_order,direct observed chemical
+230,20261029,PointConstraint,X2.3.butanedione,0.041743092,0.041743092,True,observed_encoding_order,direct observed chemical
+230,20261029,PointConstraint,X4VG,-1.712127385,-1.712127385,True,observed_encoding_order,direct observed chemical
+230,20261029,PointConstraint,X.E..2.nonenal,0.001499421,0.001499421,True,observed_encoding_order,direct observed chemical
+230,20261029,PointConstraint,stale_hops,0.07488045133878476,0.11943789749345306,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+230,20261029,UncertaintyConstraint,DMS,1.179344439,1.179344439,True,observed_encoding_order,direct observed chemical
+230,20261029,UncertaintyConstraint,X2.3.butanedione,0.041743092,0.041743092,True,observed_encoding_order,direct observed chemical
+230,20261029,UncertaintyConstraint,X4VG,-1.712127385,-1.712127385,True,observed_encoding_order,direct observed chemical
+230,20261029,UncertaintyConstraint,X.E..2.nonenal,0.001499421,0.001499421,True,observed_encoding_order,direct observed chemical
+230,20261029,UncertaintyConstraint,stale_hops,0.07488045133878476,0.11943789749345306,False,no unique chemical threshold; independent prediction only,independent sensory proxy
+230,20261029,Reject,DMS,1.179344439,1.179344439,True,observed_encoding_order,direct observed chemical
+230,20261029,Reject,X2.3.butanedione,0.041743092,0.041743092,True,observed_encoding_order,direct observed chemical
+230,20261029,Reject,X4VG,-1.712127385,-1.712127385,True,observed_encoding_order,direct observed chemical
+230,20261029,Reject,X.E..2.nonenal,0.001499421,0.001499421,True,observed_encoding_order,direct observed chemical
+230,20261029,Reject,stale_hops,0.07488045133878476,0.07488045133878476,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+119,20261030,Unconstrained,DMS,1.221713967,1.4246434799999999,False,observed_encoding_order,direct observed chemical
+119,20261030,Unconstrained,X2.3.butanedione,,0.955984246,,unobserved_source,direct observed chemical
+119,20261030,Unconstrained,X4VG,-0.842377041,-1.427767211,True,observed_encoding_order,direct observed chemical
+119,20261030,Unconstrained,X.E..2.nonenal,0.004837684,0.0032213595,True,observed_encoding_order,direct observed chemical
+119,20261030,Unconstrained,stale_hops,0.3568293614821391,0.33289663268829933,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+119,20261030,PointConstraint,DMS,1.221713967,1.221713967,True,observed_encoding_order,direct observed chemical
+119,20261030,PointConstraint,X2.3.butanedione,,0.955984246,,unobserved_source,direct observed chemical
+119,20261030,PointConstraint,X4VG,-0.842377041,-1.427767211,True,observed_encoding_order,direct observed chemical
+119,20261030,PointConstraint,X.E..2.nonenal,0.004837684,0.0032213595,True,observed_encoding_order,direct observed chemical
+119,20261030,PointConstraint,stale_hops,0.3568293614821391,0.33163540934374264,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+119,20261030,UncertaintyConstraint,DMS,1.221713967,1.221713967,True,observed_encoding_order,direct observed chemical
+119,20261030,UncertaintyConstraint,X2.3.butanedione,,0.955984246,,unobserved_source,direct observed chemical
+119,20261030,UncertaintyConstraint,X4VG,-0.842377041,-1.427767211,True,observed_encoding_order,direct observed chemical
+119,20261030,UncertaintyConstraint,X.E..2.nonenal,0.004837684,0.0032213595,True,observed_encoding_order,direct observed chemical
+119,20261030,UncertaintyConstraint,stale_hops,0.3568293614821391,0.33163540934374264,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+119,20261030,Reject,DMS,1.221713967,1.221713967,True,observed_encoding_order,direct observed chemical
+119,20261030,Reject,X2.3.butanedione,,0.253988314,,unobserved_source,direct observed chemical
+119,20261030,Reject,X4VG,-0.842377041,-0.842377041,True,observed_encoding_order,direct observed chemical
+119,20261030,Reject,X.E..2.nonenal,0.004837684,0.004837684,True,observed_encoding_order,direct observed chemical
+119,20261030,Reject,stale_hops,0.3568293614821391,0.3568293614821391,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+139,20261030,Unconstrained,DMS,1.304481264,1.248807942,True,observed_encoding_order,direct observed chemical
+139,20261030,Unconstrained,X2.3.butanedione,0.032551284,1.8983678574999998,False,observed_encoding_order,direct observed chemical
+139,20261030,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+139,20261030,Unconstrained,X.E..2.nonenal,0.002011718,0.015106317000000001,False,observed_encoding_order,direct observed chemical
+139,20261030,Unconstrained,stale_hops,0.499820593501149,0.31298842361342377,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+139,20261030,PointConstraint,DMS,1.304481264,1.304481264,True,observed_encoding_order,direct observed chemical
+139,20261030,PointConstraint,X2.3.butanedione,0.032551284,0.032551284,True,observed_encoding_order,direct observed chemical
+139,20261030,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+139,20261030,PointConstraint,X.E..2.nonenal,0.002011718,0.002011718,True,observed_encoding_order,direct observed chemical
+139,20261030,PointConstraint,stale_hops,0.499820593501149,0.2793739670823006,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+139,20261030,UncertaintyConstraint,DMS,1.304481264,1.304481264,True,observed_encoding_order,direct observed chemical
+139,20261030,UncertaintyConstraint,X2.3.butanedione,0.032551284,0.032551284,True,observed_encoding_order,direct observed chemical
+139,20261030,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+139,20261030,UncertaintyConstraint,X.E..2.nonenal,0.002011718,0.002011718,True,observed_encoding_order,direct observed chemical
+139,20261030,UncertaintyConstraint,stale_hops,0.499820593501149,0.499820593501149,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+139,20261030,Reject,DMS,1.304481264,1.304481264,True,observed_encoding_order,direct observed chemical
+139,20261030,Reject,X2.3.butanedione,0.032551284,0.032551284,True,observed_encoding_order,direct observed chemical
+139,20261030,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+139,20261030,Reject,X.E..2.nonenal,0.002011718,0.002011718,True,observed_encoding_order,direct observed chemical
+139,20261030,Reject,stale_hops,0.499820593501149,0.499820593501149,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+209,20261030,Unconstrained,DMS,1.148358604,1.376463251,False,observed_encoding_order,direct observed chemical
+209,20261030,Unconstrained,X2.3.butanedione,0.026185308,0.255848813,False,observed_encoding_order,direct observed chemical
+209,20261030,Unconstrained,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+209,20261030,Unconstrained,X.E..2.nonenal,0.00271219,0.003851632,False,observed_encoding_order,direct observed chemical
+209,20261030,Unconstrained,stale_hops,0.2822499696805257,0.25986518368462835,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+209,20261030,PointConstraint,DMS,1.148358604,1.148358604,True,observed_encoding_order,direct observed chemical
+209,20261030,PointConstraint,X2.3.butanedione,0.026185308,0.026185308,True,observed_encoding_order,direct observed chemical
+209,20261030,PointConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+209,20261030,PointConstraint,X.E..2.nonenal,0.00271219,0.00271219,True,observed_encoding_order,direct observed chemical
+209,20261030,PointConstraint,stale_hops,0.2822499696805257,0.21127093842371633,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+209,20261030,UncertaintyConstraint,DMS,1.148358604,1.148358604,True,observed_encoding_order,direct observed chemical
+209,20261030,UncertaintyConstraint,X2.3.butanedione,0.026185308,0.026185308,True,observed_encoding_order,direct observed chemical
+209,20261030,UncertaintyConstraint,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+209,20261030,UncertaintyConstraint,X.E..2.nonenal,0.00271219,0.00271219,True,observed_encoding_order,direct observed chemical
+209,20261030,UncertaintyConstraint,stale_hops,0.2822499696805257,0.2822499696805257,True,no unique chemical threshold; independent prediction only,independent sensory proxy
+209,20261030,Reject,DMS,1.148358604,1.148358604,True,observed_encoding_order,direct observed chemical
+209,20261030,Reject,X2.3.butanedione,0.026185308,0.026185308,True,observed_encoding_order,direct observed chemical
+209,20261030,Reject,X4VG,-2.013157381,-2.013157381,True,floor_below_unknown,direct observed chemical
+209,20261030,Reject,X.E..2.nonenal,0.00271219,0.00271219,True,observed_encoding_order,direct observed chemical
+209,20261030,Reject,stale_hops,0.2822499696805257,0.2822499696805257,True,no unique chemical threshold; independent prediction only,independent sensory proxy

@@ -1,0 +1,232 @@
+﻿feature,matrix_name
+acetaldehyde,Acetaldehyde
+CS2,Carbon disulfide
+DES,Diethyl sulfide
+DMS,Dimethyl sulfide
+ethyl_2.methyl_butyrate,Ethyl 2-methylbutyrate
+ethyl_acetate,Ethyl acetate
+ethyl_decanoate,Ethyl decanoate
+ethyl_hexanoate,Ethyl hexanoate
+ethyl_isovalerate,Ethyl 3-methylbutyrate
+ethyl_octanoate,Ethyl octanoate
+ethyl_propionate,Ethyl propionate
+H2S,Hydrogen sulfide
+isoamyl_alcohol,Isoamyl alcohol
+isobutanol,Isobutanol
+isobutyl_acetate,Isobutyl acetate
+isopentyl_acetate,Isoamyl acetate
+MeSH,Methanethiol
+octyl_acetate,Octyl acetate
+phenethyl_acetate,Phenethyl acetate
+phenethyl_alcohol,Phenethyl alcohol
+X4VG,4-vinylguaiacol
+SO2.mg.L.,Sulfur dioxide
+acetic_acid.g.L.,Acetic acid
+ammonia.mg.L.,Ammonia
+color.EBC.,Color
+betaglucan.mg.L.,Betaglucan
+lactic_acid.mg.L.,Lactic acid
+glycerol,Glycerol
+iron,Iron
+pH,pH
+protein.g.L.,Protein
+bitterness,Iso-alpha acids
+GFS,Sugars
+ethanol..v.v.,Ethanol
+CO2.PSI.,Carbon dioxide
+unfermentables,Unfermentables
+kcalperc,Caloric value
+X1.propanol,1-propanol
+X2.3.butanedione,Diacetyl
+X3.methylbutanal,3-methylbutanal
+propylene.glycol,Propylene glycol
+propyl.acetate,N-propyl acetate
+n.pentanol,N-pentanol
+X2.methyl.1.butanol,2-methyl-1-butanol
+isopentyl.formate,Isopentyl formate
+ethyl.isobutyrate,Ethyl isobutyrate
+X3.methyl.2.butenal,3-methyl-2-butenal
+X2.methyltetrahydrofuran.3.one,2-methyltetrahydrofuran-3-one
+ethyl.butyrate,Ethyl butyrate
+butyl.acetate,Butyl acetate
+methylpyrazine,Methylpyrazine
+furfural,Furfural
+ethyl.lactate,Ethyl lactate
+X3Z.hexenol,Cis-3-hexenol
+n.hexanol,N-hexanol
+styrene,Styrene
+X2.furanmethanol,Furfuryl alcohol
+X3.methyl.2.hexanol,3-methyl-2-hexanol
+X3.furanmethanol,3-furanmethanol
+X2.acetylfuran,2-acetylfuran
+X2.6.dimethyl.pyrazine,"2,6-dimethylpyrazine"
+amyl.acetate,Amyl acetate
+ethyl.tiglate,Ethyl tiglate
+benzaldehyde,Benzaldehyde
+X5.methylfurfural,5-methylfurfural
+n.heptanol,N-heptanol
+X1.octen.3.ol,1-octen-3-ol
+X3.methylthio.propanol,Methionol
+isomaltol,Isomaltol
+X6.methyl.5.hepten.2.one,Methyl heptenone
+X2.pentyl.furan,2-pentyl furan
+ethyl.hex..3E..enoate,Ethyl 3-hexanoate
+alpha.phellandrene,α-phellandrene
+dehydroxy.cis.linalool.oxide,Dehydroxy-cis-linalool oxide
+hexyl.acetate,Hexyl acetate
+isopentyl.butanoate,Isopentyl butanoate
+X2.ethyl.1.hexanol,2-ethyl-1-hexanol
+beta.phellandrene,Beta-phellandrene
+limonene,Limonene
+eucalyptol,Eucalyptol
+benzyl.alcohol,Benzyl alcohol
+ethyl.hex..2E..enoate,Ethyl 2-hexenoate
+phenylacetaldehyde,Phenylacetaldehyde
+X.E..beta.ocimene,E-β-ocimene
+prenyl.isobutyrate,Prenyl isobutyrate
+ethyl.furoate,Ethyl furoate
+ortho.cresol,O-cresol
+ethyl.5.methylhexanoate,Ethyl 5-methylhexanoate
+X2.acetylpyrrole,2-acetylpyrrole
+isoamyl.lactate,Isoamyl lactate
+n.octanol,N-octanol
+cis.linalool.oxide,Cis-linalool oxide
+meta.cymenene,Meta-cymenene
+terpinolene,Terpinolene
+linalool,Linalool
+nonan.2.ol,2-nonanol
+n.nonanal,N-nonanal
+X2.methyl.benzofuran,2-methyl-benzofuran
+heptyl.acetate,Heptyl acetate
+X4.methyl.1.pentanol,4-methyl-1-pentanol
+neo.allo.ocimene,Neo-allo-ocimene
+x.methyl.1.octanol,X-methyl-1-octanol
+trans.dihydro.beta.terpineol,Trans-dihydro-β-terpineol
+cis.beta.terpineol,Cis-β-terpineol
+y.methyl.1.octanol,Y-methyl-1-octanol
+camphor,Camphor
+isobutyl.hexanoate,Isobutyl hexanoate
+nerol.oxide,Nerol oxide
+X.E..2.nonenal,E-2-nonenal
+cis.dihydro.beta.terpineol,Cis-dihydro-β-terpineol
+X4.ethyl.phenol,4-ethyl-phenol
+isoborneol,Isoborneol
+ethyl.benzoate,Ethyl benzoate
+n.nonanol,N-nonanol
+terpinen.4.ol,Terpinen-4-ol
+diethyl.succinate,Diethyl succinate
+vinyl.caprylate,Vinyl caprylate
+X1.alpha.terpineol,Alpha-terpineol
+ethyl..E..linalool,Ethyl linalool
+ethyl.nicotinate,Ethyl nicotinate
+citronellol,Citronellol
+nerol,Nerol
+hydroxy.methyl.furfural,5-hydroxymethylfurfural
+E.ocimenone,Ocimenone
+cumin.aldehyde,Cumin aldehyde
+ethyl.phenylacetate,Ethyl phenylacetate
+isopentyl.hexanoate,Isopentyl hexanoate
+geraniol,Geraniol
+beta.cyclohomocitral,β-cyclohomocitral
+E.cinnamaldehyde,Cinnamaldehyde
+n.decanol,N-decanol
+neryl.formate,Neryl formate
+X4.ethyl.guaiacol,4-ethyl-guaiacol
+X2.undecanone,2-undecanone
+trans.dihydro.alpha.terpinyl.acetate,Trans-dihydro-α-terpinyl acetate
+terpinen.4.ol.acetate,Terpinen-4-ol acetate
+X2.undecanol,2-undecanol
+delta.terpinyl.acetate,Terpiryl acetate
+X.E.E..2.4.decadienal,"E,E-2,4-decadienal"
+methyl.geranate,Methyl geranate
+car.3.en.2.one,Car-3-en-2-one
+dimethoxy..E..citral,Dimethoxy-E-citral
+X2.butyloctanoate,2-butyl octanoate
+X4.methoxysalicylaldehyde,4-methoxysalicylaldehyde
+ethyl.hydrocinnamate,Ethyl hydrocinnamate
+eugenol,Eugenol
+gamma.nonalactone,Gamma-nonalactone
+methyl.para.anisate,Methyl para-anisate
+X.E..beta.damascenone,E-β-damascenone
+ethyl..9..decenoate,Ethyl 9-decenoate
+vanillin,Vanillin
+geosmin,Geosmin
+dodecanal,Dodecanal
+X4.8.alpha.epoxy.caryophyllane,"4,8-α-epoxy-caryophyllane"
+E.caryophyllene,Caryophyllene
+X.E..alpha.ionone,E-α-ionone
+perillyl.acetate,Perillyl acetate
+beta.humulene,β-humulene
+X2.phenyl.ethyl.butyrate,2-phenyl ethyl butyrate
+X.Z..beta.farnesene,Z-β-farnesene
+pentyl.octanoate,Pentyl octanoate
+X.E..beta.farnesene,E-β-farnesene
+X2.methylbutyl.octanoate,2-methylbutyl octanoate
+alpha.humulene,Alpha-humulene
+neryl.propanoate,Neryl propanoate
+X9.epi..E..caryophyllene,9-epi-E-caryophyllene
+ethyl..E..cinnamate,Ethyl cinnamate
+linalool.isovalerate,Linalool isovalerate
+alpha.terpinyl.isobutanoate,α-terpinyl isobutanoate
+n.dodecanol,N-dodecanol
+germacrene.D,Germacrene D
+X.E..beta.ionone,E-β-ionone
+valencene,Valencene
+neryl.isobutanoate,Neryl isobutanoate
+E.methyl.isoeugenol,Methyl isoeugenol
+X.Z..dihydro.apofarnesal,Z-dihydro-apofarnesal
+butylated.hydroxytoluene,Butylated hydroxytoluene
+X.E..dihydro.apofarnesal,E-dihydro-apofarnesal
+Z.nerolidol,Z-nerolidol
+X.E..ortho.methoxy.cinnamaldehyde,E-ortho-methoxy cinnamaldehyde
+alpha.calacorene,α-calacorene
+E.nerolidol,E-nerolidol
+dihydroisocaryophyllene.epoxide,Tobacarol
+caryophyllene.alcohol,Caryophyllene alcohol
+neryl.isovalerate,Neryl isovalerate
+spathulenol,Spathulenol
+caryophyllene.oxide,Caryophyllene oxide
+humulene.epoxide.II,Humulene epoxide II
+alloaromadendrene.epoxide,Allo-aromadendrene epoxide
+X1.10.di.epi.cubenol,Epicubenol
+isopropyl.laurate,Isopropyl laurate
+caryophylla.4.12..8.13..dien.5.alpha.ol,"Caryophylla-4,8-dien-5-ol"
+gamma.eudesmol,Gamma-eudesmol
+alpha.muurolol,α-muurolol
+X1.2.dihydro.8.hydroxy..2E..linalool,"1,2-dihydro-8-hydroxy-2E-linalool"
+tau.cadinol,Tau-cadinol
+selin.11.en.4.alpha.ol,Kongol
+alpha.eudesmol,α-eudesmol
+X14.hydroxy.9.epi..E..caryophyllene,14-hydroxy-9-epi-(E)-caryophyllene
+tau.muurolol,Tau-muurolol
+n.tetradecanol,N-tetradecanol
+foeniculin,Eoeniculin
+cadalene,Cadalene
+X2.3.dihydro.farnesol,"2,3-dihydro-farnesol"
+X2E.6Z.farnesal,"E,Z-farnesal"
+caryophyllene.acetate,Caryophyllene acetate
+X14.hydroxy.alpha.humulene,14-hydroxy-α-humulene
+X2Z.6E.farnesal,"Z,E-farnesal"
+X2Z.6Z.farnesol,"Z,Z-farnesol"
+X2Z.6E.farnesol,"Z,E-farnesol"
+ambroxide,Ambroxide
+benzyl.benzoate,Benzyl benzoate
+X2E.6E.methyl.farnesoate,"2E,6E-methyl farnesoate"
+ethyl.tetradecanoate,Ethyl tetradecanoate
+X2.ethylhexylsalicylate,2-ethylhexyl acrylate
+isopropyl.tetradecanoate,Isopropyl tetradecanoate
+ethyl.pentadecanoate,Ethyl pentadecanoate
+methyl.hexadecanoate,Methyl hexadecanoate
+Z.Z.geranyl.linalool,"Z,Z-geranyl linalool"
+ethyl.hexadecanoate,Ethyl hexadecanoate
+manool.oxide,Manool oxide
+X13.epi.manool.oxide,13-epi manool oxide
+isopropyl.hexadecanoate,Isopropyl hexadecanoate
+manool,Manool
+ethyl.octadecanoate,Ethyl octadecanoate
+ethyl.pentanoate,Ethyl pentanoate
+X2.ethyl.3.methylpyrazine,2-ethyl-3-methylpyrazine
+esters_sum,Total ester compounds
+aroma_hops_sum,Total hop aroma compounds
+acids_sum,Total acids
+sulfur_sum,Total sulfur compounds

@@ -1,0 +1,183 @@
+% 可编译组件示例。正式写作请替换内容；未用组件可注释保留。
+\section{问题重述}
+\subsection{问题背景}
+此处填写问题背景。正文中文采用宋体，英文采用 Times New Roman；正文各段首行缩进两个字符。下面的三级标题紧接正文，不另加空白段。
+\subsubsection{具体任务}
+此处概括具体任务与约束条件。一级标题使用中文数字加顿号，二级与三级标题分别使用阿拉伯数字编号，例如 1.1 和 1.1.1。
+\subsection{数据与任务说明}
+说明数据来源、字段含义与预测或优化目标。示例仅用于展示排版，不对赛题做出未经验证的结论。
+
+\section{问题分析与模型假设}
+\subsection{问题分析}
+此处填写分析与求解路线。文献引用的排序压缩示例为\citep{sample-c,sample-a,sample-b}；这里引用的是明确标注的格式占位条目，正式写作时必须替换为已核验来源。
+
+本模板的排版、公式、图表占位、算法和附录代码示例由 OpenAI Codex 辅助生成与修改\citep{ai-codex}，不代表实际研究结果。正式写作时，应在实际采纳的 AI 辅助内容附近分别标注用途及人工核验情况。
+\subsection{模型假设}
+\begin{enumerate}
+  \item 此处填写第一条有依据的假设。
+  \item 此处填写第二条假设及其适用范围。
+\end{enumerate}
+
+\section{符号说明与表格示例}
+表\ref{tab:symbols}是普通三线表；表\ref{tab:wide}演示长表题与自动换行列。全局列间距为零，因此用固定列宽或显式列间距组织表格。
+\begin{table}[H]
+  \centering
+  \caption{主要符号说明}\label{tab:symbols}
+  \begin{tabular}{>{\centering\arraybackslash}m{0.16\linewidth}
+                  >{\raggedright\arraybackslash}m{0.54\linewidth}
+                  >{\centering\arraybackslash}m{0.24\linewidth}}
+    \toprule
+    符号 & 含义 & 单位 \\
+    \midrule
+    $n$ & 样本数量 & 个 \\
+    $x_i$ & 第 $i$ 个样本的观测值 & 按实际情况填写 \\
+    $\hat y_i$ & 第 $i$ 个样本的预测值 & 按实际情况填写 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+\begin{table}[H]
+  \centering
+  \caption{用于检查多行表题居中、标签加粗和题注行距的示例：下面的数值仅作排版占位，不能用于论文中的实际结果报告}
+  \label{tab:wide}
+  \begin{tabularx}{0.94\linewidth}{>{\raggedright\arraybackslash}X
+      >{\centering\arraybackslash}p{0.2\linewidth}
+      >{\centering\arraybackslash}p{0.2\linewidth}}
+    \toprule
+    指标（示例数据） & 方案 A & 方案 B \\
+    \midrule
+    演示得分 & 0.82 & 0.91 \\
+    对比说明：本列文字可根据可用宽度自动换行 & 待填写 & 待填写 \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\section{数据预处理}
+此处记录数据读取、缺失值处理、异常值处理和特征构造。输入与输出应使用项目相对路径，便于复现。
+
+\section{模型建立与求解}
+\subsection{编号公式}
+所有独立的正式数学公式均采用有编号环境。线性回归的格式示例如式\eqref{eq:regression}：
+\begin{equation}
+  y_i=\beta_0+\beta_1x_i+\varepsilon_i.
+  \label{eq:regression}
+\end{equation}
+多行推导可使用 \texttt{align}，每行保留右侧编号；式\eqref{eq:loss}与式\eqref{eq:update}演示对应的交叉引用。
+\begin{align}
+  L(\bm\beta)&=\frac{1}{n}\sum_{i=1}^{n}(y_i-\hat y_i)^2,\label{eq:loss}\\
+  \bm\beta^{(t+1)}&=\bm\beta^{(t)}-\eta\nabla L(\bm\beta^{(t)}).\label{eq:update}
+\end{align}
+需要一个编号覆盖多行时，可在 \texttt{equation} 内使用 \texttt{aligned}，如式\eqref{eq:constraint}。
+\begin{equation}\label{eq:constraint}
+  \begin{aligned}
+    \min_{\bm x}\quad & f(\bm x),\\
+    \text{s.t.}\quad & g_j(\bm x)\le 0,\quad j=1,\ldots,m.
+  \end{aligned}
+\end{equation}
+\subsection{核心流程伪代码}
+算法\ref{alg:solver}演示带输入、输出、初始化、循环、判断、停止条件与返回值的流程，实际论文应替换为对应模型的求解逻辑。
+\begin{algorithm}[H]
+  \KwIn{数据 $D$，最大迭代次数 $T$，收敛阈值 $\epsilon$}
+  \KwOut{当前最优解 $x^*$}
+  初始化可行解 $x^*$，令 $t\leftarrow 0$，$\Delta\leftarrow+\infty$\;
+  \While{$t<T$ 且 $\Delta>\epsilon$}{
+    根据数据 $D$ 与当前解生成候选可行解 $x'$\;
+    令 $\Delta\leftarrow|f(x')-f(x^*)|$\;
+    \If{$f(x')<f(x^*)$}{更新 $x^*\leftarrow x'$\;}
+    更新 $t\leftarrow t+1$\;
+  }
+  \Return{$x^*$}\;
+  \caption{带收敛停止条件的迭代求解流程}\label{alg:solver}
+\end{algorithm}
+\subsection{单图与组合图}
+图\ref{fig:single}是单图示例，按注释替换占位框即可插入实际图片。
+\begin{figure}[H]
+  \centering
+  % \includegraphics[width=0.86\linewidth]{result.pdf}
+  \fbox{\parbox[c][16mm][c]{0.78\linewidth}{\centering 此处放置实际结果图片}}
+  \caption{单图题注示例}\label{fig:single}
+\end{figure}
+图\ref{fig:combined}保留子图和多行图题示例；主图题、子图题都居中，主图标签加粗。
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}[t]{0.46\linewidth}
+    \centering
+    \fbox{\parbox[c][12mm][c]{0.9\linewidth}{\centering 子图 A 占位}}
+    \caption{方案 A}\label{fig:sub-a}
+  \end{subfigure}\hfill
+  \begin{subfigure}[t]{0.46\linewidth}
+    \centering
+    \fbox{\parbox[c][12mm][c]{0.9\linewidth}{\centering 子图 B 占位}}
+    \caption{方案 B}\label{fig:sub-b}
+  \end{subfigure}
+  \caption{用于检查多行图题的组合图示例：替换为实际模型结果后，请核对图题是否居中、标签是否加粗以及图像是否被裁切}
+  \label{fig:combined}
+\end{figure}
+
+\section{模型检验与评价}
+此处填写误差评估、稳定性和敏感性分析，并说明模型局限。以上示例均不代表实际实验结论。
+
+% 参考文献另起页；AI 声明在下一页独立排版，附录继续另起页。
+\clearpage
+\begin{thebibliography}{9}
+  \bibitem{sample-a} 文献占位一：请替换为已经核验的作者、题名、出版信息和年份。此条仅用于展示数字引用。
+  \bibitem{sample-b} 文献占位二：请替换为已经核验的真实来源。这里补充一段换行文字，以检查同一条目换行后的字号、基线距离与默认悬挂缩进。
+  \bibitem{sample-c} 文献占位三：请替换为已经核验的真实来源，用于演示连续引用的排序与压缩。
+  \bibitem{ai-codex} Codex，版本/型号：待核验，OpenAI，2026-10-23.（提交前按实际客户端和模型记录补全版本信息）
+\end{thebibliography}
+\input{sections/ai-statement}
+\clearpage
+
+% 不用 appendix 改为 A/B；附录沿用正文的中文一级标题与下级样式。
+\section{附录}
+附录的标题、普通文字、表格与正式公式继续沿用正文设置。代码框只额外设置等宽字体、行号、背景和边框。
+\subsection*{问题一完整代码}
+下面代码只演示相对路径、读取、预处理、参数、求解和关键输出；写作时须替换为实际可复现实验代码。
+\begin{lstlisting}[language=Python]
+# AI: Codex (OpenAI); version/model: verify before submission.
+# Date: 2026-10-23; contribution: demonstration code.
+# Human review: pending.
+from pathlib import Path
+import csv, json
+def load_values(path):
+    # Read the numeric input column using a relative path.
+    with path.open(encoding="utf-8-sig", newline="") as stream:
+        rows = csv.DictReader(stream)
+        return [float(row["value"]) for row in rows
+                if row.get("value", "").strip()]
+def solve(values, offset=0.0):
+    if not values:
+        raise ValueError("The input has no valid values.")
+    return sum(values) / len(values) + offset
+if __name__ == "__main__":
+    values = load_values(Path("data") / "input.csv")
+    parameters = {"offset": 0.0}
+    result = solve(values, **parameters)
+    output = {"sample_count": len(values), "mean": result, "parameters": parameters, "note": "This intentionally long line demonstrates automatic wrapping inside the code frame."}
+    print(json.dumps(output, ensure_ascii=False, indent=2))
+\end{lstlisting}
+\subsection*{问题二完整代码}
+第二个代码框的行号重新从 1 开始；行号与代码字号相同。
+\begin{lstlisting}[language=Python]
+# AI: Codex (OpenAI); version/model: verify before submission.
+# Date: 2026-10-23; demonstration code; human review pending.
+def predict(values, intercept=0.0, slope=1.0):
+    # Replace this demonstration with the actual model.
+    return [intercept + slope * value for value in values]
+print(predict([1.0, 2.0, 3.0]))
+\end{lstlisting}
+\subsection*{附录公式和表格}
+附录中的正式公式仍应带编号，如式\eqref{eq:appendix-mean}。
+\begin{equation}\label{eq:appendix-mean}
+  \bar x=\frac{1}{n}\sum_{i=1}^{n}x_i.
+\end{equation}
+\begin{table}[H]
+  \centering
+  \caption{代码参数说明示例}\label{tab:appendix}
+  \begin{tabular}{>{\raggedright\arraybackslash}p{0.25\linewidth}
+                  >{\raggedright\arraybackslash}p{0.5\linewidth}}
+    \toprule 参数 & 含义 \\
+    \midrule \texttt{offset} & 均值的偏移参数，示例设为零 \\
+    \texttt{slope} & 预测函数的斜率参数 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

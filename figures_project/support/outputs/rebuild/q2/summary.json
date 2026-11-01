@@ -1,0 +1,21 @@
+{
+  "n_nodes": 231,
+  "edges": 168,
+  "excluded": [
+    "CO2.PSI.",
+    "GFS",
+    "acids_sum",
+    "aroma_hops_sum",
+    "betaglucan.mg.L.",
+    "bitterness",
+    "color.EBC.",
+    "esters_sum",
+    "kcalperc",
+    "pH",
+    "protein.g.L.",
+    "sulfur_sum",
+    "unfermentables"
+  ],
+  "candidate_count": 218,
+  "final_rule": "Prespecified Forward3; all alternatives reported, not selected by outer test."
+}

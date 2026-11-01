@@ -1,0 +1,19 @@
+% !TeX program = xelatex
+% 与主模板共用一份组件示例，避免两个入口不同步。
+\documentclass[UTF8,a4paper,12pt,fontset=none]{ctexart}
+\usepackage{mathorcup2026}
+\renewcommand{\papertitle}{五组排版规范与组件示例}
+\renewcommand{\teamnumber}{MCB260XXXX}
+\renewcommand{\competitiontrack}{A}
+\renewcommand{\paperkeywords}{全文排版；图表题注；伪代码；参考文献；附录代码}
+\begin{document}
+\makecoverheading
+\begin{papersummary}
+本文档展示用户指定的全文排版、图表题注、伪代码、参考文献及附录代码五组规范。所有设置均集中在样式文件中。
+
+正文中的模型、表内数字、图像框、算法和参考文献都是排版示例，不能作为实际研究结果或引用来源。
+\end{papersummary}
+\makepapertoc
+\startpaper
+\input{sections/template-content}
+\end{document}

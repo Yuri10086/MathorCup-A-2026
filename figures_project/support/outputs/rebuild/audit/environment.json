@@ -1,0 +1,12 @@
+{
+  "device": "cpu",
+  "torch": "2.11.0+cpu",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:42:35) [MSC v.1942 64 bit (AMD64)]",
+  "protocol_sha256": "7e702f9ab61cc76813d803c98ea2842bb851b892b31ef0fdd1279bb03ab4bc9a",
+  "parent_child_violations": 0,
+  "equal_rater_vs_record_MAE": 0.0032226380107000505,
+  "equal_rater_vs_record_max": 0.4605128205128204,
+  "claim": "Internal resampling only; no fresh external cohort"
+}

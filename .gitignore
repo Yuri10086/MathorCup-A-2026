@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 模型与二进制产物（体积大，不入库）----
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.h5
+*.npz
+*.npy
+*.onnx
+
+# ---- LaTeX 中间产物 ----
+build_rebuild/
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+
+# ---- 编辑器与系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 临时与运行产物 ----
+.tmp/
+.tmp*/
+_docx_tmp*/
+outputs/rebuild/logs/
+*.err
+*.tmp
+~$*

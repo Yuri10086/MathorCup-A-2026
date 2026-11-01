@@ -1,0 +1,39 @@
+\documentclass[UTF8,a4paper,zihao=-4]{ctexart}
+\usepackage[margin=2.3cm]{geometry}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Consolas}
+\usepackage{amsmath,amssymb,graphicx,booktabs,longtable,array,calc,multirow}
+\usepackage{hyperref,xurl,float,caption,fancyvrb,seqsplit}
+\hypersetup{hidelinks}
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\newcommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{tocdepth}{1}
+\setlength{\emergencystretch}{4em}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.25em}
+\renewcommand{\arraystretch}{1.15}
+\captionsetup{font=small}
+\pagestyle{plain}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.78\textheight0.78\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\begin{document}
+\section*{AI 工具使用详情说明}
+工具：OpenAI Codex，历史GPT-6系列及本轮gpt-6.1-sol，OpenAI，2026年10月28日。
+
+使用目的与环节：本轮数据与代码审计、逐评分员目标重建、基线及结构模型编程、CPU实际实验、统计与消融、生成及迁移分析、图表、中文报告和排版。原始文件未覆盖。
+
+关键交互：用户要求接手既有三问工程，对现有三问独立审计、冻结协议并实际运行，关注重复评分员、共线冗余、风格混杂、最低值堆积和独立评价器。AI据此实施 configs/rebuild\_protocol.json 中的实验；运行中修正深度模型重训样本不等与随机投影不共用两处实现问题，未扩大搜索模型范围。本轮仅执行Q2统一、22风格生成评价、9源酒四策略迁移三组封闭补充，之后停止建模探索；Q1不重训、不改预测，仅在2026-10-28修正评分卡交付的字段过滤缺陷（30字段→3.xlsx summary全部50字段），记录见 outputs/rebuild/audit/protocol\_amendment.md。
+
+实际产出：src/rebuild 的程序、outputs/rebuild 的CSV及训练日志、reports/00至05的分析和 paper/competition\_draft 的参考论文。历史模型、网页端稿件和MC2026A被当作参考，未预设其正确。
+
+采纳与人工修改记录：当前尚无可核实的参赛队人工修改或独立核心建模记录，outputs/rebuild/audit/human\_decision\_record.csv 明确标为待完成。不得把本轮AI主导研究描述为队员独立完成。正式参赛前应由队员独立完成核心建模、算法设计、求解与分析，并记录实际采纳、修改和弃用内容。审阅签字不能替代该要求。
+
+证据追溯：原始哈希、协议、训练日志、结果CSV、代码与PDF检查记录均保留在项目内。关键结论以真实输出为准；不成功的深度模型和不能验证的物理缺陷风险均如实报告。
+
+详细历史交互摘要见 reports/AI\_usage\_log.md；该说明不伪造完整聊天导出，也不伪造队员审核意见。
+\end{document}

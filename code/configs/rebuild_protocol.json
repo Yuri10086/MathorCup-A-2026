@@ -1,0 +1,16 @@
+{
+ "version":"rebuild-1", "freeze_date":"2026-10-28", "seeds":[20261028,20261029],
+ "outer_folds":3, "inner_validation_fraction":0.2,
+ "primary_target":"equal-rater beer mean on actual 0-6 scale", "secondary_target":"record-weighted mean; official standardized values",
+ "q1_models":["Mean","Ridge","PLS","RF","ET","HGB","MLP","Hierarchy","HierarchyRater"],
+ "q1_ridge_alphas":[10,100],"q1_pls_components":[5,12],"trees":180,"tree_leaf":2,
+ "deep_epochs":160,"deep_hidden":64,"deep_lr":0.002,"deep_weight_decay":0.001,
+ "q2_methods":["Spearman","Hybrid2plus1","Forward3","Redundancy"],"q2_bootstraps":100,"q2_ridge_alpha":8,"redundancy_penalty":0.5,"network_rho":0.65,"alternative_group_rho":0.8,
+ "q3_seeds":[20261028,20261029,20261030],"q3_split_sizes":{"generator":140,"validation":35,"evaluator":40,"test":35},
+ "q3_models":["PCA_Gaussian","CopulaIndependent","CopulaJoint","CVAE"],"style_shrinkage":10,"generation_per_style":40,"floor_fraction":0.25,"q3_latent_dim":12,"cvae_beta":0.05,
+ "migration_candidates":80,"migration_alphas":[0.25,0.5,0.75,1.0],"migration_design_ensemble":12,"migration_risk_quantile":0.9,
+ "statistics":"paired beer bootstrap 2000 replicates; Holm corrected signed-rank tests; repeated splits are not independent samples",
+ "selection":"Q1 inner validation selects hyperparameter and pipeline; Q2 four prespecified methods, all reported; Q3 validation chooses generator, evaluator and test never used to select",
+ "scope":"all data previously inspected: internal resampling validation, not an untouched external cohort",
+ "ai":"AI research reference; core modeling and analysis require independent team work under official rules; no human approval fabricated"
+}

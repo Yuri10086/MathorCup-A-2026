@@ -1,0 +1,128 @@
+{
+  "sources_root": "C:\\Users\\73173\\Downloads\\论文跑图专用文件夹\\MathorCup_A_Python绘图工程\\support\\outputs\\rebuild",
+  "rendered": 16,
+  "failed": [],
+  "figures": [
+    {
+      "figure": "02_数据审计_风格与最低值",
+      "sources": [
+        "audit/styles.csv",
+        "audit/features.csv"
+      ],
+      "notes": "最低观测值不自动等于仪器检出限"
+    },
+    {
+      "figure": "03_Q1_模型性能与维度差异",
+      "sources": [
+        "q1/repeat_metrics.csv",
+        "q1/per_target.csv"
+      ],
+      "notes": "两轮交叉验证均值，误差条为轮间标准差"
+    },
+    {
+      "figure": "04_Q1_特征遮蔽与标签敏感性",
+      "sources": [
+        "q1/sensitivity.csv"
+      ],
+      "notes": "不同目标维度的敏感性行不能直接解释成模型改善"
+    },
+    {
+      "figure": "05_Q2_有符号化合物网络",
+      "sources": [
+        "q2/signed_edges.csv"
+      ],
+      "notes": "节点社区为正相关边上的贪心模块划分，仅用于可视化，非化学家族认证"
+    },
+    {
+      "figure": "06_Q2_误差稳定性与冗余",
+      "sources": [
+        "closed/q2/summary_metrics.csv",
+        "closed/q2/stability_summary.csv"
+      ],
+      "notes": "固定2+1与训练内自动选法须分开解读"
+    },
+    {
+      "figure": "07_Q3_生成模型六维对照",
+      "sources": [
+        "closed/generation/macro_summary.csv"
+      ],
+      "notes": "不同指标不要合成为无依据的单个质量分数"
+    },
+    {
+      "figure": "08_Q3_三风格感官画像",
+      "sources": [
+        "q3/generated_sensory50.csv",
+        "audit/equal_rater_targets.csv",
+        "官方1.csv"
+      ],
+      "notes": "生成画像由预测器产生，不是生成啤酒的实测盲评分"
+    },
+    {
+      "figure": "09_Q3_逐风格评估支持范围",
+      "sources": [
+        "closed/generation/style_coverage.csv",
+        "closed/generation/metrics_22styles_summary.csv"
+      ],
+      "notes": "无留出样本的风格保持NA，不填零"
+    },
+    {
+      "figure": "10_Q3_联合低值与相关结构",
+      "sources": [
+        "closed/generation/metrics_22styles_summary.csv",
+        "closed/generation/style_coverage.csv"
+      ],
+      "notes": "结构指标只对有足够留出样本的风格解释"
+    },
+    {
+      "figure": "11_Q3_九酒迁移配对效果",
+      "sources": [
+        "closed/migration/per_beer.csv"
+      ],
+      "notes": "正值风险变化代表独立代理评分上升，源酒统计单位n=9"
+    },
+    {
+      "figure": "12_Q3_迁移收益风险与拒绝率",
+      "sources": [
+        "closed/migration/accepted_and_all.csv"
+      ],
+      "notes": "同一独立代理的风险率并非真实盲评安全率"
+    },
+    {
+      "figure": "S01_Q1_评分真实预测密度",
+      "sources": [
+        "q1/continuous_oof.csv",
+        "audit/equal_rater_targets.csv"
+      ],
+      "notes": "散点为多个目标×多个啤酒，不可将其视为统计独立的12500个啤酒"
+    },
+    {
+      "figure": "S02_Q1_50感官误差热图",
+      "sources": [
+        "q1/per_target.csv"
+      ],
+      "notes": ""
+    },
+    {
+      "figure": "S03_Q2_150化合物稳定性总图",
+      "sources": [
+        "closed/q2/top3_50x3.csv"
+      ],
+      "notes": "文本密集，建议放附录或单独横向页面"
+    },
+    {
+      "figure": "S04_Q3_生成网络训练曲线",
+      "sources": [
+        "closed/generation/training_curves.csv"
+      ],
+      "notes": "验证重构损失不是最终SWD指标"
+    },
+    {
+      "figure": "S05_Q3_单酒化学变化",
+      "sources": [
+        "closed/migration/spectra.csv",
+        "官方1.csv"
+      ],
+      "notes": "固定最小beer ID作为展示案例，非按最优迁移成绩挑选"
+    }
+  ]
+}

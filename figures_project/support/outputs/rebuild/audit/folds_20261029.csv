@@ -1,0 +1,251 @@
+﻿row,beer,fold,style
+0,10,0,Low/No alcohol
+1,86,2,Low/No alcohol
+2,2,1,Low/No alcohol
+3,83,2,Low/No alcohol
+4,40,0,Low/No alcohol
+5,247,1,Fruitbeer
+6,48,2,Dubbel
+7,165,0,Fruitbeer
+8,124,1,Pils/Lager
+9,207,1,Fruitbeer
+10,155,0,Low/No alcohol
+11,141,1,Low/No alcohol
+12,179,2,Flanders old brown
+13,33,1,Fruitbeer
+14,50,0,Fruitbeer
+15,227,2,Fruitbeer
+16,88,0,Kriek
+17,77,2,Blond
+18,22,1,Wheat
+19,81,1,Pils/Lager
+20,202,1,Stout/Porter
+21,64,0,Blond
+22,218,1,Pils/Lager
+23,96,0,Pils/Lager
+24,230,2,Pils/Lager
+25,44,1,Wheat
+26,161,0,Flanders old brown
+27,195,2,Wheat
+28,142,0,Wheat
+29,137,1,Amber
+30,236,0,Brett/cofermented
+31,223,2,Low/No alcohol
+32,211,0,Lambic
+33,190,1,Flanders old brown
+34,197,0,Wheat
+35,228,1,Tripel
+36,185,0,Pils/Lager
+37,166,1,Saison
+38,216,2,Scotch
+39,200,0,West Flanders ale
+40,116,1,Lambic
+41,139,0,Pils/Lager
+42,183,1,Saison
+43,111,1,Dubbel
+44,46,0,Blond
+45,213,0,Hoppy
+46,250,0,Faro
+47,158,1,Amber
+48,224,2,Wheat
+49,54,1,Kriek
+50,5,0,Blond
+51,209,1,Pils/Lager
+52,58,0,Saison
+53,11,2,Amber
+54,56,0,Saison
+55,84,0,West Flanders ale
+56,172,2,Wheat
+57,74,1,Faro
+58,188,0,Stout/Porter
+59,20,2,Saison
+60,122,0,Brett/cofermented
+61,169,0,Hoppy
+62,194,0,Dubbel
+63,160,1,Wheat
+64,43,0,Amber
+65,100,2,Dubbel
+66,7,1,Saison
+67,62,2,Blond
+68,55,2,Hoppy
+69,26,2,West Flanders ale
+70,232,2,Kriek
+71,151,2,Faro
+72,61,2,Stout/Porter
+73,156,0,Kriek
+74,138,0,Kriek
+75,70,2,Blond
+76,113,2,Blond
+77,176,1,West Flanders ale
+78,105,0,Strong ale
+79,167,2,Flanders old brown
+80,59,1,Blond
+81,135,2,Tripel
+82,82,1,Kriek
+83,241,2,Kriek
+84,128,0,Amber
+85,244,0,West Flanders ale
+86,178,2,West Flanders ale
+87,110,2,Blond
+88,231,2,Stout/Porter
+89,112,1,Brown
+90,219,0,Hoppy
+91,129,0,Brown
+92,42,1,Lambic
+93,72,0,Hoppy
+94,186,1,Strong ale
+95,109,0,Brown
+96,246,0,Blond
+97,97,2,Hoppy
+98,87,0,Stout/Porter
+99,220,2,Kriek
+100,201,0,Stout/Porter
+101,14,1,Brett/cofermented
+102,173,0,Stout/Porter
+103,37,0,Strong ale
+104,119,2,Pils/Lager
+105,177,0,Fruitbeer
+106,106,2,Christmas
+107,159,0,Flanders old brown
+108,90,2,Pils/Lager
+109,92,2,Amber
+110,93,0,Tripel
+111,238,2,Blond
+112,76,1,Blond
+113,107,0,Dubbel
+114,205,1,Brut
+115,206,1,Brown
+116,53,2,Brown
+117,24,0,Kriek
+118,136,1,Blond
+119,69,0,Tripel
+120,180,2,Christmas
+121,49,1,Blond
+122,243,0,Wheat
+123,134,2,Strong ale
+124,193,1,Blond
+125,39,1,Hoppy
+126,240,2,Tripel
+127,12,1,Lambic
+128,150,2,Brett/cofermented
+129,23,0,Tripel
+130,226,2,Strong ale
+131,29,0,Saison
+132,132,2,Saison
+133,16,1,Dubbel
+134,47,1,Tripel
+135,164,2,Blond
+136,115,2,Lambic
+137,149,2,Blond
+138,80,2,Hoppy
+139,120,1,Hoppy
+140,222,1,Brett/cofermented
+141,18,0,Lambic
+142,98,2,Brown
+143,221,1,Dubbel
+144,32,2,Amber
+145,27,2,Hoppy
+146,13,1,Christmas
+147,174,1,Dubbel
+148,79,0,Hoppy
+149,118,1,West Flanders ale
+150,152,0,Wheat
+151,184,2,Fruitbeer
+152,19,0,Amber
+153,145,2,Saison
+154,125,2,Blond
+155,6,1,Amber
+156,212,2,Stout/Porter
+157,78,2,Brown
+158,234,1,Blond
+159,147,2,Tripel
+160,66,1,Tripel
+161,249,1,Blond
+162,104,1,Strong ale
+163,101,0,Blond
+164,237,1,Brown
+165,127,1,Blond
+166,245,0,Tripel
+167,191,2,Tripel
+168,60,2,Christmas
+169,51,1,Strong ale
+170,144,2,Lambic
+171,28,0,Pils/Lager
+172,41,2,Lambic
+173,153,1,Kriek
+174,146,0,Scotch
+175,168,0,Scotch
+176,30,0,Blond
+177,36,1,Brown
+178,126,0,Amber
+179,162,0,Lambic
+180,123,1,Stout/Porter
+181,130,2,Brut
+182,8,1,Hoppy
+183,31,2,Hoppy
+184,52,1,Stout/Porter
+185,9,0,Hoppy
+186,204,2,Tripel
+187,94,0,Blond
+188,131,2,Scotch
+189,75,2,Lambic
+190,34,1,Tripel
+191,108,0,Brown
+192,187,2,Dubbel
+193,45,0,Tripel
+194,154,1,Tripel
+195,121,1,Blond
+196,242,2,Saison
+197,208,1,Wheat
+198,38,0,Christmas
+199,170,2,Strong ale
+200,214,0,Christmas
+201,35,0,Blond
+202,215,2,Blond
+203,235,0,Strong ale
+204,89,0,Brown
+205,114,1,Hoppy
+206,181,1,Christmas
+207,225,2,Strong ale
+208,57,2,Tripel
+209,143,1,Hoppy
+210,133,2,Strong ale
+211,182,0,Stout/Porter
+212,17,0,Tripel
+213,229,2,Wheat
+214,148,0,Strong ale
+215,248,1,Blond
+216,65,2,Hoppy
+217,73,1,Blond
+218,198,0,Dubbel
+219,91,2,Strong ale
+220,217,2,Tripel
+221,163,1,Tripel
+222,68,1,Tripel
+223,15,0,Tripel
+224,1,0,Brut
+225,71,0,Blond
+226,102,1,Christmas
+227,140,0,Tripel
+228,67,1,Stout/Porter
+229,210,2,Amber
+230,189,2,Tripel
+231,233,1,Scotch
+232,199,1,Tripel
+233,63,1,Amber
+234,95,0,Christmas
+235,25,2,Brown
+236,203,2,Brett/cofermented
+237,85,2,Tripel
+238,3,0,Blond
+239,21,1,Lambic
+240,192,1,Brut
+241,239,0,Tripel
+242,117,1,Strong ale
+243,171,1,Tripel
+244,103,2,Stout/Porter
+245,175,1,Strong ale
+246,196,1,Strong ale
+247,4,0,Strong ale
+248,99,0,Strong ale
+249,157,0,Tripel
