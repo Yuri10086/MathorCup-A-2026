@@ -1,0 +1,9 @@
+{
+  "matrix_shape": [
+    231,
+    231
+  ],
+  "spearman_max_abs_error": 6.661338147750939e-16,
+  "pearson_mean_abs_error": 0.08730394533051206,
+  "mapping_unique": true
+}

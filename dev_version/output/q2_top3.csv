@@ -1,0 +1,51 @@
+﻿感官维度,分组,方法Jaccard,Top1,Top1综合分,Top1入选频率,Top1类别,Top1化学名,Top2,Top2综合分,Top2入选频率,Top2类别,Top2化学名,Top3,Top3综合分,Top3入选频率,Top3类别,Top3化学名
+麦芽香-总体,Aroma,0.15,beta.phellandrene,0.9632,0.715,萜烯类,,furfural,0.9327,0.27,呋喃类,Furfural,octyl_acetate,0.9285,0.115,酯类,Octyl acetate
+麦芽香-谷物,Aroma,0.08,X5.methylfurfural,0.9698,0.14,呋喃类,,isoborneol,0.9609,0.645,萜烯类,Isoborneol,furfural,0.9414,0.335,呋喃类,Furfural
+麦芽香-面包,Aroma,0.11,X4.ethyl.guaiacol,0.9542,0.225,酚类,4-ethyl-guaiacol,glycerol,0.9424,0.665,醇类,Glycerol,ethyl.tiglate,0.9393,0.395,酯类,
+麦芽香-焦糖,Aroma,0.04,octyl_acetate,0.9587,0.24,酯类,Octyl acetate,X2.ethyl.1.hexanol,0.9496,0.725,醇类,,SO2.mg.L.,0.9156,0.14,硫化物,Sulfur dioxide
+麦芽香-烟熏焦,Aroma,0.02,y.methyl.1.octanol,0.9486,0.58,醇类,,isoamyl_alcohol,0.9393,0.405,醇类,Isoamyl alcohol,SO2.mg.L.,0.9337,0.365,硫化物,Sulfur dioxide
+酒花香-总体,Aroma,0.15,DMS,0.9888,0.625,硫化物,Dimethyl sulfide,ethyl_octanoate,0.9848,0.985,酯类,Ethyl octanoate,pentyl.octanoate,0.9529,0.37,酯类,
+酒花香-柑橘,Aroma,0.09,X6.methyl.5.hepten.2.one,0.9365,0.22,酮类,,methyl.geranate,0.9317,0.57,酯类,,citronellol,0.9252,0.825,萜烯类,Citronellol
+酒花香-热带水果,Aroma,0.19,DMS,0.9708,0.915,硫化物,Dimethyl sulfide,methyl.geranate,0.9581,0.61,酯类,,beta.phellandrene,0.9225,0.425,萜烯类,
+酒花香-草本贵族,Aroma,0.38,ethyl_octanoate,1.0,0.995,酯类,Ethyl octanoate,ethyl_decanoate,0.9804,1.0,酯类,Ethyl decanoate,DMS,0.9624,0.275,硫化物,Dimethyl sulfide
+酒花香-木质树脂,Aroma,0.07,X.E..ortho.methoxy.cinnamaldehyde,0.9652,0.315,醛类,,humulene.epoxide.II,0.9214,0.135,萜烯类,,alpha.calacorene,0.9201,0.545,萜烯类,
+酯香-总体,Aroma,0.22,n.hexanol,0.996,0.965,醇类,,acetaldehyde,0.9837,0.965,醛类,Acetaldehyde,esters_sum,0.9739,0.9,酯类,Total ester compounds
+酯香-乙酸乙酯,Aroma,0.27,ethyl_acetate,0.993,0.87,酯类,Ethyl acetate,acetaldehyde,0.9915,0.74,醛类,Acetaldehyde,glycerol,0.9556,0.565,醇类,Glycerol
+酯香-乙酸异戊酯,Aroma,0.43,isopentyl_acetate,0.9975,0.91,酯类,Isoamyl acetate,n.hexanol,0.9947,0.99,醇类,,isoamyl_alcohol,0.9561,0.5,醇类,Isoamyl alcohol
+酯香-花香,Aroma,0.11,beta.phellandrene,0.9678,0.46,萜烯类,,n.hexanol,0.9625,0.39,醇类,,X14.hydroxy.alpha.humulene,0.9585,0.235,萜烯类,
+酯香-果香,Aroma,0.17,X1.10.di.epi.cubenol,0.9697,0.325,萜烯类,,beta.phellandrene,0.9611,0.73,萜烯类,,humulene.epoxide.II,0.9511,0.22,萜烯类,
+麦芽味-总体,Flavour,0.15,acetaldehyde,0.99,0.995,醛类,Acetaldehyde,X4.ethyl.phenol,0.9494,0.225,其他,,X.E..alpha.ionone,0.9488,0.19,萜烯类,
+麦芽味-谷物,Flavour,0.11,isoborneol,0.9446,0.87,萜烯类,Isoborneol,eugenol,0.9235,0.165,酚类,Eugenol,X.E..beta.ionone,0.9052,0.605,萜烯类,
+麦芽味-面包,Flavour,0.2,glycerol,0.9701,0.865,醇类,Glycerol,acetaldehyde,0.9529,0.875,醛类,Acetaldehyde,MeSH,0.9526,0.485,硫化物,Methanethiol
+麦芽味-焦糖,Flavour,0.12,acetaldehyde,0.9735,1.0,醛类,Acetaldehyde,DES,0.9244,0.365,硫化物,Diethyl sulfide,octyl_acetate,0.924,0.145,酯类,Octyl acetate
+麦芽味-烟熏焦,Flavour,0.09,MeSH,0.9606,0.975,硫化物,Methanethiol,methylpyrazine,0.9191,0.075,吡嗪类,Methylpyrazine,delta.terpinyl.acetate,0.8819,0.02,酯类,
+酒花味-总体,Flavour,0.22,cis.dihydro.beta.terpineol,0.988,0.79,萜烯类,,ethyl_octanoate,0.9777,0.985,酯类,Ethyl octanoate,DMS,0.9755,0.5,硫化物,Dimethyl sulfide
+酒花味-柑橘,Flavour,0.04,methyl.geranate,0.9632,0.46,酯类,,isopentyl.butanoate,0.9546,0.08,其他,,ethyl.furoate,0.9535,0.55,酯类,
+酒花味-热带水果,Flavour,0.14,DMS,0.9544,0.73,硫化物,Dimethyl sulfide,geraniol,0.9322,0.785,萜烯类,Geraniol,terpinolene,0.9269,0.625,其他,Terpinolene
+酒花味-草本贵族,Flavour,0.37,ethyl_octanoate,0.9977,1.0,酯类,Ethyl octanoate,glycerol,0.9633,0.83,醇类,Glycerol,cis.dihydro.beta.terpineol,0.9626,0.49,萜烯类,
+酒花味-木质树脂,Flavour,0.12,isobutanol,0.9882,0.555,其他,Isobutanol,X.E..2.nonenal,0.9585,0.315,醛类,E-2-nonenal,ethyl.hexadecanoate,0.946,0.575,酯类,
+酯味-总体,Flavour,0.43,acetaldehyde,0.9904,0.98,醛类,Acetaldehyde,n.hexanol,0.9762,0.96,醇类,,isopentyl_acetate,0.9445,0.645,酯类,Isoamyl acetate
+酯味-乙酸乙酯,Flavour,0.43,ethyl_acetate,0.998,1.0,酯类,Ethyl acetate,acetaldehyde,0.9863,0.835,醛类,Acetaldehyde,glycerol,0.9761,0.99,醇类,Glycerol
+酯味-乙酸异戊酯,Flavour,0.04,isopentyl_acetate,0.9472,0.815,酯类,Isoamyl acetate,tau.cadinol,0.9357,0.205,萜烯类,,esters_sum,0.9268,0.625,酯类,Total ester compounds
+酯味-花香,Flavour,0.18,X.E..dihydro.apofarnesal,0.9529,0.41,萜烯类,,eucalyptol,0.9417,0.305,其他,Eucalyptol,beta.phellandrene,0.9389,0.765,萜烯类,
+酯味-果香,Flavour,0.13,octyl_acetate,0.9507,0.395,酯类,Octyl acetate,beta.phellandrene,0.9462,0.59,萜烯类,,X1.10.di.epi.cubenol,0.941,0.08,萜烯类,
+酸度,Mouthfeel,0.49,acids_sum,0.9982,0.955,酸类,Total acids,lactic_acid.mg.L.,0.9851,0.17,酸类,Lactic acid,X4.ethyl.guaiacol,0.9546,0.755,酚类,4-ethyl-guaiacol
+苦度,Mouthfeel,0.52,ethyl_octanoate,0.9958,1.0,酯类,Ethyl octanoate,ethyl_decanoate,0.9853,0.995,酯类,Ethyl decanoate,butyl.acetate,0.9682,0.39,酯类,
+甜度,Mouthfeel,0.19,pentyl.octanoate,0.9588,0.91,酯类,,ethyl_decanoate,0.9502,0.905,酯类,Ethyl decanoate,ethyl_octanoate,0.9437,0.35,酯类,Ethyl octanoate
+4-VG 丁香,Fault,0.23,X4VG,0.9971,0.97,酚类,4-vinylguaiacol,delta.terpinyl.acetate,0.9929,0.855,酯类,,neryl.formate,0.9783,0.81,酯类,
+双乙酰奶油,Fault,0.16,ethyl_decanoate,0.9617,0.725,酯类,Ethyl decanoate,vinyl.caprylate,0.9326,0.35,其他,,octyl_acetate,0.923,0.175,酯类,Octyl acetate
+DMS 蒸煮蔬菜,Fault,0.11,sulfur_sum,0.9464,0.25,硫化物,Total sulfur compounds,X.E..beta.farnesene,0.9282,0.34,萜烯类,,E.nerolidol,0.9224,0.415,萜烯类,
+金属味,Fault,0.19,ethyl_isovalerate,0.9736,0.57,酯类,Ethyl 3-methylbutyrate,isopentyl.butanoate,0.9503,0.49,其他,,Z.Z.geranyl.linalool,0.9389,0.33,萜烯类,
+陈酒花,Fault,0.13,gamma.eudesmol,0.9676,0.535,萜烯类,,X.E..ortho.methoxy.cinnamaldehyde,0.9542,0.505,醛类,,alpha.eudesmol,0.9297,0.125,萜烯类,
+反式-2-壬烯醛纸板,Fault,0.02,E.cinnamaldehyde,0.9401,0.215,醛类,,beta.phellandrene,0.9095,0.565,萜烯类,,glycerol,0.9026,0.38,醇类,Glycerol
+橙香,Spice/野生,0.09,camphor,0.9561,0.98,萜烯类,Camphor,limonene,0.9536,0.725,萜烯类,Limonene,ethyl..E..linalool,0.9426,0.65,萜烯类,
+芫荽,Spice/野生,0.07,ethyl..E..linalool,0.9521,0.475,萜烯类,,camphor,0.9419,0.335,萜烯类,Camphor,cis.linalool.oxide,0.9231,0.19,萜烯类,
+丁香酚,Spice/野生,0.18,eucalyptol,0.9945,0.585,其他,Eucalyptol,limonene,0.966,0.95,萜烯类,Limonene,X4VG,0.9076,0.18,酚类,4-vinylguaiacol
+乳酸,Spice/野生,0.55,lactic_acid.mg.L.,0.9995,0.875,酸类,Lactic acid,acids_sum,0.995,0.99,酸类,Total acids,isopentyl_acetate,0.9696,0.7,酯类,Isoamyl acetate
+乙酸,Spice/野生,0.46,acids_sum,0.9963,0.935,酸类,Total acids,lactic_acid.mg.L.,0.9935,0.59,酸类,Lactic acid,ethyl.phenylacetate,0.9762,0.885,酯类,
+马厩Brett,Spice/野生,0.13,gamma.eudesmol,0.9731,0.67,萜烯类,,alpha.eudesmol,0.9396,0.1,萜烯类,,linalool.isovalerate,0.9247,0.475,酯类,
+醇感,Mouthfeel,0.41,ethyl_octanoate,0.9863,0.965,酯类,Ethyl octanoate,acetaldehyde,0.9778,0.92,醛类,Acetaldehyde,esters_sum,0.9742,1.0,酯类,Total ester compounds
+回味,Mouthfeel,0.29,ethyl_octanoate,0.9895,0.995,酯类,Ethyl octanoate,glycerol,0.9846,0.96,醇类,Glycerol,ethyl_isovalerate,0.9757,0.73,酯类,Ethyl 3-methylbutyrate
+酒体,Mouthfeel,0.18,glycerol,0.9857,0.995,醇类,Glycerol,isobutanol,0.9762,0.875,其他,Isobutanol,ethyl_hexanoate,0.9734,1.0,酯类,Ethyl hexanoate
+碳酸感,Mouthfeel,0.29,ethyl_octanoate,0.9958,1.0,酯类,Ethyl octanoate,ethyl_hexanoate,0.9721,0.985,酯类,Ethyl hexanoate,X3.methyl.2.hexanol,0.9719,0.845,醇类,
+总体喜好,Overall,0.22,ethyl_acetate,0.9949,0.91,酯类,Ethyl acetate,DMS,0.9473,0.29,硫化物,Dimethyl sulfide,X2.butyloctanoate,0.9296,0.315,酯类,

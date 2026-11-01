@@ -1,0 +1,26 @@
+{
+  "seed": 2026,
+  "bootstrap": 100,
+  "epochs": 130,
+  "ranker": "0.27 |Spearman| + 0.18 within-style |Spearman| + 0.35 |ElasticNet coefficients| + 0.20 |Ridge coefficients|, all percentile ranks; same-module redundancy penalty 0.12 for |rho|>0.65",
+  "outer_folds": "prior Q1 fixed 5 folds, split by beer",
+  "graph": "top6 positive/negative edges per node, |rho|>=0.38; each predictive fold recomputes correlation on train data",
+  "Q2_target": "official 4.csv 50 standardized panel targets",
+  "external_raw_sensory_used": false,
+  "molecule_candidate_exclusion": [
+    "CO2.PSI.",
+    "GFS",
+    "acids_sum",
+    "aroma_hops_sum",
+    "betaglucan.mg.L.",
+    "bitterness",
+    "color.EBC.",
+    "esters_sum",
+    "kcalperc",
+    "pH",
+    "protein.g.L.",
+    "sulfur_sum",
+    "unfermentables"
+  ],
+  "preprocessing": "Train-only median impute, RobustScaler 10th-90th quantile scale and clip values to [-4,4], including held-out samples; selected after exploratory sensitivity check; no outlier values from test fold are used to tune preprocessing."
+}

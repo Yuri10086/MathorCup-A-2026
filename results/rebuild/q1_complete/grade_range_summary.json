@@ -1,0 +1,79 @@
+{
+  "finding": "The shipped scorecard never exceeds grade 4, while the rounded panel mean does reach 5 (112 cells) and 6 (9 cells). The compression is not a rounding artefact: the continuous predictions themselves are pulled toward the middle, so the model systematically under-predicts high-intensity samples and slightly over-predicts low ones. This is a genuine limitation of predicting a panel mean from chemistry with MAE ~0.45 on a 0-6 scale, and it must be reported rather than hidden.",
+  "by_truth_band": [
+    {
+      "truth_band": "[0,2)",
+      "n_cells": 8253,
+      "truth_mean": 0.4336604870956016,
+      "pred_grade_mean": 0.5979643765903307,
+      "pred_continuous_mean": 0.651616866497884,
+      "grade_bias": 0.16430388949472913,
+      "continuous_bias": 0.21795637940228235,
+      "underpredicted_rate": 0.09087604507451835
+    },
+    {
+      "truth_band": "[2,3)",
+      "n_cells": 2057,
+      "truth_mean": 2.0,
+      "pred_grade_mean": 1.8269324258629072,
+      "pred_continuous_mean": 1.8100979599430926,
+      "grade_bias": -0.17306757413709284,
+      "continuous_bias": -0.18990204005690736,
+      "underpredicted_rate": 0.3398152649489548
+    },
+    {
+      "truth_band": "[3,4)",
+      "n_cells": 1545,
+      "truth_mean": 3.0,
+      "pred_grade_mean": 2.53915857605178,
+      "pred_continuous_mean": 2.5336512357277337,
+      "grade_bias": -0.4608414239482199,
+      "continuous_bias": -0.46634876427226635,
+      "underpredicted_rate": 0.3851132686084142
+    },
+    {
+      "truth_band": "[4,5)",
+      "n_cells": 524,
+      "truth_mean": 4.0,
+      "pred_grade_mean": 2.9293893129770994,
+      "pred_continuous_mean": 2.964380738467564,
+      "grade_bias": -1.0706106870229006,
+      "continuous_bias": -1.0356192615324362,
+      "underpredicted_rate": 0.8225190839694656
+    },
+    {
+      "truth_band": "[5,7)",
+      "n_cells": 121,
+      "truth_mean": 5.074380165289257,
+      "pred_grade_mean": 3.0,
+      "pred_continuous_mean": 3.008490037154251,
+      "grade_bias": -2.0743801652892566,
+      "continuous_bias": -2.0658901281350057,
+      "underpredicted_rate": 1.0
+    }
+  ],
+  "counts": {
+    "truth_cells_ge5": 121,
+    "pred_cells_ge5": 0,
+    "pred_cells_ge5_before_rounding": 0,
+    "pred_continuous_max": 4.344470024108887,
+    "truth_grade_hist": {
+      "0.0": 4674,
+      "1.0": 3579,
+      "2.0": 2057,
+      "3.0": 1545,
+      "4.0": 524,
+      "5.0": 112,
+      "6.0": 9
+    },
+    "pred_grade_hist": {
+      "0": 4108,
+      "1": 4368,
+      "2": 2128,
+      "3": 1694,
+      "4": 202
+    },
+    "n_cells": 12500
+  },
+  "consequence": "Grades 5-6 are effectively unavailable in the deliverable, so any downstream use that depends on identifying intense samples (e.g. flagging a beer as strongly hoppy or strongly defective) will miss them. The 50 predicted columns are unbiased only in the aggregate sense of a small MAE, not in the tails."
+}

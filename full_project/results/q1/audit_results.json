@@ -1,0 +1,84 @@
+{
+  "source_scope": {
+    "official_inputs": [
+      "1.csv",
+      "3.xlsx(scorecard only)",
+      "4.csv(z scores)"
+    ],
+    "external_reference": "Raw sensory data anonymized.csv (original paper, same 250 beers)",
+    "original_paper": "Schreurs et al., Nature Communications (2024), doi:10.1038/s41467-024-46346-0",
+    "raw_file_not_official_attachment": true
+  },
+  "sample_count": 250,
+  "chemical_features": 231,
+  "raw_panel_rows": 2197,
+  "panel_group_size_minmax": [
+    3,
+    31
+  ],
+  "nonzero_child_parent_pairs": 14989,
+  "min_median_max_target_corr_Y_vs_Z": [
+    0.9040599309300128,
+    0.977656591655711,
+    0.9933895859870998
+  ],
+  "max_shuffled_median_correlation": 0.0419449174617596,
+  "missing_chemical_cells": 73,
+  "cv_folds": 5,
+  "oof_official_z_ET_MAE_50": 0.3395316353242647,
+  "methods": {
+    "MeanRaw": {
+      "mae_af30": 0.6049481935414095,
+      "mae_all50": 0.5487875845086245,
+      "rmse_all50": 0.763069973516509,
+      "exact_af30": 0.46226666666666666,
+      "within1_af30": 0.9266666666666666,
+      "parent_child_violations": 0
+    },
+    "RidgeRaw": {
+      "mae_af30": 0.5583772843758789,
+      "mae_all50": 0.4915766106178664,
+      "rmse_all50": 0.7186866737736124,
+      "exact_af30": 0.5130666666666667,
+      "within1_af30": 0.9356,
+      "parent_child_violations": 71
+    },
+    "ETRaw": {
+      "mae_af30": 0.5062309187982749,
+      "mae_all50": 0.442372066843707,
+      "rmse_all50": 0.624873245214385,
+      "exact_af30": 0.5393333333333333,
+      "within1_af30": 0.9518666666666666,
+      "parent_child_violations": 0
+    },
+    "ETOfficialZAffine": {
+      "mae_af30": 0.5140764578415286,
+      "mae_all50": 0.4477521246443637,
+      "rmse_all50": 0.6307809810037864,
+      "exact_af30": 0.5313333333333333,
+      "within1_af30": 0.9493333333333334,
+      "parent_child_violations": 0
+    },
+    "RidgeOfficialZAffine": {
+      "mae_af30": 0.5610597309857632,
+      "mae_all50": 0.49455991877143196,
+      "rmse_all50": 0.7196039154428112,
+      "exact_af30": 0.5072,
+      "within1_af30": 0.9326666666666666,
+      "parent_child_violations": 66
+    }
+  },
+  "label_definition": "beer-level mean of original individual panelist ratings",
+  "validation": "beer-level stratified 5fold out-of-fold; all supervised calibration fitted on training beers only",
+  "warning": "same 250 beers in original-paper reference; not independent external validation; no access to official private test data; labels must never be presented as chemistry-based predictions",
+  "paired_beer_bootstrap_comparisons": {
+    "ETOfficialZAffine": {
+      "MAE_Z_calibrated_minus_direct": 0.007845538773333315,
+      "paired_beer_bootstrap95": [
+        0.004861011565333294,
+        0.010857847845333321
+      ],
+      "direct_scorecard_violations": 0
+    }
+  }
+}

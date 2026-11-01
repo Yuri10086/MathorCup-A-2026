@@ -1,0 +1,102 @@
+%!TEX program = xelatex
+\documentclass[12pt,a4paper]{article}
+% ============================================================================
+%  2026 MathorCup 大数据竞赛 · 赛道A
+%  版式：华为杯论文格式规范（无封皮版本，摘要页为第 1 页）
+% ============================================================================
+\usepackage[UTF8, heading]{ctex}
+\usepackage[a4paper, top=3.00cm, bottom=1.75cm, left=2.25cm, right=2.25cm,
+            headheight=1.50cm, footskip=1.75cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs,array,multirow,tabularx,longtable}
+\usepackage{float}
+\usepackage[labelsep=quad,font=small,labelfont=bf]{caption}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{hyperref}
+
+% ---------- 字体 ----------
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}[BoldFont=SimHei, ItalicFont=KaiTi]
+\setCJKsansfont{SimHei}[BoldFont=SimHei]
+% 注意：ctex 已定义 \heiti（ctex-fontset-windows 映射到 SimHei），不可重复定义
+
+% ---------- 版式 ----------
+\renewcommand{\tablename}{表}
+\renewcommand{\figurename}{图}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\setstretch{1.0}                      % 官方：单倍行距
+\pagestyle{fancy}\fancyhf{}
+\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}
+
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black!70}
+
+% ---------- 标题层级：一、/（一）/1. ----------
+\ctexset{
+  section/name    = {,、},
+  section/number  = \chinese{section},
+  section/format  = \centering\zihao{4}\heiti,
+  section/beforeskip = 12pt, section/afterskip = 8pt,
+  subsection/name = {（,）},
+  subsection/number = \chinese{subsection},
+  subsection/format = \zihao{-4}\heiti,
+  subsubsection/name = {,.},
+  subsubsection/number = \arabic{subsubsection},
+  subsubsection/format = \zihao{-4}\heiti,
+}
+
+% ---------- 只缩不放的表格环境（窄表保原尺寸，宽表才缩） ----------
+\newsavebox{\FitBox}
+\newenvironment{fittable}{%
+  \begin{lrbox}{\FitBox}%
+}{%
+  \end{lrbox}%
+  \ifdim\wd\FitBox>\textwidth
+    \resizebox{\textwidth}{!}{\usebox{\FitBox}}%
+  \else
+    \usebox{\FitBox}%
+  \fi
+}
+
+% ---------- 常用命令 ----------
+\newcommand{\figw}{0.92\textwidth}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\ie}{\textit{i.e.}}
+
+\begin{document}
+
+%% ======================= 摘要页（第 1 页，页码 = 1） =======================
+\pagenumbering{arabic}\setcounter{page}{1}
+\input{sections/abstract}
+\clearpage
+
+%% ======================= 正文 =======================
+\input{sections/sec1_problem}
+\input{sections/sec2_analysis}
+\input{sections/sec3_assume}
+\input{sections/sec4_data}
+\input{sections/sec5_q1}
+\input{sections/sec5_results}
+\input{sections/sec6_q2}
+\input{sections/sec6_results}
+\input{sections/sec7_q3}
+\input{sections/sec7_results}
+\input{sections/sec8_test}
+\input{sections/sec9_eval}
+\input{sections/sec10_concl}
+
+%% ======================= 参考文献（另起一页） =======================
+\clearpage
+\input{sections/references}
+
+%% ======================= 附录（另起一页） =======================
+\clearpage
+\appendix
+\input{sections/appendix}
+
+\end{document}

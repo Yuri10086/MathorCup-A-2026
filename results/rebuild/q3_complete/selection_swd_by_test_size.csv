@@ -1,0 +1,5 @@
+n_test_range,pairs,mean_swd_gap_CVAE_minus_CopulaIndependent,cvae_closer,copula_closer
+"[1,2)",13,-0.24188284957175438,13,0
+"[2,3)",12,-0.16757940830435966,12,0
+"[3,5)",11,-0.08060949157483831,9,2
+"[5,inf)",6,-0.010738077393325968,4,2

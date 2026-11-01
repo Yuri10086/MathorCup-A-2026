@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "generation": "880 x 231",
+  "style_count": 22,
+  "fingerprint_dimensions": 50,
+  "parent_child_violations": 0,
+  "observed_defect_comparisons": 42,
+  "observed_defect_worsening": 0,
+  "missing_source_defects": 2,
+  "stale_proxy_worsening": 0,
+  "closer_to_target": 7,
+  "all_three_holdout_splits_floor_better": true
+}

@@ -1,0 +1,98 @@
+{
+  "data": {
+    "samples": 250,
+    "chemicals": 231,
+    "styles": 22,
+    "reference_sensory": "public raw 0-6 expert panel (external paper), same 250 beers"
+  },
+  "holdout": {
+    "n_train": 202,
+    "n_test": 48,
+    "latent_dim": 12,
+    "gaussian_nll": 13.99982000672773,
+    "flow_nll": 19.853668212890625,
+    "classifier_real_test_accuracy": 0.3958333333333333,
+    "mean_SWD_gaussian": 0.7041241397832925,
+    "mean_SWD_flow": 0.741871534403022,
+    "flow_lower_SWD_styles": 7,
+    "evaluated_styles": 20
+  },
+  "chosen_generation_model": "shrunk_style_gaussian",
+  "generation": {
+    "styles": 22,
+    "per_style": 40,
+    "total": 880,
+    "nearest_training_latent_distance_mean": 2.347090310507923,
+    "nearest_training_latent_distance_min": 0.885391200321184,
+    "chemical_bounds_violations": 0,
+    "sensory_bounds_violations": 0,
+    "chemical_bounds_violations_after_floor_projection": 0
+  },
+  "transfer": {
+    "source": "Pils/Lager",
+    "target": "Tripel",
+    "source_beers": 11,
+    "source_missing_defect_observations": 2,
+    "direct_chemical_defect_violations": {
+      "DMS": 0,
+      "Diacetyl": 0,
+      "4VG": 0,
+      "trans-2-nonenal": 0
+    },
+    "stale_hops_surrogate_violations": 0,
+    "fraction_moved_closer_to_tripel": 0.6363636363636364,
+    "mean_distance_to_tripel_before": 2.9017712470045898,
+    "mean_distance_to_tripel_after": 2.5607280119205167,
+    "mean_transport_alpha": 0.5463636363636364,
+    "n_no_transfer": 4,
+    "average_predicted_sensory_change": {
+      "A_malt_all": 0.22098694082701967,
+      "F_malt_all": 0.26762732126262584,
+      "A_esters_all": 0.3535326866982331,
+      "F_esters_all": 0.417715730239899,
+      "overall": 0.34409138790403926,
+      "stale_hops": -0.15249793387626265
+    }
+  },
+  "limitations": {
+    "stale_hops": "constrained using trained Q1 sensory proxy, not analytically guaranteed true sensory rating",
+    "chemical": "for measured values numerical nonworsening in 1.csv scale; missing source defect values conservatively imputed at minimum and cannot be independently verified; no certified odor thresholds",
+    "rare_styles": "classes with <5 beers have no independent test items, report extrapolation limits",
+    "conditional_flow": "deep model used in contest as research candidate; selection based on held-out NLL, no forced superiority"
+  },
+  "runtime_seconds": 25.1,
+  "detection_floor_calibration": {
+    "indicator_definition": "same observed column minimum in >=25% of training beers (possible detection floor; not proven LOD)",
+    "n_minimum_pileup_features_training": 48,
+    "n_minimum_pileup_features_full": 48,
+    "holdout_weighted_floor_fraction_mae_baseline": 0.41066189236111117,
+    "holdout_weighted_floor_fraction_mae_censor_aware": 0.2550509982638889,
+    "relative_error_reduction_pct": 37.892703703899436,
+    "styles_evaluated": 20,
+    "style_feature_pairs": 960,
+    "full_generated_spectra": 880,
+    "floor_cells_set": 20191,
+    "physical_column_minmax_violations": 0,
+    "limitations": "Floor mass learned only from training beer cohorts for holdout; artificial minima are proxies, not proven instrument censor values."
+  },
+  "optimized_transfer": {
+    "original_OT": {
+      "n_moved": 7,
+      "n_closer": 7,
+      "mean_distance_before": 2.9017712470045898,
+      "mean_distance_after": 2.5607280119205167
+    },
+    "optimized": {
+      "n_moved": 7,
+      "n_closer": 7,
+      "mean_distance_before": 2.9017712470045898,
+      "mean_distance_after": 1.7716455826567143,
+      "chemical_nonworsening_violations": 0,
+      "unverifiable_missing_source_defects": 2,
+      "stale_hops_proxy_nonworsening_violations": 0,
+      "mean_predicted_overall_change": 0.4228181271590902
+    },
+    "constraint_definition": "4 measured features numeric source upper bound, stale_hops Q1 estimated score source upper bound",
+    "candidate_optimization": "100 draws from learned Tripel conditional distribution plus OT candidate; 5 predeclared convex blending factors; minimize Tripel latent distance + .15 source shift subject to all 5 constraints and source shift<6 latent units"
+  }
+}

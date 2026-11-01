@@ -1,0 +1,14 @@
+{
+  "pdf_sha256": "ae73d0092a8842cc5a64037fe3632f77240e7ae54ef8ccb42f75eb79e7cfd055",
+  "total_pages": 73,
+  "front_matter_pages": 2,
+  "body_pages": 19,
+  "within_30": true,
+  "abstract_first": true,
+  "contents_second": true,
+  "appendix_first_pdf_page": 22,
+  "missing_glyphs": false,
+  "overfull": false,
+  "embedded_fonts_checked": "Use pdffonts report; visual QA recorded separately",
+  "official_rules": "Local official PDFs, 2026 revision; no unverified online policy substituted"
+}

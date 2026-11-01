@@ -1,0 +1,5 @@
+policy,usable_rows,source_below_threshold,crossed_above,crossing_rate_given_below
+PointConstraint,26,23,0,0.0
+Reject,26,23,0,0.0
+UncertaintyConstraint,26,23,0,0.0
+Unconstrained,26,23,7,0.30434782608695654

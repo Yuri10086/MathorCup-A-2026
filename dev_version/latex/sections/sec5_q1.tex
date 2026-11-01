@@ -1,0 +1,184 @@
+% ============================ 五、问题一 ============================
+\section{问题一：缺失数据条件下的感官评分模型}
+
+\subsection{问题的形式化}
+
+记第 $i$ 款啤酒的化合物向量为 $\bm{x}_i\in\R^{p}$（$p=231$）、感官向量为
+$\bm{y}_i\in\R^{q}$（$q=50$）。目标是用 $\{(\bm{x}_i,\bm{y}_i)\}_{i=1}^{n}$
+（$n=250$）学到一个映射
+\begin{equation}
+\hat{\bm{y}}=\bm{f}(\bm{x}),\qquad \bm{f}:\R^{231}\rightarrow\R^{50},
+\label{eq:q1map}
+\end{equation}
+使每个维度的期望平方损失最小。由于共有 $q$ 个输出，评价采用\textbf{逐维决定系数}
+并取均值：
+\begin{equation}
+\overline{R^{2}}=\frac{1}{q}\sum_{k=1}^{q}\left(1-\frac{\sum_{i=1}^{n}
+(y_{ik}-\hat y_{ik})^{2}}{\sum_{i=1}^{n}(y_{ik}-\bar y_{k})^{2}}\right).
+\label{eq:meanr2}
+\end{equation}
+选择 $\overline{R^{2}}$ 而非单一维度指标，是因为它能同时惩罚“某个维度崩掉”与
+“多数维度平庸”，与竞赛评审对整体可用性的要求一致。
+
+\subsection{预处理：三处数据缺陷的显式建模}
+
+\subsubsection{缺失与左删失的分离处理}
+
+记 $M_{ij}=\mathbb{1}[x_{ij}\ \text{缺失}]$、$F_{ij}=\mathbb{1}[x_{ij}=v_{j,\min}]$
+（$v_{j,\min}$ 为第 $j$ 列最小值，见 \S4.3）。插补采用训练折内中位数：
+\begin{equation}
+\tilde x_{ij}=
+\begin{cases}
+\operatorname{median}_{i'\in\mathcal{T}}\{x_{i'j}\}, & x_{ij}\ \text{缺失},\\
+x_{ij}, & \text{否则},
+\end{cases}
+\label{eq:impute}
+\end{equation}
+其中 $\mathcal{T}$ 为当前训练折。并\textbf{仅对存在缺失的列}追加缺失指示
+$M_{ij}$（9 列）；封底指示 $F_{ij}$ 作为消融项单独检验（\S8.2）。这样做的理由是：
+“未检出”与“检出值恰好很低”在机制上不同，前者是信息缺失、后者是弱信号，
+混为一谈会让模型把检出限当成真实浓度。
+
+\subsubsection{稳健缩放}
+
+对数变换后的化合物丰度仍有长尾（\S4.2 的原始浓度列表中，
+2-甲基四氢呋喃-3-酮的极差跨越四个数量级）。直接标准化会让单个极端值主导协方差，
+故采用\textbf{缩尾 + IQR 稳健化}：
+\begin{equation}
+x^{\mathrm{w}}_{ij}=\min\{\max\{x_{ij},\,q_{1,j}\},\,q_{99,j}\},\qquad
+z_{ij}=\frac{x^{\mathrm{w}}_{ij}-\operatorname{median}_{j}}
+{\operatorname{IQR}_{j}},
+\label{eq:robust}
+\end{equation}
+其中 $q_{1,j},q_{99,j}$ 为该列 1\% 与 99\% 分位数，$\operatorname{IQR}_j$ 为四分位
+距。缩尾在训练折上估计分位点后同时作用于训练与验证折，避免信息泄漏。
+
+\subsubsection{共表达图扩散特征}
+
+\S4.5 已确认化合物按代谢通路成块相关，这意味着\textbf{单个化合物的信号往往被其
+模块整体承载}。为此把 \texttt{2.csv} 的相关矩阵转为图扩散算子。以 $w_{jk}=
+|\rho_{jk}|$ 为边权、每行只保留 $k_{\mathrm{top}}=8$ 条最强边并对称化得
+$\bm{M}$，再取归一化邻接 $\tilde{\bm{A}}=\bm{D}^{-1/2}\bm{M}\bm{D}^{-1/2}$，
+定义\textbf{单跳扩散}：
+\begin{equation}
+\bm{S}=(1-\alpha)\bm{I}+\alpha\tilde{\bm{A}},\qquad
+\bm{X}^{\mathrm{d}}=\bm{S}\bm{X},
+\label{eq:diffuse}
+\end{equation}
+$\alpha\in[0,1]$ 控制“自身”与“模块邻居”的混合比例。$\alpha=0$ 退化为原始特征，
+$\alpha=1$ 完全用邻居平均值替代自身。模型输入为拼接
+$[\bm{X},\ \bm{X}^{\mathrm{d}}]\in\R^{2p}$，使模型既能读取单化合物信号、也能读取
+模块级信号。$\alpha$ 与 $k_{\mathrm{top}}$ 的取值在 \S8.2 做敏感性检验。
+
+\subsection{五级模型：从线性到图神经网络的横向比较}
+
+\subsubsection{统一的评价协议}
+
+所有模型都在同一协议下评估，否则比较无从谈起。记第 $r$ 次重复（$r=1,\dots,R$，
+$R=3$）把 $n=250$ 个样本划成 $K=5$ 折
+$\{\mathcal{F}^{(r)}_1,\dots,\mathcal{F}^{(r)}_K\}$，划分按风格分层，即每个折内
+第 $s$ 种风格的样本数与总体成比例：
+\begin{equation}
+\left|\mathcal{F}^{(r)}_m\cap\mathcal{S}_s\right|
+\;\approx\;\frac{n_s}{K},\qquad m=1,\dots,K,\ \ \forall s ,
+\label{eq:strat}
+\end{equation}
+其中 $\mathcal{S}_s$ 为第 $s$ 种风格的样本集合、$n_s=|\mathcal{S}_s|$。分层的必要性
+在于 22 种风格的样本量从 3 到 31 不等，若随机划分，某些折可能完全没有 Tripel 或
+Lambic 样本，模型在该折上等于“没见过该风格”。对每一折，用其余 $K-1$ 折拟合、
+对留出折预测，得折外（out-of-fold）预测
+$\hat y^{(r,m)}_{ik}=\hat f^{(-m)}_{k}(\bm x_i)$；同一样本在每次重复中恰好被预测一次，
+再对 $R$ 次重复取平均：
+\begin{equation}
+\hat y_{ik}=\frac{1}{R}\sum_{r=1}^{R}\hat f^{(-m(i,r))}_{k}(\bm x_i),
+\label{eq:repeatavg}
+\end{equation}
+$m(i,r)$ 表示样本 $i$ 在第 $r$ 次重复中所属的折。全部 $50\times250$ 个预测都由
+\eqref{eq:repeatavg} 汇总后再代入 \eqref{eq:meanr2} 计算，因此评价用的样本
+\textbf{从未参与训练}。总计 $5\times3=15$ 次训练，每次用 200 个样本拟合、50 个样本
+评估。重复的作用不只是降噪：$R$ 次重复之间的预测离散度被直接用作 \S5.6 的预测
+区间宽度，因此它同时给出了不确定性的度量。
+
+为使结论可归因，本文在同一交叉验证协议下比较五级复杂度的模型（表~\ref{tab:models}）。
+
+\begin{table}[H]
+\centering
+\caption{问题一的五级模型与设计意图}
+\label{tab:models}
+\small
+\begin{fittable}
+\begin{tabular}{@{}llp{0.50\textwidth}@{}}
+\toprule
+层级 & 模型 & 设计意图（为什么需要它） \\
+\midrule
+L0 & Ridge & 强正则线性基线；检验“$p\approx n$ 下正则化是否足够” \\
+L0 & ElasticNet & 稀疏基线；检验“特征选择能否替代正则” \\
+L0 & PLS & 化学计量学经典方法\cite{wold2001}；检验潜变量回归 \\
+L1 & RandomForest & 非线性基线\cite{breiman2001}；检验交互效应 \\
+L1 & GBR & 文献口径的梯度提升\cite{chen2016}；\textbf{文献同类任务的主流基线} \\
+L1 & 直方图 GBR & 直方图加速的梯度提升；检验实现差异与超参稳健性 \\
+L2 & 潜因子 Ridge & 对 $\bm{Y}$ 做 SVD 取 $K$ 个感官潜因子再回归；检验多任务共享 \\
+L3 & MT-GNN & 图扩散双分支多任务网络（本文主模型） \\
+L4 & Stack & 以 L0--L3 的 OOF 预测为元特征逐维非负岭回归 \\
+\bottomrule
+\end{tabular}
+\end{fittable}
+\end{table}
+
+\subsubsection{潜因子多任务回归}
+
+把感官矩阵中心化后做奇异值分解 $\bm{Y}-\bar{\bm{Y}}=\bm{U}\bm{\Sigma}\bm{V}^{\top}$，
+取前 $K$ 个右奇异向量 $\bm{V}_{K}\in\R^{q\times K}$ 作为\textbf{感官潜因子}，则
+\begin{equation}
+\bm{y}_i \approx \bar{\bm{y}}+\bm{V}_{K}\bm{t}_i ,\qquad
+\hat{\bm{t}}_i=\bm{W}^{\top}\bm{z}_i ,
+\label{eq:rrr}
+\end{equation}
+仅对 $K$ 个潜因子做岭回归。自由度由 $q\cdot p$ 降为 $K\cdot p$（$K=8$ 时降为
+$8/50$），这是“多任务共享”最直接的形式：$K$ 个因子同时被 $q$ 个输出共享。
+$K$ 取 8 与 15 两档以检验敏感性。
+
+\subsubsection{MT-GNN：图扩散双分支多任务网络}
+
+设 $[\bm{X},\bm{X}^{\mathrm{d}}]$ 分别送入两个独立的编码分支（各含批归一化、
+SiLU 激活与 Dropout），拼接后接 50 维输出头：
+\begin{align}
+\bm{h}^{(1)}_i &= \phi\big(\bm{W}_1\bm{x}_i+\bm{b}_1\big),\qquad
+\bm{h}^{(2)}_i = \phi\big(\bm{W}_2\bm{x}^{\mathrm{d}}_i+\bm{b}_2\big),\\
+\bm{o}_i &= \bm{W}_o\,\phi\big(\bm{W}_c[\bm{h}^{(1)}_i;\bm{h}^{(2)}_i]+\bm{b}_c\big)+\bm{b}_o,
+\end{align}
+损失为对标准化标签的 Huber 损失（$\beta=0.5$）：
+\begin{equation}
+\mathcal{L}=\frac{1}{nq}\sum_{i,k}\ell_{\beta}\!\left(\frac{y_{ik}-\mu_k}{\sigma_k}
+-\hat o_{ik}\right)+\lambda\|\bm{W}\|_2^{2}.
+\label{eq:mtloss}
+\end{equation}
+选 Huber 而非平方损失，正是针对 \S2.2 指出的“极端感官分把 $R^2$ 拉负”问题：
+Huber 在大残差处线性增长，使单个极端样本不至于支配整个梯度。训练用 AdamW
+（学习率 $3\times10^{-3}$、权重衰减 $3\times10^{-3}$）、余弦退火、260 轮、
+批大小 64。
+
+\subsubsection{堆叠与预测区间}
+
+以各基模型的\textbf{折外预测}为元特征，逐维做\textbf{非负}岭回归：
+\begin{equation}
+\hat y_{ik}^{\mathrm{st}}=\sum_{m=1}^{M}\beta_{mk}\hat y^{(m)}_{ik},\qquad
+\beta_{mk}\ge 0,
+\label{eq:stack}
+\end{equation}
+非负约束使集成权重可解释为“各基模型的贡献份额”，避免出现“负权重抵消”这类
+不可解释的组合；权重在折外预测上拟合、再作用于同一组折外预测，不引入训练集泄漏。
+
+预测区间不依赖残差正态假设——感官标签的长尾与异方差会使正态区间显著失真。
+本文改用\textbf{重复间分裂一致性}：$R$ 次重复各给出一个折外预测，其离散度直接
+回答“换一种划分，这个预测会变多少”：
+\begin{equation}
+s_{ik}=\sqrt{\frac{1}{R-1}\sum_{r=1}^{R}
+\left(\hat y^{(r)}_{ik}-\hat y_{ik}\right)^{2}},\qquad
+\mathrm{CI}_{ik}(1-\alpha)=\hat y_{ik}\pm z_{1-\alpha/2}\,s_{ik},
+\label{eq:pi}
+\end{equation}
+取 $\alpha=0.10$（即 $90\%$ 名义区间）、$z_{0.95}=1.645$。该构造不假设误差分布，
+只把“划分导致的不确定性”显式量化；其代价是会\textbf{低估}真实预测误差
+（基模型之间高度相关，重复间差异小于绝对误差）。因此本文不宣称区间“校准良好”，
+而是在 \S5.6 与 \S8.4 报告实测覆盖率，把偏差如实交给读者判断。

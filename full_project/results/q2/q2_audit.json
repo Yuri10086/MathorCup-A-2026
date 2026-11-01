@@ -1,0 +1,23 @@
+{
+  "positional_mapping_max_error": 5.551115123125783e-16,
+  "samples": 250,
+  "chemicals": 231,
+  "sensory_targets": 50,
+  "missing_chem_cells": 73,
+  "eligible_molecular_factors": 218,
+  "excluded_nonsingle_molecule_or_physicochemical_factors": [
+    "CO2.PSI.",
+    "GFS",
+    "acids_sum",
+    "aroma_hops_sum",
+    "betaglucan.mg.L.",
+    "bitterness",
+    "color.EBC.",
+    "esters_sum",
+    "kcalperc",
+    "pH",
+    "protein.g.L.",
+    "sulfur_sum",
+    "unfermentables"
+  ]
+}

@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[UTF8, heading]{ctex}
+\usepackage[a4paper, top=3.00cm, bottom=1.75cm, left=2.25cm, right=2.25cm,
+            headheight=1.50cm, footskip=1.75cm]{geometry}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,float,caption,hyperref}
+\usepackage{setspace}
+\setCJKmainfont{SimSun}[BoldFont=SimHei, ItalicFont=KaiTi]
+\renewcommand{\tablename}{表}
+\renewcommand{\figurename}{图}
+\setlength{\parindent}{2em}
+\setstretch{1.0}
+\begin{document}
+\begin{center}{\zihao{3}\heiti 测试标题：啤酒风味}\end{center}
+\begin{center}{\zihao{4}\heiti 摘\hspace{1em}要}\end{center}
+这是正文小四宋体测试，含\textbf{加粗中文}与英文 Times 123.45。
+一、一级标题测试
+\begin{fittable}
+\begin{tabular}{@{}lrr@{}}
+\toprule 维度 & $R^2$ & MAE \\ \midrule
+芳香 & 0.42 & 0.31 \\
+\bottomrule
+\end{tabular}
+\end{fittable}
+\end{document}

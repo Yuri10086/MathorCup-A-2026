@@ -1,0 +1,10 @@
+{
+  "n_compounds": 231,
+  "n_edges": 951,
+  "positive_edges": 823,
+  "negative_edges": 128,
+  "modules": 20,
+  "modularity": 0.664241044274271,
+  "threshold": 0.38,
+  "per_sign": 6
+}

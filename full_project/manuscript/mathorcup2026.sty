@@ -1,0 +1,167 @@
+% XeLaTeX；封面继承官方 Word，正文采用用户指定的五组规范。
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mathorcup2026}[2026/10/23 User specified paper styles]
+\RequirePackage{iftex}
+\RequireXeTeX
+\RequirePackage{geometry}
+\geometry{a4paper,margin=25mm,headheight=0pt,headsep=0pt,footskip=0.95cm}
+\RequirePackage{fontspec,xeCJK,etoolbox,setspace,indentfirst}
+% Overleaf 云端不预装 Windows 商业字体，优先原字体，缺失时使用 TeX Live 自带字体。
+% 以下采用发行版内置字体文件名，不需要上传任何字体文件。
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{texgyretermes-regular.otf}{\setmainfont{texgyretermes-regular.otf}}{\setmainfont[BoldFont={lmroman10-bold.otf},ItalicFont={lmroman10-italic.otf},BoldItalicFont={lmroman10-bolditalic.otf}]{lmroman10-regular.otf}}}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{\setsansfont{lmsans10-regular.otf}}
+\IfFontExistsTF{Courier New}{\setmonofont{Courier New}}{\setmonofont{lmmono10-regular.otf}}
+\IfFontExistsTF{SimSun}{\def\MCChineseFont{SimSun}}{\def\MCChineseFont{FandolSong-Regular.otf}}
+\setCJKmainfont[AutoFakeBold]{\MCChineseFont}
+\setCJKfamilyfont{song}[AutoFakeBold]{\MCChineseFont}
+\setCJKsansfont[AutoFakeBold]{\MCChineseFont}
+\setCJKmonofont{\MCChineseFont}
+\newcommand{\song}{\CJKfamily{song}}
+\newcommand{\正文}{\song\fontsize{12.05pt}{14.45pt}\selectfont}
+\renewcommand{\baselinestretch}{1}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\AtBeginDocument{\正文}
+\raggedbottom
+\RequirePackage{amsmath,amssymb,bm,mathtools}
+\RequirePackage{graphicx,booktabs,array,tabularx,longtable,float}
+\RequirePackage{caption,subcaption}
+\RequirePackage[ruled,longend,linesnumbered]{algorithm2e}
+\RequirePackage{enumitem,fancyhdr,tocloft}
+\RequirePackage{listings,xcolor}
+\RequirePackage[numbers,sort&compress]{natbib}
+\RequirePackage[hidelinks,unicode]{hyperref}
+\urlstyle{same}
+\graphicspath{{figures/}}
+
+% 1. 全文、标题、页码：章号与下级编号分别定义。
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\ctexset{
+  section={format=\centering\song\bfseries\fontsize{14pt}{20pt}\selectfont,
+    name={,},number=\chinese{section}、,aftername={},
+    beforeskip=0.6em,afterskip=0pt,afterindent=true},
+  subsection={format=\song\bfseries\fontsize{12pt}{18pt}\selectfont,
+    number=\arabic{section}.\arabic{subsection},aftername=\ ,
+    beforeskip=0pt,afterskip=0pt,afterindent=true},
+  subsubsection={format=\song\bfseries\fontsize{12pt}{18pt}\selectfont,
+    number=\arabic{section}.\arabic{subsection}.\arabic{subsubsection},aftername=\ ,
+    beforeskip=0pt,afterskip=0pt,afterindent=true}}
+\fancypagestyle{paper}{%
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  % 页码全为数字，需连西文数字也切到 SimSun，不能只切换 CJK 字族。
+  \fancyfoot[C]{\song\fontspec{\MCChineseFont}\fontsize{12.05pt}{14.45pt}\selectfont\thepage}}
+\pagestyle{empty}
+% 表格统一字体行高；封面信息表独立保留原字号与边框。
+\newif\ifmc@cover
+\mc@coverfalse
+\newcommand{\mc@tablefont}{\ifmc@cover\else\song\fontsize{12pt}{14.4pt}\selectfont\fi}
+\BeforeBeginEnvironment{tabular}{\mc@tablefont}
+\BeforeBeginEnvironment{tabularx}{\mc@tablefont}
+\BeforeBeginEnvironment{longtable}{\mc@tablefont}
+\renewcommand{\arraystretch}{1}
+\setlength{\tabcolsep}{0pt}
+\setlength{\extrarowheight}{0pt}
+\setlist{nosep,leftmargin=2em}
+% 正式公式用 equation/align/gather 等有编号环境，见组件示例。
+
+% 2. 图表题注：这里明确使用 bp；其他正文设置使用 pt。
+\DeclareCaptionFont{wuh}{\song\fontsize{10.5bp}{12.6bp}\selectfont}
+\captionsetup{font=wuh,labelfont=bf,labelsep=quad,
+  skip=2pt,aboveskip=2pt,belowskip=0pt}
+\captionsetup[figure]{position=bottom,justification=centering,singlelinecheck=true}
+\captionsetup[table]{position=top,justification=centering,singlelinecheck=true}
+\captionsetup[subfigure]{font=wuh,justification=centering,singlelinecheck=true}
+\setlength{\floatsep}{4pt plus 1pt minus 1pt}
+\setlength{\textfloatsep}{4pt plus 1pt minus 1pt}
+\setlength{\intextsep}{4pt plus 1pt minus 1pt}
+
+% 3. 伪代码：完整结束标记、行号、上下横线、无自动分号。
+\RestyleAlgo{ruled}
+\DontPrintSemicolon
+\SetKwInput{KwIn}{输入}
+\SetKwInput{KwOut}{输出}
+\SetAlgorithmName{算法}{算法}{算法目录}
+\SetAlFnt{\正文}
+\SetArgSty{textnormal}
+\BeforeBeginEnvironment{algorithm}{\par}
+\AfterEndEnvironment{algorithm}{\par}
+\SetAlCapFnt{\song\fontsize{10.5pt}{12.6pt}\selectfont}
+\SetAlCapNameFnt{\song\fontsize{10.5pt}{12.6pt}\selectfont}
+\SetAlCapSkip{2pt}
+\setlength{\interspacetitleruled}{2pt}
+
+% 4. 文献：保留 natbib 默认悬挂缩进，不声明为赛事固定值。
+\renewcommand{\refname}{参考文献}
+\renewcommand{\bibfont}{\正文}
+\setlength{\bibsep}{0pt}
+\BeforeBeginEnvironment{thebibliography}{\clearpage}
+\AtBeginEnvironment{thebibliography}{%
+  \正文\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}\setlength{\parskip}{0pt}}
+% 参考文献后由声明文件中的 clearpage 另起声明页，再另起页进入附录。
+\renewcommand{\bibsection}{\section*{参考文献}\phantomsection
+  \addcontentsline{toc}{section}{参考文献}}
+
+% 5. 附录代码：同一等宽字体、同大行号；继承指定 writer_style.tex 框线背景。
+\lstset{
+  basicstyle=\ttfamily\fontsize{10.5pt}{12.6pt}\selectfont,
+  numberstyle=\ttfamily\fontsize{10.5pt}{12.6pt}\selectfont\color{black!45},
+  language=Python,breaklines=true,breakatwhitespace=false,
+  frame=single,framerule=0.5pt,rulecolor=\color{black!55},
+  backgroundcolor=\color{black!4},framesep=2mm,xleftmargin=2.2em,
+  numbers=left,stepnumber=1,numberfirstline=true,firstnumber=1,numbersep=6pt,
+  columns=fullflexible,keepspaces=true,showstringspaces=false,
+  keywordstyle=\color{blue!60!black},commentstyle=\color{green!40!black},
+  tabsize=4,aboveskip=4pt,belowskip=4pt}
+
+% 封面独立，保留原 Word 移植布局；正文的 25mm 不影响本页。
+\newcommand{\papertitle}{论文题目}
+\newcommand{\teamnumber}{MCB260XXXX}
+\newcommand{\competitiontrack}{（A/B）}
+\newcommand{\paperkeywords}{关键词一；关键词二；关键词三}
+\newcommand{\makecoverheading}{%
+  \newgeometry{top=20mm,bottom=20mm,left=25mm,right=25mm,
+    headheight=0pt,headsep=0pt,footskip=6mm}
+  \mc@covertrue\thispagestyle{empty}\setlength{\parindent}{0pt}
+  \vspace*{15.6bp}
+  \noindent\makebox[\textwidth][c]{\begingroup
+    \fontsize{10.5bp}{15.6bp}\selectfont
+    \setlength{\arrayrulewidth}{0.5bp}
+    \begin{tabular}{|>{\centering\arraybackslash}m{39.1mm}|>{\centering\arraybackslash}m{39.1mm}|}
+      \hline\rule[-2mm]{0pt}{8mm}队伍编号 & \teamnumber \\ \hline
+      \rule[-2mm]{0pt}{8.3mm}赛道 & \competitiontrack \\ \hline
+    \end{tabular}\endgroup}\par
+  \vspace{31.2bp}
+  {\centering\fontsize{14bp}{18bp}\selectfont\papertitle\par}
+  {\centering\fontsize{12bp}{15.6bp}\selectfont 摘\ 要\par}}
+\newenvironment{papersummary}{%
+  \par\noindent\begin{minipage}[t]{\textwidth}
+  \vbox to 100mm\bgroup\hsize=\linewidth
+  \song\fontsize{12bp}{15.6bp}\selectfont\setlength{\parindent}{0pt}
+}{\par\vfil\egroup\end{minipage}\par
+  {\song\fontsize{12bp}{15.6bp}\selectfont\noindent 关键词：\paperkeywords\par}}
+\newcommand{\makepapertoc}{%
+  \clearpage\mc@coverfalse\restoregeometry\正文\pagestyle{empty}
+  \setlength{\parindent}{2em}\tableofcontents\thispagestyle{empty}\clearpage}
+\newcommand{\startpaper}{%
+  \clearpage\pagenumbering{arabic}\pagestyle{paper}
+  \hypersetup{pageanchor=true}\正文
+  \setlength{\parindent}{2em}\setlength{\parskip}{0pt}}
+\AtBeginDocument{\hypersetup{pageanchor=false}}
+% 目录继承原 Word 的层级字号；章号宽度只影响目录。
+\renewcommand{\contentsname}{目录}
+\renewcommand{\cfttoctitlefont}{\hfill\normalfont\song\fontsize{14bp}{18bp}\selectfont}
+\renewcommand{\cftaftertoctitle}{\hfill\mbox{}}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{12bp}
+\renewcommand{\cftsecfont}{\song\fontsize{12bp}{15.6bp}\selectfont\bfseries}
+\renewcommand{\cftsubsecfont}{\song\fontsize{11bp}{15.6bp}\selectfont\bfseries}
+\renewcommand{\cftsubsubsecfont}{\song\fontsize{11bp}{15.6bp}\selectfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\cftsetindents{section}{0pt}{3em}
+\cftsetindents{subsection}{10.5bp}{2.8em}
+\cftsetindents{subsubsection}{21bp}{3.5em}
+\setlength{\cftbeforesecskip}{6bp}

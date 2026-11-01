@@ -1,0 +1,20 @@
+{
+  "original_OT": {
+    "n_moved": 7,
+    "n_closer": 7,
+    "mean_distance_before": 2.9017712470045898,
+    "mean_distance_after": 2.5607280119205167
+  },
+  "optimized": {
+    "n_moved": 7,
+    "n_closer": 7,
+    "mean_distance_before": 2.9017712470045898,
+    "mean_distance_after": 1.7716455826567143,
+    "chemical_nonworsening_violations": 0,
+    "unverifiable_missing_source_defects": 2,
+    "stale_hops_proxy_nonworsening_violations": 0,
+    "mean_predicted_overall_change": 0.4228181271590902
+  },
+  "constraint_definition": "4 measured features numeric source upper bound, stale_hops Q1 estimated score source upper bound",
+  "candidate_optimization": "100 draws from learned Tripel conditional distribution plus OT candidate; 5 predeclared convex blending factors; minimize Tripel latent distance + .15 source shift subject to all 5 constraints and source shift<6 latent units"
+}

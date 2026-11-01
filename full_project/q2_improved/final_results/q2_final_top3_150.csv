@@ -1,0 +1,151 @@
+﻿sensory,rank,chemical,name_in_2csv,spearman_rho,bootstrap_top3_frequency,molecular_graph_community,also_in_spearman_top3,claim
+A_malt_all,1,acetaldehyde,Acetaldehyde,0.3612112247321575,0.46,1,True,association; not causation; chemically verify compound
+A_malt_all,2,methylpyrazine,Methylpyrazine,0.3533870831749008,0.52,8,True,association; not causation; chemically verify compound
+A_malt_all,3,X.E..beta.ionone,E-β-ionone,-0.24763408969118483,0.18,4,False,association; not causation; chemically verify compound
+A_malt_grain,1,terpinen.4.ol,Terpinen-4-ol,-0.26453893532959166,0.59,5,True,association; not causation; chemically verify compound
+A_malt_grain,2,beta.phellandrene,Beta-phellandrene,-0.2480359865338862,0.43,5,True,association; not causation; chemically verify compound
+A_malt_grain,3,X5.methylfurfural,5-methylfurfural,0.14475764923133308,0.43,8,False,association; not causation; chemically verify compound
+A_malt_bread,1,glycerol,Glycerol,0.2666356638832631,0.24,1,True,association; not causation; chemically verify compound
+A_malt_bread,2,ethanol..v.v.,Ethanol,0.2596609860986693,0.25,1,True,association; not causation; chemically verify compound
+A_malt_bread,3,X5.methylfurfural,5-methylfurfural,0.18675050881500843,0.2,8,False,association; not causation; chemically verify compound
+A_malt_cara,1,acetaldehyde,Acetaldehyde,0.3501571608077258,0.54,1,True,association; not causation; chemically verify compound
+A_malt_cara,2,X2.ethyl.1.hexanol,2-ethyl-1-hexanol,-0.31724685086939486,0.24,1,True,association; not causation; chemically verify compound
+A_malt_cara,3,X2.acetylfuran,2-acetylfuran,0.24256928623415178,0.16,8,False,association; not causation; chemically verify compound
+A_malt_burn,1,isobutanol,Isobutanol,0.24930260209115793,0.26,1,True,association; not causation; chemically verify compound
+A_malt_burn,2,DES,Diethyl sulfide,0.24289691276844588,0.25,1,True,association; not causation; chemically verify compound
+A_malt_burn,3,methylpyrazine,Methylpyrazine,0.16750451215842238,0.56,8,False,association; not causation; chemically verify compound
+A_hops_all,1,ethyl_octanoate,Ethyl octanoate,0.4637453760825003,0.74,1,True,association; not causation; chemically verify compound
+A_hops_all,2,X.E..2.nonenal,E-2-nonenal,0.4321637584660891,0.44,7,True,association; not causation; chemically verify compound
+A_hops_all,3,X6.methyl.5.hepten.2.one,Methyl heptenone,0.22410168085017226,0.25,2,False,association; not causation; chemically verify compound
+A_hops_citrus,1,citronellol,Citronellol,0.36978169543688033,0.57,5,True,association; not causation; chemically verify compound
+A_hops_citrus,2,humulene.epoxide.II,Humulene epoxide II,0.35716172237219806,0.43,2,True,association; not causation; chemically verify compound
+A_hops_citrus,3,trans.dihydro.alpha.terpinyl.acetate,Trans-dihydro-α-terpinyl acetate,0.28789011696468275,0.2,6,False,association; not causation; chemically verify compound
+A_hops_tropical,1,DMS,Dimethyl sulfide,0.31418123458289887,0.69,1,True,association; not causation; chemically verify compound
+A_hops_tropical,2,X3.furanmethanol,3-furanmethanol,-0.258890596780788,0.26,1,True,association; not causation; chemically verify compound
+A_hops_tropical,3,terpinolene,Terpinolene,0.2148973285682056,0.09,5,False,association; not causation; chemically verify compound
+A_hops_noble,1,ethyl_octanoate,Ethyl octanoate,0.4818289933535472,0.91,1,True,association; not causation; chemically verify compound
+A_hops_noble,2,ethyl_decanoate,Ethyl decanoate,0.46927926928157754,0.71,6,True,association; not causation; chemically verify compound
+A_hops_noble,3,X.E..2.nonenal,E-2-nonenal,0.4089643244655644,0.39,7,True,association; not causation; chemically verify compound
+A_hops_woody,1,trans.dihydro.alpha.terpinyl.acetate,Trans-dihydro-α-terpinyl acetate,0.2791198867693684,0.15,6,True,association; not causation; chemically verify compound
+A_hops_woody,2,alpha.calacorene,α-calacorene,0.2725122912439538,0.17,2,True,association; not causation; chemically verify compound
+A_hops_woody,3,nerol,Nerol,0.07172186905046614,0.07,5,False,association; not causation; chemically verify compound
+A_esters_all,1,n.hexanol,N-hexanol,0.3567302831303528,0.63,1,True,association; not causation; chemically verify compound
+A_esters_all,2,acetaldehyde,Acetaldehyde,0.3530295204723275,0.72,1,True,association; not causation; chemically verify compound
+A_esters_all,3,benzyl.alcohol,Benzyl alcohol,0.04861300726491373,0.1,7,False,association; not causation; chemically verify compound
+A_esters_ethac,1,ethyl_acetate,Ethyl acetate,0.3555045849564507,0.56,1,True,association; not causation; chemically verify compound
+A_esters_ethac,2,acetaldehyde,Acetaldehyde,0.3350281506353329,0.28,1,True,association; not causation; chemically verify compound
+A_esters_ethac,3,E.nerolidol,E-nerolidol,0.281434068607156,0.25,3,False,association; not causation; chemically verify compound
+A_esters_isoaa,1,n.hexanol,N-hexanol,0.3398513393875154,0.9,1,True,association; not causation; chemically verify compound
+A_esters_isoaa,2,isopentyl_acetate,Isoamyl acetate,0.2828145982352666,0.6,1,True,association; not causation; chemically verify compound
+A_esters_isoaa,3,humulene.epoxide.II,Humulene epoxide II,-0.07270671533339294,0.16,2,False,association; not causation; chemically verify compound
+A_esters_flower,1,beta.phellandrene,Beta-phellandrene,0.1957636012469321,0.25,5,True,association; not causation; chemically verify compound
+A_esters_flower,2,isobutyl_acetate,Isobutyl acetate,0.19171916846080253,0.2,1,True,association; not causation; chemically verify compound
+A_esters_flower,3,X.E..alpha.ionone,E-α-ionone,0.09328769951318215,0.22,4,False,association; not causation; chemically verify compound
+A_esters_fruity,1,beta.phellandrene,Beta-phellandrene,0.23194316771416154,0.52,5,True,association; not causation; chemically verify compound
+A_esters_fruity,2,eugenol,Eugenol,0.193738519086287,0.24,7,True,association; not causation; chemically verify compound
+A_esters_fruity,3,X1.10.di.epi.cubenol,Epicubenol,-0.1701107139988372,0.43,2,False,association; not causation; chemically verify compound
+F_malt_all,1,ethanol..v.v.,Ethanol,0.4719282039914529,0.99,1,True,association; not causation; chemically verify compound
+F_malt_all,2,acetaldehyde,Acetaldehyde,0.4712102803092673,0.97,1,True,association; not causation; chemically verify compound
+F_malt_all,3,X.E..alpha.ionone,E-α-ionone,-0.2838770227004307,0.32,4,False,association; not causation; chemically verify compound
+F_malt_grain,1,isoborneol,Isoborneol,-0.27578635353264147,0.32,5,True,association; not causation; chemically verify compound
+F_malt_grain,2,terpinen.4.ol.acetate,Terpinen-4-ol acetate,-0.25595044269397527,0.35,5,True,association; not causation; chemically verify compound
+F_malt_grain,3,phenylacetaldehyde,Phenylacetaldehyde,0.1469386407161011,0.3,5,False,association; not causation; chemically verify compound
+F_malt_bread,1,acetaldehyde,Acetaldehyde,0.37772577012915365,0.52,1,True,association; not causation; chemically verify compound
+F_malt_bread,2,ethanol..v.v.,Ethanol,0.3720303800309602,0.45,1,True,association; not causation; chemically verify compound
+F_malt_bread,3,terpinen.4.ol,Terpinen-4-ol,-0.31575802528840813,0.31,5,False,association; not causation; chemically verify compound
+F_malt_cara,1,acetaldehyde,Acetaldehyde,0.4327631620805657,0.95,1,True,association; not causation; chemically verify compound
+F_malt_cara,2,ethanol..v.v.,Ethanol,0.3869366388290898,0.73,1,True,association; not causation; chemically verify compound
+F_malt_cara,3,alpha.calacorene,α-calacorene,-0.09427125726888304,0.31,2,False,association; not causation; chemically verify compound
+F_malt_burn,1,ethanol..v.v.,Ethanol,0.43069068926915505,0.92,1,True,association; not causation; chemically verify compound
+F_malt_burn,2,MeSH,Methanethiol,0.40347537930608146,0.6,1,True,association; not causation; chemically verify compound
+F_malt_burn,3,methylpyrazine,Methylpyrazine,0.22431697567291375,0.62,8,False,association; not causation; chemically verify compound
+F_hops_all,1,ethyl_octanoate,Ethyl octanoate,0.5007669567130837,0.68,1,True,association; not causation; chemically verify compound
+F_hops_all,2,X.E..2.nonenal,E-2-nonenal,0.4564154219342644,0.31,7,True,association; not causation; chemically verify compound
+F_hops_all,3,lactic_acid.mg.L.,Lactic acid,-0.1781989025512481,0.05,4,False,association; not causation; chemically verify compound
+F_hops_citrus,1,humulene.epoxide.II,Humulene epoxide II,0.2849243473855616,0.35,2,True,association; not causation; chemically verify compound
+F_hops_citrus,2,ethyl.furoate,Ethyl furoate,-0.2748053457266072,0.21,8,True,association; not causation; chemically verify compound
+F_hops_citrus,3,cis.dihydro.beta.terpineol,Cis-dihydro-β-terpineol,0.22299967386628033,0.14,2,False,association; not causation; chemically verify compound
+F_hops_tropical,1,geraniol,Geraniol,0.28482523387699327,0.37,5,True,association; not causation; chemically verify compound
+F_hops_tropical,2,hexyl.acetate,Hexyl acetate,0.2810460467971101,0.5,7,True,association; not causation; chemically verify compound
+F_hops_tropical,3,X6.methyl.5.hepten.2.one,Methyl heptenone,0.24112984483106012,0.27,2,False,association; not causation; chemically verify compound
+F_hops_noble,1,ethyl_octanoate,Ethyl octanoate,0.5050875132149669,0.92,1,True,association; not causation; chemically verify compound
+F_hops_noble,2,ethyl_decanoate,Ethyl decanoate,0.45776521137105036,0.38,6,True,association; not causation; chemically verify compound
+F_hops_noble,3,iron,Iron,-0.4258424998429319,0.53,2,False,association; not causation; chemically verify compound
+F_hops_woody,1,ethyl.tetradecanoate,Ethyl tetradecanoate,0.34606437508896504,0.32,6,True,association; not causation; chemically verify compound
+F_hops_woody,2,ethyl_decanoate,Ethyl decanoate,0.34208736094958864,0.24,6,True,association; not causation; chemically verify compound
+F_hops_woody,3,manool,Manool,-0.08488730989676176,0.35,3,False,association; not causation; chemically verify compound
+F_esters_all,1,acetaldehyde,Acetaldehyde,0.4038719339509431,0.81,1,True,association; not causation; chemically verify compound
+F_esters_all,2,ethyl_acetate,Ethyl acetate,0.3798154850477607,0.47,1,True,association; not causation; chemically verify compound
+F_esters_all,3,X1.10.di.epi.cubenol,Epicubenol,-0.19126041917744796,0.49,2,False,association; not causation; chemically verify compound
+F_esters_ethac,1,ethyl_acetate,Ethyl acetate,0.5030965444139196,0.91,1,True,association; not causation; chemically verify compound
+F_esters_ethac,2,ethanol..v.v.,Ethanol,0.46629357380122805,0.72,1,True,association; not causation; chemically verify compound
+F_esters_ethac,3,X2E.6Z.farnesal,"E,Z-farnesal",0.24874761070176227,0.18,3,False,association; not causation; chemically verify compound
+F_esters_isoaa,1,n.hexanol,N-hexanol,0.30530934795713405,0.7,1,True,association; not causation; chemically verify compound
+F_esters_isoaa,2,isopentyl_acetate,Isoamyl acetate,0.2736296895926276,0.43,1,True,association; not causation; chemically verify compound
+F_esters_isoaa,3,humulene.epoxide.II,Humulene epoxide II,-0.13593925794558212,0.13,2,False,association; not causation; chemically verify compound
+F_esters_flower,1,beta.phellandrene,Beta-phellandrene,0.2336305359445712,0.51,5,True,association; not causation; chemically verify compound
+F_esters_flower,2,isopentyl.butanoate,Isopentyl butanoate,-0.20071375476025477,0.29,2,True,association; not causation; chemically verify compound
+F_esters_flower,3,benzyl.alcohol,Benzyl alcohol,0.07705508353869371,0.11,7,False,association; not causation; chemically verify compound
+F_esters_fruity,1,DES,Diethyl sulfide,-0.29159454498081816,0.62,1,True,association; not causation; chemically verify compound
+F_esters_fruity,2,acetic_acid.g.L.,Acetic acid,0.24405781303049315,0.22,4,True,association; not causation; chemically verify compound
+F_esters_fruity,3,X1.10.di.epi.cubenol,Epicubenol,-0.1333034307954664,0.32,2,False,association; not causation; chemically verify compound
+acidity,1,prenyl.isobutyrate,Prenyl isobutyrate,0.43549066882880244,0.55,4,True,association; not causation; chemically verify compound
+acidity,2,ethyl.phenylacetate,Ethyl phenylacetate,0.4296782462580018,0.29,4,True,association; not causation; chemically verify compound
+acidity,3,lactic_acid.mg.L.,Lactic acid,0.318740361063481,0.99,4,False,association; not causation; chemically verify compound
+bitternes,1,ethyl_octanoate,Ethyl octanoate,0.5926743859641476,0.96,1,True,association; not causation; chemically verify compound
+bitternes,2,ethyl_decanoate,Ethyl decanoate,0.558886811414095,0.56,6,True,association; not causation; chemically verify compound
+bitternes,3,lactic_acid.mg.L.,Lactic acid,-0.24496867231161482,0.46,4,False,association; not causation; chemically verify compound
+sweetness,1,ethyl_decanoate,Ethyl decanoate,-0.3911617061026004,0.74,6,True,association; not causation; chemically verify compound
+sweetness,2,pentyl.octanoate,Pentyl octanoate,-0.3625183569258616,0.24,6,True,association; not causation; chemically verify compound
+sweetness,3,acetaldehyde,Acetaldehyde,0.12306676758359512,0.45,1,False,association; not causation; chemically verify compound
+X4vg,1,X4VG,4-vinylguaiacol,0.47261752961228276,0.99,8,True,association; not causation; chemically verify compound
+X4vg,2,delta.terpinyl.acetate,Terpiryl acetate,0.3992235813990057,0.37,8,True,association; not causation; chemically verify compound
+X4vg,3,X4.methyl.1.pentanol,4-methyl-1-pentanol,-0.21347190386778178,0.11,1,False,association; not causation; chemically verify compound
+diacetyl,1,eugenol,Eugenol,-0.32252038716181636,0.61,7,True,association; not causation; chemically verify compound
+diacetyl,2,ethyl_decanoate,Ethyl decanoate,-0.28254176108108275,0.28,6,True,association; not causation; chemically verify compound
+diacetyl,3,beta.phellandrene,Beta-phellandrene,-0.21721701386930145,0.23,5,False,association; not causation; chemically verify compound
+dms,1,terpinen.4.ol,Terpinen-4-ol,-0.19554241388903942,0.2,5,True,association; not causation; chemically verify compound
+dms,2,E.nerolidol,E-nerolidol,0.19438930625644038,0.14,3,True,association; not causation; chemically verify compound
+dms,3,isopropyl.laurate,Isopropyl laurate,-0.09528534665446674,0.13,3,False,association; not causation; chemically verify compound
+metallic,1,ethyl_isovalerate,Ethyl 3-methylbutyrate,-0.25035775772429764,0.47,4,True,association; not causation; chemically verify compound
+metallic,2,iron,Iron,0.24413126872162183,0.38,2,True,association; not causation; chemically verify compound
+metallic,3,ethyl_octanoate,Ethyl octanoate,0.125955169554006,0.05,1,False,association; not causation; chemically verify compound
+stale_hops,1,X2.undecanol,2-undecanol,0.29967376283308556,0.58,2,True,association; not causation; chemically verify compound
+stale_hops,2,alloaromadendrene.epoxide,Allo-aromadendrene epoxide,0.27762739892863525,0.32,2,True,association; not causation; chemically verify compound
+stale_hops,3,gamma.eudesmol,Gamma-eudesmol,0.24686211208762004,0.21,7,False,association; not causation; chemically verify compound
+t2n,1,beta.phellandrene,Beta-phellandrene,-0.21400815621576785,0.25,5,True,association; not causation; chemically verify compound
+t2n,2,terpinen.4.ol,Terpinen-4-ol,-0.2038172668289689,0.16,5,True,association; not causation; chemically verify compound
+t2n,3,glycerol,Glycerol,-0.17854851056753543,0.4,1,False,association; not causation; chemically verify compound
+orange,1,camphor,Camphor,0.3674827286717091,0.87,5,True,association; not causation; chemically verify compound
+orange,2,limonene,Limonene,0.29604822471884357,0.31,5,True,association; not causation; chemically verify compound
+orange,3,X1.alpha.terpineol,Alpha-terpineol,0.21253225568887982,0.48,5,False,association; not causation; chemically verify compound
+coriander,1,X2.methyl.benzofuran,2-methyl-benzofuran,0.23801029780522637,0.11,5,True,association; not causation; chemically verify compound
+coriander,2,E.ocimenone,Ocimenone,0.23622151713957018,0.12,5,True,association; not causation; chemically verify compound
+coriander,3,x.methyl.1.octanol,X-methyl-1-octanol,-0.020035311339736208,0.42,1,False,association; not causation; chemically verify compound
+clove,1,limonene,Limonene,0.34231668637703666,0.9,5,True,association; not causation; chemically verify compound
+clove,2,eucalyptol,Eucalyptol,0.23640723063158978,0.26,5,True,association; not causation; chemically verify compound
+clove,3,linalool,Linalool,0.1326133058565899,0.52,5,False,association; not causation; chemically verify compound
+lactic,1,lactic_acid.mg.L.,Lactic acid,0.4475322568342476,0.97,4,True,association; not causation; chemically verify compound
+lactic,2,perillyl.acetate,Perillyl acetate,0.4434179366350726,0.4,4,True,association; not causation; chemically verify compound
+lactic,3,isopentyl_acetate,Isoamyl acetate,-0.4098851280667399,0.41,1,False,association; not causation; chemically verify compound
+acetic,1,prenyl.isobutyrate,Prenyl isobutyrate,0.4055643299895067,0.56,4,True,association; not causation; chemically verify compound
+acetic,2,ethyl_isovalerate,Ethyl 3-methylbutyrate,0.39071639959979365,0.41,4,True,association; not causation; chemically verify compound
+acetic,3,lactic_acid.mg.L.,Lactic acid,0.3436732479539584,0.99,4,False,association; not causation; chemically verify compound
+barnyard,1,X2.undecanol,2-undecanol,0.2847085057355201,0.44,2,True,association; not causation; chemically verify compound
+barnyard,2,neryl.formate,Neryl formate,0.27965340497981206,0.32,4,True,association; not causation; chemically verify compound
+barnyard,3,gamma.eudesmol,Gamma-eudesmol,0.2640663163581401,0.39,7,False,association; not causation; chemically verify compound
+alcohol,1,ethanol..v.v.,Ethanol,0.8171582570720233,1.0,1,True,association; not causation; chemically verify compound
+alcohol,2,glycerol,Glycerol,0.6248513153198939,0.3,1,True,association; not causation; chemically verify compound
+alcohol,3,lactic_acid.mg.L.,Lactic acid,-0.02947063151886457,0.46,4,False,association; not causation; chemically verify compound
+aftertaste,1,ethanol..v.v.,Ethanol,0.5174638997456658,0.59,1,True,association; not causation; chemically verify compound
+aftertaste,2,ethyl_octanoate,Ethyl octanoate,0.5061785640433183,0.47,1,True,association; not causation; chemically verify compound
+aftertaste,3,ethyl_isovalerate,Ethyl 3-methylbutyrate,0.43927672089079056,0.6,4,False,association; not causation; chemically verify compound
+body,1,ethanol..v.v.,Ethanol,0.7191303860556818,1.0,1,True,association; not causation; chemically verify compound
+body,2,glycerol,Glycerol,0.5726252913087868,0.44,1,True,association; not causation; chemically verify compound
+body,3,n.octanol,N-octanol,-0.36787516716300456,0.34,1,False,association; not causation; chemically verify compound
+co2,1,ethyl_octanoate,Ethyl octanoate,0.5526871335738771,0.99,1,True,association; not causation; chemically verify compound
+co2,2,ethanol..v.v.,Ethanol,0.49853029754767664,0.8,1,True,association; not causation; chemically verify compound
+co2,3,X3.methyl.2.hexanol,3-methyl-2-hexanol,-0.4215196440415156,0.09,1,False,association; not causation; chemically verify compound
+overall,1,ethyl_acetate,Ethyl acetate,0.32499860797772756,0.7,1,True,association; not causation; chemically verify compound
+overall,2,ethyl_octanoate,Ethyl octanoate,0.2859559901993986,0.33,1,True,association; not causation; chemically verify compound
+overall,3,X2.butyloctanoate,2-butyl octanoate,0.22348212117226782,0.22,6,False,association; not causation; chemically verify compound

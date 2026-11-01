@@ -1,0 +1,961 @@
+style,chemical,n_real_test,real_floor_fraction,raw_gaussian_floor_fraction,censor_aware_floor_fraction,error_baseline,error_censor_aware
+Amber,CS2,2,0.5,0.09,0.845,0.41000000000000003,0.345
+Amber,ethyl_2.methyl_butyrate,2,0.0,0.0225,0.3875,0.0225,0.3875
+Amber,ethyl_isovalerate,2,0.5,0.01,0.445,0.49,0.05499999999999999
+Amber,octyl_acetate,2,0.5,0.0075,0.29,0.4925,0.21000000000000002
+Amber,X4VG,2,0.0,0.06,0.6225,0.06,0.6225
+Amber,propylene.glycol,2,0.0,0.0025,0.285,0.0025,0.285
+Amber,ethyl.lactate,2,1.0,0.1025,0.93,0.8975,0.06999999999999995
+Amber,X2.6.dimethyl.pyrazine,2,0.0,0.0475,0.565,0.0475,0.565
+Amber,X6.methyl.5.hepten.2.one,2,1.0,0.2775,0.88,0.7224999999999999,0.12
+Amber,alpha.phellandrene,2,0.0,0.1075,0.6875,0.1075,0.6875
+Amber,dehydroxy.cis.linalool.oxide,2,0.5,0.0275,0.43,0.4725,0.07
+Amber,isopentyl.butanoate,2,0.0,0.035,0.42,0.035,0.42
+Amber,X2.ethyl.1.hexanol,2,0.0,0.0075,0.335,0.0075,0.335
+Amber,beta.phellandrene,2,0.0,0.07,0.4775,0.07,0.4775
+Amber,limonene,2,0.5,0.2775,0.95,0.22249999999999998,0.44999999999999996
+Amber,eucalyptol,2,0.0,0.0725,0.6075,0.0725,0.6075
+Amber,cis.linalool.oxide,2,0.0,0.095,0.5225,0.095,0.5225
+Amber,meta.cymenene,2,0.5,0.25,0.84,0.25,0.33999999999999997
+Amber,n.nonanal,2,0.0,0.01,0.365,0.01,0.365
+Amber,neo.allo.ocimene,2,0.0,0.0,0.1925,0.0,0.1925
+Amber,trans.dihydro.beta.terpineol,2,0.5,0.005,0.4675,0.495,0.03249999999999997
+Amber,cis.beta.terpineol,2,0.5,0.04,0.635,0.46,0.135
+Amber,y.methyl.1.octanol,2,1.0,0.0775,0.6075,0.9225,0.39249999999999996
+Amber,cis.dihydro.beta.terpineol,2,1.0,0.2525,0.9325,0.7475,0.0675
+Amber,dimethoxy..E..citral,2,0.0,0.0,0.395,0.0,0.395
+Amber,geosmin,2,1.0,0.12,0.61,0.88,0.39
+Amber,X4.8.alpha.epoxy.caryophyllane,2,0.5,0.0,0.27,0.5,0.22999999999999998
+Amber,beta.humulene,2,1.0,0.13,0.7925,0.87,0.20750000000000002
+Amber,X.E..beta.farnesene,2,0.0,0.04,0.39,0.04,0.39
+Amber,valencene,2,0.0,0.025,0.64,0.025,0.64
+Amber,E.methyl.isoeugenol,2,0.0,0.0,0.3225,0.0,0.3225
+Amber,butylated.hydroxytoluene,2,0.5,0.0,0.285,0.5,0.21500000000000002
+Amber,X.E..dihydro.apofarnesal,2,1.0,0.005,0.42,0.995,0.5800000000000001
+Amber,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.005,0.2225,0.005,0.2225
+Amber,spathulenol,2,0.5,0.0025,0.31,0.4975,0.19
+Amber,gamma.eudesmol,2,0.0,0.05,0.5925,0.05,0.5925
+Amber,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.0,0.0025,0.29,0.0025,0.29
+Amber,selin.11.en.4.alpha.ol,2,0.0,0.1025,0.53,0.1025,0.53
+Amber,alpha.eudesmol,2,0.0,0.0125,0.3625,0.0125,0.3625
+Amber,foeniculin,2,1.0,0.02,0.5775,0.98,0.4225
+Amber,X2E.6Z.farnesal,2,1.0,0.03,0.4275,0.97,0.5725
+Amber,caryophyllene.acetate,2,0.5,0.0225,0.3925,0.4775,0.10749999999999998
+Amber,X14.hydroxy.alpha.humulene,2,1.0,0.0175,0.3525,0.9825,0.6475
+Amber,X2Z.6E.farnesal,2,1.0,0.065,0.5575,0.935,0.4425
+Amber,X2Z.6Z.farnesol,2,0.0,0.0,0.3,0.0,0.3
+Amber,X2E.6E.methyl.farnesoate,2,1.0,0.0075,0.4325,0.9925,0.5675
+Amber,X2.ethylhexylsalicylate,2,0.0,0.0,0.2375,0.0,0.2375
+Amber,isopropyl.hexadecanoate,2,0.5,0.03,0.5875,0.47,0.08750000000000002
+Blond,CS2,6,1.0,0.1225,0.8525,0.8775,0.14749999999999996
+Blond,ethyl_2.methyl_butyrate,6,1.0,0.0375,0.395,0.9625,0.605
+Blond,ethyl_isovalerate,6,1.0,0.0275,0.4975,0.9725,0.5025
+Blond,octyl_acetate,6,0.16666666666666666,0.0675,0.5875,0.09916666666666665,0.4208333333333334
+Blond,X4VG,6,0.3333333333333333,0.02,0.545,0.3133333333333333,0.21166666666666673
+Blond,propylene.glycol,6,0.3333333333333333,0.0,0.2525,0.3333333333333333,0.08083333333333331
+Blond,ethyl.lactate,6,1.0,0.1425,0.92,0.8575,0.07999999999999996
+Blond,X2.6.dimethyl.pyrazine,6,0.5,0.0975,0.6725,0.40249999999999997,0.1725
+Blond,X6.methyl.5.hepten.2.one,6,0.8333333333333334,0.1825,0.9425,0.6508333333333334,0.10916666666666663
+Blond,alpha.phellandrene,6,0.3333333333333333,0.075,0.6825,0.2583333333333333,0.3491666666666667
+Blond,dehydroxy.cis.linalool.oxide,6,0.6666666666666666,0.035,0.535,0.6316666666666666,0.1316666666666666
+Blond,isopentyl.butanoate,6,0.5,0.01,0.295,0.49,0.20500000000000002
+Blond,X2.ethyl.1.hexanol,6,0.6666666666666666,0.015,0.3275,0.6516666666666666,0.3391666666666666
+Blond,beta.phellandrene,6,0.8333333333333334,0.0525,0.5475,0.7808333333333334,0.2858333333333334
+Blond,limonene,6,0.8333333333333334,0.2625,0.98,0.5708333333333333,0.1466666666666666
+Blond,eucalyptol,6,0.8333333333333334,0.0725,0.6775,0.7608333333333334,0.15583333333333338
+Blond,cis.linalool.oxide,6,0.8333333333333334,0.14,0.67,0.6933333333333334,0.16333333333333333
+Blond,meta.cymenene,6,0.8333333333333334,0.2525,0.865,0.5808333333333333,0.03166666666666662
+Blond,n.nonanal,6,0.5,0.0,0.3725,0.5,0.1275
+Blond,neo.allo.ocimene,6,0.0,0.0,0.245,0.0,0.245
+Blond,trans.dihydro.beta.terpineol,6,0.3333333333333333,0.0,0.32,0.3333333333333333,0.013333333333333308
+Blond,cis.beta.terpineol,6,0.8333333333333334,0.0575,0.68,0.7758333333333334,0.15333333333333332
+Blond,y.methyl.1.octanol,6,0.5,0.0725,0.575,0.4275,0.07499999999999996
+Blond,cis.dihydro.beta.terpineol,6,1.0,0.2175,0.8475,0.7825,0.15249999999999997
+Blond,dimethoxy..E..citral,6,0.0,0.0,0.1925,0.0,0.1925
+Blond,geosmin,6,0.16666666666666666,0.0525,0.53,0.11416666666666667,0.3633333333333334
+Blond,X4.8.alpha.epoxy.caryophyllane,6,0.0,0.0,0.2325,0.0,0.2325
+Blond,beta.humulene,6,0.3333333333333333,0.0825,0.62,0.2508333333333333,0.2866666666666667
+Blond,X.E..beta.farnesene,6,0.0,0.045,0.4325,0.045,0.4325
+Blond,valencene,6,0.8333333333333334,0.07,0.7,0.7633333333333334,0.13333333333333341
+Blond,E.methyl.isoeugenol,6,0.16666666666666666,0.0,0.42,0.16666666666666666,0.2533333333333333
+Blond,butylated.hydroxytoluene,6,0.6666666666666666,0.0,0.4075,0.6666666666666666,0.25916666666666666
+Blond,X.E..dihydro.apofarnesal,6,0.16666666666666666,0.0175,0.4825,0.14916666666666667,0.3158333333333333
+Blond,X.E..ortho.methoxy.cinnamaldehyde,6,0.16666666666666666,0.04,0.3525,0.12666666666666665,0.18583333333333332
+Blond,spathulenol,6,0.16666666666666666,0.0025,0.355,0.16416666666666666,0.18833333333333332
+Blond,gamma.eudesmol,6,0.3333333333333333,0.205,0.8125,0.12833333333333333,0.4791666666666667
+Blond,X1.2.dihydro.8.hydroxy..2E..linalool,6,0.5,0.0,0.305,0.5,0.195
+Blond,selin.11.en.4.alpha.ol,6,0.5,0.065,0.51,0.435,0.010000000000000009
+Blond,alpha.eudesmol,6,0.16666666666666666,0.045,0.435,0.12166666666666666,0.2683333333333333
+Blond,foeniculin,6,1.0,0.0,0.475,1.0,0.525
+Blond,X2E.6Z.farnesal,6,0.0,0.0125,0.185,0.0125,0.185
+Blond,caryophyllene.acetate,6,0.16666666666666666,0.025,0.355,0.14166666666666666,0.18833333333333332
+Blond,X14.hydroxy.alpha.humulene,6,0.0,0.0175,0.28,0.0175,0.28
+Blond,X2Z.6E.farnesal,6,0.16666666666666666,0.01,0.27,0.15666666666666665,0.10333333333333336
+Blond,X2Z.6Z.farnesol,6,0.3333333333333333,0.015,0.48,0.3183333333333333,0.14666666666666667
+Blond,X2E.6E.methyl.farnesoate,6,0.16666666666666666,0.0025,0.3325,0.16416666666666666,0.16583333333333336
+Blond,X2.ethylhexylsalicylate,6,0.6666666666666666,0.0075,0.3825,0.6591666666666667,0.2841666666666666
+Blond,isopropyl.hexadecanoate,6,0.5,0.0975,0.5825,0.40249999999999997,0.08250000000000002
+Brett/cofermented,CS2,1,1.0,0.025,0.8825,0.975,0.11750000000000005
+Brett/cofermented,ethyl_2.methyl_butyrate,1,0.0,0.0,0.185,0.0,0.185
+Brett/cofermented,ethyl_isovalerate,1,0.0,0.0025,0.235,0.0025,0.235
+Brett/cofermented,octyl_acetate,1,0.0,0.0525,0.5625,0.0525,0.5625
+Brett/cofermented,X4VG,1,0.0,0.09,0.6525,0.09,0.6525
+Brett/cofermented,propylene.glycol,1,0.0,0.0,0.1775,0.0,0.1775
+Brett/cofermented,ethyl.lactate,1,0.0,0.0925,0.8725,0.0925,0.8725
+Brett/cofermented,X2.6.dimethyl.pyrazine,1,0.0,0.0125,0.47,0.0125,0.47
+Brett/cofermented,X6.methyl.5.hepten.2.one,1,1.0,0.1375,0.935,0.8625,0.06499999999999995
+Brett/cofermented,alpha.phellandrene,1,0.0,0.0775,0.64,0.0775,0.64
+Brett/cofermented,dehydroxy.cis.linalool.oxide,1,0.0,0.0,0.405,0.0,0.405
+Brett/cofermented,isopentyl.butanoate,1,0.0,0.005,0.1875,0.005,0.1875
+Brett/cofermented,X2.ethyl.1.hexanol,1,0.0,0.0,0.385,0.0,0.385
+Brett/cofermented,beta.phellandrene,1,0.0,0.0375,0.45,0.0375,0.45
+Brett/cofermented,limonene,1,1.0,0.29,0.905,0.71,0.09499999999999997
+Brett/cofermented,eucalyptol,1,0.0,0.0525,0.5825,0.0525,0.5825
+Brett/cofermented,cis.linalool.oxide,1,0.0,0.02,0.41,0.02,0.41
+Brett/cofermented,meta.cymenene,1,1.0,0.1925,0.915,0.8075,0.08499999999999996
+Brett/cofermented,n.nonanal,1,1.0,0.0,0.3125,1.0,0.6875
+Brett/cofermented,neo.allo.ocimene,1,0.0,0.0,0.19,0.0,0.19
+Brett/cofermented,trans.dihydro.beta.terpineol,1,0.0,0.0,0.2525,0.0,0.2525
+Brett/cofermented,cis.beta.terpineol,1,1.0,0.12,0.745,0.88,0.255
+Brett/cofermented,y.methyl.1.octanol,1,0.0,0.03,0.535,0.03,0.535
+Brett/cofermented,cis.dihydro.beta.terpineol,1,0.0,0.14,0.6925,0.14,0.6925
+Brett/cofermented,dimethoxy..E..citral,1,0.0,0.0,0.3275,0.0,0.3275
+Brett/cofermented,geosmin,1,0.0,0.015,0.4375,0.015,0.4375
+Brett/cofermented,X4.8.alpha.epoxy.caryophyllane,1,0.0,0.0075,0.46,0.0075,0.46
+Brett/cofermented,beta.humulene,1,1.0,0.2,0.8375,0.8,0.16249999999999998
+Brett/cofermented,X.E..beta.farnesene,1,0.0,0.055,0.4825,0.055,0.4825
+Brett/cofermented,valencene,1,1.0,0.035,0.685,0.965,0.31499999999999995
+Brett/cofermented,E.methyl.isoeugenol,1,0.0,0.0,0.2775,0.0,0.2775
+Brett/cofermented,butylated.hydroxytoluene,1,0.0,0.0,0.2375,0.0,0.2375
+Brett/cofermented,X.E..dihydro.apofarnesal,1,0.0,0.005,0.3275,0.005,0.3275
+Brett/cofermented,X.E..ortho.methoxy.cinnamaldehyde,1,0.0,0.0,0.295,0.0,0.295
+Brett/cofermented,spathulenol,1,0.0,0.0,0.32,0.0,0.32
+Brett/cofermented,gamma.eudesmol,1,0.0,0.0625,0.5925,0.0625,0.5925
+Brett/cofermented,X1.2.dihydro.8.hydroxy..2E..linalool,1,0.0,0.0225,0.2425,0.0225,0.2425
+Brett/cofermented,selin.11.en.4.alpha.ol,1,0.0,0.0025,0.4925,0.0025,0.4925
+Brett/cofermented,alpha.eudesmol,1,0.0,0.0,0.43,0.0,0.43
+Brett/cofermented,foeniculin,1,1.0,0.01,0.6325,0.99,0.36750000000000005
+Brett/cofermented,X2E.6Z.farnesal,1,0.0,0.0275,0.315,0.0275,0.315
+Brett/cofermented,caryophyllene.acetate,1,0.0,0.005,0.4375,0.005,0.4375
+Brett/cofermented,X14.hydroxy.alpha.humulene,1,0.0,0.0075,0.365,0.0075,0.365
+Brett/cofermented,X2Z.6E.farnesal,1,0.0,0.0275,0.49,0.0275,0.49
+Brett/cofermented,X2Z.6Z.farnesol,1,0.0,0.005,0.2575,0.005,0.2575
+Brett/cofermented,X2E.6E.methyl.farnesoate,1,0.0,0.0025,0.35,0.0025,0.35
+Brett/cofermented,X2.ethylhexylsalicylate,1,1.0,0.0025,0.3525,0.9975,0.6475
+Brett/cofermented,isopropyl.hexadecanoate,1,1.0,0.0775,0.7025,0.9225,0.2975
+Brown,CS2,2,0.5,0.0675,0.8725,0.4325,0.37250000000000005
+Brown,ethyl_2.methyl_butyrate,2,0.0,0.065,0.3225,0.065,0.3225
+Brown,ethyl_isovalerate,2,0.0,0.04,0.3475,0.04,0.3475
+Brown,octyl_acetate,2,0.0,0.0075,0.3,0.0075,0.3
+Brown,X4VG,2,1.0,0.0625,0.785,0.9375,0.21499999999999997
+Brown,propylene.glycol,2,0.0,0.0,0.145,0.0,0.145
+Brown,ethyl.lactate,2,0.5,0.08,0.8425,0.42,0.3425
+Brown,X2.6.dimethyl.pyrazine,2,0.0,0.02,0.265,0.02,0.265
+Brown,X6.methyl.5.hepten.2.one,2,1.0,0.2975,0.87,0.7025,0.13
+Brown,alpha.phellandrene,2,1.0,0.09,0.6025,0.91,0.39749999999999996
+Brown,dehydroxy.cis.linalool.oxide,2,1.0,0.0025,0.61,0.9975,0.39
+Brown,isopentyl.butanoate,2,0.5,0.01,0.4475,0.49,0.05249999999999999
+Brown,X2.ethyl.1.hexanol,2,0.0,0.0,0.4,0.0,0.4
+Brown,beta.phellandrene,2,1.0,0.0525,0.4475,0.9475,0.5525
+Brown,limonene,2,1.0,0.3025,0.88,0.6975,0.12
+Brown,eucalyptol,2,1.0,0.045,0.595,0.955,0.405
+Brown,cis.linalool.oxide,2,1.0,0.07,0.6325,0.9299999999999999,0.36750000000000005
+Brown,meta.cymenene,2,1.0,0.215,0.865,0.785,0.135
+Brown,n.nonanal,2,1.0,0.005,0.415,0.995,0.585
+Brown,neo.allo.ocimene,2,0.0,0.0,0.165,0.0,0.165
+Brown,trans.dihydro.beta.terpineol,2,0.0,0.0075,0.3725,0.0075,0.3725
+Brown,cis.beta.terpineol,2,0.5,0.0725,0.7775,0.4275,0.27749999999999997
+Brown,y.methyl.1.octanol,2,0.5,0.16,0.675,0.33999999999999997,0.17500000000000004
+Brown,cis.dihydro.beta.terpineol,2,1.0,0.34,0.925,0.6599999999999999,0.07499999999999996
+Brown,dimethoxy..E..citral,2,0.0,0.0,0.21,0.0,0.21
+Brown,geosmin,2,0.5,0.14,0.57,0.36,0.06999999999999995
+Brown,X4.8.alpha.epoxy.caryophyllane,2,0.0,0.0,0.2475,0.0,0.2475
+Brown,beta.humulene,2,0.0,0.07,0.6275,0.07,0.6275
+Brown,X.E..beta.farnesene,2,0.5,0.005,0.19,0.495,0.31
+Brown,valencene,2,0.5,0.0425,0.6175,0.4575,0.11750000000000005
+Brown,E.methyl.isoeugenol,2,0.0,0.0,0.4825,0.0,0.4825
+Brown,butylated.hydroxytoluene,2,0.0,0.0075,0.5675,0.0075,0.5675
+Brown,X.E..dihydro.apofarnesal,2,0.5,0.01,0.4475,0.49,0.05249999999999999
+Brown,X.E..ortho.methoxy.cinnamaldehyde,2,1.0,0.025,0.3225,0.975,0.6775
+Brown,spathulenol,2,0.5,0.005,0.4775,0.495,0.02250000000000002
+Brown,gamma.eudesmol,2,0.5,0.08,0.4875,0.42,0.012500000000000011
+Brown,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.0,0.015,0.3475,0.015,0.3475
+Brown,selin.11.en.4.alpha.ol,2,0.5,0.0425,0.48,0.4575,0.020000000000000018
+Brown,alpha.eudesmol,2,0.5,0.0075,0.4425,0.4925,0.057499999999999996
+Brown,foeniculin,2,1.0,0.005,0.5075,0.995,0.49250000000000005
+Brown,X2E.6Z.farnesal,2,0.0,0.0325,0.375,0.0325,0.375
+Brown,caryophyllene.acetate,2,0.0,0.0075,0.39,0.0075,0.39
+Brown,X14.hydroxy.alpha.humulene,2,0.0,0.015,0.3175,0.015,0.3175
+Brown,X2Z.6E.farnesal,2,0.0,0.035,0.3925,0.035,0.3925
+Brown,X2Z.6Z.farnesol,2,0.0,0.0025,0.3425,0.0025,0.3425
+Brown,X2E.6E.methyl.farnesoate,2,0.0,0.025,0.3525,0.025,0.3525
+Brown,X2.ethylhexylsalicylate,2,0.5,0.0,0.25,0.5,0.25
+Brown,isopropyl.hexadecanoate,2,0.5,0.0475,0.7475,0.4525,0.24750000000000005
+Christmas,CS2,2,1.0,0.0525,0.935,0.9475,0.06499999999999995
+Christmas,ethyl_2.methyl_butyrate,2,1.0,0.0325,0.26,0.9675,0.74
+Christmas,ethyl_isovalerate,2,0.0,0.005,0.1825,0.005,0.1825
+Christmas,octyl_acetate,2,0.0,0.015,0.46,0.015,0.46
+Christmas,X4VG,2,1.0,0.04,0.72,0.96,0.28
+Christmas,propylene.glycol,2,0.5,0.0,0.1975,0.5,0.3025
+Christmas,ethyl.lactate,2,1.0,0.095,0.82,0.905,0.18000000000000005
+Christmas,X2.6.dimethyl.pyrazine,2,0.5,0.035,0.4275,0.46499999999999997,0.07250000000000001
+Christmas,X6.methyl.5.hepten.2.one,2,1.0,0.2675,0.9375,0.7324999999999999,0.0625
+Christmas,alpha.phellandrene,2,0.5,0.0825,0.545,0.4175,0.04500000000000004
+Christmas,dehydroxy.cis.linalool.oxide,2,0.5,0.0025,0.3725,0.4975,0.1275
+Christmas,isopentyl.butanoate,2,1.0,0.005,0.23,0.995,0.77
+Christmas,X2.ethyl.1.hexanol,2,0.5,0.0,0.3125,0.5,0.1875
+Christmas,beta.phellandrene,2,0.0,0.0575,0.4425,0.0575,0.4425
+Christmas,limonene,2,0.5,0.2775,0.8625,0.22249999999999998,0.36250000000000004
+Christmas,eucalyptol,2,0.5,0.0275,0.585,0.4725,0.08499999999999996
+Christmas,cis.linalool.oxide,2,0.5,0.0775,0.565,0.4225,0.06499999999999995
+Christmas,meta.cymenene,2,1.0,0.2275,0.8175,0.7725,0.1825
+Christmas,n.nonanal,2,0.0,0.0,0.31,0.0,0.31
+Christmas,neo.allo.ocimene,2,0.5,0.0,0.1775,0.5,0.3225
+Christmas,trans.dihydro.beta.terpineol,2,1.0,0.01,0.44,0.99,0.56
+Christmas,cis.beta.terpineol,2,0.0,0.115,0.6175,0.115,0.6175
+Christmas,y.methyl.1.octanol,2,1.0,0.1325,0.685,0.8674999999999999,0.31499999999999995
+Christmas,cis.dihydro.beta.terpineol,2,1.0,0.2575,0.795,0.7424999999999999,0.20499999999999996
+Christmas,dimethoxy..E..citral,2,0.0,0.0025,0.1775,0.0025,0.1775
+Christmas,geosmin,2,1.0,0.085,0.5725,0.915,0.4275
+Christmas,X4.8.alpha.epoxy.caryophyllane,2,0.0,0.0,0.2225,0.0,0.2225
+Christmas,beta.humulene,2,0.5,0.11,0.675,0.39,0.17500000000000004
+Christmas,X.E..beta.farnesene,2,0.5,0.03,0.2525,0.47,0.2475
+Christmas,valencene,2,0.5,0.05,0.65,0.45,0.15000000000000002
+Christmas,E.methyl.isoeugenol,2,0.0,0.0,0.38,0.0,0.38
+Christmas,butylated.hydroxytoluene,2,0.0,0.0,0.3525,0.0,0.3525
+Christmas,X.E..dihydro.apofarnesal,2,0.5,0.0,0.345,0.5,0.15500000000000003
+Christmas,X.E..ortho.methoxy.cinnamaldehyde,2,0.5,0.0075,0.325,0.4925,0.175
+Christmas,spathulenol,2,0.0,0.0025,0.35,0.0025,0.35
+Christmas,gamma.eudesmol,2,1.0,0.0825,0.6375,0.9175,0.36250000000000004
+Christmas,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.5,0.0,0.2725,0.5,0.22749999999999998
+Christmas,selin.11.en.4.alpha.ol,2,0.5,0.055,0.5125,0.445,0.012499999999999956
+Christmas,alpha.eudesmol,2,1.0,0.0025,0.3675,0.9975,0.6325000000000001
+Christmas,foeniculin,2,0.5,0.005,0.5325,0.495,0.03249999999999997
+Christmas,X2E.6Z.farnesal,2,0.0,0.0225,0.33,0.0225,0.33
+Christmas,caryophyllene.acetate,2,0.5,0.0025,0.355,0.4975,0.14500000000000002
+Christmas,X14.hydroxy.alpha.humulene,2,0.0,0.0,0.2675,0.0,0.2675
+Christmas,X2Z.6E.farnesal,2,0.0,0.025,0.3325,0.025,0.3325
+Christmas,X2Z.6Z.farnesol,2,0.0,0.0,0.255,0.0,0.255
+Christmas,X2E.6E.methyl.farnesoate,2,0.5,0.0,0.365,0.5,0.135
+Christmas,X2.ethylhexylsalicylate,2,1.0,0.0,0.2425,1.0,0.7575000000000001
+Christmas,isopropyl.hexadecanoate,2,0.0,0.0475,0.46,0.0475,0.46
+Dubbel,CS2,2,1.0,0.0175,0.75,0.9825,0.25
+Dubbel,ethyl_2.methyl_butyrate,2,0.0,0.02,0.2925,0.02,0.2925
+Dubbel,ethyl_isovalerate,2,0.0,0.01,0.5575,0.01,0.5575
+Dubbel,octyl_acetate,2,1.0,0.0075,0.3875,0.9925,0.6125
+Dubbel,X4VG,2,0.5,0.02,0.82,0.48,0.31999999999999995
+Dubbel,propylene.glycol,2,0.5,0.0,0.215,0.5,0.28500000000000003
+Dubbel,ethyl.lactate,2,0.5,0.0725,0.82,0.4275,0.31999999999999995
+Dubbel,X2.6.dimethyl.pyrazine,2,0.0,0.0075,0.245,0.0075,0.245
+Dubbel,X6.methyl.5.hepten.2.one,2,1.0,0.1475,0.905,0.8525,0.09499999999999997
+Dubbel,alpha.phellandrene,2,0.5,0.06,0.6525,0.44,0.15249999999999997
+Dubbel,dehydroxy.cis.linalool.oxide,2,0.5,0.0,0.475,0.5,0.025000000000000022
+Dubbel,isopentyl.butanoate,2,0.5,0.0,0.3425,0.5,0.15749999999999997
+Dubbel,X2.ethyl.1.hexanol,2,0.5,0.0,0.21,0.5,0.29000000000000004
+Dubbel,beta.phellandrene,2,0.5,0.025,0.4475,0.475,0.05249999999999999
+Dubbel,limonene,2,1.0,0.235,0.8775,0.765,0.12250000000000005
+Dubbel,eucalyptol,2,1.0,0.035,0.435,0.965,0.565
+Dubbel,cis.linalool.oxide,2,0.5,0.0275,0.415,0.4725,0.08500000000000002
+Dubbel,meta.cymenene,2,1.0,0.1975,0.8775,0.8025,0.12250000000000005
+Dubbel,n.nonanal,2,1.0,0.0,0.465,1.0,0.5349999999999999
+Dubbel,neo.allo.ocimene,2,0.0,0.0,0.3725,0.0,0.3725
+Dubbel,trans.dihydro.beta.terpineol,2,0.5,0.0,0.315,0.5,0.185
+Dubbel,cis.beta.terpineol,2,0.5,0.0325,0.8175,0.4675,0.3175
+Dubbel,y.methyl.1.octanol,2,1.0,0.0325,0.565,0.9675,0.43500000000000005
+Dubbel,cis.dihydro.beta.terpineol,2,0.5,0.1925,0.8525,0.3075,0.35250000000000004
+Dubbel,dimethoxy..E..citral,2,0.0,0.0,0.195,0.0,0.195
+Dubbel,geosmin,2,0.5,0.035,0.6675,0.46499999999999997,0.16749999999999998
+Dubbel,X4.8.alpha.epoxy.caryophyllane,2,0.5,0.0,0.305,0.5,0.195
+Dubbel,beta.humulene,2,1.0,0.0475,0.7525,0.9525,0.24750000000000005
+Dubbel,X.E..beta.farnesene,2,0.5,0.0025,0.175,0.4975,0.325
+Dubbel,valencene,2,0.5,0.0175,0.6525,0.4825,0.15249999999999997
+Dubbel,E.methyl.isoeugenol,2,1.0,0.0,0.4,1.0,0.6
+Dubbel,butylated.hydroxytoluene,2,0.5,0.0,0.3125,0.5,0.1875
+Dubbel,X.E..dihydro.apofarnesal,2,0.5,0.0,0.38,0.5,0.12
+Dubbel,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.0,0.195,0.0,0.195
+Dubbel,spathulenol,2,0.5,0.0,0.31,0.5,0.19
+Dubbel,gamma.eudesmol,2,0.0,0.06,0.5625,0.06,0.5625
+Dubbel,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.0,0.0,0.1625,0.0,0.1625
+Dubbel,selin.11.en.4.alpha.ol,2,0.5,0.0175,0.5375,0.4825,0.03749999999999998
+Dubbel,alpha.eudesmol,2,0.0,0.0,0.3725,0.0,0.3725
+Dubbel,foeniculin,2,1.0,0.0025,0.4975,0.9975,0.5025
+Dubbel,X2E.6Z.farnesal,2,0.5,0.0075,0.3175,0.4925,0.1825
+Dubbel,caryophyllene.acetate,2,1.0,0.0025,0.4025,0.9975,0.5974999999999999
+Dubbel,X14.hydroxy.alpha.humulene,2,0.5,0.0,0.4575,0.5,0.04249999999999998
+Dubbel,X2Z.6E.farnesal,2,0.5,0.0075,0.2675,0.4925,0.23249999999999998
+Dubbel,X2Z.6Z.farnesol,2,0.0,0.0,0.31,0.0,0.31
+Dubbel,X2E.6E.methyl.farnesoate,2,0.5,0.005,0.2575,0.495,0.2425
+Dubbel,X2.ethylhexylsalicylate,2,0.0,0.0,0.1825,0.0,0.1825
+Dubbel,isopropyl.hexadecanoate,2,0.0,0.0225,0.555,0.0225,0.555
+Flanders old brown,CS2,1,1.0,0.0175,0.8575,0.9825,0.14249999999999996
+Flanders old brown,ethyl_2.methyl_butyrate,1,1.0,0.0,0.225,1.0,0.775
+Flanders old brown,ethyl_isovalerate,1,0.0,0.0,0.2475,0.0,0.2475
+Flanders old brown,octyl_acetate,1,0.0,0.005,0.3175,0.005,0.3175
+Flanders old brown,X4VG,1,1.0,0.1025,0.7975,0.8975,0.2025
+Flanders old brown,propylene.glycol,1,0.0,0.0,0.2975,0.0,0.2975
+Flanders old brown,ethyl.lactate,1,0.0,0.0375,0.75,0.0375,0.75
+Flanders old brown,X2.6.dimethyl.pyrazine,1,1.0,0.01,0.3325,0.99,0.6675
+Flanders old brown,X6.methyl.5.hepten.2.one,1,1.0,0.225,0.8975,0.775,0.10250000000000004
+Flanders old brown,alpha.phellandrene,1,1.0,0.0775,0.59,0.9225,0.41000000000000003
+Flanders old brown,dehydroxy.cis.linalool.oxide,1,0.0,0.0025,0.3825,0.0025,0.3825
+Flanders old brown,isopentyl.butanoate,1,1.0,0.0,0.2175,1.0,0.7825
+Flanders old brown,X2.ethyl.1.hexanol,1,0.0,0.0,0.18,0.0,0.18
+Flanders old brown,beta.phellandrene,1,1.0,0.0325,0.5175,0.9675,0.48250000000000004
+Flanders old brown,limonene,1,1.0,0.245,0.91,0.755,0.08999999999999997
+Flanders old brown,eucalyptol,1,1.0,0.0275,0.5775,0.9725,0.4225
+Flanders old brown,cis.linalool.oxide,1,1.0,0.02,0.4175,0.98,0.5825
+Flanders old brown,meta.cymenene,1,1.0,0.165,0.9025,0.835,0.09750000000000003
+Flanders old brown,n.nonanal,1,1.0,0.0,0.3725,1.0,0.6275
+Flanders old brown,neo.allo.ocimene,1,0.0,0.0,0.2925,0.0,0.2925
+Flanders old brown,trans.dihydro.beta.terpineol,1,0.0,0.0,0.2125,0.0,0.2125
+Flanders old brown,cis.beta.terpineol,1,1.0,0.105,0.6825,0.895,0.3175
+Flanders old brown,y.methyl.1.octanol,1,0.0,0.0525,0.59,0.0525,0.59
+Flanders old brown,cis.dihydro.beta.terpineol,1,1.0,0.2575,0.915,0.7424999999999999,0.08499999999999996
+Flanders old brown,dimethoxy..E..citral,1,0.0,0.0025,0.375,0.0025,0.375
+Flanders old brown,geosmin,1,1.0,0.0925,0.6125,0.9075,0.38749999999999996
+Flanders old brown,X4.8.alpha.epoxy.caryophyllane,1,0.0,0.0075,0.305,0.0075,0.305
+Flanders old brown,beta.humulene,1,0.0,0.1675,0.7525,0.1675,0.7525
+Flanders old brown,X.E..beta.farnesene,1,0.0,0.01,0.2525,0.01,0.2525
+Flanders old brown,valencene,1,1.0,0.0725,0.6475,0.9275,0.35250000000000004
+Flanders old brown,E.methyl.isoeugenol,1,0.0,0.0,0.345,0.0,0.345
+Flanders old brown,butylated.hydroxytoluene,1,0.0,0.0,0.3475,0.0,0.3475
+Flanders old brown,X.E..dihydro.apofarnesal,1,0.0,0.0,0.355,0.0,0.355
+Flanders old brown,X.E..ortho.methoxy.cinnamaldehyde,1,0.0,0.0025,0.2,0.0025,0.2
+Flanders old brown,spathulenol,1,0.0,0.0025,0.1825,0.0025,0.1825
+Flanders old brown,gamma.eudesmol,1,1.0,0.0425,0.4075,0.9575,0.5925
+Flanders old brown,X1.2.dihydro.8.hydroxy..2E..linalool,1,0.0,0.0025,0.4675,0.0025,0.4675
+Flanders old brown,selin.11.en.4.alpha.ol,1,1.0,0.02,0.5625,0.98,0.4375
+Flanders old brown,alpha.eudesmol,1,1.0,0.0075,0.2725,0.9925,0.7275
+Flanders old brown,foeniculin,1,1.0,0.055,0.6775,0.945,0.3225
+Flanders old brown,X2E.6Z.farnesal,1,0.0,0.07,0.395,0.07,0.395
+Flanders old brown,caryophyllene.acetate,1,0.0,0.005,0.4875,0.005,0.4875
+Flanders old brown,X14.hydroxy.alpha.humulene,1,0.0,0.0025,0.3025,0.0025,0.3025
+Flanders old brown,X2Z.6E.farnesal,1,0.0,0.0775,0.48,0.0775,0.48
+Flanders old brown,X2Z.6Z.farnesol,1,0.0,0.0,0.2975,0.0,0.2975
+Flanders old brown,X2E.6E.methyl.farnesoate,1,0.0,0.0,0.2875,0.0,0.2875
+Flanders old brown,X2.ethylhexylsalicylate,1,0.0,0.0,0.3,0.0,0.3
+Flanders old brown,isopropyl.hexadecanoate,1,1.0,0.0175,0.4725,0.9825,0.5275000000000001
+Fruitbeer,CS2,2,1.0,0.02,0.835,0.98,0.16500000000000004
+Fruitbeer,ethyl_2.methyl_butyrate,2,0.0,0.0175,0.2425,0.0175,0.2425
+Fruitbeer,ethyl_isovalerate,2,0.0,0.005,0.2225,0.005,0.2225
+Fruitbeer,octyl_acetate,2,0.0,0.0125,0.305,0.0125,0.305
+Fruitbeer,X4VG,2,0.5,0.125,0.7625,0.375,0.26249999999999996
+Fruitbeer,propylene.glycol,2,0.0,0.0,0.2875,0.0,0.2875
+Fruitbeer,ethyl.lactate,2,0.5,0.14,0.8,0.36,0.30000000000000004
+Fruitbeer,X2.6.dimethyl.pyrazine,2,0.0,0.0,0.2125,0.0,0.2125
+Fruitbeer,X6.methyl.5.hepten.2.one,2,1.0,0.16,0.8975,0.84,0.10250000000000004
+Fruitbeer,alpha.phellandrene,2,0.5,0.04,0.4875,0.46,0.012500000000000011
+Fruitbeer,dehydroxy.cis.linalool.oxide,2,0.0,0.0025,0.19,0.0025,0.19
+Fruitbeer,isopentyl.butanoate,2,0.0,0.0,0.3575,0.0,0.3575
+Fruitbeer,X2.ethyl.1.hexanol,2,0.0,0.0,0.1525,0.0,0.1525
+Fruitbeer,beta.phellandrene,2,0.0,0.005,0.2625,0.005,0.2625
+Fruitbeer,limonene,2,1.0,0.19,0.77,0.81,0.22999999999999998
+Fruitbeer,eucalyptol,2,0.0,0.0075,0.5225,0.0075,0.5225
+Fruitbeer,cis.linalool.oxide,2,0.0,0.0125,0.315,0.0125,0.315
+Fruitbeer,meta.cymenene,2,0.0,0.0575,0.545,0.0575,0.545
+Fruitbeer,n.nonanal,2,0.0,0.0,0.2625,0.0,0.2625
+Fruitbeer,neo.allo.ocimene,2,1.0,0.0,0.3475,1.0,0.6525000000000001
+Fruitbeer,trans.dihydro.beta.terpineol,2,0.0,0.0,0.1875,0.0,0.1875
+Fruitbeer,cis.beta.terpineol,2,1.0,0.035,0.5125,0.965,0.48750000000000004
+Fruitbeer,y.methyl.1.octanol,2,1.0,0.0725,0.745,0.9275,0.255
+Fruitbeer,cis.dihydro.beta.terpineol,2,1.0,0.31,0.9375,0.69,0.0625
+Fruitbeer,dimethoxy..E..citral,2,0.0,0.0,0.1975,0.0,0.1975
+Fruitbeer,geosmin,2,0.5,0.075,0.645,0.425,0.14500000000000002
+Fruitbeer,X4.8.alpha.epoxy.caryophyllane,2,0.0,0.0,0.2725,0.0,0.2725
+Fruitbeer,beta.humulene,2,0.5,0.1425,0.7625,0.35750000000000004,0.26249999999999996
+Fruitbeer,X.E..beta.farnesene,2,0.5,0.0075,0.2975,0.4925,0.2025
+Fruitbeer,valencene,2,0.5,0.0,0.5475,0.5,0.04749999999999999
+Fruitbeer,E.methyl.isoeugenol,2,0.0,0.0,0.3375,0.0,0.3375
+Fruitbeer,butylated.hydroxytoluene,2,0.5,0.0,0.245,0.5,0.255
+Fruitbeer,X.E..dihydro.apofarnesal,2,0.0,0.0,0.2825,0.0,0.2825
+Fruitbeer,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.0,0.1625,0.0,0.1625
+Fruitbeer,spathulenol,2,0.0,0.0,0.1975,0.0,0.1975
+Fruitbeer,gamma.eudesmol,2,0.0,0.035,0.5675,0.035,0.5675
+Fruitbeer,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.5,0.0225,0.4925,0.4775,0.007500000000000007
+Fruitbeer,selin.11.en.4.alpha.ol,2,0.0,0.005,0.4725,0.005,0.4725
+Fruitbeer,alpha.eudesmol,2,0.5,0.01,0.5225,0.49,0.022499999999999964
+Fruitbeer,foeniculin,2,0.0,0.0,0.495,0.0,0.495
+Fruitbeer,X2E.6Z.farnesal,2,0.5,0.0375,0.46,0.4625,0.03999999999999998
+Fruitbeer,caryophyllene.acetate,2,0.0,0.005,0.4675,0.005,0.4675
+Fruitbeer,X14.hydroxy.alpha.humulene,2,0.0,0.0025,0.265,0.0025,0.265
+Fruitbeer,X2Z.6E.farnesal,2,0.5,0.0975,0.5825,0.40249999999999997,0.08250000000000002
+Fruitbeer,X2Z.6Z.farnesol,2,0.0,0.0,0.2225,0.0,0.2225
+Fruitbeer,X2E.6E.methyl.farnesoate,2,0.5,0.0,0.525,0.5,0.025000000000000022
+Fruitbeer,X2.ethylhexylsalicylate,2,0.0,0.0,0.165,0.0,0.165
+Fruitbeer,isopropyl.hexadecanoate,2,0.5,0.025,0.475,0.475,0.025000000000000022
+Hoppy,CS2,3,0.6666666666666666,0.01,0.785,0.6566666666666666,0.1183333333333334
+Hoppy,ethyl_2.methyl_butyrate,3,0.0,0.01,0.31,0.01,0.31
+Hoppy,ethyl_isovalerate,3,0.0,0.005,0.2175,0.005,0.2175
+Hoppy,octyl_acetate,3,0.6666666666666666,0.0825,0.615,0.5841666666666666,0.05166666666666664
+Hoppy,X4VG,3,0.6666666666666666,0.0075,0.535,0.6591666666666667,0.1316666666666666
+Hoppy,propylene.glycol,3,0.3333333333333333,0.0,0.2875,0.3333333333333333,0.04583333333333334
+Hoppy,ethyl.lactate,3,1.0,0.1825,0.8625,0.8175,0.13749999999999996
+Hoppy,X2.6.dimethyl.pyrazine,3,0.3333333333333333,0.015,0.385,0.3183333333333333,0.051666666666666694
+Hoppy,X6.methyl.5.hepten.2.one,3,0.6666666666666666,0.0325,0.6225,0.6341666666666667,0.044166666666666576
+Hoppy,alpha.phellandrene,3,0.3333333333333333,0.0325,0.475,0.3008333333333333,0.14166666666666666
+Hoppy,dehydroxy.cis.linalool.oxide,3,0.0,0.0,0.29,0.0,0.29
+Hoppy,isopentyl.butanoate,3,0.0,0.0,0.1,0.0,0.1
+Hoppy,X2.ethyl.1.hexanol,3,0.0,0.0,0.2275,0.0,0.2275
+Hoppy,beta.phellandrene,3,0.6666666666666666,0.0025,0.2825,0.6641666666666667,0.38416666666666666
+Hoppy,limonene,3,1.0,0.26,0.9225,0.74,0.07750000000000001
+Hoppy,eucalyptol,3,0.3333333333333333,0.0275,0.515,0.3058333333333333,0.1816666666666667
+Hoppy,cis.linalool.oxide,3,0.3333333333333333,0.0425,0.575,0.29083333333333333,0.24166666666666664
+Hoppy,meta.cymenene,3,1.0,0.2075,0.9025,0.7925,0.09750000000000003
+Hoppy,n.nonanal,3,0.3333333333333333,0.0,0.2475,0.3333333333333333,0.08583333333333332
+Hoppy,neo.allo.ocimene,3,0.0,0.0,0.1675,0.0,0.1675
+Hoppy,trans.dihydro.beta.terpineol,3,0.0,0.0,0.2675,0.0,0.2675
+Hoppy,cis.beta.terpineol,3,0.6666666666666666,0.045,0.655,0.6216666666666666,0.011666666666666603
+Hoppy,y.methyl.1.octanol,3,0.3333333333333333,0.005,0.3575,0.3283333333333333,0.02416666666666667
+Hoppy,cis.dihydro.beta.terpineol,3,0.3333333333333333,0.06,0.5925,0.2733333333333333,0.2591666666666667
+Hoppy,dimethoxy..E..citral,3,0.3333333333333333,0.0,0.21,0.3333333333333333,0.12333333333333332
+Hoppy,geosmin,3,0.0,0.015,0.265,0.015,0.265
+Hoppy,X4.8.alpha.epoxy.caryophyllane,3,0.0,0.0,0.305,0.0,0.305
+Hoppy,beta.humulene,3,0.6666666666666666,0.205,0.905,0.46166666666666667,0.2383333333333334
+Hoppy,X.E..beta.farnesene,3,0.6666666666666666,0.035,0.395,0.6316666666666666,0.2716666666666666
+Hoppy,valencene,3,0.6666666666666666,0.01,0.645,0.6566666666666666,0.021666666666666612
+Hoppy,E.methyl.isoeugenol,3,0.3333333333333333,0.0,0.51,0.3333333333333333,0.1766666666666667
+Hoppy,butylated.hydroxytoluene,3,0.0,0.0,0.28,0.0,0.28
+Hoppy,X.E..dihydro.apofarnesal,3,0.3333333333333333,0.0025,0.5725,0.3308333333333333,0.2391666666666667
+Hoppy,X.E..ortho.methoxy.cinnamaldehyde,3,0.3333333333333333,0.005,0.335,0.3283333333333333,0.0016666666666667052
+Hoppy,spathulenol,3,0.6666666666666666,0.0,0.48,0.6666666666666666,0.18666666666666665
+Hoppy,gamma.eudesmol,3,0.6666666666666666,0.11,0.705,0.5566666666666666,0.03833333333333333
+Hoppy,X1.2.dihydro.8.hydroxy..2E..linalool,3,0.0,0.0,0.18,0.0,0.18
+Hoppy,selin.11.en.4.alpha.ol,3,0.3333333333333333,0.0,0.315,0.3333333333333333,0.018333333333333313
+Hoppy,alpha.eudesmol,3,0.0,0.0025,0.3425,0.0025,0.3425
+Hoppy,foeniculin,3,0.6666666666666666,0.005,0.7125,0.6616666666666666,0.04583333333333339
+Hoppy,X2E.6Z.farnesal,3,0.0,0.0,0.3075,0.0,0.3075
+Hoppy,caryophyllene.acetate,3,0.0,0.005,0.435,0.005,0.435
+Hoppy,X14.hydroxy.alpha.humulene,3,0.3333333333333333,0.005,0.5475,0.3283333333333333,0.21416666666666667
+Hoppy,X2Z.6E.farnesal,3,0.3333333333333333,0.0025,0.2725,0.3308333333333333,0.060833333333333295
+Hoppy,X2Z.6Z.farnesol,3,0.3333333333333333,0.0,0.47,0.3333333333333333,0.13666666666666666
+Hoppy,X2E.6E.methyl.farnesoate,3,0.0,0.0,0.1575,0.0,0.1575
+Hoppy,X2.ethylhexylsalicylate,3,0.6666666666666666,0.0,0.5975,0.6666666666666666,0.0691666666666666
+Hoppy,isopropyl.hexadecanoate,3,0.6666666666666666,0.045,0.6975,0.6216666666666666,0.03083333333333338
+Kriek,CS2,2,0.5,0.02,0.73,0.48,0.22999999999999998
+Kriek,ethyl_2.methyl_butyrate,2,0.0,0.0125,0.225,0.0125,0.225
+Kriek,ethyl_isovalerate,2,0.0,0.0025,0.16,0.0025,0.16
+Kriek,octyl_acetate,2,0.0,0.085,0.5175,0.085,0.5175
+Kriek,X4VG,2,1.0,0.205,0.8675,0.795,0.13249999999999995
+Kriek,propylene.glycol,2,0.5,0.0,0.265,0.5,0.235
+Kriek,ethyl.lactate,2,0.5,0.0175,0.5825,0.4825,0.08250000000000002
+Kriek,X2.6.dimethyl.pyrazine,2,0.0,0.05,0.52,0.05,0.52
+Kriek,X6.methyl.5.hepten.2.one,2,1.0,0.325,0.935,0.675,0.06499999999999995
+Kriek,alpha.phellandrene,2,1.0,0.0425,0.6525,0.9575,0.34750000000000003
+Kriek,dehydroxy.cis.linalool.oxide,2,0.0,0.0,0.28,0.0,0.28
+Kriek,isopentyl.butanoate,2,0.5,0.0075,0.31,0.4925,0.19
+Kriek,X2.ethyl.1.hexanol,2,0.0,0.0,0.1625,0.0,0.1625
+Kriek,beta.phellandrene,2,0.0,0.0025,0.235,0.0025,0.235
+Kriek,limonene,2,1.0,0.15,0.89,0.85,0.10999999999999999
+Kriek,eucalyptol,2,0.5,0.065,0.585,0.435,0.08499999999999996
+Kriek,cis.linalool.oxide,2,0.0,0.01,0.375,0.01,0.375
+Kriek,meta.cymenene,2,0.0,0.0525,0.6925,0.0525,0.6925
+Kriek,n.nonanal,2,0.0,0.0025,0.325,0.0025,0.325
+Kriek,neo.allo.ocimene,2,1.0,0.0,0.36,1.0,0.64
+Kriek,trans.dihydro.beta.terpineol,2,0.0,0.0025,0.28,0.0025,0.28
+Kriek,cis.beta.terpineol,2,1.0,0.045,0.64,0.955,0.36
+Kriek,y.methyl.1.octanol,2,1.0,0.1475,0.74,0.8525,0.26
+Kriek,cis.dihydro.beta.terpineol,2,1.0,0.355,0.9175,0.645,0.08250000000000002
+Kriek,dimethoxy..E..citral,2,0.5,0.0,0.365,0.5,0.135
+Kriek,geosmin,2,1.0,0.14,0.7125,0.86,0.2875
+Kriek,X4.8.alpha.epoxy.caryophyllane,2,0.0,0.01,0.34,0.01,0.34
+Kriek,beta.humulene,2,0.0,0.135,0.7575,0.135,0.7575
+Kriek,X.E..beta.farnesene,2,0.5,0.1,0.5,0.4,0.0
+Kriek,valencene,2,1.0,0.0425,0.67,0.9575,0.32999999999999996
+Kriek,E.methyl.isoeugenol,2,1.0,0.0525,0.5525,0.9475,0.4475
+Kriek,butylated.hydroxytoluene,2,1.0,0.0025,0.36,0.9975,0.64
+Kriek,X.E..dihydro.apofarnesal,2,0.5,0.0,0.3,0.5,0.2
+Kriek,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.0025,0.2775,0.0025,0.2775
+Kriek,spathulenol,2,0.0,0.0,0.21,0.0,0.21
+Kriek,gamma.eudesmol,2,0.0,0.0225,0.535,0.0225,0.535
+Kriek,X1.2.dihydro.8.hydroxy..2E..linalool,2,1.0,0.0325,0.3675,0.9675,0.6325000000000001
+Kriek,selin.11.en.4.alpha.ol,2,0.5,0.06,0.6175,0.44,0.11750000000000005
+Kriek,alpha.eudesmol,2,0.5,0.01,0.4125,0.49,0.08750000000000002
+Kriek,foeniculin,2,0.5,0.0025,0.6525,0.4975,0.15249999999999997
+Kriek,X2E.6Z.farnesal,2,1.0,0.0325,0.4225,0.9675,0.5775
+Kriek,caryophyllene.acetate,2,0.0,0.0375,0.3775,0.0375,0.3775
+Kriek,X14.hydroxy.alpha.humulene,2,0.0,0.0075,0.28,0.0075,0.28
+Kriek,X2Z.6E.farnesal,2,1.0,0.045,0.39,0.955,0.61
+Kriek,X2Z.6Z.farnesol,2,0.0,0.0,0.31,0.0,0.31
+Kriek,X2E.6E.methyl.farnesoate,2,0.0,0.005,0.2375,0.005,0.2375
+Kriek,X2.ethylhexylsalicylate,2,0.0,0.0,0.2525,0.0,0.2525
+Kriek,isopropyl.hexadecanoate,2,1.0,0.015,0.625,0.985,0.375
+Lambic,CS2,2,1.0,0.0075,0.79,0.9925,0.20999999999999996
+Lambic,ethyl_2.methyl_butyrate,2,0.0,0.0025,0.145,0.0025,0.145
+Lambic,ethyl_isovalerate,2,0.0,0.0,0.15,0.0,0.15
+Lambic,octyl_acetate,2,1.0,0.0625,0.4475,0.9375,0.5525
+Lambic,X4VG,2,0.5,0.2075,0.91,0.2925,0.41000000000000003
+Lambic,propylene.glycol,2,0.5,0.0,0.2275,0.5,0.27249999999999996
+Lambic,ethyl.lactate,2,1.0,0.0225,0.705,0.9775,0.29500000000000004
+Lambic,X2.6.dimethyl.pyrazine,2,0.0,0.0025,0.235,0.0025,0.235
+Lambic,X6.methyl.5.hepten.2.one,2,1.0,0.18,0.93,0.8200000000000001,0.06999999999999995
+Lambic,alpha.phellandrene,2,1.0,0.085,0.61,0.915,0.39
+Lambic,dehydroxy.cis.linalool.oxide,2,0.5,0.0,0.335,0.5,0.16499999999999998
+Lambic,isopentyl.butanoate,2,0.0,0.0,0.17,0.0,0.17
+Lambic,X2.ethyl.1.hexanol,2,0.0,0.0,0.1775,0.0,0.1775
+Lambic,beta.phellandrene,2,1.0,0.0425,0.5725,0.9575,0.4275
+Lambic,limonene,2,1.0,0.2975,0.915,0.7025,0.08499999999999996
+Lambic,eucalyptol,2,0.5,0.07,0.6025,0.43,0.10250000000000004
+Lambic,cis.linalool.oxide,2,0.0,0.0125,0.2575,0.0125,0.2575
+Lambic,meta.cymenene,2,0.5,0.1475,0.675,0.35250000000000004,0.17500000000000004
+Lambic,n.nonanal,2,0.0,0.0,0.195,0.0,0.195
+Lambic,neo.allo.ocimene,2,1.0,0.0,0.5425,1.0,0.4575
+Lambic,trans.dihydro.beta.terpineol,2,0.0,0.0,0.3225,0.0,0.3225
+Lambic,cis.beta.terpineol,2,1.0,0.14,0.78,0.86,0.21999999999999997
+Lambic,y.methyl.1.octanol,2,1.0,0.02,0.6825,0.98,0.3175
+Lambic,cis.dihydro.beta.terpineol,2,1.0,0.18,0.93,0.8200000000000001,0.06999999999999995
+Lambic,dimethoxy..E..citral,2,0.0,0.0,0.2025,0.0,0.2025
+Lambic,geosmin,2,1.0,0.03,0.695,0.97,0.30500000000000005
+Lambic,X4.8.alpha.epoxy.caryophyllane,2,1.0,0.0025,0.57,0.9975,0.43000000000000005
+Lambic,beta.humulene,2,1.0,0.1675,0.885,0.8325,0.11499999999999999
+Lambic,X.E..beta.farnesene,2,0.5,0.025,0.4525,0.475,0.04749999999999999
+Lambic,valencene,2,1.0,0.0575,0.84,0.9425,0.16000000000000003
+Lambic,E.methyl.isoeugenol,2,0.5,0.015,0.5,0.485,0.0
+Lambic,butylated.hydroxytoluene,2,0.5,0.0,0.415,0.5,0.08500000000000002
+Lambic,X.E..dihydro.apofarnesal,2,0.5,0.0,0.3075,0.5,0.1925
+Lambic,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.0025,0.17,0.0025,0.17
+Lambic,spathulenol,2,0.5,0.0,0.1775,0.5,0.3225
+Lambic,gamma.eudesmol,2,0.0,0.0075,0.46,0.0075,0.46
+Lambic,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.0,0.005,0.3525,0.005,0.3525
+Lambic,selin.11.en.4.alpha.ol,2,0.5,0.0075,0.48,0.4925,0.020000000000000018
+Lambic,alpha.eudesmol,2,0.0,0.0025,0.2825,0.0025,0.2825
+Lambic,foeniculin,2,0.5,0.0075,0.4625,0.4925,0.03749999999999998
+Lambic,X2E.6Z.farnesal,2,0.0,0.0325,0.475,0.0325,0.475
+Lambic,caryophyllene.acetate,2,0.0,0.0,0.71,0.0,0.71
+Lambic,X14.hydroxy.alpha.humulene,2,0.0,0.0,0.155,0.0,0.155
+Lambic,X2Z.6E.farnesal,2,0.5,0.045,0.57,0.455,0.06999999999999995
+Lambic,X2Z.6Z.farnesol,2,0.0,0.0,0.44,0.0,0.44
+Lambic,X2E.6E.methyl.farnesoate,2,0.5,0.0025,0.225,0.4975,0.275
+Lambic,X2.ethylhexylsalicylate,2,0.0,0.0,0.2625,0.0,0.2625
+Lambic,isopropyl.hexadecanoate,2,0.0,0.045,0.695,0.045,0.695
+Low/No alcohol,CS2,2,0.5,0.225,0.94,0.275,0.43999999999999995
+Low/No alcohol,ethyl_2.methyl_butyrate,2,1.0,0.085,0.6275,0.915,0.37250000000000005
+Low/No alcohol,ethyl_isovalerate,2,1.0,0.0825,0.5825,0.9175,0.4175
+Low/No alcohol,octyl_acetate,2,1.0,0.0325,0.51,0.9675,0.49
+Low/No alcohol,X4VG,2,1.0,0.07,0.6675,0.9299999999999999,0.3325
+Low/No alcohol,propylene.glycol,2,0.0,0.0,0.2425,0.0,0.2425
+Low/No alcohol,ethyl.lactate,2,0.5,0.1375,0.88,0.3625,0.38
+Low/No alcohol,X2.6.dimethyl.pyrazine,2,0.0,0.01,0.34,0.01,0.34
+Low/No alcohol,X6.methyl.5.hepten.2.one,2,0.5,0.1275,0.825,0.3725,0.32499999999999996
+Low/No alcohol,alpha.phellandrene,2,0.5,0.075,0.5275,0.425,0.02749999999999997
+Low/No alcohol,dehydroxy.cis.linalool.oxide,2,0.0,0.035,0.67,0.035,0.67
+Low/No alcohol,isopentyl.butanoate,2,0.0,0.0,0.175,0.0,0.175
+Low/No alcohol,X2.ethyl.1.hexanol,2,0.0,0.0,0.2,0.0,0.2
+Low/No alcohol,beta.phellandrene,2,0.5,0.0325,0.3675,0.4675,0.1325
+Low/No alcohol,limonene,2,1.0,0.245,0.9025,0.755,0.09750000000000003
+Low/No alcohol,eucalyptol,2,0.5,0.11,0.705,0.39,0.20499999999999996
+Low/No alcohol,cis.linalool.oxide,2,1.0,0.0325,0.3475,0.9675,0.6525000000000001
+Low/No alcohol,meta.cymenene,2,1.0,0.1825,0.8,0.8175,0.19999999999999996
+Low/No alcohol,n.nonanal,2,0.5,0.0,0.405,0.5,0.09499999999999997
+Low/No alcohol,neo.allo.ocimene,2,0.0,0.0075,0.4225,0.0075,0.4225
+Low/No alcohol,trans.dihydro.beta.terpineol,2,0.5,0.0,0.225,0.5,0.275
+Low/No alcohol,cis.beta.terpineol,2,1.0,0.04,0.6725,0.96,0.3275
+Low/No alcohol,y.methyl.1.octanol,2,1.0,0.065,0.6125,0.935,0.38749999999999996
+Low/No alcohol,cis.dihydro.beta.terpineol,2,1.0,0.275,0.93,0.725,0.06999999999999995
+Low/No alcohol,dimethoxy..E..citral,2,0.0,0.0,0.4775,0.0,0.4775
+Low/No alcohol,geosmin,2,1.0,0.14,0.7425,0.86,0.25749999999999995
+Low/No alcohol,X4.8.alpha.epoxy.caryophyllane,2,0.5,0.0,0.1725,0.5,0.3275
+Low/No alcohol,beta.humulene,2,0.5,0.16,0.8475,0.33999999999999997,0.34750000000000003
+Low/No alcohol,X.E..beta.farnesene,2,0.0,0.045,0.4725,0.045,0.4725
+Low/No alcohol,valencene,2,1.0,0.1275,0.8125,0.8725,0.1875
+Low/No alcohol,E.methyl.isoeugenol,2,0.5,0.0075,0.5475,0.4925,0.04749999999999999
+Low/No alcohol,butylated.hydroxytoluene,2,0.5,0.015,0.4625,0.485,0.03749999999999998
+Low/No alcohol,X.E..dihydro.apofarnesal,2,1.0,0.0,0.46,1.0,0.54
+Low/No alcohol,X.E..ortho.methoxy.cinnamaldehyde,2,0.5,0.0175,0.5925,0.4825,0.09250000000000003
+Low/No alcohol,spathulenol,2,0.0,0.0,0.3075,0.0,0.3075
+Low/No alcohol,gamma.eudesmol,2,0.5,0.0825,0.675,0.4175,0.17500000000000004
+Low/No alcohol,X1.2.dihydro.8.hydroxy..2E..linalool,2,1.0,0.0025,0.2925,0.9975,0.7075
+Low/No alcohol,selin.11.en.4.alpha.ol,2,0.5,0.0125,0.5,0.4875,0.0
+Low/No alcohol,alpha.eudesmol,2,0.5,0.0075,0.3425,0.4925,0.15749999999999997
+Low/No alcohol,foeniculin,2,1.0,0.01,0.575,0.99,0.42500000000000004
+Low/No alcohol,X2E.6Z.farnesal,2,0.0,0.0275,0.3825,0.0275,0.3825
+Low/No alcohol,caryophyllene.acetate,2,0.5,0.0,0.47,0.5,0.030000000000000027
+Low/No alcohol,X14.hydroxy.alpha.humulene,2,0.5,0.01,0.3875,0.49,0.11249999999999999
+Low/No alcohol,X2Z.6E.farnesal,2,1.0,0.0675,0.66,0.9325,0.33999999999999997
+Low/No alcohol,X2Z.6Z.farnesol,2,0.5,0.0,0.25,0.5,0.25
+Low/No alcohol,X2E.6E.methyl.farnesoate,2,0.0,0.0025,0.3875,0.0025,0.3875
+Low/No alcohol,X2.ethylhexylsalicylate,2,0.0,0.0,0.225,0.0,0.225
+Low/No alcohol,isopropyl.hexadecanoate,2,0.5,0.0325,0.5975,0.4675,0.09750000000000003
+Pils/Lager,CS2,2,0.5,0.0725,0.92,0.4275,0.42000000000000004
+Pils/Lager,ethyl_2.methyl_butyrate,2,1.0,0.03,0.53,0.97,0.47
+Pils/Lager,ethyl_isovalerate,2,0.5,0.0175,0.5325,0.4825,0.03249999999999997
+Pils/Lager,octyl_acetate,2,0.0,0.0075,0.5375,0.0075,0.5375
+Pils/Lager,X4VG,2,0.5,0.0225,0.745,0.4775,0.245
+Pils/Lager,propylene.glycol,2,1.0,0.0,0.3675,1.0,0.6325000000000001
+Pils/Lager,ethyl.lactate,2,0.5,0.1175,0.79,0.3825,0.29000000000000004
+Pils/Lager,X2.6.dimethyl.pyrazine,2,0.0,0.0125,0.3025,0.0125,0.3025
+Pils/Lager,X6.methyl.5.hepten.2.one,2,0.5,0.1825,0.7825,0.3175,0.2825
+Pils/Lager,alpha.phellandrene,2,0.0,0.1175,0.595,0.1175,0.595
+Pils/Lager,dehydroxy.cis.linalool.oxide,2,0.0,0.0025,0.2475,0.0025,0.2475
+Pils/Lager,isopentyl.butanoate,2,0.0,0.0025,0.245,0.0025,0.245
+Pils/Lager,X2.ethyl.1.hexanol,2,0.0,0.0,0.1225,0.0,0.1225
+Pils/Lager,beta.phellandrene,2,0.0,0.055,0.4775,0.055,0.4775
+Pils/Lager,limonene,2,1.0,0.3275,0.925,0.6725,0.07499999999999996
+Pils/Lager,eucalyptol,2,0.0,0.0575,0.5975,0.0575,0.5975
+Pils/Lager,cis.linalool.oxide,2,1.0,0.06,0.6,0.94,0.4
+Pils/Lager,meta.cymenene,2,1.0,0.235,0.825,0.765,0.17500000000000004
+Pils/Lager,n.nonanal,2,0.0,0.0,0.28,0.0,0.28
+Pils/Lager,neo.allo.ocimene,2,0.0,0.0,0.1825,0.0,0.1825
+Pils/Lager,trans.dihydro.beta.terpineol,2,0.0,0.0,0.215,0.0,0.215
+Pils/Lager,cis.beta.terpineol,2,0.0,0.0875,0.6575,0.0875,0.6575
+Pils/Lager,y.methyl.1.octanol,2,1.0,0.0475,0.5675,0.9525,0.4325
+Pils/Lager,cis.dihydro.beta.terpineol,2,1.0,0.3225,0.93,0.6775,0.06999999999999995
+Pils/Lager,dimethoxy..E..citral,2,0.0,0.0,0.1525,0.0,0.1525
+Pils/Lager,geosmin,2,0.5,0.055,0.6475,0.445,0.14749999999999996
+Pils/Lager,X4.8.alpha.epoxy.caryophyllane,2,0.0,0.0,0.3625,0.0,0.3625
+Pils/Lager,beta.humulene,2,0.5,0.0325,0.7225,0.4675,0.22250000000000003
+Pils/Lager,X.E..beta.farnesene,2,0.0,0.0125,0.185,0.0125,0.185
+Pils/Lager,valencene,2,0.5,0.04,0.6275,0.46,0.12749999999999995
+Pils/Lager,E.methyl.isoeugenol,2,0.0,0.0,0.27,0.0,0.27
+Pils/Lager,butylated.hydroxytoluene,2,0.0,0.0,0.4,0.0,0.4
+Pils/Lager,X.E..dihydro.apofarnesal,2,1.0,0.0,0.2275,1.0,0.7725
+Pils/Lager,X.E..ortho.methoxy.cinnamaldehyde,2,0.5,0.0,0.335,0.5,0.16499999999999998
+Pils/Lager,spathulenol,2,0.0,0.0,0.1575,0.0,0.1575
+Pils/Lager,gamma.eudesmol,2,0.0,0.065,0.49,0.065,0.49
+Pils/Lager,X1.2.dihydro.8.hydroxy..2E..linalool,2,1.0,0.0025,0.44,0.9975,0.56
+Pils/Lager,selin.11.en.4.alpha.ol,2,1.0,0.0225,0.5775,0.9775,0.4225
+Pils/Lager,alpha.eudesmol,2,0.5,0.0025,0.3125,0.4975,0.1875
+Pils/Lager,foeniculin,2,0.5,0.0,0.645,0.5,0.14500000000000002
+Pils/Lager,X2E.6Z.farnesal,2,0.5,0.0075,0.4275,0.4925,0.07250000000000001
+Pils/Lager,caryophyllene.acetate,2,1.0,0.0,0.2425,1.0,0.7575000000000001
+Pils/Lager,X14.hydroxy.alpha.humulene,2,0.0,0.0,0.2225,0.0,0.2225
+Pils/Lager,X2Z.6E.farnesal,2,0.0,0.01,0.305,0.01,0.305
+Pils/Lager,X2Z.6Z.farnesol,2,0.5,0.0,0.32,0.5,0.18
+Pils/Lager,X2E.6E.methyl.farnesoate,2,0.5,0.0,0.175,0.5,0.325
+Pils/Lager,X2.ethylhexylsalicylate,2,0.0,0.0,0.3675,0.0,0.3675
+Pils/Lager,isopropyl.hexadecanoate,2,0.5,0.035,0.5875,0.46499999999999997,0.08750000000000002
+Saison,CS2,2,1.0,0.0075,0.7875,0.9925,0.21250000000000002
+Saison,ethyl_2.methyl_butyrate,2,0.0,0.0175,0.2575,0.0175,0.2575
+Saison,ethyl_isovalerate,2,0.0,0.0075,0.26,0.0075,0.26
+Saison,octyl_acetate,2,1.0,0.0775,0.6325,0.9225,0.36750000000000005
+Saison,X4VG,2,0.0,0.0125,0.55,0.0125,0.55
+Saison,propylene.glycol,2,0.5,0.0,0.28,0.5,0.21999999999999997
+Saison,ethyl.lactate,2,0.5,0.175,0.8175,0.325,0.3175
+Saison,X2.6.dimethyl.pyrazine,2,0.5,0.0225,0.405,0.4775,0.09499999999999997
+Saison,X6.methyl.5.hepten.2.one,2,0.5,0.05,0.565,0.45,0.06499999999999995
+Saison,alpha.phellandrene,2,0.0,0.025,0.4175,0.025,0.4175
+Saison,dehydroxy.cis.linalool.oxide,2,0.5,0.0025,0.3525,0.4975,0.14750000000000002
+Saison,isopentyl.butanoate,2,0.0,0.0,0.1625,0.0,0.1625
+Saison,X2.ethyl.1.hexanol,2,0.0,0.0,0.2275,0.0,0.2275
+Saison,beta.phellandrene,2,0.5,0.0025,0.29,0.4975,0.21000000000000002
+Saison,limonene,2,1.0,0.1675,0.9,0.8325,0.09999999999999998
+Saison,eucalyptol,2,0.5,0.01,0.48,0.49,0.020000000000000018
+Saison,cis.linalool.oxide,2,0.0,0.015,0.455,0.015,0.455
+Saison,meta.cymenene,2,0.5,0.1725,0.8025,0.3275,0.3025
+Saison,n.nonanal,2,0.5,0.0025,0.4175,0.4975,0.08250000000000002
+Saison,neo.allo.ocimene,2,0.0,0.0,0.14,0.0,0.14
+Saison,trans.dihydro.beta.terpineol,2,0.0,0.0025,0.1825,0.0025,0.1825
+Saison,cis.beta.terpineol,2,0.5,0.055,0.74,0.445,0.24
+Saison,y.methyl.1.octanol,2,0.0,0.015,0.4025,0.015,0.4025
+Saison,cis.dihydro.beta.terpineol,2,0.5,0.09,0.615,0.41000000000000003,0.11499999999999999
+Saison,dimethoxy..E..citral,2,0.0,0.005,0.37,0.005,0.37
+Saison,geosmin,2,1.0,0.03,0.5025,0.97,0.49750000000000005
+Saison,X4.8.alpha.epoxy.caryophyllane,2,0.5,0.0,0.1975,0.5,0.3025
+Saison,beta.humulene,2,0.5,0.22,0.83,0.28,0.32999999999999996
+Saison,X.E..beta.farnesene,2,0.0,0.07,0.4575,0.07,0.4575
+Saison,valencene,2,1.0,0.0125,0.6125,0.9875,0.38749999999999996
+Saison,E.methyl.isoeugenol,2,1.0,0.0,0.4,1.0,0.6
+Saison,butylated.hydroxytoluene,2,0.5,0.0,0.2625,0.5,0.2375
+Saison,X.E..dihydro.apofarnesal,2,0.0,0.0,0.29,0.0,0.29
+Saison,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.0,0.15,0.0,0.15
+Saison,spathulenol,2,0.5,0.005,0.325,0.495,0.175
+Saison,gamma.eudesmol,2,0.0,0.0725,0.57,0.0725,0.57
+Saison,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.0,0.0,0.17,0.0,0.17
+Saison,selin.11.en.4.alpha.ol,2,0.0,0.0,0.255,0.0,0.255
+Saison,alpha.eudesmol,2,0.0,0.0,0.3125,0.0,0.3125
+Saison,foeniculin,2,0.5,0.005,0.56,0.495,0.06000000000000005
+Saison,X2E.6Z.farnesal,2,0.0,0.0125,0.31,0.0125,0.31
+Saison,caryophyllene.acetate,2,0.5,0.0,0.545,0.5,0.04500000000000004
+Saison,X14.hydroxy.alpha.humulene,2,0.5,0.0125,0.46,0.4875,0.03999999999999998
+Saison,X2Z.6E.farnesal,2,0.5,0.01,0.545,0.49,0.04500000000000004
+Saison,X2Z.6Z.farnesol,2,0.5,0.0,0.3775,0.5,0.1225
+Saison,X2E.6E.methyl.farnesoate,2,0.5,0.0025,0.265,0.4975,0.235
+Saison,X2.ethylhexylsalicylate,2,0.0,0.0,0.34,0.0,0.34
+Saison,isopropyl.hexadecanoate,2,0.0,0.06,0.7625,0.06,0.7625
+Scotch,CS2,1,1.0,0.05,0.8375,0.95,0.16249999999999998
+Scotch,ethyl_2.methyl_butyrate,1,1.0,0.0125,0.5,0.9875,0.5
+Scotch,ethyl_isovalerate,1,0.0,0.0025,0.41,0.0025,0.41
+Scotch,octyl_acetate,1,0.0,0.0025,0.4575,0.0025,0.4575
+Scotch,X4VG,1,1.0,0.0575,0.795,0.9425,0.20499999999999996
+Scotch,propylene.glycol,1,0.0,0.0,0.425,0.0,0.425
+Scotch,ethyl.lactate,1,0.0,0.0875,0.8975,0.0875,0.8975
+Scotch,X2.6.dimethyl.pyrazine,1,0.0,0.025,0.365,0.025,0.365
+Scotch,X6.methyl.5.hepten.2.one,1,1.0,0.145,0.9075,0.855,0.09250000000000003
+Scotch,alpha.phellandrene,1,1.0,0.0725,0.55,0.9275,0.44999999999999996
+Scotch,dehydroxy.cis.linalool.oxide,1,1.0,0.005,0.525,0.995,0.475
+Scotch,isopentyl.butanoate,1,1.0,0.0,0.3075,1.0,0.6925
+Scotch,X2.ethyl.1.hexanol,1,1.0,0.0,0.205,1.0,0.795
+Scotch,beta.phellandrene,1,1.0,0.0275,0.3775,0.9725,0.6225
+Scotch,limonene,1,1.0,0.305,0.9125,0.6950000000000001,0.08750000000000002
+Scotch,eucalyptol,1,1.0,0.0575,0.6325,0.9425,0.36750000000000005
+Scotch,cis.linalool.oxide,1,1.0,0.08,0.65,0.92,0.35
+Scotch,meta.cymenene,1,1.0,0.24,0.8575,0.76,0.14249999999999996
+Scotch,n.nonanal,1,1.0,0.0,0.4625,1.0,0.5375
+Scotch,neo.allo.ocimene,1,0.0,0.0,0.2125,0.0,0.2125
+Scotch,trans.dihydro.beta.terpineol,1,1.0,0.005,0.4575,0.995,0.5425
+Scotch,cis.beta.terpineol,1,0.0,0.065,0.705,0.065,0.705
+Scotch,y.methyl.1.octanol,1,1.0,0.03,0.685,0.97,0.31499999999999995
+Scotch,cis.dihydro.beta.terpineol,1,1.0,0.1825,0.91,0.8175,0.08999999999999997
+Scotch,dimethoxy..E..citral,1,0.0,0.0,0.4775,0.0,0.4775
+Scotch,geosmin,1,1.0,0.0325,0.6225,0.9675,0.37749999999999995
+Scotch,X4.8.alpha.epoxy.caryophyllane,1,0.0,0.0,0.205,0.0,0.205
+Scotch,beta.humulene,1,1.0,0.1225,0.79,0.8775,0.20999999999999996
+Scotch,X.E..beta.farnesene,1,0.0,0.045,0.43,0.045,0.43
+Scotch,valencene,1,1.0,0.0275,0.6775,0.9725,0.3225
+Scotch,E.methyl.isoeugenol,1,1.0,0.0,0.3575,1.0,0.6425000000000001
+Scotch,butylated.hydroxytoluene,1,1.0,0.0,0.28,1.0,0.72
+Scotch,X.E..dihydro.apofarnesal,1,1.0,0.0,0.3675,1.0,0.6325000000000001
+Scotch,X.E..ortho.methoxy.cinnamaldehyde,1,1.0,0.01,0.27,0.99,0.73
+Scotch,spathulenol,1,0.0,0.0125,0.3525,0.0125,0.3525
+Scotch,gamma.eudesmol,1,1.0,0.075,0.7425,0.925,0.25749999999999995
+Scotch,X1.2.dihydro.8.hydroxy..2E..linalool,1,1.0,0.0,0.2375,1.0,0.7625
+Scotch,selin.11.en.4.alpha.ol,1,1.0,0.0325,0.5525,0.9675,0.4475
+Scotch,alpha.eudesmol,1,1.0,0.0,0.355,1.0,0.645
+Scotch,foeniculin,1,0.0,0.005,0.6525,0.005,0.6525
+Scotch,X2E.6Z.farnesal,1,0.0,0.005,0.22,0.005,0.22
+Scotch,caryophyllene.acetate,1,1.0,0.005,0.5125,0.995,0.48750000000000004
+Scotch,X14.hydroxy.alpha.humulene,1,1.0,0.0,0.4475,1.0,0.5525
+Scotch,X2Z.6E.farnesal,1,0.0,0.0075,0.275,0.0075,0.275
+Scotch,X2Z.6Z.farnesol,1,1.0,0.0,0.3175,1.0,0.6825
+Scotch,X2E.6E.methyl.farnesoate,1,1.0,0.0,0.19,1.0,0.81
+Scotch,X2.ethylhexylsalicylate,1,1.0,0.0,0.28,1.0,0.72
+Scotch,isopropyl.hexadecanoate,1,1.0,0.0325,0.74,0.9675,0.26
+Stout/Porter,CS2,3,0.6666666666666666,0.0475,0.79,0.6191666666666666,0.1233333333333334
+Stout/Porter,ethyl_2.methyl_butyrate,3,0.0,0.0275,0.2875,0.0275,0.2875
+Stout/Porter,ethyl_isovalerate,3,0.3333333333333333,0.005,0.22,0.3283333333333333,0.11333333333333331
+Stout/Porter,octyl_acetate,3,0.3333333333333333,0.06,0.5675,0.2733333333333333,0.2341666666666667
+Stout/Porter,X4VG,3,1.0,0.0775,0.69,0.9225,0.31000000000000005
+Stout/Porter,propylene.glycol,3,0.0,0.0,0.2275,0.0,0.2275
+Stout/Porter,ethyl.lactate,3,1.0,0.0875,0.9125,0.9125,0.08750000000000002
+Stout/Porter,X2.6.dimethyl.pyrazine,3,0.0,0.03,0.27,0.03,0.27
+Stout/Porter,X6.methyl.5.hepten.2.one,3,0.6666666666666666,0.1975,0.8475,0.4691666666666666,0.1808333333333334
+Stout/Porter,alpha.phellandrene,3,0.6666666666666666,0.0575,0.68,0.6091666666666666,0.01333333333333342
+Stout/Porter,dehydroxy.cis.linalool.oxide,3,0.3333333333333333,0.005,0.4,0.3283333333333333,0.06666666666666671
+Stout/Porter,isopentyl.butanoate,3,0.0,0.0,0.345,0.0,0.345
+Stout/Porter,X2.ethyl.1.hexanol,3,0.3333333333333333,0.0,0.305,0.3333333333333333,0.02833333333333332
+Stout/Porter,beta.phellandrene,3,0.6666666666666666,0.03,0.5625,0.6366666666666666,0.10416666666666663
+Stout/Porter,limonene,3,1.0,0.3125,0.92,0.6875,0.07999999999999996
+Stout/Porter,eucalyptol,3,0.6666666666666666,0.0575,0.5125,0.6091666666666666,0.15416666666666667
+Stout/Porter,cis.linalool.oxide,3,0.0,0.095,0.4675,0.095,0.4675
+Stout/Porter,meta.cymenene,3,1.0,0.25,0.8975,0.75,0.10250000000000004
+Stout/Porter,n.nonanal,3,0.0,0.0125,0.445,0.0125,0.445
+Stout/Porter,neo.allo.ocimene,3,0.3333333333333333,0.0,0.365,0.3333333333333333,0.031666666666666676
+Stout/Porter,trans.dihydro.beta.terpineol,3,0.0,0.0175,0.34,0.0175,0.34
+Stout/Porter,cis.beta.terpineol,3,1.0,0.1025,0.66,0.8975,0.33999999999999997
+Stout/Porter,y.methyl.1.octanol,3,0.0,0.0475,0.5125,0.0475,0.5125
+Stout/Porter,cis.dihydro.beta.terpineol,3,0.3333333333333333,0.155,0.85,0.17833333333333332,0.5166666666666666
+Stout/Porter,dimethoxy..E..citral,3,0.0,0.005,0.2575,0.005,0.2575
+Stout/Porter,geosmin,3,0.6666666666666666,0.01,0.5825,0.6566666666666666,0.08416666666666661
+Stout/Porter,X4.8.alpha.epoxy.caryophyllane,3,0.3333333333333333,0.0025,0.2675,0.3308333333333333,0.0658333333333333
+Stout/Porter,beta.humulene,3,0.6666666666666666,0.1325,0.8075,0.5341666666666667,0.14083333333333337
+Stout/Porter,X.E..beta.farnesene,3,0.3333333333333333,0.06,0.4525,0.2733333333333333,0.1191666666666667
+Stout/Porter,valencene,3,0.6666666666666666,0.0325,0.79,0.6341666666666667,0.1233333333333334
+Stout/Porter,E.methyl.isoeugenol,3,0.0,0.0,0.5175,0.0,0.5175
+Stout/Porter,butylated.hydroxytoluene,3,0.0,0.0,0.5,0.0,0.5
+Stout/Porter,X.E..dihydro.apofarnesal,3,0.3333333333333333,0.0075,0.5825,0.3258333333333333,0.2491666666666667
+Stout/Porter,X.E..ortho.methoxy.cinnamaldehyde,3,0.3333333333333333,0.0025,0.325,0.3308333333333333,0.008333333333333304
+Stout/Porter,spathulenol,3,0.6666666666666666,0.005,0.3975,0.6616666666666666,0.2691666666666666
+Stout/Porter,gamma.eudesmol,3,0.6666666666666666,0.0625,0.59,0.6041666666666666,0.07666666666666666
+Stout/Porter,X1.2.dihydro.8.hydroxy..2E..linalool,3,0.0,0.0425,0.25,0.0425,0.25
+Stout/Porter,selin.11.en.4.alpha.ol,3,0.0,0.055,0.5075,0.055,0.5075
+Stout/Porter,alpha.eudesmol,3,0.0,0.0075,0.36,0.0075,0.36
+Stout/Porter,foeniculin,3,0.6666666666666666,0.0175,0.4325,0.6491666666666667,0.23416666666666663
+Stout/Porter,X2E.6Z.farnesal,3,0.6666666666666666,0.0125,0.265,0.6541666666666667,0.4016666666666666
+Stout/Porter,caryophyllene.acetate,3,0.3333333333333333,0.0125,0.7225,0.3208333333333333,0.3891666666666667
+Stout/Porter,X14.hydroxy.alpha.humulene,3,0.0,0.0325,0.4725,0.0325,0.4725
+Stout/Porter,X2Z.6E.farnesal,3,0.0,0.0175,0.3075,0.0175,0.3075
+Stout/Porter,X2Z.6Z.farnesol,3,0.3333333333333333,0.005,0.5,0.3283333333333333,0.16666666666666669
+Stout/Porter,X2E.6E.methyl.farnesoate,3,0.6666666666666666,0.005,0.33,0.6616666666666666,0.3366666666666666
+Stout/Porter,X2.ethylhexylsalicylate,3,0.3333333333333333,0.0,0.3325,0.3333333333333333,0.0008333333333332971
+Stout/Porter,isopropyl.hexadecanoate,3,0.3333333333333333,0.0825,0.615,0.2508333333333333,0.2816666666666667
+Strong ale,CS2,4,0.75,0.0425,0.815,0.7075,0.06499999999999995
+Strong ale,ethyl_2.methyl_butyrate,4,0.25,0.0225,0.38,0.2275,0.13
+Strong ale,ethyl_isovalerate,4,0.0,0.0125,0.3925,0.0125,0.3925
+Strong ale,octyl_acetate,4,0.5,0.0075,0.4375,0.4925,0.0625
+Strong ale,X4VG,4,0.5,0.08,0.7975,0.42,0.2975
+Strong ale,propylene.glycol,4,0.5,0.0,0.3575,0.5,0.14250000000000002
+Strong ale,ethyl.lactate,4,1.0,0.1125,0.74,0.8875,0.26
+Strong ale,X2.6.dimethyl.pyrazine,4,0.5,0.0475,0.4225,0.4525,0.07750000000000001
+Strong ale,X6.methyl.5.hepten.2.one,4,1.0,0.335,0.905,0.665,0.09499999999999997
+Strong ale,alpha.phellandrene,4,0.75,0.13,0.6175,0.62,0.13249999999999995
+Strong ale,dehydroxy.cis.linalool.oxide,4,0.5,0.01,0.395,0.49,0.10499999999999998
+Strong ale,isopentyl.butanoate,4,0.5,0.0375,0.3225,0.4625,0.1775
+Strong ale,X2.ethyl.1.hexanol,4,0.75,0.015,0.4475,0.735,0.3025
+Strong ale,beta.phellandrene,4,0.75,0.08,0.55,0.67,0.19999999999999996
+Strong ale,limonene,4,0.75,0.2825,0.9075,0.4675,0.15749999999999997
+Strong ale,eucalyptol,4,0.75,0.14,0.6725,0.61,0.07750000000000001
+Strong ale,cis.linalool.oxide,4,0.75,0.1125,0.6975,0.6375,0.05249999999999999
+Strong ale,meta.cymenene,4,0.5,0.2625,0.8975,0.2375,0.39749999999999996
+Strong ale,n.nonanal,4,0.75,0.015,0.5125,0.735,0.23750000000000004
+Strong ale,neo.allo.ocimene,4,0.0,0.0,0.195,0.0,0.195
+Strong ale,trans.dihydro.beta.terpineol,4,0.5,0.025,0.4275,0.475,0.07250000000000001
+Strong ale,cis.beta.terpineol,4,0.25,0.105,0.6375,0.14500000000000002,0.38749999999999996
+Strong ale,y.methyl.1.octanol,4,0.75,0.07,0.63,0.6799999999999999,0.12
+Strong ale,cis.dihydro.beta.terpineol,4,0.75,0.2425,0.855,0.5075000000000001,0.10499999999999998
+Strong ale,dimethoxy..E..citral,4,0.5,0.0075,0.3175,0.4925,0.1825
+Strong ale,geosmin,4,0.25,0.055,0.475,0.195,0.22499999999999998
+Strong ale,X4.8.alpha.epoxy.caryophyllane,4,0.0,0.0025,0.24,0.0025,0.24
+Strong ale,beta.humulene,4,0.5,0.115,0.7675,0.385,0.26749999999999996
+Strong ale,X.E..beta.farnesene,4,0.25,0.0375,0.3875,0.2125,0.1375
+Strong ale,valencene,4,0.5,0.04,0.7875,0.46,0.2875
+Strong ale,E.methyl.isoeugenol,4,0.25,0.0,0.555,0.25,0.30500000000000005
+Strong ale,butylated.hydroxytoluene,4,0.25,0.0,0.4175,0.25,0.16749999999999998
+Strong ale,X.E..dihydro.apofarnesal,4,0.5,0.005,0.56,0.495,0.06000000000000005
+Strong ale,X.E..ortho.methoxy.cinnamaldehyde,4,0.25,0.0175,0.3025,0.23249999999999998,0.05249999999999999
+Strong ale,spathulenol,4,0.75,0.0075,0.32,0.7425,0.43
+Strong ale,gamma.eudesmol,4,0.25,0.095,0.6725,0.155,0.4225
+Strong ale,X1.2.dihydro.8.hydroxy..2E..linalool,4,0.0,0.0075,0.2125,0.0075,0.2125
+Strong ale,selin.11.en.4.alpha.ol,4,0.25,0.0575,0.67,0.1925,0.42000000000000004
+Strong ale,alpha.eudesmol,4,0.0,0.0375,0.4125,0.0375,0.4125
+Strong ale,foeniculin,4,0.5,0.035,0.62,0.46499999999999997,0.12
+Strong ale,X2E.6Z.farnesal,4,0.0,0.035,0.365,0.035,0.365
+Strong ale,caryophyllene.acetate,4,0.25,0.0025,0.57,0.2475,0.31999999999999995
+Strong ale,X14.hydroxy.alpha.humulene,4,0.5,0.0,0.38,0.5,0.12
+Strong ale,X2Z.6E.farnesal,4,0.0,0.0275,0.385,0.0275,0.385
+Strong ale,X2Z.6Z.farnesol,4,0.75,0.0,0.3575,0.75,0.3925
+Strong ale,X2E.6E.methyl.farnesoate,4,0.0,0.005,0.3275,0.005,0.3275
+Strong ale,X2.ethylhexylsalicylate,4,0.5,0.0,0.2725,0.5,0.22749999999999998
+Strong ale,isopropyl.hexadecanoate,4,0.5,0.03,0.585,0.47,0.08499999999999996
+Tripel,CS2,6,1.0,0.0375,0.875,0.9625,0.125
+Tripel,ethyl_2.methyl_butyrate,6,0.6666666666666666,0.01,0.4225,0.6566666666666666,0.24416666666666664
+Tripel,ethyl_isovalerate,6,0.6666666666666666,0.01,0.33,0.6566666666666666,0.3366666666666666
+Tripel,octyl_acetate,6,0.6666666666666666,0.0225,0.4575,0.6441666666666667,0.2091666666666666
+Tripel,X4VG,6,0.8333333333333334,0.025,0.77,0.8083333333333333,0.06333333333333335
+Tripel,propylene.glycol,6,0.16666666666666666,0.0,0.265,0.16666666666666666,0.09833333333333336
+Tripel,ethyl.lactate,6,0.6666666666666666,0.0325,0.7075,0.6341666666666667,0.04083333333333339
+Tripel,X2.6.dimethyl.pyrazine,6,0.6666666666666666,0.0525,0.5925,0.6141666666666666,0.0741666666666666
+Tripel,X6.methyl.5.hepten.2.one,6,1.0,0.17,0.92,0.83,0.07999999999999996
+Tripel,alpha.phellandrene,6,0.6666666666666666,0.06,0.445,0.6066666666666667,0.22166666666666662
+Tripel,dehydroxy.cis.linalool.oxide,6,0.16666666666666666,0.0125,0.585,0.15416666666666665,0.41833333333333333
+Tripel,isopentyl.butanoate,6,0.3333333333333333,0.005,0.4475,0.3283333333333333,0.1141666666666667
+Tripel,X2.ethyl.1.hexanol,6,0.5,0.01,0.425,0.49,0.07500000000000001
+Tripel,beta.phellandrene,6,0.5,0.04,0.375,0.46,0.125
+Tripel,limonene,6,0.8333333333333334,0.21,0.82,0.6233333333333334,0.01333333333333342
+Tripel,eucalyptol,6,0.8333333333333334,0.0675,0.635,0.7658333333333334,0.19833333333333336
+Tripel,cis.linalool.oxide,6,0.6666666666666666,0.0675,0.625,0.5991666666666666,0.04166666666666663
+Tripel,meta.cymenene,6,1.0,0.1825,0.695,0.8175,0.30500000000000005
+Tripel,n.nonanal,6,0.5,0.0,0.5175,0.5,0.01749999999999996
+Tripel,neo.allo.ocimene,6,0.3333333333333333,0.0,0.23,0.3333333333333333,0.1033333333333333
+Tripel,trans.dihydro.beta.terpineol,6,0.8333333333333334,0.005,0.3975,0.8283333333333334,0.43583333333333335
+Tripel,cis.beta.terpineol,6,0.3333333333333333,0.0675,0.61,0.2658333333333333,0.27666666666666667
+Tripel,y.methyl.1.octanol,6,0.8333333333333334,0.1025,0.7725,0.7308333333333333,0.060833333333333406
+Tripel,cis.dihydro.beta.terpineol,6,0.6666666666666666,0.22,0.855,0.44666666666666666,0.18833333333333335
+Tripel,dimethoxy..E..citral,6,0.5,0.005,0.36,0.495,0.14
+Tripel,geosmin,6,0.3333333333333333,0.0625,0.5675,0.2708333333333333,0.2341666666666667
+Tripel,X4.8.alpha.epoxy.caryophyllane,6,0.0,0.0025,0.225,0.0025,0.225
+Tripel,beta.humulene,6,0.8333333333333334,0.1825,0.765,0.6508333333333334,0.06833333333333336
+Tripel,X.E..beta.farnesene,6,0.3333333333333333,0.03,0.345,0.30333333333333334,0.011666666666666659
+Tripel,valencene,6,0.6666666666666666,0.04,0.6925,0.6266666666666666,0.025833333333333375
+Tripel,E.methyl.isoeugenol,6,0.0,0.0,0.3025,0.0,0.3025
+Tripel,butylated.hydroxytoluene,6,0.3333333333333333,0.0,0.25,0.3333333333333333,0.08333333333333331
+Tripel,X.E..dihydro.apofarnesal,6,0.16666666666666666,0.01,0.4225,0.15666666666666665,0.25583333333333336
+Tripel,X.E..ortho.methoxy.cinnamaldehyde,6,0.0,0.0175,0.4875,0.0175,0.4875
+Tripel,spathulenol,6,0.3333333333333333,0.0025,0.3225,0.3308333333333333,0.010833333333333306
+Tripel,gamma.eudesmol,6,0.5,0.1175,0.5225,0.3825,0.022499999999999964
+Tripel,X1.2.dihydro.8.hydroxy..2E..linalool,6,0.5,0.0,0.185,0.5,0.315
+Tripel,selin.11.en.4.alpha.ol,6,0.6666666666666666,0.035,0.555,0.6316666666666666,0.11166666666666658
+Tripel,alpha.eudesmol,6,0.3333333333333333,0.0275,0.485,0.3058333333333333,0.15166666666666667
+Tripel,foeniculin,6,0.8333333333333334,0.0325,0.5875,0.8008333333333334,0.24583333333333335
+Tripel,X2E.6Z.farnesal,6,0.16666666666666666,0.045,0.3525,0.12166666666666666,0.18583333333333332
+Tripel,caryophyllene.acetate,6,0.6666666666666666,0.0125,0.58,0.6541666666666667,0.08666666666666667
+Tripel,X14.hydroxy.alpha.humulene,6,0.5,0.0075,0.3925,0.4925,0.10749999999999998
+Tripel,X2Z.6E.farnesal,6,0.16666666666666666,0.04,0.415,0.12666666666666665,0.24833333333333332
+Tripel,X2Z.6Z.farnesol,6,0.6666666666666666,0.0025,0.4425,0.6641666666666667,0.22416666666666663
+Tripel,X2E.6E.methyl.farnesoate,6,0.3333333333333333,0.0075,0.2925,0.3258333333333333,0.04083333333333333
+Tripel,X2.ethylhexylsalicylate,6,0.6666666666666666,0.0025,0.3975,0.6641666666666667,0.2691666666666666
+Tripel,isopropyl.hexadecanoate,6,0.8333333333333334,0.035,0.57,0.7983333333333333,0.2633333333333334
+West Flanders ale,CS2,1,1.0,0.04,0.8375,0.96,0.16249999999999998
+West Flanders ale,ethyl_2.methyl_butyrate,1,0.0,0.0025,0.2,0.0025,0.2
+West Flanders ale,ethyl_isovalerate,1,0.0,0.0025,0.2375,0.0025,0.2375
+West Flanders ale,octyl_acetate,1,0.0,0.0025,0.37,0.0025,0.37
+West Flanders ale,X4VG,1,1.0,0.1425,0.815,0.8575,0.18500000000000005
+West Flanders ale,propylene.glycol,1,0.0,0.0,0.4025,0.0,0.4025
+West Flanders ale,ethyl.lactate,1,1.0,0.0375,0.71,0.9625,0.29000000000000004
+West Flanders ale,X2.6.dimethyl.pyrazine,1,0.0,0.03,0.4225,0.03,0.4225
+West Flanders ale,X6.methyl.5.hepten.2.one,1,1.0,0.2275,0.94,0.7725,0.06000000000000005
+West Flanders ale,alpha.phellandrene,1,1.0,0.1225,0.6275,0.8775,0.37250000000000005
+West Flanders ale,dehydroxy.cis.linalool.oxide,1,1.0,0.01,0.4575,0.99,0.5425
+West Flanders ale,isopentyl.butanoate,1,0.0,0.0,0.325,0.0,0.325
+West Flanders ale,X2.ethyl.1.hexanol,1,1.0,0.0,0.3225,1.0,0.6775
+West Flanders ale,beta.phellandrene,1,1.0,0.0675,0.55,0.9325,0.44999999999999996
+West Flanders ale,limonene,1,1.0,0.305,0.93,0.6950000000000001,0.06999999999999995
+West Flanders ale,eucalyptol,1,0.0,0.12,0.5775,0.12,0.5775
+West Flanders ale,cis.linalool.oxide,1,0.0,0.085,0.54,0.085,0.54
+West Flanders ale,meta.cymenene,1,1.0,0.28,0.88,0.72,0.12
+West Flanders ale,n.nonanal,1,0.0,0.0,0.3775,0.0,0.3775
+West Flanders ale,neo.allo.ocimene,1,0.0,0.0025,0.3,0.0025,0.3
+West Flanders ale,trans.dihydro.beta.terpineol,1,1.0,0.0,0.325,1.0,0.675
+West Flanders ale,cis.beta.terpineol,1,1.0,0.0975,0.745,0.9025,0.255
+West Flanders ale,y.methyl.1.octanol,1,1.0,0.0325,0.595,0.9675,0.405
+West Flanders ale,cis.dihydro.beta.terpineol,1,1.0,0.2325,0.91,0.7675,0.08999999999999997
+West Flanders ale,dimethoxy..E..citral,1,0.0,0.0,0.2,0.0,0.2
+West Flanders ale,geosmin,1,1.0,0.0975,0.6175,0.9025,0.38249999999999995
+West Flanders ale,X4.8.alpha.epoxy.caryophyllane,1,1.0,0.005,0.3575,0.995,0.6425000000000001
+West Flanders ale,beta.humulene,1,1.0,0.17,0.85,0.83,0.15000000000000002
+West Flanders ale,X.E..beta.farnesene,1,0.0,0.06,0.3825,0.06,0.3825
+West Flanders ale,valencene,1,1.0,0.055,0.75,0.945,0.25
+West Flanders ale,E.methyl.isoeugenol,1,0.0,0.0,0.385,0.0,0.385
+West Flanders ale,butylated.hydroxytoluene,1,0.0,0.0,0.345,0.0,0.345
+West Flanders ale,X.E..dihydro.apofarnesal,1,1.0,0.0,0.4475,1.0,0.5525
+West Flanders ale,X.E..ortho.methoxy.cinnamaldehyde,1,0.0,0.0,0.175,0.0,0.175
+West Flanders ale,spathulenol,1,0.0,0.0,0.2775,0.0,0.2775
+West Flanders ale,gamma.eudesmol,1,0.0,0.045,0.445,0.045,0.445
+West Flanders ale,X1.2.dihydro.8.hydroxy..2E..linalool,1,1.0,0.0025,0.295,0.9975,0.7050000000000001
+West Flanders ale,selin.11.en.4.alpha.ol,1,1.0,0.065,0.705,0.935,0.29500000000000004
+West Flanders ale,alpha.eudesmol,1,0.0,0.0075,0.37,0.0075,0.37
+West Flanders ale,foeniculin,1,1.0,0.0375,0.7225,0.9625,0.27749999999999997
+West Flanders ale,X2E.6Z.farnesal,1,1.0,0.025,0.3175,0.975,0.6825
+West Flanders ale,caryophyllene.acetate,1,0.0,0.0,0.45,0.0,0.45
+West Flanders ale,X14.hydroxy.alpha.humulene,1,0.0,0.0,0.2025,0.0,0.2025
+West Flanders ale,X2Z.6E.farnesal,1,1.0,0.035,0.505,0.965,0.495
+West Flanders ale,X2Z.6Z.farnesol,1,0.0,0.0,0.4075,0.0,0.4075
+West Flanders ale,X2E.6E.methyl.farnesoate,1,1.0,0.0025,0.475,0.9975,0.525
+West Flanders ale,X2.ethylhexylsalicylate,1,0.0,0.0,0.1925,0.0,0.1925
+West Flanders ale,isopropyl.hexadecanoate,1,0.0,0.02,0.4825,0.02,0.4825
+Wheat,CS2,2,1.0,0.1275,0.935,0.8725,0.06499999999999995
+Wheat,ethyl_2.methyl_butyrate,2,0.0,0.0675,0.45,0.0675,0.45
+Wheat,ethyl_isovalerate,2,1.0,0.035,0.58,0.965,0.42000000000000004
+Wheat,octyl_acetate,2,0.5,0.035,0.49,0.46499999999999997,0.010000000000000009
+Wheat,X4VG,2,0.0,0.015,0.3725,0.015,0.3725
+Wheat,propylene.glycol,2,0.0,0.0,0.34,0.0,0.34
+Wheat,ethyl.lactate,2,1.0,0.0425,0.705,0.9575,0.29500000000000004
+Wheat,X2.6.dimethyl.pyrazine,2,0.5,0.035,0.5225,0.46499999999999997,0.022499999999999964
+Wheat,X6.methyl.5.hepten.2.one,2,1.0,0.0825,0.835,0.9175,0.16500000000000004
+Wheat,alpha.phellandrene,2,0.5,0.025,0.3125,0.475,0.1875
+Wheat,dehydroxy.cis.linalool.oxide,2,1.0,0.0025,0.5375,0.9975,0.4625
+Wheat,isopentyl.butanoate,2,0.5,0.0075,0.3125,0.4925,0.1875
+Wheat,X2.ethyl.1.hexanol,2,0.0,0.0,0.3175,0.0,0.3175
+Wheat,beta.phellandrene,2,0.0,0.015,0.225,0.015,0.225
+Wheat,limonene,2,0.0,0.105,0.5775,0.105,0.5775
+Wheat,eucalyptol,2,0.5,0.03,0.46,0.47,0.03999999999999998
+Wheat,cis.linalool.oxide,2,0.0,0.0225,0.325,0.0225,0.325
+Wheat,meta.cymenene,2,0.5,0.08,0.67,0.42,0.17000000000000004
+Wheat,n.nonanal,2,0.5,0.0025,0.62,0.4975,0.12
+Wheat,neo.allo.ocimene,2,0.0,0.0,0.2025,0.0,0.2025
+Wheat,trans.dihydro.beta.terpineol,2,1.0,0.0125,0.4125,0.9875,0.5875
+Wheat,cis.beta.terpineol,2,0.5,0.0375,0.5025,0.4625,0.0024999999999999467
+Wheat,y.methyl.1.octanol,2,1.0,0.1825,0.7125,0.8175,0.2875
+Wheat,cis.dihydro.beta.terpineol,2,1.0,0.245,0.89,0.755,0.10999999999999999
+Wheat,dimethoxy..E..citral,2,0.5,0.0125,0.32,0.4875,0.18
+Wheat,geosmin,2,1.0,0.1075,0.6425,0.8925,0.35750000000000004
+Wheat,X4.8.alpha.epoxy.caryophyllane,2,0.5,0.0025,0.245,0.4975,0.255
+Wheat,beta.humulene,2,1.0,0.2175,0.8325,0.7825,0.16749999999999998
+Wheat,X.E..beta.farnesene,2,0.0,0.015,0.18,0.015,0.18
+Wheat,valencene,2,0.5,0.0075,0.5925,0.4925,0.09250000000000003
+Wheat,E.methyl.isoeugenol,2,0.0,0.0,0.4925,0.0,0.4925
+Wheat,butylated.hydroxytoluene,2,0.0,0.0,0.435,0.0,0.435
+Wheat,X.E..dihydro.apofarnesal,2,0.5,0.0,0.34,0.5,0.15999999999999998
+Wheat,X.E..ortho.methoxy.cinnamaldehyde,2,0.0,0.005,0.275,0.005,0.275
+Wheat,spathulenol,2,0.0,0.0,0.23,0.0,0.23
+Wheat,gamma.eudesmol,2,0.5,0.045,0.3925,0.455,0.10749999999999998
+Wheat,X1.2.dihydro.8.hydroxy..2E..linalool,2,0.5,0.0,0.1225,0.5,0.3775
+Wheat,selin.11.en.4.alpha.ol,2,1.0,0.015,0.485,0.985,0.515
+Wheat,alpha.eudesmol,2,0.0,0.005,0.2125,0.005,0.2125
+Wheat,foeniculin,2,1.0,0.0075,0.4825,0.9925,0.5175000000000001
+Wheat,X2E.6Z.farnesal,2,0.5,0.0475,0.45,0.4525,0.04999999999999999
+Wheat,caryophyllene.acetate,2,0.5,0.0,0.3125,0.5,0.1875
+Wheat,X14.hydroxy.alpha.humulene,2,0.0,0.0025,0.3025,0.0025,0.3025
+Wheat,X2Z.6E.farnesal,2,0.5,0.0775,0.595,0.4225,0.09499999999999997
+Wheat,X2Z.6Z.farnesol,2,0.0,0.0,0.355,0.0,0.355
+Wheat,X2E.6E.methyl.farnesoate,2,0.5,0.0025,0.325,0.4975,0.175
+Wheat,X2.ethylhexylsalicylate,2,0.5,0.0,0.225,0.5,0.275
+Wheat,isopropyl.hexadecanoate,2,0.0,0.0175,0.5925,0.0175,0.5925

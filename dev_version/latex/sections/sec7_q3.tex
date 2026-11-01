@@ -1,0 +1,153 @@
+% ============================ 七、问题三 ============================
+\section{问题三：风格条件生成与风味指纹迁移}
+
+\subsection{建模思路：为什么是“潜因子 + 条件流 + 约束迁移”}
+
+问题三的三个要求（生成、感官画像、受约束迁移）分别对应三个技术选择，且彼此
+耦合：要在 250 个样本上对 231 维分布做估计，只能先在低维潜空间建模；要“给定
+风格生成”，潜空间密度必须\textbf{条件化于风格}；要“缺陷不恶化”，迁移必须是
+\textbf{带约束的优化}而非简单插值。据此本文提出 \textbf{SCLF}
+（Style-Conditional Latent Flow）框架，算法见附录图~\ref{fig:algorithm}(b)。
+
+\subsection{潜因子空间与并行分析定阶}
+
+对标准化后的 $\bm{X}\in\R^{n\times p}$ 做主成分分解，得特征值 $\lambda_1\ge
+\lambda_2\ge\cdots$。定阶不能凭经验取“累计方差 80\%”——在 $p\gg n$ 的情形下
+特征值整体被抬高。本文用\textbf{并行分析}\cite{horn1965}：把每列独立置换生成
+30 个随机矩阵，取其特征值中位数 $\lambda^{\mathrm{rand}}_k$ 为噪声基线，保留
+$\lambda_k>\lambda^{\mathrm{rand}}_k$ 的因子，得 $K=14$（累计方差 54.7\%）。
+取 14 而非“更多”是有意的：因子再多就进入噪声子空间，生成样本会出现化学上
+不可能的数值组合。
+
+记 $\bm{z}_i=\bm{V}_K^{\top}(\bm{x}_i-\bar{\bm{x}})\in\R^{K}$ 为潜坐标，
+$\bm{x}=\bm{V}_K\bm{z}+\bar{\bm{x}}$ 为解码。
+
+\subsection{风格条件密度：仿射耦合流}
+
+在潜空间建立条件密度 $p(\bm{z}\mid s)$。相比 VAE\cite{kingma2014}，本文选
+\textbf{归一化流}\cite{dinh2017}，原因是它能给出\textbf{精确对数似然}，
+从而可以在同一口径下与高斯基线做模型比较（VAE 只有证据下界，比较不公平）。
+
+流由 $L=6$ 层仿射耦合构成。每层把 $\bm{z}$ 分成两半
+$(\bm{a},\bm{b})$，风格标签经嵌入 $\bm{e}(s)\in\R^{8}$ 后与前一半一起送入
+尺度/平移网络：
+\begin{align}
+\bm{s},\ \bm{t} &= \mathrm{MLP}\big([\bm{a};\ \bm{e}(s)]\big),\qquad
+\bm{s}\leftarrow \tfrac12\tanh(\bm{s}),\\
+\bm{b}' &= \bm{b}\odot e^{\bm{s}}+\bm{t},
+\label{eq:coupling}
+\end{align}
+层间以翻转置换交替，输出 $\bm{u}=\bm{f}(\bm{z};s)$。对数似然为
+\begin{equation}
+\log p(\bm{z}\mid s)=\log\mathcal{N}\big(\bm{u};\bm{0},\bm{I}\big)
++\sum_{l=1}^{L}\sum_{j}s^{(l)}_j .
+\label{eq:flowll}
+\end{equation}
+训练目标为负对数似然最小化，AdamW（$3\times10^{-3}$）、权重衰减 $10^{-3}$、
+余弦退火、1200 轮，保留训练过程中 NLL 最优的参数（防止小样本过拟合）。
+生成时从 $\bm{u}\sim\mathcal{N}(\bm{0},\bm{I})$ 逆变换回 $\bm{z}$，
+再解码为化合物谱。
+
+\textbf{对照组}为“每风格一个高斯”$\mathcal{N}(\bm{\mu}_s,\bm{\Sigma}_s)$，
+协方差用向总体池化协方差收缩的估计（收缩系数由样本量自适应）：
+\begin{equation}
+\hat{\bm{\Sigma}}_s=\underbrace{\frac{n_s}{n_s+12}\hat{\bm{\Sigma}}_s^{\mathrm{emp}}}_{\text{风格自身}}
++\underbrace{\frac{12}{n_s+12}\hat{\bm{\Sigma}}_{\mathrm{pool}}}_{\text{向总体借力}} .
+\label{eq:shrink}
+\end{equation}
+两者在同一数据上比较 NLL，结果见 \S7.6。
+
+\subsection{缺陷约束}
+
+\subsubsection{缺陷的两种度量}
+
+题目指定的缺陷项为 DMS、双乙酰、4VG、反式-2-壬烯醛与陈酒花。本文用两条互补
+的度量，避免依赖单一来源：
+
+\textbf{（1）化合物侧 OAV。}由 \S\ref{sec:logbase} 的量纲判定还原浓度后，
+对数据集中给出阈值的缺陷化合物计算
+$\mathrm{OAV}_c=C_c/T_c$：DMS $T=17.25\ \mu\mathrm{g\cdot L^{-1}}$、
+双乙酰 $T=0.299\ \mathrm{mg\cdot L^{-1}}$、
+4VG $T=0.206\ \mathrm{mg\cdot L^{-1}}$。反式-2-壬烯醛与陈酒花标志物
+（3-甲硫基丙醇、异丁酸乙酯）在附件阈值表中无可用阈值，本文不\textbf{编造}
+阈值，改用下一条度量。
+
+\textbf{（2）感官侧缺陷分。}用问题一的感官预测器 $\hat{\bm{f}}$ 对 \texttt{4.csv}
+中的五个缺陷维度（\texttt{dms}, \texttt{diacetyl}, \texttt{X4vg}, \texttt{t2n},
+\texttt{stale\_hops}）求预测值，取均值作为该样本的缺陷分
+\begin{equation}
+D(\bm{x})=\frac{1}{5}\sum_{k\in\mathcal{K}_{\mathrm{def}}}\hat f_k(\bm{x}),
+\qquad \mathcal{K}_{\mathrm{def}}=\{\text{dms, diacetyl, 4vg, t2n, stale\_hops}\}.
+\label{eq:defscore}
+\end{equation}
+这条度量完全基于数据（不引入任何外部阈值），且直接对应“品评员是否察觉缺陷”，
+因此作为\textbf{硬判据}；OAV 作为\textbf{旁证}。
+
+\subsubsection{约束的定义}
+
+对风格 $s$ 定义其缺陷容许上限 $\bm{q}_s$ 为该风格样本缺陷 OAV 的 95\% 分位数。
+生成样本 $\bm{x}$ 被接受当且仅当
+\begin{equation}
+\mathrm{OAV}_c(\bm{x})\le q_{s,c}\quad \forall c\in\mathcal{D}_{\mathrm{OAV}},
+\label{eq:defconstraint}
+\end{equation}
+其中 $\mathcal{D}_{\mathrm{OAV}}$ 为可算 OAV 的缺陷化合物集合。采样采用
+\textbf{拒绝采样}：被拒样本以该风格的经验分布重采样替换——这比“裁剪到阈值”
+更保守，因为裁剪会把样本堆到约束边界上，而拒绝采样保持了风格内部的自然分布。
+
+\subsection{跨风格迁移：最优传输 + 单调投影}
+
+\subsubsection{为什么用最优传输}
+
+朴素做法是“把源样本的潜坐标加上目标风格均值差”$\bm{z}_s+(\bm{\mu}_t-\bm{\mu}_s)$。
+这只能对齐均值、\textbf{不能对齐协方差}，结果是迁移后的样本在目标风格里
+“形状不对”——例如 Tripel 的方差比 Pils/Lager 大，均值平移后的样本会挤在
+Tripel 分布的中央，失去风格内部的多样性。
+
+本文用\textbf{高斯测度间的最优传输映射}（Bures-Wasserstein 几何）
+\cite{peyre2019}。在二次代价下，两个高斯分布之间唯一的 Monge 映射是仿射的：
+\begin{equation}
+\bm{z}_{\mathrm{ot}}=\bm{\mu}_t+\bm{A}(\bm{z}_s-\bm{\mu}_s),\qquad
+\bm{A}=\bm{\Sigma}_s^{-1/2}\Big(\bm{\Sigma}_s^{1/2}\bm{\Sigma}_t
+\bm{\Sigma}_s^{1/2}\Big)^{1/2}\bm{\Sigma}_s^{-1/2},
+\label{eq:ot}
+\end{equation}
+它同时对齐均值与协方差，且是 $W_2$ 距离下的精确解（推导见附录）。
+
+\subsubsection{缺陷约束的单调投影}
+
+把 \eqref{eq:ot} 直接作用于某款 Pils/Lager，可能连带放大 DMS 与双乙酰——
+这正是题目警告的情形。为此我们在“源点--目标点”的连线上做\textbf{单调搜索}：
+\begin{equation}
+\bm{z}(\lambda)=\bm{z}_s+\lambda\,(\bm{z}_{\mathrm{ot}}-\bm{z}_s),\qquad
+\lambda^\star=\max\{\lambda\in[0,1]:\ D(\bm{z}(\lambda))\le D(\bm{z}_s)\},
+\label{eq:lambda}
+\end{equation}
+用 22 步二分求解（精度 $2^{-22}$）。$\lambda^\star$ 的含义是\textbf{“在不引入
+缺陷的前提下，最多能向目标风格迁移多远”}：$\lambda^\star=1$ 表示完全迁移且
+缺陷未恶化，$\lambda^\star$ 越小表示该款酒越难被“干净地”迁移。这一设计使迁移
+结果兼具\textbf{可解释性}（一个标量讲清迁移强度）与\textbf{可审计性}（缺陷单调
+不增是构造性保证，而非事后检查）。
+
+\subsection{生成质量的评估指标}
+
+生成模型最容易被“看着像”误导，因此本文全部用\textbf{分布层面}的指标。
+
+\begin{enumerate}[label=(\arabic*),leftmargin=2.2em,itemsep=1pt]
+\item \textbf{风格保真度}：在真实数据上训练风格分类器（随机森林，5 折交叉验证
+  报告其准确率），再用它判别生成样本，统计“被判为同风格”的比例。若模型只学到
+  风格均值，该比例会接近随机基线 $1/22$。
+\item \textbf{Fréchet 距离}（$\mathrm{FD}$，图像生成中 FID 的多变量形式）：
+  \begin{equation}
+  \mathrm{FD}=\|\bm{\mu}_{\mathrm{gen}}-\bm{\mu}_{\mathrm{real}}\|_2^2
+  +\operatorname{tr}\Big(\bm{\Sigma}_{\mathrm{gen}}+\bm{\Sigma}_{\mathrm{real}}
+  -2(\bm{\Sigma}_{\mathrm{gen}}\bm{\Sigma}_{\mathrm{real}})^{1/2}\Big),
+  \label{eq:fd}
+  \end{equation}
+  同时惩罚均值偏移与协方差失配，越小越好。
+\item \textbf{能量距离}：非参数的两样本检验统计量，对分布形状敏感。
+\item \textbf{多样性比}：生成样本逐维标准差与真实样本逐维标准差之比的均值，
+  理想值为 1；显著小于 1 说明模型在“复制均值”（模式坍塌）。
+\item \textbf{感官画像距离}：生成样本经问题一预测器得到的感官画像，与真实风格
+  质心在标准化尺度上的平均绝对差。
+\end{enumerate}

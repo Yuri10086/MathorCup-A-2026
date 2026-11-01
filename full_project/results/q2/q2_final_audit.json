@@ -1,0 +1,31 @@
+{
+  "stability_mean_jaccard_fusion": 0.21084738225186983,
+  "stability_mean_jaccard_spearman": 0.2656806145138468,
+  "avg_final_top3_frequency_fusion": 0.4286,
+  "avg_final_top3_frequency_spearman": 0.4986,
+  "fusion_vs_spearman_jaccard_dims_higher": 16,
+  "chemical_anchor_in_top3": 3,
+  "chemical_anchor_count": 10,
+  "paired_CI_improvements": {
+    "fusion_vs_spearman_positive_means_fusion_better": [
+      0.0028012939178219775,
+      -0.0019099132187329869,
+      0.007195468035073184
+    ],
+    "graph_vs_no_graph_positive_means_graph_better": [
+      -0.0021735479513619893,
+      -0.006623707855525076,
+      0.002148972199782109
+    ],
+    "graph_vs_shuffled_positive_means_graph_better": [
+      -0.002906984568085055,
+      -0.007547596212156692,
+      0.0015983785578864724
+    ],
+    "extratrees_vs_graph_positive_means_ET_better": [
+      0.051865746187984285,
+      0.04382378088598754,
+      0.05949996178480466
+    ]
+  }
+}

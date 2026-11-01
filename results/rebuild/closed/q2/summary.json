@@ -1,0 +1,12 @@
+{
+  "final_method": "Hybrid2plus1",
+  "final_inner_scores": {
+    "Spearman": 0.48445893303062065,
+    "Hybrid2plus1": 0.4840842017502895,
+    "Forward3": 0.48594506072179783,
+    "Redundancy": 0.49029342998601533
+  },
+  "rows": 150,
+  "evaluation_method": "TrainSelected outer OOF; final fixed algorithm is selected inside full-data training only",
+  "bootstrap": "100 style-stratified beer bootstraps; duplicate source beer cannot cross inner training/validation"
+}

@@ -1,0 +1,10 @@
+sensory,direct_marker,marker_abs_spearman,direct_marker_in_top3,selected_top3
+alcohol,ethanol..v.v.,0.8171582570720233,True,ethanol..v.v.;glycerol;lactic_acid.mg.L.
+X4vg,X4VG,0.47261752961228276,True,X4VG;delta.terpinyl.acetate;X4.methyl.1.pentanol
+diacetyl,X2.3.butanedione,0.09772332909810931,False,eugenol;ethyl_decanoate;beta.phellandrene
+dms,DMS,0.08786012853043475,False,terpinen.4.ol;E.nerolidol;isopropyl.laurate
+t2n,X.E..2.nonenal,0.15068582056912816,False,beta.phellandrene;terpinen.4.ol;glycerol
+body,glycerol,0.5726252913087868,True,ethanol..v.v.;glycerol;n.octanol
+lactic,lactic_acid.mg.L.,0.4475322568342476,True,lactic_acid.mg.L.;perillyl.acetate;isopentyl_acetate
+F_esters_isoaa,isopentyl_acetate,0.2736296895926276,True,n.hexanol;isopentyl_acetate;humulene.epoxide.II
+A_esters_isoaa,isopentyl_acetate,0.2828145982352666,True,n.hexanol;isopentyl_acetate;humulene.epoxide.II

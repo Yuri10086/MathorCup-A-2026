@@ -1,0 +1,118 @@
+% ============================ 六、问题二 ============================
+\section{问题二：化合物共表达图与关键化合物识别}
+
+\subsection{从“相关”到“可靠驱动”：三层论证框架}
+
+问题二的交付物是“每个感官维度的 Top-3 关键化合物”，但一个排行榜本身不构成
+论证。本文把它拆成三层（对应 \S2.3）：
+\textbf{结构层}（化合物之间如何关联）$\rightarrow$
+\textbf{归因层}（哪些化合物被多种证据共同指向）$\rightarrow$
+\textbf{验证层}（结论是否稳定、是否化学上说得通）。
+三层各自给出可复算的数值，而非定性描述。
+
+\subsection{结构层：化合物共表达图的构建}
+
+以 \texttt{2.csv} 的皮尔逊相关为边权，取 $|\rho_{jk}|\ge\tau$ 建图
+$G=(V,E,w)$，$|V|=231$，$w_{jk}=|\rho_{jk}|$。随后用\textbf{贪心模块度优化}
+做社区发现\cite{langfelder2008}，即最大化
+\begin{equation}
+Q=\frac{1}{2m}\sum_{j,k}\left[w_{jk}-\frac{s_js_k}{2m}\right]\delta(c_j,c_k),
+\label{eq:modularity}
+\end{equation}
+其中 $s_j=\sum_k w_{jk}$、$m=\frac12\sum_{jk}w_{jk}$、$c_j$ 为化合物 $j$ 所属社区、
+$\delta$ 为示性函数。取 $\tau=0.45$ 时得 \textbf{34 个社区、模块度
+$Q=0.549$}：其中 6 个主模块覆盖 200 个化合物（规模 64/41/26/24/23/22），其余 28 个
+为孤立或双元小组。$Q=0.549$ 在代谢共表达网络中属于\textbf{强模块化}水平，说明
+化合物之间的相关并非均匀噪声、而是有明确的模块结构。
+
+各主模块的化学构成（图~\ref{fig:network}(b) 与表~\ref{tab:modules}）与酿造生化
+路径高度对应，这是本文后续“化学合理性”论证的先验依据：
+
+\begin{table}[H]
+\centering
+\caption{共表达图主模块的化学构成与生化解释}
+\label{tab:modules}
+\small
+\begin{fittable}
+\begin{tabular}{@{}llp{0.42\textwidth}p{0.24\textwidth}@{}}
+\toprule
+社区 & 规模 & 代表化合物 & 生化解释 \\
+\midrule
+C0 & 64 & 乙酸异戊酯、乙酸苯乙酯、酸性组分、pH、蛋白 & 主发酵酯醇代谢 \\
+C1 & 41 & 苦度、异丁酸酯类、反式-2-壬烯醛、萜烯醇 & 酒花与陈化混合 \\
+C2 & 26 & 乙醛、DMS、二乙基硫、乙酸乙酯、乙酯系列 & 酵母硫代谢与酯合成 \\
+C3 & 24 & 4VG、$\alpha$/$\beta$-水芹烯、柠檬烯、桉叶油醇 & 酒花萜烯骨架 \\
+C4 & 23 & 丙醇、双乙酰、3-甲基丁醛、乙酸丙酯、戊醇 & 高级醇与羰基化合物 \\
+C5 & 22 & 3-甲硫基丙醇、庚酸乙酯、罗勒烯、金合欢烯、橙花叔醇 & 陈化与萜烯降解 \\
+\bottomrule
+\end{tabular}
+\end{fittable}
+\end{table}
+
+\subsection{归因层：五路证据与秩融合}
+
+单一模型的重要性排序不可靠：树模型的 MDI 偏好高基数特征、线性模型的系数在
+共线性下不稳定、相关系数看不到交互。本文用\textbf{五路互补证据}，各自给出
+231 维化合物的排序，再做秩融合。设第 $k$ 个感官维度、第 $j$ 个化合物在第 $m$ 路
+证据下的秩为 $r^{(m)}_{kj}$（1 为最重要），融合得分为
+\begin{equation}
+\Phi_{kj}=\sum_{m=1}^{5}\omega_m\left(1-\frac{r^{(m)}_{kj}-1}{p-1}\right),
+\qquad \sum_m\omega_m=1 ,
+\label{eq:rankfusion}
+\end{equation}
+$\Phi_{kj}$ 越大表示被越多方法共同推举。五路证据与权重的依据如下：
+
+\begin{enumerate}[label=(\arabic*),leftmargin=2.2em,itemsep=1pt]
+\item \textbf{Spearman 秩相关}（$\omega=0.20$）：非参数单调关联，对长尾与异常值
+  稳健，但不识别非线性与交互。
+\item \textbf{梯度提升树的 SHAP 平均绝对值}（$\omega=0.35$）：Shapley 值分解满足
+  可加性与局部准确性，是当前最可靠的树模型归因\cite{lundberg2017}；权重最高，
+  因为它同时捕捉非线性与交互。
+\item \textbf{随机森林置换重要性}（$\omega=0.20$）：直接度量“打乱该特征后
+  $R^2$ 的下降”，与具体分裂准则无关，用于校正 SHAP 的模型内偏好。
+\item \textbf{ElasticNet 稳定性选择}（$\omega=0.15$）：在 $B=120$ 次 bootstrap
+  重采样中统计 $|\hat\beta_j|>0$ 的频率，这是稳定性选择的标准形式
+  \cite{meinshausen2010}，专门刻画“系数是否可重复地被选中”。
+\item \textbf{互信息}（$\omega=0.10$）：$k$ 近邻估计的 $I(X_j;Y_k)$，对任意
+  单调或非单调依赖敏感，作为独立于模型族的兜底证据。
+\end{enumerate}
+
+\subsection{验证层之一：稳定性度量}
+
+本文给出两个互补的稳定性指标，正好对应题目提示的两种量化方式。
+
+\textbf{（1）bootstrap 入选频率。}对 $B=200$ 次重采样，每次重算融合排序并取
+Top-3，统计目标化合物 $c$ 在维度 $k$ 上的入选频率
+\begin{equation}
+\pi_{kc}=\frac{1}{B}\sum_{b=1}^{B}\mathbb{1}\left[c\in \mathrm{Top3}^{(b)}_k\right].
+\label{eq:bootfreq}
+\end{equation}
+$\pi_{kc}=1$ 表示无论怎么重采样它都在 Top-3，$\pi_{kc}\approx 0.33$ 则表示
+大致相当于三者随机之一，可信度低。
+
+\textbf{（2）跨方法 Jaccard 系数。}对方法对 $(m,m')$，定义
+\begin{equation}
+J^{(m,m')}_{k}=\frac{\left|\mathrm{Top3}^{(m)}_k\cap \mathrm{Top3}^{(m')}_k\right|}
+{\left|\mathrm{Top3}^{(m)}_k\cup \mathrm{Top3}^{(m')}_k\right|},
+\label{eq:jaccard}
+\end{equation}
+并对 10 个方法对取均值。$J$ 低说明不同方法指向不同化合物，即该维度的归因
+本身不稳定——这比“某方法自身重复性高”是更严格的检验。
+
+\subsection{验证层之二：化学合理性判据}
+
+统计关联必须还原到化学层面才可信。本文用四条判据：
+\begin{enumerate}[label=(\arabic*),leftmargin=2.2em,itemsep=1pt]
+\item \textbf{气味活度}：由 \S\ref{sec:logbase} 的逐列量纲判定还原真实浓度
+  $C_c$，计算 $\mathrm{OAV}_c=C_c/T_c$\cite{grosch1994,grosch1993}。Top-3 中
+  若 $\mathrm{OAV}\gg1$，说明该化合物确实处于可感知量级。
+\item \textbf{化学类别}：Top-3 是否属于与感官维度语义一致的类别（如“酒花香-柑橘”
+  应由萜烯类主导，“双乙酰奶油”应由酮类主导）。
+\item \textbf{代谢来源}：$\texttt{8.xlsx}$ 标注的 Malt / Hops / Yeast / Wild
+  flora 是否与该感官的来源一致。
+\item \textbf{模块一致性}：Top-3 是否落在同一共表达模块，或落在语义相关的模块
+  （如“酯香”应命中 M0/M2）。
+\end{enumerate}
+此外用 \texttt{6.csv} 的化学 $\times$ 感官交叉相关作为\textbf{独立第三方证据}：
+该矩阵不参与本文的任何建模，若它给出的强相关化合物与本文 Top-3 重合，则构成
+外部验证。

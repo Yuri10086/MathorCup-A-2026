@@ -1,0 +1,8 @@
+{
+  "production_model": "CopulaIndependent",
+  "cvae_parameters": 35071,
+  "n_production": 880,
+  "evaluator": "Disjoint 40 beers; not used to optimize or select generation; validation selection uses SWD only. Style accuracy is weak with tiny evaluator.",
+  "migration": "Only held-out Pils used for confirmatory internal comparison. Missing/floor measurements do not establish true non-worsening.",
+  "production_selection": "Minimum mean validation SWD; resolves three-way validation vote tie without test metrics."
+}

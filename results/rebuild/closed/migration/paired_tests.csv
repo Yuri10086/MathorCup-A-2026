@@ -1,0 +1,7 @@
+﻿policy,reference,metric,mean_difference,p,p_holm
+PointConstraint,Reject,target_gain,0.051440329218107005,0.0078125,0.046875
+PointConstraint,Reject,stale_change,-0.0241413371531685,0.65234375,1.0
+UncertaintyConstraint,Reject,target_gain,0.028909465020576133,0.078125,0.3125
+UncertaintyConstraint,Reject,stale_change,0.005212845282289675,0.6875,1.0
+Unconstrained,Reject,target_gain,0.051440329218107005,0.0078125,0.046875
+Unconstrained,Reject,stale_change,-0.009375285779606815,0.65234375,1.0

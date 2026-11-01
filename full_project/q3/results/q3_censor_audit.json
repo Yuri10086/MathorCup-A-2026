@@ -1,0 +1,14 @@
+{
+  "indicator_definition": "same observed column minimum in >=25% of training beers (possible detection floor; not proven LOD)",
+  "n_minimum_pileup_features_training": 48,
+  "n_minimum_pileup_features_full": 48,
+  "holdout_weighted_floor_fraction_mae_baseline": 0.41066189236111117,
+  "holdout_weighted_floor_fraction_mae_censor_aware": 0.2550509982638889,
+  "relative_error_reduction_pct": 37.892703703899436,
+  "styles_evaluated": 20,
+  "style_feature_pairs": 960,
+  "full_generated_spectra": 880,
+  "floor_cells_set": 20191,
+  "physical_column_minmax_violations": 0,
+  "limitations": "Floor mass learned only from training beer cohorts for holdout; artificial minima are proxies, not proven instrument censor values."
+}

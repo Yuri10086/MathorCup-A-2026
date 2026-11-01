@@ -1,0 +1,45 @@
+{
+  "scope": "Independent audit of inputs, code and supplied saved predictions; no full retraining of supplied pipeline.",
+  "raw_md5": "a8f911d8c0061e096abf3b087678e164",
+  "zenodo_v4_md5_matches": true,
+  "raw_rows": 2197,
+  "unique_beers": 250,
+  "tasters": 16,
+  "dates": 37,
+  "duplicate_beer_taster_rows": 187,
+  "multi_date_beers": 12,
+  "tastings_min_max": [
+    3,
+    31
+  ],
+  "mapping_correlation_median_correct_row": 0.9776565916557107,
+  "mapping_correlation_median_wrong_beer_id": 0.007591294933059844,
+  "z_reconstruction_exact_cells": 11272,
+  "z_reconstruction_total_cells": 12500,
+  "z_reconstruction_mae": 0.004838534430656589,
+  "raw_parent_child_violations": 0,
+  "zero_parent_ambiguous_presence_pairs": 7728,
+  "total_parent_child_pairs": 52728,
+  "product_of_marginal_means_error_mae": 0.1637247706651368,
+  "product_of_marginal_means_error_max": 1.25,
+  "raw_barnyard_stale_equal": 2183,
+  "raw_barnyard_stale_different": 14,
+  "equal_rater_label_change_max": 0.4605128205128204,
+  "q1_recomputed": {
+    "mae_af30": 0.506230918612688,
+    "mae_50": 0.44237206662125633,
+    "rounded_mean_exact": 0.5393333333333333,
+    "rounded_mean_within1": 0.9518666666666666
+  },
+  "q2_recomputed": {
+    "mae_spearman": 0.38008891948996737,
+    "mae_hybrid": 0.37276229502845953
+  },
+  "q3_recomputed": {
+    "mean_distance_before": 2.9017712470045898,
+    "mean_distance_after": 1.7716455826567143,
+    "n_closer": 7
+  },
+  "independent_floor_replacement_worsens_descriptive_correlations_styles": 2,
+  "full_floor_features": 48
+}

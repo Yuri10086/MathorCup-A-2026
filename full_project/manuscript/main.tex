@@ -1,0 +1,18 @@
+% !TeX program = xelatex
+% Q1/Q2/Q3均有实测结果；本稿仍须队员核查 AI 披露、Q2 化学解释和参考文献格式，不直接提交。
+\documentclass[UTF8,a4paper,12pt,fontset=none]{ctexart}
+\usepackage{mathorcup2026}
+\usepackage{graphicx}
+\renewcommand{\papertitle}{基于化学谱的啤酒感官预测、关键化合物归因与风格约束生成}
+\renewcommand{\teamnumber}{MCB260XXXX}
+\renewcommand{\competitiontrack}{A}
+\renewcommand{\paperkeywords}{啤酒风味；感官评分；有符号关联图；条件生成；约束迁移}
+\begin{document}
+\makecoverheading
+\begin{papersummary}
+本文面向250款啤酒的231项化学变量，建立感官评分预测、关键化合物关联筛选与风格条件生成的统一流程。第一问参照原论文公开2197条逐品评员评分，按啤酒划分的五折评估中，ExtraTrees预测30项Aroma/Flavour的MAE为0.5062。第二问以Spearman前二项联合条件增益选择第三项，50维标准化感官目标的三变量预测MAE由0.3801降至0.3728，两套额外随机划分复现改善。第三问提出疑似检出限堆积的风格条件双部分生成，在三组留出划分中将最低值质量比例误差减少38.0\%--42.4\%；11款Pils/Lager向Tripel风格迁移中，约束优化使7款更接近目标风格，42项实测化学缺陷比较与11项stale\_hops感官代理比较均未恶化。三问均提供代码、消融和可复核结果，外部原始品评数据与同批250款啤酒的对应关系及限制在正文披露。
+\end{papersummary}
+\makepapertoc
+\startpaper
+\input{sections/content}
+\end{document}

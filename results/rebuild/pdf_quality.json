@@ -1,0 +1,11 @@
+{
+  "total_pages": 36,
+  "front_matter_pages": 2,
+  "body_pages": 16,
+  "main_body_within_30": true,
+  "abstract_first_page": true,
+  "contents_second_page": true,
+  "appendix_first_pdf_page": 19,
+  "missing_glyph_warnings": false,
+  "overfull_warnings": false
+}

@@ -1,0 +1,751 @@
+﻿seed,row,beer,style,role
+20261028,109,92,Amber,generator
+20261028,215,248,Blond,generator
+20261028,101,14,Brett/cofermented,generator
+20261028,191,108,Brown,generator
+20261028,224,1,Brut,generator
+20261028,198,38,Christmas,generator
+20261028,113,107,Dubbel,generator
+20261028,46,250,Faro,generator
+20261028,26,161,Flanders old brown,generator
+20261028,15,227,Fruitbeer,generator
+20261028,90,219,Hoppy,generator
+20261028,173,153,Kriek,generator
+20261028,189,75,Lambic,generator
+20261028,4,40,Low/No alcohol,generator
+20261028,23,96,Pils/Lager,generator
+20261028,42,183,Saison,generator
+20261028,38,216,Scotch,generator
+20261028,88,231,Stout/Porter,generator
+20261028,169,51,Strong ale,generator
+20261028,249,157,Tripel,generator
+20261028,149,118,West Flanders ale,generator
+20261028,48,224,Wheat,generator
+20261028,60,122,Brett/cofermented,generator
+20261028,114,205,Brut,generator
+20261028,222,68,Tripel,generator
+20261028,146,13,Christmas,generator
+20261028,87,110,Blond,generator
+20261028,12,179,Flanders old brown,generator
+20261028,110,93,Tripel,generator
+20261028,121,49,Blond,generator
+20261028,199,170,Strong ale,generator
+20261028,237,85,Tripel,generator
+20261028,25,44,Wheat,generator
+20261028,94,186,Strong ale,generator
+20261028,52,58,Saison,generator
+20261028,241,239,Tripel,generator
+20261028,6,48,Dubbel,generator
+20261028,242,117,Strong ale,generator
+20261028,193,45,Tripel,generator
+20261028,53,11,Amber,generator
+20261028,170,144,Lambic,generator
+20261028,20,202,Stout/Porter,generator
+20261028,28,142,Wheat,generator
+20261028,80,59,Blond,generator
+20261028,68,55,Hoppy,generator
+20261028,229,210,Amber,generator
+20261028,166,245,Tripel,generator
+20261028,117,24,Kriek,generator
+20261028,59,20,Saison,generator
+20261028,95,109,Brown,generator
+20261028,112,76,Blond,generator
+20261028,92,42,Lambic,generator
+20261028,124,193,Blond,generator
+20261028,98,87,Stout/Porter,generator
+20261028,70,232,Kriek,generator
+20261028,71,151,Faro,generator
+20261028,139,120,Hoppy,generator
+20261028,132,132,Saison,generator
+20261028,2,2,Low/No alcohol,generator
+20261028,49,54,Kriek,generator
+20261028,202,215,Blond,generator
+20261028,176,30,Blond,generator
+20261028,159,147,Tripel,generator
+20261028,72,61,Stout/Porter,generator
+20261028,236,203,Brett/cofermented,generator
+20261028,216,65,Hoppy,generator
+20261028,77,176,West Flanders ale,generator
+20261028,102,173,Stout/Porter,generator
+20261028,39,200,West Flanders ale,generator
+20261028,174,146,Scotch,generator
+20261028,184,52,Stout/Porter,generator
+20261028,147,174,Dubbel,generator
+20261028,143,221,Dubbel,generator
+20261028,183,31,Hoppy,generator
+20261028,99,220,Kriek,generator
+20261028,225,71,Blond,generator
+20261028,14,50,Fruitbeer,generator
+20261028,239,21,Lambic,generator
+20261028,107,159,Flanders old brown,generator
+20261028,163,101,Blond,generator
+20261028,24,230,Pils/Lager,generator
+20261028,145,27,Hoppy,generator
+20261028,155,6,Amber,generator
+20261028,138,80,Hoppy,generator
+20261028,141,18,Lambic,generator
+20261028,128,150,Brett/cofermented,generator
+20261028,86,178,West Flanders ale,generator
+20261028,142,98,Brown,generator
+20261028,3,83,Low/No alcohol,generator
+20261028,243,171,Tripel,generator
+20261028,75,70,Blond,generator
+20261028,37,166,Saison,generator
+20261028,187,94,Blond,generator
+20261028,29,137,Amber,generator
+20261028,185,9,Hoppy,generator
+20261028,123,134,Strong ale,generator
+20261028,177,36,Brown,generator
+20261028,51,209,Pils/Lager,generator
+20261028,233,63,Amber,generator
+20261028,122,243,Wheat,generator
+20261028,13,33,Fruitbeer,generator
+20261028,218,198,Dubbel,generator
+20261028,1,86,Low/No alcohol,generator
+20261028,127,12,Lambic,generator
+20261028,93,72,Hoppy,generator
+20261028,30,236,Brett/cofermented,generator
+20261028,245,175,Strong ale,generator
+20261028,11,141,Low/No alcohol,generator
+20261028,197,208,Wheat,generator
+20261028,192,187,Dubbel,generator
+20261028,164,237,Brown,generator
+20261028,172,41,Lambic,generator
+20261028,116,53,Brown,generator
+20261028,196,242,Saison,generator
+20261028,27,195,Wheat,generator
+20261028,40,116,Lambic,generator
+20261028,84,128,Amber,generator
+20261028,118,136,Blond,generator
+20261028,223,15,Tripel,generator
+20261028,120,180,Christmas,generator
+20261028,83,241,Kriek,generator
+20261028,214,148,Strong ale,generator
+20261028,44,46,Blond,generator
+20261028,227,140,Tripel,generator
+20261028,178,126,Amber,generator
+20261028,76,113,Blond,generator
+20261028,194,154,Tripel,generator
+20261028,61,169,Hoppy,generator
+20261028,7,165,Fruitbeer,generator
+20261028,104,119,Pils/Lager,generator
+20261028,162,104,Strong ale,generator
+20261028,171,28,Pils/Lager,generator
+20261028,130,226,Strong ale,generator
+20261028,82,82,Kriek,generator
+20261028,35,228,Tripel,generator
+20261028,32,211,Lambic,generator
+20261028,248,99,Strong ale,generator
+20261028,115,206,Brown,generator
+20261028,17,77,Blond,generator
+20261028,246,196,Strong ale,generator
+20261028,119,69,Tripel,validation
+20261028,182,8,Hoppy,validation
+20261028,157,78,Brown,validation
+20261028,154,125,Blond,validation
+20261028,47,158,Amber,validation
+20261028,54,56,Saison,validation
+20261028,135,164,Blond,validation
+20261028,168,60,Christmas,validation
+20261028,64,43,Amber,validation
+20261028,134,47,Tripel,validation
+20261028,43,111,Dubbel,validation
+20261028,0,10,Low/No alcohol,validation
+20261028,50,5,Blond,validation
+20261028,209,143,Hoppy,validation
+20261028,180,123,Stout/Porter,validation
+20261028,211,182,Stout/Porter,validation
+20261028,85,244,West Flanders ale,validation
+20261028,89,112,Brown,validation
+20261028,150,152,Wheat,validation
+20261028,212,17,Tripel,validation
+20261028,9,207,Fruitbeer,validation
+20261028,190,34,Tripel,validation
+20261028,137,149,Blond,validation
+20261028,103,37,Strong ale,validation
+20261028,167,191,Tripel,validation
+20261028,126,240,Tripel,validation
+20261028,133,16,Dubbel,validation
+20261028,108,90,Pils/Lager,validation
+20261028,21,64,Blond,validation
+20261028,175,168,Scotch,validation
+20261028,69,26,West Flanders ale,validation
+20261028,131,29,Saison,validation
+20261028,160,66,Tripel,validation
+20261028,79,167,Flanders old brown,validation
+20261028,63,160,Wheat,validation
+20261028,144,32,Amber,evaluator
+20261028,67,62,Blond,evaluator
+20261028,140,222,Brett/cofermented,evaluator
+20261028,204,89,Brown,evaluator
+20261028,240,192,Brut,evaluator
+20261028,206,181,Christmas,evaluator
+20261028,62,194,Dubbel,evaluator
+20261028,57,74,Faro,evaluator
+20261028,33,190,Flanders old brown,evaluator
+20261028,105,177,Fruitbeer,evaluator
+20261028,45,213,Hoppy,evaluator
+20261028,73,156,Kriek,evaluator
+20261028,179,162,Lambic,evaluator
+20261028,31,223,Low/No alcohol,evaluator
+20261028,41,139,Pils/Lager,evaluator
+20261028,66,7,Saison,evaluator
+20261028,231,233,Scotch,evaluator
+20261028,156,212,Stout/Porter,evaluator
+20261028,247,4,Strong ale,evaluator
+20261028,230,189,Tripel,evaluator
+20261028,55,84,West Flanders ale,evaluator
+20261028,18,22,Wheat,evaluator
+20261028,58,188,Stout/Porter,evaluator
+20261028,219,91,Strong ale,evaluator
+20261028,210,133,Strong ale,evaluator
+20261028,136,115,Lambic,evaluator
+20261028,36,185,Pils/Lager,evaluator
+20261028,195,121,Blond,evaluator
+20261028,151,184,Fruitbeer,evaluator
+20261028,205,114,Hoppy,evaluator
+20261028,181,130,Brut,evaluator
+20261028,65,100,Dubbel,evaluator
+20261028,96,246,Blond,evaluator
+20261028,16,88,Kriek,evaluator
+20261028,244,103,Stout/Porter,evaluator
+20261028,111,238,Blond,evaluator
+20261028,228,67,Stout/Porter,evaluator
+20261028,226,102,Christmas,evaluator
+20261028,100,201,Stout/Porter,evaluator
+20261028,161,249,Blond,evaluator
+20261028,8,124,Pils/Lager,test
+20261028,19,81,Pils/Lager,test
+20261028,22,218,Pils/Lager,test
+20261028,217,73,Blond,test
+20261028,5,247,Fruitbeer,test
+20261028,129,23,Tripel,test
+20261028,201,35,Blond,test
+20261028,235,25,Brown,test
+20261028,148,79,Hoppy,test
+20261028,81,135,Tripel,test
+20261028,106,106,Christmas,test
+20261028,153,145,Saison,test
+20261028,34,197,Wheat,test
+20261028,56,172,Wheat,test
+20261028,221,163,Tripel,test
+20261028,158,234,Blond,test
+20261028,232,199,Tripel,test
+20261028,10,155,Low/No alcohol,test
+20261028,152,19,Amber,test
+20261028,238,3,Blond,test
+20261028,186,204,Tripel,test
+20261028,78,105,Strong ale,test
+20261028,74,138,Kriek,test
+20261028,97,97,Hoppy,test
+20261028,165,127,Blond,test
+20261028,234,95,Christmas,test
+20261028,91,129,Brown,test
+20261028,125,39,Hoppy,test
+20261028,208,57,Tripel,test
+20261028,203,235,Strong ale,test
+20261028,200,214,Christmas,test
+20261028,213,229,Wheat,test
+20261028,220,217,Tripel,test
+20261028,188,131,Scotch,test
+20261028,207,225,Strong ale,test
+20261029,53,11,Amber,generator
+20261029,154,125,Blond,generator
+20261029,60,122,Brett/cofermented,generator
+20261029,157,78,Brown,generator
+20261029,240,192,Brut,generator
+20261029,226,102,Christmas,generator
+20261029,147,174,Dubbel,generator
+20261029,46,250,Faro,generator
+20261029,107,159,Flanders old brown,generator
+20261029,9,207,Fruitbeer,generator
+20261029,61,169,Hoppy,generator
+20261029,99,220,Kriek,generator
+20261029,32,211,Lambic,generator
+20261029,10,155,Low/No alcohol,generator
+20261029,51,209,Pils/Lager,generator
+20261029,66,7,Saison,generator
+20261029,175,168,Scotch,generator
+20261029,180,123,Stout/Porter,generator
+20261029,203,235,Strong ale,generator
+20261029,160,66,Tripel,generator
+20261029,39,200,West Flanders ale,generator
+20261029,27,195,Wheat,generator
+20261029,215,248,Blond,generator
+20261029,134,47,Tripel,generator
+20261029,172,41,Lambic,generator
+20261029,104,119,Pils/Lager,generator
+20261029,38,216,Scotch,generator
+20261029,26,161,Flanders old brown,generator
+20261029,230,189,Tripel,generator
+20261029,49,54,Kriek,generator
+20261029,7,165,Fruitbeer,generator
+20261029,198,38,Christmas,generator
+20261029,62,194,Dubbel,generator
+20261029,28,142,Wheat,generator
+20261029,177,36,Brown,generator
+20261029,222,68,Tripel,generator
+20261029,18,22,Wheat,generator
+20261029,117,24,Kriek,generator
+20261029,237,85,Tripel,generator
+20261029,213,229,Wheat,generator
+20261029,58,188,Stout/Porter,generator
+20261029,106,106,Christmas,generator
+20261029,68,55,Hoppy,generator
+20261029,169,51,Strong ale,generator
+20261029,13,33,Fruitbeer,generator
+20261029,96,246,Blond,generator
+20261029,115,206,Brown,generator
+20261029,149,118,West Flanders ale,generator
+20261029,105,177,Fruitbeer,generator
+20261029,3,83,Low/No alcohol,generator
+20261029,243,171,Tripel,generator
+20261029,133,16,Dubbel,generator
+20261029,219,91,Strong ale,generator
+20261029,228,67,Stout/Porter,generator
+20261029,118,136,Blond,generator
+20261029,73,156,Kriek,generator
+20261029,92,42,Lambic,generator
+20261029,200,214,Christmas,generator
+20261029,33,190,Flanders old brown,generator
+20261029,204,89,Brown,generator
+20261029,143,221,Dubbel,generator
+20261029,156,212,Stout/Porter,generator
+20261029,78,105,Strong ale,generator
+20261029,17,77,Blond,generator
+20261029,211,182,Stout/Porter,generator
+20261029,34,197,Wheat,generator
+20261029,190,34,Tripel,generator
+20261029,119,69,Tripel,generator
+20261029,129,23,Tripel,generator
+20261029,227,140,Tripel,generator
+20261029,123,134,Strong ale,generator
+20261029,29,137,Amber,generator
+20261029,91,129,Brown,generator
+20261029,85,244,West Flanders ale,generator
+20261029,19,81,Pils/Lager,generator
+20261029,153,145,Saison,generator
+20261029,173,153,Kriek,generator
+20261029,191,108,Brown,generator
+20261029,245,175,Strong ale,generator
+20261029,72,61,Stout/Porter,generator
+20261029,218,198,Dubbel,generator
+20261029,223,15,Tripel,generator
+20261029,185,9,Hoppy,generator
+20261029,98,87,Stout/Porter,generator
+20261029,208,57,Tripel,generator
+20261029,21,64,Blond,generator
+20261029,168,60,Christmas,generator
+20261029,184,52,Stout/Porter,generator
+20261029,55,84,West Flanders ale,generator
+20261029,217,73,Blond,generator
+20261029,148,79,Hoppy,generator
+20261029,70,232,Kriek,generator
+20261029,1,86,Low/No alcohol,generator
+20261029,151,184,Fruitbeer,generator
+20261029,47,158,Amber,generator
+20261029,44,46,Blond,generator
+20261029,155,6,Amber,generator
+20261029,210,133,Strong ale,generator
+20261029,231,233,Scotch,generator
+20261029,152,19,Amber,generator
+20261029,16,88,Kriek,generator
+20261029,232,199,Tripel,generator
+20261029,90,219,Hoppy,generator
+20261029,205,114,Hoppy,generator
+20261029,124,193,Blond,generator
+20261029,234,95,Christmas,generator
+20261029,193,45,Tripel,generator
+20261029,189,75,Lambic,generator
+20261029,209,143,Hoppy,generator
+20261029,121,49,Blond,generator
+20261029,195,121,Blond,generator
+20261029,108,90,Pils/Lager,generator
+20261029,81,135,Tripel,generator
+20261029,82,82,Kriek,generator
+20261029,167,191,Tripel,generator
+20261029,136,115,Lambic,generator
+20261029,48,224,Wheat,generator
+20261029,178,126,Amber,generator
+20261029,202,215,Blond,generator
+20261029,30,236,Brett/cofermented,generator
+20261029,127,12,Lambic,generator
+20261029,50,5,Blond,generator
+20261029,22,218,Pils/Lager,generator
+20261029,100,201,Stout/Porter,generator
+20261029,216,65,Hoppy,generator
+20261029,135,164,Blond,generator
+20261029,56,172,Wheat,generator
+20261029,186,204,Tripel,generator
+20261029,0,10,Low/No alcohol,generator
+20261029,120,180,Christmas,generator
+20261029,54,56,Saison,generator
+20261029,6,48,Dubbel,generator
+20261029,238,3,Blond,generator
+20261029,249,157,Tripel,generator
+20261029,199,170,Strong ale,generator
+20261029,71,151,Faro,generator
+20261029,176,30,Blond,generator
+20261029,233,63,Amber,generator
+20261029,75,70,Blond,generator
+20261029,109,92,Amber,generator
+20261029,52,58,Saison,validation
+20261029,201,35,Blond,validation
+20261029,77,176,West Flanders ale,validation
+20261029,94,186,Strong ale,validation
+20261029,159,147,Tripel,validation
+20261029,125,39,Hoppy,validation
+20261029,35,228,Tripel,validation
+20261029,183,31,Hoppy,validation
+20261029,188,131,Scotch,validation
+20261029,76,113,Blond,validation
+20261029,206,181,Christmas,validation
+20261029,235,25,Brown,validation
+20261029,69,26,West Flanders ale,validation
+20261029,139,120,Hoppy,validation
+20261029,97,97,Hoppy,validation
+20261029,4,40,Low/No alcohol,validation
+20261029,144,32,Amber,validation
+20261029,244,103,Stout/Porter,validation
+20261029,114,205,Brut,validation
+20261029,248,99,Strong ale,validation
+20261029,128,150,Brett/cofermented,validation
+20261029,126,240,Tripel,validation
+20261029,145,27,Hoppy,validation
+20261029,8,124,Pils/Lager,validation
+20261029,132,132,Saison,validation
+20261029,116,53,Brown,validation
+20261029,214,148,Strong ale,validation
+20261029,165,127,Blond,validation
+20261029,101,14,Brett/cofermented,validation
+20261029,87,110,Blond,validation
+20261029,170,144,Lambic,validation
+20261029,212,17,Tripel,validation
+20261029,131,29,Saison,validation
+20261029,150,152,Wheat,validation
+20261029,171,28,Pils/Lager,validation
+20261029,64,43,Amber,evaluator
+20261029,137,149,Blond,evaluator
+20261029,140,222,Brett/cofermented,evaluator
+20261029,95,109,Brown,evaluator
+20261029,181,130,Brut,evaluator
+20261029,146,13,Christmas,evaluator
+20261029,113,107,Dubbel,evaluator
+20261029,57,74,Faro,evaluator
+20261029,12,179,Flanders old brown,evaluator
+20261029,15,227,Fruitbeer,evaluator
+20261029,138,80,Hoppy,evaluator
+20261029,74,138,Kriek,evaluator
+20261029,40,116,Lambic,evaluator
+20261029,31,223,Low/No alcohol,evaluator
+20261029,41,139,Pils/Lager,evaluator
+20261029,37,166,Saison,evaluator
+20261029,174,146,Scotch,evaluator
+20261029,102,173,Stout/Porter,evaluator
+20261029,247,4,Strong ale,evaluator
+20261029,194,154,Tripel,evaluator
+20261029,86,178,West Flanders ale,evaluator
+20261029,197,208,Wheat,evaluator
+20261029,207,225,Strong ale,evaluator
+20261029,241,239,Tripel,evaluator
+20261029,166,245,Tripel,evaluator
+20261029,79,167,Flanders old brown,evaluator
+20261029,2,2,Low/No alcohol,evaluator
+20261029,11,141,Low/No alcohol,evaluator
+20261029,221,163,Tripel,evaluator
+20261029,161,249,Blond,evaluator
+20261029,122,243,Wheat,evaluator
+20261029,192,187,Dubbel,evaluator
+20261029,42,183,Saison,evaluator
+20261029,239,21,Lambic,evaluator
+20261029,242,117,Strong ale,evaluator
+20261029,5,247,Fruitbeer,evaluator
+20261029,67,62,Blond,evaluator
+20261029,225,71,Blond,evaluator
+20261029,89,112,Brown,evaluator
+20261029,103,37,Strong ale,evaluator
+20261029,23,96,Pils/Lager,test
+20261029,24,230,Pils/Lager,test
+20261029,36,185,Pils/Lager,test
+20261029,43,111,Dubbel,test
+20261029,59,20,Saison,test
+20261029,25,44,Wheat,test
+20261029,179,162,Lambic,test
+20261029,163,101,Blond,test
+20261029,63,160,Wheat,test
+20261029,164,237,Brown,test
+20261029,130,226,Strong ale,test
+20261029,14,50,Fruitbeer,test
+20261029,45,213,Hoppy,test
+20261029,158,234,Blond,test
+20261029,80,59,Blond,test
+20261029,83,241,Kriek,test
+20261029,111,238,Blond,test
+20261029,65,100,Dubbel,test
+20261029,20,202,Stout/Porter,test
+20261029,162,104,Strong ale,test
+20261029,236,203,Brett/cofermented,test
+20261029,187,94,Blond,test
+20261029,229,210,Amber,test
+20261029,84,128,Amber,test
+20261029,141,18,Lambic,test
+20261029,93,72,Hoppy,test
+20261029,224,1,Brut,test
+20261029,196,242,Saison,test
+20261029,246,196,Strong ale,test
+20261029,182,8,Hoppy,test
+20261029,112,76,Blond,test
+20261029,220,217,Tripel,test
+20261029,110,93,Tripel,test
+20261029,88,231,Stout/Porter,test
+20261029,142,98,Brown,test
+20261030,47,158,Amber,generator
+20261030,96,246,Blond,generator
+20261030,30,236,Brett/cofermented,generator
+20261030,191,108,Brown,generator
+20261030,240,192,Brut,generator
+20261030,106,106,Christmas,generator
+20261030,65,100,Dubbel,generator
+20261030,57,74,Faro,generator
+20261030,107,159,Flanders old brown,generator
+20261030,13,33,Fruitbeer,generator
+20261030,205,114,Hoppy,generator
+20261030,16,88,Kriek,generator
+20261030,40,116,Lambic,generator
+20261030,2,2,Low/No alcohol,generator
+20261030,22,218,Pils/Lager,generator
+20261030,153,145,Saison,generator
+20261030,175,168,Scotch,generator
+20261030,58,188,Stout/Porter,generator
+20261030,207,225,Strong ale,generator
+20261030,186,204,Tripel,generator
+20261030,149,118,West Flanders ale,generator
+20261030,34,197,Wheat,generator
+20261030,133,16,Dubbel,generator
+20261030,112,76,Blond,generator
+20261030,237,85,Tripel,generator
+20261030,213,229,Wheat,generator
+20261030,18,22,Wheat,generator
+20261030,17,77,Blond,generator
+20261030,198,38,Christmas,generator
+20261030,189,75,Lambic,generator
+20261030,161,249,Blond,generator
+20261030,146,13,Christmas,generator
+20261030,124,193,Blond,generator
+20261030,5,247,Fruitbeer,generator
+20261030,11,141,Low/No alcohol,generator
+20261030,220,217,Tripel,generator
+20261030,43,111,Dubbel,generator
+20261030,138,80,Hoppy,generator
+20261030,110,93,Tripel,generator
+20261030,140,222,Brett/cofermented,generator
+20261030,241,239,Tripel,generator
+20261030,26,161,Flanders old brown,generator
+20261030,158,234,Blond,generator
+20261030,85,244,West Flanders ale,generator
+20261030,222,68,Tripel,generator
+20261030,121,49,Blond,generator
+20261030,24,230,Pils/Lager,generator
+20261030,9,207,Fruitbeer,generator
+20261030,63,160,Wheat,generator
+20261030,245,175,Strong ale,generator
+20261030,93,72,Hoppy,generator
+20261030,97,97,Hoppy,generator
+20261030,157,78,Brown,generator
+20261030,193,45,Tripel,generator
+20261030,31,223,Low/No alcohol,generator
+20261030,28,142,Wheat,generator
+20261030,48,224,Wheat,generator
+20261030,170,144,Lambic,generator
+20261030,6,48,Dubbel,generator
+20261030,206,181,Christmas,generator
+20261030,148,79,Hoppy,generator
+20261030,152,19,Amber,generator
+20261030,182,8,Hoppy,generator
+20261030,137,149,Blond,generator
+20261030,59,20,Saison,generator
+20261030,102,173,Stout/Porter,generator
+20261030,139,120,Hoppy,generator
+20261030,82,82,Kriek,generator
+20261030,108,90,Pils/Lager,generator
+20261030,180,123,Stout/Porter,generator
+20261030,236,203,Brett/cofermented,generator
+20261030,60,122,Brett/cofermented,generator
+20261030,177,36,Brown,generator
+20261030,201,35,Blond,generator
+20261030,62,194,Dubbel,generator
+20261030,88,231,Stout/Porter,generator
+20261030,98,87,Stout/Porter,generator
+20261030,212,17,Tripel,generator
+20261030,90,219,Hoppy,generator
+20261030,229,210,Amber,generator
+20261030,214,148,Strong ale,generator
+20261030,35,228,Tripel,generator
+20261030,114,205,Brut,generator
+20261030,197,208,Wheat,generator
+20261030,109,92,Amber,generator
+20261030,7,165,Fruitbeer,generator
+20261030,46,250,Faro,generator
+20261030,99,220,Kriek,generator
+20261030,210,133,Strong ale,generator
+20261030,142,98,Brown,generator
+20261030,54,56,Saison,generator
+20261030,130,226,Strong ale,generator
+20261030,4,40,Low/No alcohol,generator
+20261030,8,124,Pils/Lager,generator
+20261030,164,237,Brown,generator
+20261030,199,170,Strong ale,generator
+20261030,74,138,Kriek,generator
+20261030,55,84,West Flanders ale,generator
+20261030,219,91,Strong ale,generator
+20261030,226,102,Christmas,generator
+20261030,243,171,Tripel,generator
+20261030,129,23,Tripel,generator
+20261030,150,152,Wheat,generator
+20261030,113,107,Dubbel,generator
+20261030,178,126,Amber,generator
+20261030,204,89,Brown,generator
+20261030,53,11,Amber,generator
+20261030,173,153,Kriek,generator
+20261030,181,130,Brut,generator
+20261030,78,105,Strong ale,generator
+20261030,87,110,Blond,generator
+20261030,111,238,Blond,generator
+20261030,67,62,Blond,generator
+20261030,156,212,Stout/Porter,generator
+20261030,172,41,Lambic,generator
+20261030,27,195,Wheat,generator
+20261030,25,44,Wheat,generator
+20261030,134,47,Tripel,generator
+20261030,50,5,Blond,generator
+20261030,159,147,Tripel,generator
+20261030,216,65,Hoppy,generator
+20261030,103,37,Strong ale,generator
+20261030,233,63,Amber,generator
+20261030,79,167,Flanders old brown,generator
+20261030,14,50,Fruitbeer,generator
+20261030,1,86,Low/No alcohol,generator
+20261030,232,199,Tripel,generator
+20261030,66,7,Saison,generator
+20261030,72,61,Stout/Porter,generator
+20261030,218,198,Dubbel,generator
+20261030,234,95,Christmas,generator
+20261030,77,176,West Flanders ale,generator
+20261030,215,248,Blond,generator
+20261030,15,227,Fruitbeer,generator
+20261030,56,172,Wheat,generator
+20261030,171,28,Pils/Lager,generator
+20261030,123,134,Strong ale,generator
+20261030,143,221,Dubbel,generator
+20261030,163,101,Blond,generator
+20261030,91,129,Brown,generator
+20261030,83,241,Kriek,validation
+20261030,73,156,Kriek,validation
+20261030,75,70,Blond,validation
+20261030,154,125,Blond,validation
+20261030,118,136,Blond,validation
+20261030,61,169,Hoppy,validation
+20261030,144,32,Amber,validation
+20261030,52,58,Saison,validation
+20261030,116,53,Brown,validation
+20261030,100,201,Stout/Porter,validation
+20261030,200,214,Christmas,validation
+20261030,160,66,Tripel,validation
+20261030,12,179,Flanders old brown,validation
+20261030,246,196,Strong ale,validation
+20261030,248,99,Strong ale,validation
+20261030,208,57,Tripel,validation
+20261030,179,162,Lambic,validation
+20261030,125,39,Hoppy,validation
+20261030,128,150,Brett/cofermented,validation
+20261030,49,54,Kriek,validation
+20261030,155,6,Amber,validation
+20261030,183,31,Hoppy,validation
+20261030,120,180,Christmas,validation
+20261030,32,211,Lambic,validation
+20261030,64,43,Amber,validation
+20261030,105,177,Fruitbeer,validation
+20261030,21,64,Blond,validation
+20261030,174,146,Scotch,validation
+20261030,76,113,Blond,validation
+20261030,225,71,Blond,validation
+20261030,84,128,Amber,validation
+20261030,45,213,Hoppy,validation
+20261030,126,240,Tripel,validation
+20261030,247,4,Strong ale,validation
+20261030,68,55,Hoppy,validation
+20261030,29,137,Amber,evaluator
+20261030,238,3,Blond,evaluator
+20261030,101,14,Brett/cofermented,evaluator
+20261030,95,109,Brown,evaluator
+20261030,224,1,Brut,evaluator
+20261030,168,60,Christmas,evaluator
+20261030,147,174,Dubbel,evaluator
+20261030,71,151,Faro,evaluator
+20261030,33,190,Flanders old brown,evaluator
+20261030,151,184,Fruitbeer,evaluator
+20261030,209,143,Hoppy,evaluator
+20261030,117,24,Kriek,evaluator
+20261030,136,115,Lambic,evaluator
+20261030,10,155,Low/No alcohol,evaluator
+20261030,19,81,Pils/Lager,evaluator
+20261030,196,242,Saison,evaluator
+20261030,38,216,Scotch,evaluator
+20261030,211,182,Stout/Porter,evaluator
+20261030,242,117,Strong ale,evaluator
+20261030,249,157,Tripel,evaluator
+20261030,86,178,West Flanders ale,evaluator
+20261030,122,243,Wheat,evaluator
+20261030,70,232,Kriek,evaluator
+20261030,89,112,Brown,evaluator
+20261030,176,30,Blond,evaluator
+20261030,165,127,Blond,evaluator
+20261030,132,132,Saison,evaluator
+20261030,92,42,Lambic,evaluator
+20261030,223,15,Tripel,evaluator
+20261030,190,34,Tripel,evaluator
+20261030,135,164,Blond,evaluator
+20261030,227,140,Tripel,evaluator
+20261030,145,27,Hoppy,evaluator
+20261030,119,69,Tripel,evaluator
+20261030,228,67,Stout/Porter,evaluator
+20261030,185,9,Hoppy,evaluator
+20261030,221,163,Tripel,evaluator
+20261030,3,83,Low/No alcohol,evaluator
+20261030,127,12,Lambic,evaluator
+20261030,69,26,West Flanders ale,evaluator
+20261030,41,139,Pils/Lager,test
+20261030,51,209,Pils/Lager,test
+20261030,104,119,Pils/Lager,test
+20261030,244,103,Stout/Porter,test
+20261030,115,206,Brown,test
+20261030,188,131,Scotch,test
+20261030,42,183,Saison,test
+20261030,0,10,Low/No alcohol,test
+20261030,37,166,Saison,test
+20261030,166,245,Tripel,test
+20261030,167,191,Tripel,test
+20261030,231,233,Scotch,test
+20261030,44,46,Blond,test
+20261030,235,25,Brown,test
+20261030,39,200,West Flanders ale,test
+20261030,184,52,Stout/Porter,test
+20261030,80,59,Blond,test
+20261030,141,18,Lambic,test
+20261030,20,202,Stout/Porter,test
+20261030,81,135,Tripel,test
+20261030,230,189,Tripel,test
+20261030,202,215,Blond,test
+20261030,239,21,Lambic,test
+20261030,194,154,Tripel,test
+20261030,187,94,Blond,test
+20261030,192,187,Dubbel,test
+20261030,23,96,Pils/Lager,test
+20261030,131,29,Saison,test
+20261030,203,235,Strong ale,test
+20261030,94,186,Strong ale,test
+20261030,36,185,Pils/Lager,test
+20261030,195,121,Blond,test
+20261030,162,104,Strong ale,test
+20261030,217,73,Blond,test
+20261030,169,51,Strong ale,test

@@ -1,0 +1,5 @@
+method,mean_distance_to_tripel,n_closer,observed_compound_violations,observed_comparisons,stale_hops_proxy_violations,source_missing_defects,mean_stale_proxy_delta
+unconstrained_OT,2.10643907213823,11,33,42,5,2,-0.10660116194444447
+4_compound_projected_OT,2.095376690443051,11,0,42,5,2,-0.10658302403409095
+all5_constrained_OT,2.560728011920517,7,0,42,0,2,-0.15249793387626268
+all5_sample_optimized,1.7716455826567137,7,0,42,0,2,-0.14368816359848485

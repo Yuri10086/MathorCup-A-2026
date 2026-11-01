@@ -11,7 +11,7 @@
 ## 目录结构
 
 ```
-├── code/                 核心工程（论文 PDF 生成链 + 三问解题代码 + 数据 + 报告）
+├── code/                 定稿核心工程（论文 PDF 生成链 + 三问解题代码 + 数据 + 报告）
 │   ├── src/rebuild/      三问代码，一题一文件（q1.py / q2.py / q3.py）
 │   ├── scripts/          一键复现脚本 run_final.ps1 / run_q1.ps1 / build_rebuild_pdf.py
 │   ├── configs/          实验协议与依赖锁定（rebuild_requirements.txt）
@@ -19,6 +19,9 @@
 │   ├── paper/            论文 Markdown 源、TeX 中间件与 PDF 定稿
 │   ├── reports/          三问分析报告、封闭实验报告、AI 使用日志
 │   └── submission/       提交清单与说明
+├── results/              全量实验结果（审计表、OOF、Bootstrap、生成谱、校验 JSON）
+├── full_project/         2026-10-28 比赛提交版完整三问工程（Latin 排版论文 + 分题结果）
+├── dev_version/          2026 早期开发版工程（另一套实现路径与 latex 论文）
 ├── paper_final/          论文 v3（docx + Markdown 初稿 + 配套图）
 ├── figures/              最终成图 19 组（PNG + 矢量 PDF）
 ├── figures_project/      可独立运行的科研绘图工程（读自带 support/ 的 CSV 复现全部图）
@@ -26,6 +29,22 @@
 ├── paper_template/       数学建模 LaTeX 模板（Overleaf 可直接编译）
 └── contest_rules/        赛题 PDF、论文格式规范、承诺书与模板
 ```
+
+### 三层工程的关系
+
+本仓库保留了三个**不同阶段**的工程，不是重复而是演进链，各自仍有对照价值：
+
+| 目录 | 阶段 | 说明 |
+| --- | --- | --- |
+| `dev_version/` | 2026 早期开发版 | 第一套实现路径，含独立 `latex/` 论文与 `src/`、`output/` 结果 |
+| `full_project/` | 10-28 比赛提交版 | 当时提交的三问完整工程（`q1`/`q2`/`q2_improved`/`q3` 分目录 + `manuscript/`）|
+| `code/` + `results/` | 最终定稿版 | 三问合并为 `q1.py`/`q2.py`/`q3.py`，配封闭补充实验与 65 项一致性校验 |
+
+### 关于模型文件
+
+`results/` 中的 `.joblib` 模型权重（单文件 11–24 MB、总计约 220 MB）**未纳入版本库**：
+它们可由 `code/scripts/run_final.ps1` 与 `run_q1.ps1` 从 `data/` 完整重训得到，
+保留二进制反而会掩盖「结果能否复现」这一关键问题。所有中间结果 CSV/JSON 则完整保留。
 
 ---
 

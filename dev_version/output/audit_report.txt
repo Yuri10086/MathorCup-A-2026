@@ -1,0 +1,354 @@
+
+============================================================================================
+一、数据读入与结构
+============================================================================================
+1.csv  化学 (250, 234)
+4.csv  感官 (250, 53)
+2.csv  化合物相关 (231, 231)
+5.csv  感官相关   (50, 50)
+6.csv  化学×感官 (44, 50)
+7.csv  评论描述符 (250, 189)
+
+化合物列数 231，感官列数 51
+对齐后 250 行，beer 编号完全一致 ✓
+
+⚠ beer_id 一致性：不一致（两表同一 beer 编号的 beer_id 有 213 行不同）
+   处理：全流程以 beer 编号（1-250）为唯一主键，不使用 beer_id。
+   示例（beer, 1.csv beer_id, 4.csv beer_id）：
+       1  5413970150111  5413970000000.0
+       2  5410228142003  5410230000000.0
+       5  5400000000006  5400000000000.0
+       6  8711406031766  8711410000000.0
+       7  5425025910809  5425030000000.0
+
+============================================================================================
+二、缺失与左删失
+============================================================================================
+缺失单元格 73 / 57750 (0.126%)，涉及列 9 个
+   X2.3.butanedione                           缺失   9 (3.6%)  均值 2.746
+   X3.methylbutanal                           缺失   7 (2.8%)  均值 1.132
+   ethyl.isobutyrate                          缺失   1 (0.4%)  均值 0.099
+   methylpyrazine                             缺失  12 (4.8%)  均值 0.012
+   furfural                                   缺失   1 (0.4%)  均值 0.041
+   amyl.acetate                               缺失  27 (10.8%)  均值 0.008
+   phenylacetaldehyde                         缺失   1 (0.4%)  均值 0.023
+   ethyl.nicotinate                           缺失   2 (0.8%)  均值 0.031
+   aroma_hops_sum                             缺失  13 (5.2%)  均值 2.075
+感官矩阵缺失 0
+
+检出限封底（>=5% 样本取到最小值）的化合物 102 个：
+   X6.methyl.5.hepten.2.one                   84.8% 封底值 -1.8178
+   limonene                                   84.8% 封底值 -1.8178
+   CS2                                        83.6% 封底值 -2.1463
+   cis.dihydro.beta.terpineol                 81.2% 封底值 -1.8178
+   ethyl.lactate                              78.0% 封底值 -1.8178
+   meta.cymenene                              77.6% 封底值 -1.8178
+   beta.humulene                              71.2% 封底值 -1.8178
+   valencene                                  68.0% 封底值 -1.8178
+   X4VG                                       67.2% 封底值 -2.0132
+   cis.beta.terpineol                         64.0% 封底值 -1.8178
+   y.methyl.1.octanol                         60.8% 封底值 -1.8178
+   foeniculin                                 60.8% 封底值 -1.8178
+   isopropyl.hexadecanoate                    56.8% 封底值 -1.8178
+   eucalyptol                                 56.4% 封底值 -1.8178
+   alpha.phellandrene                         55.2% 封底值 -1.8178
+   geosmin                                    54.8% 封底值 -1.8178
+   gamma.eudesmol                             51.2% 封底值 -1.8178
+   selin.11.en.4.alpha.ol                     49.2% 封底值 -1.8178
+   cis.linalool.oxide                         48.0% 封底值 -1.8178
+   octyl_acetate                              44.0% 封底值 -3.4550
+   caryophyllene.acetate                      44.0% 封底值 -1.8178
+   beta.phellandrene                          43.2% 封底值 -1.8178
+   dehydroxy.cis.linalool.oxide               42.4% 封底值 -1.8178
+   n.nonanal                                  40.0% 封底值 -1.8178
+   X.E..dihydro.apofarnesal                   40.0% 封底值 -1.8178
+   X2Z.6E.farnesal                            39.2% 封底值 -1.8178
+   E.methyl.isoeugenol                        38.4% 封底值 -1.8178
+   X2.6.dimethyl.pyrazine                     37.6% 封底值 -1.8178
+   butylated.hydroxytoluene                   36.4% 封底值 -1.8178
+   X2Z.6Z.farnesol                            35.2% 封底值 -1.8178
+   alpha.eudesmol                             34.4% 封底值 -1.8178
+   ethyl_2.methyl_butyrate                    34.0% 封底值 -3.1955
+   trans.dihydro.beta.terpineol               33.6% 封底值 -1.8178
+   ethyl_isovalerate                          33.2% 封底值 -4.4870
+   X2E.6Z.farnesal                            32.4% 封底值 -1.8178
+   X14.hydroxy.alpha.humulene                 31.6% 封底值 -1.8178
+   X2E.6E.methyl.farnesoate                   31.6% 封底值 -1.8178
+   X2.ethylhexylsalicylate                    31.6% 封底值 -1.8178
+   X.E..beta.farnesene                        31.2% 封底值 -1.8178
+   spathulenol                                30.0% 封底值 -1.8178
+   propylene.glycol                           28.8% 封底值 -1.8178
+   isopentyl.butanoate                        28.8% 封底值 -1.8178
+   X1.2.dihydro.8.hydroxy..2E..linalool       28.8% 封底值 -1.8178
+   X2.ethyl.1.hexanol                         28.4% 封底值 -1.8178
+   X.E..ortho.methoxy.cinnamaldehyde          27.6% 封底值 -1.8178
+   X4.8.alpha.epoxy.caryophyllane             27.2% 封底值 -1.8178
+   dimethoxy..E..citral                       26.0% 封底值 -1.8178
+   neo.allo.ocimene                           25.2% 封底值 -1.8178
+   caryophylla.4.12..8.13..dien.5.alpha.ol    24.8% 封底值 -1.8178
+   X2.undecanone                              24.0% 封底值 -1.8178
+   X.Z..dihydro.apofarnesal                   24.0% 封底值 -1.8178
+   ethyl.hex..2E..enoate                      22.8% 封底值 -1.8178
+   tau.muurolol                               21.6% 封底值 -1.8178
+   ethyl.hexadecanoate                        21.6% 封底值 -1.8178
+   ethyl.furoate                              20.8% 封底值 -1.8178
+   heptyl.acetate                             20.8% 封底值 -1.8178
+   caryophyllene.oxide                        20.8% 封底值 -1.8178
+   neryl.formate                              19.6% 封底值 -1.8178
+   X2.pentyl.furan                            18.8% 封底值 -1.8178
+   E.cinnamaldehyde                           18.0% 封底值 -1.8178
+   camphor                                    17.6% 封底值 -1.8178
+   alpha.muurolol                             17.2% 封底值 -1.8178
+   CO2.PSI.                                   15.6% 封底值 -0.2310
+   X13.epi.manool.oxide                       15.6% 封底值 -1.8178
+   ethyl.pentadecanoate                       15.2% 封底值 -1.8178
+   n.tetradecanol                             14.8% 封底值 -1.8178
+   X2Z.6E.farnesol                            14.4% 封底值 -1.8178
+   X2.butyloctanoate                          14.0% 封底值 -1.8178
+   linalool.isovalerate                       14.0% 封底值 -1.8178
+   isopentyl.hexanoate                        12.4% 封底值 -1.8178
+   Z.Z.geranyl.linalool                       12.0% 封底值 -1.8178
+   DES                                        11.6% 封底值 -1.9053
+   isomaltol                                  11.6% 封底值 -1.8178
+   X3.methylthio.propanol                     10.4% 封底值 -1.8178
+   X14.hydroxy.9.epi..E..caryophyllene        10.4% 封底值 -1.8178
+   isopropyl.tetradecanoate                   10.4% 封底值 -1.8178
+   X2.methyl.benzofuran                       10.0% 封底值 -1.8178
+   terpinen.4.ol.acetate                      10.0% 封底值 -1.8178
+   pentyl.octanoate                           10.0% 封底值 -1.8178
+   methyl.hexadecanoate                       9.6% 封底值 -1.8178
+   methyl.para.anisate                        8.8% 封底值 -1.8178
+   vanillin                                   8.8% 封底值 -1.8178
+   ethyl.octadecanoate                        8.8% 封底值 -1.8178
+   x.methyl.1.octanol                         8.4% 封底值 -1.8178
+   X2.undecanol                               8.4% 封底值 -1.8178
+   tau.cadinol                                8.4% 封底值 -1.8178
+   germacrene.D                               8.0% 封底值 -1.8178
+   neryl.isobutanoate                         8.0% 封底值 -1.8178
+   isoamyl.lactate                            7.6% 封底值 -1.8178
+   butyl.acetate                              7.2% 封底值 -1.8178
+   humulene.epoxide.II                        7.2% 封底值 -1.8178
+   alloaromadendrene.epoxide                  7.2% 封底值 -1.8178
+   dodecanal                                  6.8% 封底值 -1.8178
+   neryl.isovalerate                          6.8% 封底值 -1.8178
+   propyl.acetate                             6.4% 封底值 -1.8178
+   X.Z..beta.farnesene                        6.4% 封底值 -1.8178
+   ambroxide                                  6.4% 封底值 -1.8178
+   ethyl.tetradecanoate                       6.0% 封底值 -1.8178
+   X2.methylbutyl.octanoate                   5.6% 封底值 -1.8178
+   benzyl.benzoate                            5.6% 封底值 -1.8178
+   ethyl.tiglate                              5.2% 封底值 -1.8178
+   X2.3.dihydro.farnesol                      5.2% 封底值 -1.8178
+封底单元格合计 7275 (12.60% 的观测)
+
+============================================================================================
+三、对数变换底数核实（关键）
+============================================================================================
+校准浓度表提供 70 个化合物的真实浓度（与 1.csv 同名可直连）
+回归式：log10(校准浓度) = slope × (1.csv 数值) + intercept
+               compound   n    slope  intercept       r2  ratio_obs
+           acetaldehyde 249   1.0000     0.0000   1.0000     1.0000
+                    CS2  41   1.0000    -0.0000   1.0000     1.0000
+                    DES 221   1.0000     0.0000   1.0000     1.0000
+                    DMS 249   1.0000     0.0000   1.0000     1.0000
+ethyl_2.methyl_butyrate 165   1.0000    -0.0000   1.0000     1.0000
+          ethyl_acetate 250   1.0000     0.0000   1.0000     1.0000
+        ethyl_decanoate 249   1.0000    -0.0000   1.0000     1.0000
+        ethyl_hexanoate 249   1.0000    -0.0000   1.0000     1.0000
+      ethyl_isovalerate 167   1.0000    -0.0000   1.0000     1.0000
+        ethyl_octanoate 250   1.0000    -0.0000   1.0000     1.0000
+       ethyl_propionate 240   1.0000    -0.0000   1.0000     1.0000
+                    H2S 240   1.0000    -0.0000   1.0000     1.0000
+        isoamyl_alcohol 248   1.0000     0.0000   1.0000     1.0000
+             isobutanol 245   1.0000     0.0000   1.0000     1.0000
+       isobutyl_acetate 242   1.0000    -0.0000   1.0000     1.0000
+      isopentyl_acetate 249   1.0000     0.0000   1.0000     1.0000
+                   MeSH 250   1.0000     0.0000   1.0000     1.0000
+          octyl_acetate 140   1.0000    -0.0000   1.0000     1.0000
+      phenethyl_acetate 249   1.0000    -0.0000   1.0000     1.0000
+      phenethyl_alcohol 250   1.0000     0.0000   1.0000     1.0000
+
+稳健汇总（R2>0.95 的化合物，n=37）：
+   slope 中位数 = 1.0000   中位绝对偏差 = 0.0000
+   理论值：底数 10 → slope=1.0000；底数 e → slope=0.4343
+   以 log10 解释时的平均相对误差 = 0.00%
+   以 ln  解释时的平均相对误差 = 56.57%
+   >>> 判定：底数 = 10
+   1.csv 数值 v → 原始浓度 C = 10^v （单位见阈值表的 unit 列）
+
+⚠ 逐列判定（用校准表反证）：对数变换 37 列，**原始浓度 33 列**（附件说明未提及），无校准信息默认对数 161 列
+   原始浓度列（多为 µg·L⁻¹ 级超痕量致香物，直接比对 con=v 精确成立）：
+     E.caryophyllene                      max=      40.927
+     X.E..2.nonenal                       max=      14.910
+     X.E..beta.damascenone                max=    5991.013
+     X.E..beta.ocimene                    max=       1.519
+     X.E.E..2.4.decadienal                max=       0.165
+     X1.alpha.terpineol                   max=      10.789
+     X2.3.butanedione                     max=     121.731
+     X2.ethyl.3.methylpyrazine            max=       1.138
+     X2.methyltetrahydrofuran.3.one       max=   12596.433
+     X3.methylbutanal                     max=     127.059
+     X3Z.hexenol                          max=       3.423
+     X5.methylfurfural                    max=       0.040
+     Z.nerolidol                          max=       2.743
+     alpha.humulene                       max=       6.062
+     amyl.acetate                         max=       0.074
+     benzaldehyde                         max=       0.488
+     benzyl.alcohol                       max=       0.336
+     citronellol                          max=      11.742
+     diethyl.succinate                    max=       1.280
+     ethyl.butyrate                       max=       1.884
+     ethyl.isobutyrate                    max=       0.886
+     ethyl.nicotinate                     max=       0.306
+     ethyl.pentanoate                     max=       1.679
+     eugenol                              max=       3.568
+     furfural                             max=       1.819
+     gamma.nonalactone                    max=    7256.136
+     geraniol                             max=       2.225
+     hexyl.acetate                        max=      10.808
+     linalool                             max=      32.485
+     methylpyrazine                       max=       0.896
+     n.hexanol                            max=       7.805
+     phenylacetaldehyde                   max=       0.363
+     styrene                              max=       2.931
+   → 后果：OAV 计算必须逐列区分，否则超痕量致香物的 OAV 会被高估/低估数个量级。
+
+============================================================================================
+四、感官 0-6 分制标定
+============================================================================================
+标准化后各维均值 -0.0493 ~ 125.5000，标准差 0.370 ~ 72.313
+→ 数据已被中心化，但标准差并非 1（说明并非标准 z 分数），且极差超界
+  取值范围 %.3f ~ %.3f；若为 [0,6] 的平移，则平移量无法同时满足两端 → 判定为"中心化后再缩放"
+  标定方案：逐维 min-max 线性映射回官方 0-6 分制  score = 6*(z-zmin)/(zmax-zmin)
+
+标定后 range 0.000 ~ 6.000，各维均值 0.221 ~ 3.364
+                  mean    std    min    50%    max
+beer             3.000  1.742  0.000  3.000  6.000
+A_malt_all       2.152  0.971  0.000  1.943  6.000
+A_malt_grain     2.173  1.005  0.000  1.969  6.000
+A_malt_bread     1.402  0.995  0.000  1.146  6.000
+A_malt_cara      1.342  1.349  0.000  0.893  6.000
+A_malt_burn      0.615  0.897  0.000  0.335  6.000
+A_hops_all       2.124  1.029  0.000  2.081  6.000
+A_hops_citrus    1.420  1.218  0.000  1.081  6.000
+A_hops_tropical  0.889  1.022  0.000  0.595  6.000
+A_hops_noble     1.958  1.021  0.000  1.867  6.000
+A_hops_woody     1.484  1.090  0.000  1.213  6.000
+A_esters_all     3.098  1.073  0.000  3.091  6.000
+
+============================================================================================
+五、阈值 / 来源 / 异味标记（8.xlsx Sensory thresholds）
+============================================================================================
+阈值表 261 行，列：['field_name_python', 'field_name_R', 'chemical_name', 'chemical_name_short', 'calibrated', 'origin_paper', 'unit', 'aging', 'off_flavors', 'threshold_mean', 'threshold_median']
+与 1.csv 化合物名可匹配的条目：47 / 231
+
+来源（origin_paper）分布：
+origin_paper
+Yeast         11
+Spices         9
+Hops           8
+Others         7
+Malt           7
+nan            4
+Wild flora     1
+
+气味阈值可用条目：18
+异味标记（off_flavors）非空条目：5
+                      chemical_name                                                                                           off_flavors  threshold_mean  unit origin_paper
+field_name_python                                                                                                                                                           
+acetaldehyde           Acetaldehyde                                                                   pungent, rotten-apples, green apple           50.00  mg/L        Yeast
+DES                 Diethyl sulfide                                                                                    rotting vegetables            1.20  ug/L        Yeast
+DMS                Dimethyl sulfide  cooked vegetables, onion, garlic, corn, black currant, sulfidic, cabbage, tinned tomato, baked beans           17.25  ug/L         Malt
+H2S                Hydrogen sulfide                                                                                 sulfidic, rotten eggs            3.50  ug/L        Yeast
+MeSH                   Methanethiol                                                      putrefaction, drains, rotting vegetables, estery             NaN  ug/L        Yeast
+
+阈值表全量中 off_flavors 非空（含未匹配化合物）：
+    field_name_python     chemical_name                                                                                           off_flavors  threshold_mean  threshold_median  unit
+48       acetaldehyde      Acetaldehyde                                                                   pungent, rotten-apples, green apple       50.000000             50.00  mg/L
+125   2,3-butanedione          Diacetyl                                                                    butterscotch, popcorn, oily, milky        0.299250              0.09  mg/L
+152               DES   Diethyl sulfide                                                                                    rotting vegetables        1.200000              1.20  ug/L
+153               DMS  Dimethyl sulfide  cooked vegetables, onion, garlic, corn, black currant, sulfidic, cabbage, tinned tomato, baked beans       17.250000             19.00  ug/L
+154               H2S  Hydrogen sulfide                                                                                 sulfidic, rotten eggs        3.500000              3.50  ug/L
+155              MeSH      Methanethiol                                                      putrefaction, drains, rotting vegetables, estery             NaN               NaN  ug/L
+157         SO2-mg.L.    Sulfur dioxide                                                                                         Burnt matches       15.333333             11.00  mg/L
+
+============================================================================================
+六、OAV = 浓度 / 阈值
+============================================================================================
+可算 OAV 的化合物 18 个
+                      阈值    单位    OAV中位数   OAV>1占比      来源
+linalool           0.027  mg/L    13.551     0.972    Hops
+citronellol        0.025  mg/L     8.883     0.924    Hops
+protein.g.L.       1.024   g/L     7.325     0.996  Others
+geraniol           0.032  mg/L     4.174     0.744    Hops
+ethanol..v.v.      1.757   v/v     4.093     0.976   Yeast
+bitterness         5.000   IBU     3.632     0.864    Hops
+H2S                3.500  ug/L     2.425     0.920   Yeast
+DMS               17.250  ug/L     1.405     0.672    Malt
+iron               0.100  mg/L     0.945     0.448  Others
+glycerol           4.433   g/L     0.575     0.028   Yeast
+DES                1.200  ug/L     0.511     0.184   Yeast
+isobutanol        80.000  mg/L     0.138     0.000   Yeast
+acetaldehyde      50.000  mg/L     0.082     0.000   Yeast
+GFS                2.900   g/L     0.065     0.180    Malt
+methylpyrazine     1.000  mg/L     0.000     0.000    Malt
+furfural          60.000  mg/L     0.000     0.000    Malt
+CS2               50.000  ug/L     0.000     0.000   Yeast
+X4VG               0.206  mg/L     0.000     0.064   Yeast
+
+============================================================================================
+七、异常值筛查（稳健 z 分数 |z|>3.5）
+============================================================================================
+异常单元格 3054 (5.29%)，涉及列 174
+caryophylla.4.12..8.13..dien.5.alpha.ol    62
+X2.undecanone                              60
+X.Z..dihydro.apofarnesal                   60
+ethyl.hex..2E..enoate                      57
+tau.muurolol                               54
+ethyl.hexadecanoate                        54
+ethyl.furoate                              52
+heptyl.acetate                             52
+caryophyllene.oxide                        52
+neryl.formate                              49
+camphor                                    48
+X2.pentyl.furan                            47
+E.cinnamaldehyde                           45
+lactic_acid.mg.L.                          43
+alpha.muurolol                             43
+
+结论：异常值以"高浓度长尾"为主，属真实商业啤酒差异（如酸啤/烟熏），
+      不剔除，改用稳健缩放 + 分位截断（在建模脚本内以 winsorize 处理）。
+
+============================================================================================
+八、风格标签
+============================================================================================
+tasting_category_fine
+Blond                 31
+Tripel                28
+Strong ale            18
+Hoppy                 17
+Stout/Porter          13
+Amber                 12
+Brown                 12
+Wheat                 12
+Lambic                11
+Pils/Lager            11
+Kriek                 10
+Dubbel                10
+Saison                10
+Christmas              9
+Fruitbeer              8
+Low/No alcohol         8
+West Flanders ale      7
+Brett/cofermented      6
+Flanders old brown     5
+Scotch                 5
+Brut                   4
+Faro                   3
+
+小众风格（n<6）合并策略见问题 3 脚本；本体保留原始 22 类。
+
+============================================================================================
+九、缓存
+============================================================================================
+prepared.npz / meta.json 已写出

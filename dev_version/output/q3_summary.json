@@ -1,0 +1,89 @@
+{
+  "K": 14,
+  "evr_cum": 0.5466503922671897,
+  "nll_flow": -19.029613494873047,
+  "nll_gauss": 10.610762078060553,
+  "classifier_cv_acc": 0.5954545454545455,
+  "style_fidelity": {
+    "Tripel": 0.68,
+    "Kriek": 1.0,
+    "Lambic": 0.955,
+    "Pils/Lager": 0.86,
+    "Blond": 0.82,
+    "Stout/Porter": 0.535
+  },
+  "frechet": {
+    "Tripel": 84.46796218879702,
+    "Kriek": 150.16615120686225,
+    "Lambic": 97.10082281989247,
+    "Pils/Lager": 78.73005935611019,
+    "Blond": 94.13149915753688,
+    "Stout/Porter": 101.21146452485075
+  },
+  "energy": {
+    "Tripel": 1.4221251105132033,
+    "Kriek": 4.065312052813642,
+    "Lambic": 2.8021855945788428,
+    "Pils/Lager": 2.936810417739471,
+    "Blond": 1.4787779010191606,
+    "Stout/Porter": 2.390525127821377
+  },
+  "diversity": {
+    "Tripel": 0.7361961456652816,
+    "Kriek": 0.6515020447378967,
+    "Lambic": 0.8178202735078193,
+    "Pils/Lager": 0.7723435929114589,
+    "Blond": 0.7620518714206979,
+    "Stout/Porter": 0.7466222663334829
+  },
+  "transfer": {
+    "src": "Pils/Lager",
+    "tgt": "Tripel",
+    "n": 11,
+    "lam_mean": 0.8039772618900646,
+    "defect_before": 0.11327001452445984,
+    "defect_ot": 0.08490782231092453,
+    "defect_fin": 0.08805538713932037,
+    "n_worse_ot": 4,
+    "n_worse_fin": 3,
+    "p_tgt_before": 0.0,
+    "p_tgt_after": 0.6363636363636364
+  },
+  "styles": [
+    "Blond",
+    "Tripel",
+    "Strong ale",
+    "Hoppy",
+    "Stout/Porter",
+    "Amber",
+    "Brown",
+    "Wheat",
+    "Lambic",
+    "Pils/Lager",
+    "Kriek",
+    "Dubbel",
+    "Saison",
+    "Christmas",
+    "Fruitbeer",
+    "Low/No alcohol"
+  ],
+  "n_by_style": {
+    "Blond": 31,
+    "Tripel": 28,
+    "Strong ale": 18,
+    "Hoppy": 17,
+    "Stout/Porter": 13,
+    "Amber": 12,
+    "Brown": 12,
+    "Wheat": 12,
+    "Lambic": 11,
+    "Pils/Lager": 11,
+    "Kriek": 10,
+    "Dubbel": 10,
+    "Saison": 10,
+    "Christmas": 9,
+    "Fruitbeer": 8,
+    "Low/No alcohol": 8
+  },
+  "sens_surrogate_r2": 0.23785823702862388
+}

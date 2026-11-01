@@ -1,0 +1,54 @@
+{
+  "selection_rule": "Frozen before the closed diagnostic: for each of the three contexts the production generator is the one with minimum mean SWD on the 35-beer validation split. The test split is never used to select a generator, and the closed diagnostic was not allowed to re-select.",
+  "chosen_by_seed": {
+    "20261028": "CopulaJoint",
+    "20261029": "CopulaIndependent",
+    "20261030": "CopulaIndependent"
+  },
+  "validation_SWD_means": {
+    "CopulaIndependent": 2.3682,
+    "CopulaJoint": 2.3732,
+    "PCA_Gaussian": 2.4266,
+    "CVAE": 2.5362
+  },
+  "closed_22style_swd_means": {
+    "CVAE": 0.7059,
+    "CopulaIndependent": 0.8676,
+    "CopulaJoint": 0.8637,
+    "PCA_Gaussian": 0.7516
+  },
+  "ranking_reversal": true,
+  "gap_corr_with_n_test": 0.7026,
+  "gap_by_test_size": [
+    {
+      "n_test_range": "[1,2)",
+      "pairs": 13,
+      "mean_swd_gap_CVAE_minus_CopulaIndependent": -0.24188284957175438,
+      "cvae_closer": 13,
+      "copula_closer": 0
+    },
+    {
+      "n_test_range": "[2,3)",
+      "pairs": 12,
+      "mean_swd_gap_CVAE_minus_CopulaIndependent": -0.16757940830435966,
+      "cvae_closer": 12,
+      "copula_closer": 0
+    },
+    {
+      "n_test_range": "[3,5)",
+      "pairs": 11,
+      "mean_swd_gap_CVAE_minus_CopulaIndependent": -0.08060949157483831,
+      "cvae_closer": 9,
+      "copula_closer": 2
+    },
+    {
+      "n_test_range": "[5,inf)",
+      "pairs": 6,
+      "mean_swd_gap_CVAE_minus_CopulaIndependent": -0.010738077393325968,
+      "cvae_closer": 4,
+      "copula_closer": 2
+    }
+  ],
+  "interpretation": "The reversal is a resolution effect, not a contradiction. CVAE is closer only where a style has one or two independent test beers (13/13 and 12/12 pairs); its advantage shrinks monotonically as the test set grows (-0.242, -0.168, -0.081, -0.011) and it wins only 4/6 at n_test>=5. The gap correlates with n_test at r=0.703. CVAE is simultaneously the most degenerate generator: diversity 0.420 versus 0.897 for the shipped independent Copula, and nearest-train RMS 0.681 versus 1.114, i.e. it sits close to a small-sample empirical distribution, which is exactly what makes a Wasserstein distance look small when the empirical side has almost no resolution. Model choice therefore follows the frozen validation rule and is defended on diversity/floor-matching, not on the conditional SWD column; quoting the closed table alone would reverse a decision that was made before it existed.",
+  "what_would_overturn_this": "If CVAE kept its SWD advantage on styles with >=5 independent test beers, the frozen selection would be wrong. It does not: at n_test>=5 the gap is -0.011 and Copula wins 2 of 6. Only 6 such pairs exist, so this is a direction, not a decisive test."
+}

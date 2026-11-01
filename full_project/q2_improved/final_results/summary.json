@@ -1,0 +1,60 @@
+{
+  "fixed_original_5fold": {
+    "mae_spearman": 0.38008891948996737,
+    "mae_conditional": 0.3727622950284596,
+    "mae_improvement": 0.007326624461507816,
+    "relative_improvement_pct": 1.92760801113046,
+    "paired_bootstrap_CI95": [
+      0.004364,
+      0.010174
+    ],
+    "per_beer_win_rate": 0.64
+  },
+  "other_stratified_5fold_splits": [
+    {
+      "mae_spearman": 0.3838306895214868,
+      "mae_conditional": 0.37456632859959166,
+      "mae_improvement": 0.009264360921895145,
+      "relative_improvement_pct": 2.4136582026426336,
+      "paired_bootstrap_CI95": [
+        0.00627,
+        0.012258
+      ],
+      "per_beer_win_rate": 0.668,
+      "seed": 77
+    },
+    {
+      "mae_spearman": 0.3827553530310716,
+      "mae_conditional": 0.37585716046868395,
+      "mae_improvement": 0.006898192562387621,
+      "relative_improvement_pct": 1.802245875272614,
+      "paired_bootstrap_CI95": [
+        0.003475,
+        0.010069
+      ],
+      "per_beer_win_rate": 0.612,
+      "seed": 99
+    }
+  ],
+  "mean_spearman_jaccard": 0.2665006729475101,
+  "mean_hybrid_jaccard": 0.22702220726783312,
+  "hybrid_higher_jaccard_dimensions": 13,
+  "hybrid_better_mae_dimensions": 28,
+  "molecular_candidates": 218,
+  "graph": {
+    "n_compounds": 231,
+    "n_edges": 951,
+    "positive_edges": 823,
+    "negative_edges": 128,
+    "modules": 20,
+    "modularity": 0.664241044274271,
+    "threshold": 0.38,
+    "per_sign": 6
+  },
+  "bootstrap": 100,
+  "ranking": "Top two absolute Spearman (training fold) + third compound maximizing residual conditional ridge gain",
+  "predictive_evaluator": "Same three-input Ridge alpha=8 for both. Official 4.csv targets. Preprocessing within folds.",
+  "bias_note": "Exploratory selection used existing whole-cohort CV. Improvements not externally confirmed; paired-bootstrap only describes fixed CV predictions.",
+  "reliability_note": "Stability is worse than Spearman; cannot claim across-metric dominance.",
+  "runtime_seconds": 8.6
+}

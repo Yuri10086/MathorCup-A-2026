@@ -1,0 +1,66 @@
+﻿check,passed
+raw 1.csv,True
+raw 2.csv,True
+raw 3.xlsx,True
+raw 4.csv,True
+raw 5.csv,True
+raw 6.csv,True
+raw 7.csv,True
+raw 8.xlsx,True
+raw Raw sensory data anonymized.csv,True
+raw 数据说明.txt,True
+150 distinct factors,True
+canonical table exact,True
+same final method,True
+bootstrap_frequency,True
+group_frequency,True
+final_fixed_method_frequency,True
+100 bootstraps all five rules,True
+22 x4 x3 generation rows,True
+no test means NA distance,True
+small n correlation NA,True
+common correlation-pair support,True
+style diagnostic bounded,True
+evaluator frozen 20261028,True
+evaluator original role 20261028,True
+evaluator frozen 20261029,True
+evaluator original role 20261029,True
+evaluator frozen 20261030,True
+evaluator original role 20261030,True
+9 x4 migration rows,True
+no duplicate beer-policy,True
+refusal zero change,True
+chemical clipping on observed only,True
+design risk constraint,True
+source held out 81,True
+source held out 124,True
+source held out 218,True
+source held out 96,True
+source held out 185,True
+source held out 230,True
+source held out 119,True
+source held out 139,True
+source held out 209,True
+current PDF matches inspected,True
+body limit,True
+front matter,True
+no missing glyphs,True
+10_q2_unified.png,True
+10_q2_unified.svg,True
+10_q2_unified.pdf,True
+11_generation_styles.png,True
+11_generation_styles.svg,True
+11_generation_styles.pdf,True
+12_generation_structure.png,True
+12_generation_structure.svg,True
+12_generation_structure.pdf,True
+13_migration_paired.png,True
+13_migration_paired.svg,True
+13_migration_paired.pdf,True
+14_migration_risk.png,True
+14_migration_risk.svg,True
+14_migration_risk.pdf,True
+15_transfer_chemistry.png,True
+15_transfer_chemistry.svg,True
+15_transfer_chemistry.pdf,True
+exactly three groups then stopped,True

@@ -1,0 +1,408 @@
+{
+  "scorecard": [
+    "Beer",
+    "A_malt_all",
+    "A_malt_grain",
+    "A_malt_bread",
+    "A_malt_cara",
+    "A_malt_burn",
+    "A_hops_all",
+    "A_hops_citrus",
+    "A_hops_tropical",
+    "A_hops_noble",
+    "A_hops_woody",
+    "A_esters_all",
+    "A_esters_ethac",
+    "A_esters_isoaa",
+    "A_esters_flower",
+    "A_ester_fruity",
+    "F_malt_all",
+    "F_malt_grain",
+    "F_malt_bread",
+    "F_malt_cara",
+    "F_malt_burn",
+    "F_hops_all",
+    "F_hops_citrus",
+    "F_hops_tropical",
+    "F_hops_noble",
+    "F_hops_woody",
+    "F_esters_all",
+    "F_esters_ethac",
+    "F_esters_isoaa",
+    "F_esters_flower",
+    "F_ester_fruity",
+    "body",
+    "bitternes",
+    "co2",
+    "aftertaste",
+    "alcohol",
+    "sweetness",
+    "acidity",
+    "dms",
+    "metallic",
+    "4vg",
+    "t2n",
+    "diacetyl",
+    "stale_hops",
+    "orange",
+    "coriander",
+    "clove",
+    "lactic",
+    "acetic",
+    "barnyard",
+    "overall",
+    "comments"
+  ],
+  "sensory_names": [
+    {
+      "name": "A_esters_all",
+      "section": "Aroma",
+      "category": "Yeast",
+      "label": "Esters aroma - overall",
+      "type": "numeric"
+    },
+    {
+      "name": "A_esters_ethac",
+      "section": "Aroma",
+      "category": "Yeast",
+      "label": "Esters aroma - nail polish",
+      "type": "categorical"
+    },
+    {
+      "name": "A_esters_flower",
+      "section": "Aroma",
+      "category": "Yeast",
+      "label": "Esters aroma - floral",
+      "type": "categorical"
+    },
+    {
+      "name": "A_esters_fruity",
+      "section": "Aroma",
+      "category": "Yeast",
+      "label": "Esters aroma - fruity",
+      "type": "categorical"
+    },
+    {
+      "name": "A_esters_isoaa",
+      "section": "Aroma",
+      "category": "Yeast",
+      "label": "Esters aroma - banana",
+      "type": "categorical"
+    },
+    {
+      "name": "A_hops_all",
+      "section": "Aroma",
+      "category": "Hops",
+      "label": "Hops aroma - overall",
+      "type": "numeric"
+    },
+    {
+      "name": "A_hops_citrus",
+      "section": "Aroma",
+      "category": "Hops",
+      "label": "Hops aroma - citrus",
+      "type": "categorical"
+    },
+    {
+      "name": "A_hops_noble",
+      "section": "Aroma",
+      "category": "Hops",
+      "label": "Hops aroma - grassy",
+      "type": "categorical"
+    },
+    {
+      "name": "A_hops_tropical",
+      "section": "Aroma",
+      "category": "Hops",
+      "label": "Hops aroma - tropical fruit",
+      "type": "categorical"
+    },
+    {
+      "name": "A_hops_woody",
+      "section": "Aroma",
+      "category": "Hops",
+      "label": "Hops aroma - woody",
+      "type": "categorical"
+    },
+    {
+      "name": "A_malt_all",
+      "section": "Aroma",
+      "category": "Malt",
+      "label": "Malt aroma - overall",
+      "type": "numeric"
+    },
+    {
+      "name": "A_malt_bread",
+      "section": "Aroma",
+      "category": "Malt",
+      "label": "Malt aroma - bread",
+      "type": "categorical"
+    },
+    {
+      "name": "A_malt_burn",
+      "section": "Aroma",
+      "category": "Malt",
+      "label": "Malt aroma - smoked",
+      "type": "categorical"
+    },
+    {
+      "name": "A_malt_cara",
+      "section": "Aroma",
+      "category": "Malt",
+      "label": "Malt aroma - caramel",
+      "type": "categorical"
+    },
+    {
+      "name": "A_malt_grain",
+      "section": "Aroma",
+      "category": "Malt",
+      "label": "Malt aroma - grain",
+      "type": "categorical"
+    },
+    {
+      "name": "F_esters_all",
+      "section": "Taste",
+      "category": "Yeast",
+      "label": "Esters taste - overall",
+      "type": "numeric"
+    },
+    {
+      "name": "F_esters_ethac",
+      "section": "Taste",
+      "category": "Yeast",
+      "label": "Esters taste - nail polish",
+      "type": "categorical"
+    },
+    {
+      "name": "F_esters_flower",
+      "section": "Taste",
+      "category": "Yeast",
+      "label": "Esters taste - floral",
+      "type": "categorical"
+    },
+    {
+      "name": "F_esters_fruity",
+      "section": "Taste",
+      "category": "Yeast",
+      "label": "Esters taste - fruity",
+      "type": "categorical"
+    },
+    {
+      "name": "F_esters_isoaa",
+      "section": "Taste",
+      "category": "Yeast",
+      "label": "Esters taste - banana",
+      "type": "categorical"
+    },
+    {
+      "name": "F_hops_all",
+      "section": "Taste",
+      "category": "Hops",
+      "label": "Hops taste - overall",
+      "type": "numeric"
+    },
+    {
+      "name": "F_hops_citrus",
+      "section": "Taste",
+      "category": "Hops",
+      "label": "Hops taste - citrus",
+      "type": "categorical"
+    },
+    {
+      "name": "F_hops_noble",
+      "section": "Taste",
+      "category": "Hops",
+      "label": "Hops taste - grassy",
+      "type": "categorical"
+    },
+    {
+      "name": "F_hops_tropical",
+      "section": "Taste",
+      "category": "Hops",
+      "label": "Hops taste - tropical fruit",
+      "type": "categorical"
+    },
+    {
+      "name": "F_hops_woody",
+      "section": "Taste",
+      "category": "Hops",
+      "label": "Hops taste - woody",
+      "type": "categorical"
+    },
+    {
+      "name": "F_malt_all",
+      "section": "Taste",
+      "category": "Malt",
+      "label": "Malt taste - overall",
+      "type": "numeric"
+    },
+    {
+      "name": "F_malt_bread",
+      "section": "Taste",
+      "category": "Malt",
+      "label": "Malt taste - bread",
+      "type": "categorical"
+    },
+    {
+      "name": "F_malt_burn",
+      "section": "Taste",
+      "category": "Malt",
+      "label": "Malt taste - smoked",
+      "type": "categorical"
+    },
+    {
+      "name": "F_malt_cara",
+      "section": "Taste",
+      "category": "Malt",
+      "label": "Malt taste - caramel",
+      "type": "categorical"
+    },
+    {
+      "name": "F_malt_grain",
+      "section": "Taste",
+      "category": "Malt",
+      "label": "Malt taste - grain",
+      "type": "categorical"
+    },
+    {
+      "name": "X4vg",
+      "section": "Taste",
+      "category": "Others",
+      "label": "4-vinyl guaiacol",
+      "type": "numeric"
+    },
+    {
+      "name": "acetic",
+      "section": "Taste",
+      "category": "Wild flora",
+      "label": "Acetic acid",
+      "type": "numeric"
+    },
+    {
+      "name": "acidity",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Acidity",
+      "type": "numeric"
+    },
+    {
+      "name": "aftertaste",
+      "section": "Palate",
+      "category": "NA",
+      "label": "Aftertaste",
+      "type": "numeric"
+    },
+    {
+      "name": "alcohol",
+      "section": "Palate",
+      "category": "Yeast",
+      "label": "Alcohol",
+      "type": "numeric"
+    },
+    {
+      "name": "barnyard",
+      "section": "Taste",
+      "category": "Wild flora",
+      "label": "Barnyard",
+      "type": "numeric"
+    },
+    {
+      "name": "bitternes",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Bitterness",
+      "type": "numeric"
+    },
+    {
+      "name": "body",
+      "section": "Palate",
+      "category": "NA",
+      "label": "Body",
+      "type": "numeric"
+    },
+    {
+      "name": "clove",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Clove",
+      "type": "numeric"
+    },
+    {
+      "name": "co2",
+      "section": "Palate",
+      "category": "Yeast",
+      "label": "Carbonation",
+      "type": "numeric"
+    },
+    {
+      "name": "coriander",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Coriander",
+      "type": "numeric"
+    },
+    {
+      "name": "diacetyl",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Diacetyl",
+      "type": "numeric"
+    },
+    {
+      "name": "dms",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Dimethyl sulfide",
+      "type": "numeric"
+    },
+    {
+      "name": "lactic",
+      "section": "Taste",
+      "category": "Wild flora",
+      "label": "Lactic acid",
+      "type": "numeric"
+    },
+    {
+      "name": "metallic",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Metallic",
+      "type": "numeric"
+    },
+    {
+      "name": "orange",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Orange",
+      "type": "numeric"
+    },
+    {
+      "name": "overall",
+      "section": "Overall",
+      "category": "NA",
+      "label": "Overall appreciation_x000D_\n(Trained panel)",
+      "type": "numeric"
+    },
+    {
+      "name": "stale_hops",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Stale hops",
+      "type": "numeric"
+    },
+    {
+      "name": "sweetness",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Sweetness",
+      "type": "numeric"
+    },
+    {
+      "name": "t2n",
+      "section": "Taste",
+      "category": "Others",
+      "label": "Trans-2-nonenal",
+      "type": "numeric"
+    }
+  ]
+}

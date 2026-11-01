@@ -1,0 +1,9 @@
+{
+  "independent_stale_increases_by_method": {
+    "PointConstraint": 3,
+    "UncertaintyConstraint": 4,
+    "Unconstrained": 3
+  },
+  "q3_source_missing_rows": 3,
+  "q3_floor_unverifiable_rows": 27
+}

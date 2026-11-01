@@ -1,0 +1,251 @@
+﻿beer_name,records,raters,dates,category,official_beer
+1,5,5,1,Low-No Alcohol,10
+2,5,5,1,Low-No Alcohol,86
+3,5,5,1,Low-No Alcohol,2
+4,5,5,1,Low-No Alcohol,83
+5,5,5,1,Low-No Alcohol,40
+6,4,4,1,Kriek & Fruitbeer,247
+7,10,10,1,Amber-Brown-Dubbel,48
+8,4,4,1,Kriek & Fruitbeer,165
+9,8,8,1,Pils,124
+10,4,4,1,Kriek & Fruitbeer,207
+11,5,5,1,Low-No Alcohol,155
+12,5,5,1,Low-No Alcohol,141
+13,8,8,1,Flemish ales,179
+14,4,4,1,Kriek & Fruitbeer,33
+15,4,4,1,Kriek & Fruitbeer,50
+16,4,4,1,Kriek & Fruitbeer,227
+17,7,7,1,Kriek & Fruitbeer,88
+18,10,10,1,Blond,77
+19,7,7,1,Wit,22
+20,10,10,1,Pils,81
+21,28,11,2,Stout & Porter,202
+22,10,10,1,Blond,64
+23,8,8,1,Pils,218
+24,11,11,1,Pils,96
+25,8,8,1,Pils,230
+26,8,8,1,Wit,44
+27,18,9,1,Flemish ales,161
+28,8,8,1,Wit,195
+29,8,8,1,Wit,142
+30,9,9,1,Amber-Brown-Dubbel,137
+31,6,6,1,Brett,236
+32,5,5,1,Low-No Alcohol,223
+33,11,11,1,Geuze & Faro,211
+34,9,9,1,Flemish ales,190
+35,8,8,1,Wit,197
+36,5,5,1,Tripel,228
+37,19,13,2,Pils,185
+38,6,6,1,Saison,166
+39,5,5,1,Amber-Brown-Dubbel,216
+40,9,9,1,Flemish ales,200
+41,7,7,1,Geuze & Faro,116
+42,27,14,3,Pils,139
+43,7,7,1,Saison,183
+44,7,7,1,Amber-Brown-Dubbel,111
+45,10,10,1,Blond,46
+46,9,9,1,Hoppy,213
+47,7,7,1,Geuze & Faro,250
+48,8,8,1,Amber-Brown-Dubbel,158
+49,31,8,2,Wit,224
+50,4,4,1,Kriek & Fruitbeer,54
+51,4,4,1,Blond,5
+52,8,8,1,Pils,209
+53,6,6,1,Saison,58
+54,9,9,1,Amber-Brown-Dubbel,11
+55,7,7,1,Saison,56
+56,9,9,1,Flemish ales,84
+57,8,8,1,Wit,172
+58,7,7,1,Geuze & Faro,74
+59,10,10,1,Stout & Porter,188
+60,13,7,1,Saison,20
+61,6,6,1,Brett,122
+62,9,9,1,Hoppy,169
+63,10,10,1,Amber-Brown-Dubbel,194
+64,8,8,1,Wit,160
+65,8,8,1,Amber-Brown-Dubbel,43
+66,10,10,1,Amber-Brown-Dubbel,100
+67,6,6,1,Saison,7
+68,11,11,1,Blond,62
+69,5,5,1,Hoppy,55
+70,18,9,1,Flemish ales,26
+71,7,7,1,Kriek & Fruitbeer,232
+72,7,7,1,Geuze & Faro,151
+73,10,10,1,Stout & Porter,61
+74,7,7,1,Kriek & Fruitbeer,156
+75,7,7,1,Kriek & Fruitbeer,138
+76,11,11,1,Blond,70
+77,11,11,1,Blond,113
+78,9,9,1,Flemish ales,176
+79,6,6,1,Strong ale,105
+80,9,9,1,Flemish ales,167
+81,10,10,1,Blond,59
+82,8,8,1,Tripel,135
+83,7,7,1,Kriek & Fruitbeer,82
+84,6,6,1,Kriek & Fruitbeer,241
+85,8,8,1,Amber-Brown-Dubbel,128
+86,9,9,1,Flemish ales,244
+87,9,9,1,Flemish ales,178
+88,10,10,1,Blond,110
+89,8,8,1,Stout & Porter,231
+90,9,9,1,Amber-Brown-Dubbel,112
+91,17,11,2,Hoppy,219
+92,8,8,1,Amber-Brown-Dubbel,129
+93,6,6,1,Geuze & Faro,42
+94,9,9,1,Hoppy,72
+95,3,3,1,Strong ale,186
+96,9,9,1,Amber-Brown-Dubbel,109
+97,9,9,1,Blond,246
+98,9,9,1,Hoppy,97
+99,8,8,1,Stout & Porter,87
+100,14,7,1,Kriek & Fruitbeer,220
+101,10,10,1,Stout & Porter,201
+102,11,11,1,Brett,14
+103,10,10,1,Stout & Porter,173
+104,31,11,2,Strong ale,37
+105,8,8,1,Pils,119
+106,4,4,1,Kriek & Fruitbeer,177
+107,9,9,1,Christmas,106
+108,9,9,1,Flemish ales,159
+109,8,8,1,Pils,90
+110,6,6,1,Amber-Brown-Dubbel,92
+111,8,8,1,Tripel,93
+112,21,13,2,Blond,238
+113,10,10,1,Blond,76
+114,10,10,1,Amber-Brown-Dubbel,107
+115,3,3,1,Blond,205
+116,8,8,1,Amber-Brown-Dubbel,206
+117,18,9,1,Amber-Brown-Dubbel,53
+118,7,7,1,Kriek & Fruitbeer,24
+119,6,6,1,Tripel,136
+120,11,11,1,Tripel,69
+121,9,9,1,Christmas,180
+122,13,13,1,Blond,49
+123,8,8,1,Wit,243
+124,7,7,1,Strong ale,134
+125,10,10,1,Blond,193
+126,5,5,1,Hoppy,39
+127,10,10,1,Tripel,240
+128,7,7,1,Geuze & Faro,12
+129,11,11,1,Brett,150
+130,19,11,2,Tripel,23
+131,9,9,1,Strong ale,226
+132,7,7,1,Saison,29
+133,5,5,1,Hoppy,132
+134,10,10,1,Amber-Brown-Dubbel,16
+135,9,9,1,Tripel,47
+136,11,11,1,Blond,164
+137,8,8,1,Wit,115
+138,6,6,1,Blond,149
+139,9,9,1,Hoppy,80
+140,6,6,1,Hoppy,120
+141,8,8,1,Brett,222
+142,8,8,1,Geuze & Faro,18
+143,8,8,1,Amber-Brown-Dubbel,98
+144,9,9,1,Amber-Brown-Dubbel,221
+145,8,8,1,Amber-Brown-Dubbel,32
+146,5,5,1,Hoppy,27
+147,9,9,1,Christmas,13
+148,10,10,1,Amber-Brown-Dubbel,174
+149,9,9,1,Stout & Porter,79
+150,9,9,1,Flemish ales,118
+151,8,8,1,Wit,152
+152,4,4,1,Kriek & Fruitbeer,184
+153,8,8,1,Amber-Brown-Dubbel,19
+154,7,7,1,Saison,145
+155,11,11,1,Hoppy,125
+156,8,8,1,Amber-Brown-Dubbel,6
+157,10,10,1,Stout & Porter,212
+158,8,8,1,Amber-Brown-Dubbel,78
+159,11,11,1,Blond,234
+160,11,11,1,Tripel,147
+161,9,9,1,Tripel,66
+162,10,10,1,Blond,249
+163,9,9,1,Strong ale,104
+164,10,10,1,Blond,101
+165,8,8,1,Amber-Brown-Dubbel,237
+166,25,13,3,Blond,127
+167,8,8,1,Tripel,245
+168,11,11,1,Tripel,191
+169,5,5,1,Christmas,60
+170,6,6,1,Strong ale,51
+171,8,8,1,Geuze & Faro,144
+172,11,11,1,Pils,28
+173,11,11,1,Geuze & Faro,41
+174,7,7,1,Kriek & Fruitbeer,153
+175,5,5,1,Amber-Brown-Dubbel,146
+176,5,5,1,Amber-Brown-Dubbel,168
+177,11,11,1,Tripel,30
+178,8,8,1,Strong ale,36
+179,6,6,1,Amber-Brown-Dubbel,126
+180,11,11,1,Geuze & Faro,162
+181,5,5,1,Stout & Porter,123
+182,3,3,1,Blond,130
+183,5,5,1,Hoppy,8
+184,9,9,1,Hoppy,31
+185,8,8,1,Stout & Porter,52
+186,9,9,1,Hoppy,9
+187,8,8,1,Tripel,204
+188,13,13,1,Blond,94
+189,5,5,1,Amber-Brown-Dubbel,131
+190,19,11,2,Geuze & Faro,75
+191,8,8,1,Tripel,34
+192,8,8,1,Amber-Brown-Dubbel,108
+193,9,9,1,Amber-Brown-Dubbel,187
+194,10,10,1,Tripel,45
+195,10,10,1,Tripel,154
+196,13,13,1,Blond,121
+197,7,7,1,Saison,242
+198,8,8,1,Wit,208
+199,3,3,1,Christmas,38
+200,6,6,1,Strong ale,170
+201,21,10,2,Christmas,214
+202,11,11,1,Blond,35
+203,11,11,1,Blond,215
+204,9,9,1,Strong ale,235
+205,8,8,1,Amber-Brown-Dubbel,89
+206,24,9,2,Hoppy,114
+207,9,9,1,Christmas,181
+208,7,7,1,Strong ale,225
+209,10,10,1,Tripel,57
+210,9,9,1,Hoppy,143
+211,7,7,1,Tripel,133
+212,8,8,1,Stout & Porter,182
+213,6,6,1,Tripel,17
+214,8,8,1,Wit,229
+215,9,9,1,Strong ale,148
+216,13,13,1,Blond,248
+217,9,9,1,Hoppy,65
+218,11,11,1,Blond,73
+219,9,9,1,Amber-Brown-Dubbel,198
+220,7,7,1,Strong ale,91
+221,10,10,1,Tripel,217
+222,11,11,1,Tripel,163
+223,3,3,1,Tripel,68
+224,6,6,1,Tripel,15
+225,3,3,1,Tripel,1
+226,11,11,1,Blond,71
+227,4,4,1,Christmas,102
+228,9,9,1,Tripel,140
+229,3,3,1,Stout & Porter,67
+230,8,8,1,Amber-Brown-Dubbel,210
+231,11,11,1,Tripel,189
+232,5,5,1,Amber-Brown-Dubbel,233
+233,11,11,1,Tripel,199
+234,11,11,1,Amber-Brown-Dubbel,63
+235,9,9,1,Christmas,95
+236,8,8,1,Amber-Brown-Dubbel,25
+237,11,11,1,Brett,203
+238,10,10,1,Tripel,85
+239,13,13,1,Blond,3
+240,7,7,1,Geuze & Faro,21
+241,3,3,1,Strong ale,192
+242,11,11,1,Tripel,239
+243,3,3,1,Strong ale,117
+244,3,3,1,Tripel,171
+245,3,3,1,Stout & Porter,103
+246,6,6,1,Strong ale,175
+247,7,7,1,Strong ale,196
+248,6,6,1,Strong ale,4
+249,9,9,1,Strong ale,99
+250,3,3,1,Tripel,157

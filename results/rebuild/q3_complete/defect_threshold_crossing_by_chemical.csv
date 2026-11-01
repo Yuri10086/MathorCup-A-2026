@@ -1,0 +1,13 @@
+defect,policy,usable_rows,source_below_threshold,crossed_above,crossing_rate_given_below
+DMS,PointConstraint,9,7,0,0.0
+DMS,Reject,9,7,0,0.0
+DMS,UncertaintyConstraint,9,7,0,0.0
+DMS,Unconstrained,9,7,4,0.5714285714285714
+X2.3.butanedione,PointConstraint,8,7,0,0.0
+X2.3.butanedione,Reject,8,7,0,0.0
+X2.3.butanedione,UncertaintyConstraint,8,7,0,0.0
+X2.3.butanedione,Unconstrained,8,7,3,0.42857142857142855
+X4VG,PointConstraint,9,9,0,0.0
+X4VG,Reject,9,9,0,0.0
+X4VG,UncertaintyConstraint,9,9,0,0.0
+X4VG,Unconstrained,9,9,0,0.0

@@ -1,0 +1,17 @@
+{
+  "transform": "log10 (data/processed/transforms.csv, log10_rmse=2.93e-10 over 249 pairs)",
+  "concentration_mg_per_L": {
+    "min": 0.013,
+    "median": 4.105,
+    "max": 18.562
+  },
+  "sensory_detection_threshold_mg_per_L": 50.0,
+  "n_beers_above_threshold": 0,
+  "max_concentration_over_threshold_ratio": 0.3712,
+  "panel_floor_fraction_附件7_aroma": 0.96,
+  "panel_floor_value_附件7_aroma": -0.1451,
+  "chemical_vs_panel_spearman": -0.0576,
+  "official_6csv_has_acetaldehyde_column": false,
+  "grade_rule": "grade = 0 if C <= threshold else 1, then panel-scale mapping; here every beer is below threshold so grade = 0",
+  "caveat": "This is a threshold-anchored inference, not a measured panel score. It answers the 0-6 request only in the degenerate sense that the whole dataset is below the sensory detection threshold, so every beer takes the 0 = Not present level. The paper reports it separately from the 50-panel columns and states that no per-taster 0-6 acetaldehyde record exists in any released file."
+}

@@ -1,0 +1,50 @@
+{
+  "tolerance": 1e-10,
+  "two_criteria": {
+    "shipped_any_epsilon": "independent evaluator stale_hops prediction moves up by more than 1e-10 (same tolerance closed.py uses when it writes independent_stale_increase)",
+    "problem_statement_threshold": "defect = over-threshold item; count source beers below the sensory detection threshold that crossed above it"
+  },
+  "threshold_crossing_by_policy": {
+    "PointConstraint": 0,
+    "Reject": 0,
+    "UncertaintyConstraint": 0,
+    "Unconstrained": 7
+  },
+  "threshold_crossing_denominator": {
+    "PointConstraint": 23,
+    "Reject": 23,
+    "UncertaintyConstraint": 23,
+    "Unconstrained": 23
+  },
+  "any_positive_by_policy": {
+    "PointConstraint": 5,
+    "Reject": 0,
+    "UncertaintyConstraint": 4,
+    "Unconstrained": 6
+  },
+  "any_positive_denominator": {
+    "PointConstraint": 9,
+    "Reject": 9,
+    "UncertaintyConstraint": 9,
+    "Unconstrained": 9
+  },
+  "max_stale_change_by_policy": {
+    "PointConstraint": 0.04579,
+    "Reject": 0.0,
+    "UncertaintyConstraint": 0.050305,
+    "Unconstrained": 0.047154
+  },
+  "n_stale_change_gt_005_by_policy": {
+    "PointConstraint": 0,
+    "Reject": 0,
+    "UncertaintyConstraint": 1,
+    "Unconstrained": 0
+  },
+  "chemical_observed_increases_by_policy": {
+    "PointConstraint": 0,
+    "Reject": 0,
+    "UncertaintyConstraint": 0,
+    "Unconstrained": 23
+  },
+  "note": "Two readings, both reported, neither sufficient on its own. (a) Problem-statement reading (defects are over-threshold items): among source beers that started below the sensory detection threshold, the count that crossed above it is Unconstrained 7, PointConstraint 0, UncertaintyConstraint 0 out of 23 testable rows; the Reject policy returns the source spectrum unchanged and therefore crosses 0. (b) Strict any-epsilon reading (any upward move above 1e-10 counts): Unconstrained 6/9, PointConstraint 5/9, UncertaintyConstraint 4/9, Reject 0/9. The two readings differ by at most ~0.05 points on the 0-6 scale, which is well inside the model's own ~0.23 MAE on stale_hops, so neither can support a guarantee of non-worsening and neither can be used to dismiss the constraint as ineffective. The Reject row is an internal consistency check: its stale_change is exactly zero up to float round-off (largest magnitude 5.6e-17), so it must read 0 under both readings. stale_hops has no usable chemical threshold (it is a sensory proxy) and so cannot enter the threshold-crossing count at all."
+}

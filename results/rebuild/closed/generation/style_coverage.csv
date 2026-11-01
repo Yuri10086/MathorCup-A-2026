@@ -1,0 +1,23 @@
+﻿style,n_total,n_unique_test,n_contexts_with_test,n_correlation_contexts,distribution_status
+Amber,12,3,2,0,test evidence available
+Blond,31,13,3,3,test evidence available
+Brett/cofermented,6,1,1,0,test evidence available
+Brown,12,5,3,0,test evidence available
+Brut,4,1,1,0,test evidence available
+Christmas,9,3,1,0,test evidence available
+Dubbel,10,3,2,0,test evidence available
+Faro,3,0,0,0,NA: no held-out beer in frozen protocol
+Flanders old brown,5,0,0,0,NA: no held-out beer in frozen protocol
+Fruitbeer,8,2,2,0,test evidence available
+Hoppy,17,6,2,0,test evidence available
+Kriek,10,2,2,0,test evidence available
+Lambic,11,3,2,0,test evidence available
+Low/No alcohol,8,2,2,0,test evidence available
+Pils/Lager,11,9,3,1,test evidence available
+Saison,10,6,3,0,test evidence available
+Scotch,5,2,2,0,test evidence available
+Stout/Porter,13,4,2,0,test evidence available
+Strong ale,18,8,3,1,test evidence available
+Tripel,28,12,3,2,test evidence available
+West Flanders ale,7,1,1,0,test evidence available
+Wheat,12,5,2,0,test evidence available

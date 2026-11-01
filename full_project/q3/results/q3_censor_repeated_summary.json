@@ -1,0 +1,36 @@
+{
+  "by_seed": [
+    {
+      "seed": 77,
+      "baseline": 0.43139455782312924,
+      "censor_aware": 0.25296343537414967,
+      "delta": 0.17843112244897957,
+      "relative_pct": 41.361468106914764,
+      "feature_count": 49
+    },
+    {
+      "seed": 99,
+      "baseline": 0.4358052600472813,
+      "censor_aware": 0.25083333333333335,
+      "delta": 0.18497192671394797,
+      "relative_pct": 42.44371137096418,
+      "feature_count": 47
+    },
+    {
+      "seed": 20261027,
+      "baseline": 0.41090567129629624,
+      "censor_aware": 0.2548697916666667,
+      "delta": 0.15603587962962956,
+      "relative_pct": 37.973649557422405,
+      "feature_count": 48
+    }
+  ],
+  "mean_absolute_improvement": 0.17314630959751906,
+  "improvements_positive_all_splits": true,
+  "cluster_bootstrap_CI95_on_mean_floor_fraction_MAE_improvement": [
+    0.13047985924477473,
+    0.20642283646984202
+  ],
+  "definition": "Repeated 3 style-stratified 80/20 holdouts; style resampling for uncertainty; floor threshold 25% fixed",
+  "notes": "Same 250 cohort; frequent minima proxy detection floors; not independent lab validation."
+}

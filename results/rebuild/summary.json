@@ -1,0 +1,73 @@
+{
+  "q1_observed_best": "ET",
+  "q1_metrics": {
+    "MAE": 0.4454484153592635,
+    "RMSE": 0.6304652599582805,
+    "R2": 0.2529675542680133,
+    "AF_MAE": 0.5089152869214977
+  },
+  "q1_MAE_repeat_sd": 0.001961233389873468,
+  "q1_inner_selected": {
+    "MAE": 0.45213013807323416,
+    "RMSE": 0.6472431776411843,
+    "R2": 0.2100599874053645,
+    "AF_MAE": 0.5155451118461325
+  },
+  "q2_observed_best": "Hybrid2plus1",
+  "q2_metrics": {
+    "MAE": 0.49883151102145756,
+    "RMSE": 0.7028206815700887,
+    "R2": 0.10156486669594546
+  },
+  "q3_production": "CopulaIndependent",
+  "q3_metrics": {
+    "CVAE": {
+      "SWD": 0.4301949065250516,
+      "marginal_W1": 0.4300184749613805,
+      "correlation_MAE": 0.2253329991330748,
+      "floor_fraction_MAE": 0.4137787246766838,
+      "style_accuracy": 0.1809523809523809
+    },
+    "CopulaIndependent": {
+      "SWD": 0.3050678625032612,
+      "marginal_W1": 0.2524839746557532,
+      "correlation_MAE": 0.24018326589111996,
+      "floor_fraction_MAE": 0.09575854077894887,
+      "style_accuracy": 0.2571428571428571
+    },
+    "CopulaJoint": {
+      "SWD": 0.30514298426975545,
+      "marginal_W1": 0.26494305622156405,
+      "correlation_MAE": 0.19381517905589304,
+      "floor_fraction_MAE": 0.09909277117440378,
+      "style_accuracy": 0.1333333333333333
+    },
+    "PCA_Gaussian": {
+      "SWD": 0.3444333019536967,
+      "marginal_W1": 0.42501950640478575,
+      "correlation_MAE": 0.2383306847056689,
+      "floor_fraction_MAE": 0.342885998355386,
+      "style_accuracy": 0.1428571428571428
+    }
+  },
+  "migration_unique_beers": 9,
+  "migration_summary": {
+    "PointConstraint": {
+      "prob_change": 0.03998316498316498,
+      "independent_stale_change": -0.046447047543427995,
+      "change_RMS": 0.6299926070888892
+    },
+    "UncertaintyConstraint": {
+      "prob_change": 0.03678451178451179,
+      "independent_stale_change": -0.008255828300020264,
+      "change_RMS": 0.4608708846429618
+    },
+    "Unconstrained": {
+      "prob_change": 0.028114478114478116,
+      "independent_stale_change": -0.05587825770064827,
+      "change_RMS": 0.6201470204570055
+    }
+  },
+  "_scope": "LEGACY single-split / single-fold record kept only for provenance. Authoritative closed-experiment numbers live in outputs/rebuild/closed/final_summary.json (22-style x multi-context macro). Do not cross-cite the two.",
+  "_authoritative_file": "outputs/rebuild/closed/final_summary.json"
+}
