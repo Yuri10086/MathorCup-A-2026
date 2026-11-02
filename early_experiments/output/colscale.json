@@ -1,0 +1,1854 @@
+{
+ "scale": {
+  "acetaldehyde": "log10",
+  "CS2": "log10",
+  "DES": "log10",
+  "DMS": "log10",
+  "ethyl_2.methyl_butyrate": "log10",
+  "ethyl_acetate": "log10",
+  "ethyl_decanoate": "log10",
+  "ethyl_hexanoate": "log10",
+  "ethyl_isovalerate": "log10",
+  "ethyl_octanoate": "log10",
+  "ethyl_propionate": "log10",
+  "H2S": "log10",
+  "isoamyl_alcohol": "log10",
+  "isobutanol": "log10",
+  "isobutyl_acetate": "log10",
+  "isopentyl_acetate": "log10",
+  "MeSH": "log10",
+  "octyl_acetate": "log10",
+  "phenethyl_acetate": "log10",
+  "phenethyl_alcohol": "log10",
+  "X4VG": "log10",
+  "SO2.mg.L.": "log10",
+  "acetic_acid.g.L.": "log10",
+  "ammonia.mg.L.": "log10",
+  "color.EBC.": "log10",
+  "betaglucan.mg.L.": "log10",
+  "lactic_acid.mg.L.": "log10",
+  "glycerol": "log10",
+  "iron": "log10",
+  "pH": "log10",
+  "protein.g.L.": "log10",
+  "bitterness": "log10",
+  "GFS": "log10",
+  "ethanol..v.v.": "log10",
+  "CO2.PSI.": "log10",
+  "unfermentables": "log10",
+  "kcalperc": "log10",
+  "X1.propanol": "log10",
+  "X2.3.butanedione": "raw",
+  "X3.methylbutanal": "raw",
+  "propylene.glycol": "log10",
+  "propyl.acetate": "log10",
+  "n.pentanol": "log10",
+  "X2.methyl.1.butanol": "log10",
+  "isopentyl.formate": "log10",
+  "ethyl.isobutyrate": "raw",
+  "X3.methyl.2.butenal": "log10",
+  "X2.methyltetrahydrofuran.3.one": "raw",
+  "ethyl.butyrate": "raw",
+  "butyl.acetate": "log10",
+  "methylpyrazine": "raw",
+  "furfural": "raw",
+  "ethyl.lactate": "log10",
+  "X3Z.hexenol": "raw",
+  "n.hexanol": "raw",
+  "styrene": "raw",
+  "X2.furanmethanol": "log10",
+  "X3.methyl.2.hexanol": "log10",
+  "X3.furanmethanol": "log10",
+  "X2.acetylfuran": "log10",
+  "X2.6.dimethyl.pyrazine": "log10",
+  "amyl.acetate": "raw",
+  "ethyl.tiglate": "log10",
+  "benzaldehyde": "raw",
+  "X5.methylfurfural": "raw",
+  "n.heptanol": "log10",
+  "X1.octen.3.ol": "log10",
+  "X3.methylthio.propanol": "log10",
+  "isomaltol": "log10",
+  "X6.methyl.5.hepten.2.one": "log10",
+  "X2.pentyl.furan": "log10",
+  "ethyl.hex..3E..enoate": "log10",
+  "alpha.phellandrene": "log10",
+  "dehydroxy.cis.linalool.oxide": "log10",
+  "hexyl.acetate": "raw",
+  "isopentyl.butanoate": "log10",
+  "X2.ethyl.1.hexanol": "log10",
+  "beta.phellandrene": "log10",
+  "limonene": "log10",
+  "eucalyptol": "log10",
+  "benzyl.alcohol": "raw",
+  "ethyl.hex..2E..enoate": "log10",
+  "phenylacetaldehyde": "raw",
+  "X.E..beta.ocimene": "raw",
+  "prenyl.isobutyrate": "log10",
+  "ethyl.furoate": "log10",
+  "ortho.cresol": "log10",
+  "ethyl.5.methylhexanoate": "log10",
+  "X2.acetylpyrrole": "log10",
+  "isoamyl.lactate": "log10",
+  "n.octanol": "log10",
+  "cis.linalool.oxide": "log10",
+  "meta.cymenene": "log10",
+  "terpinolene": "log10",
+  "linalool": "raw",
+  "nonan.2.ol": "log10",
+  "n.nonanal": "log10",
+  "X2.methyl.benzofuran": "log10",
+  "heptyl.acetate": "log10",
+  "X4.methyl.1.pentanol": "log10",
+  "neo.allo.ocimene": "log10",
+  "x.methyl.1.octanol": "log10",
+  "trans.dihydro.beta.terpineol": "log10",
+  "cis.beta.terpineol": "log10",
+  "y.methyl.1.octanol": "log10",
+  "camphor": "log10",
+  "isobutyl.hexanoate": "log10",
+  "nerol.oxide": "log10",
+  "X.E..2.nonenal": "raw",
+  "cis.dihydro.beta.terpineol": "log10",
+  "X4.ethyl.phenol": "log10",
+  "isoborneol": "log10",
+  "ethyl.benzoate": "log10",
+  "n.nonanol": "log10",
+  "terpinen.4.ol": "log10",
+  "diethyl.succinate": "raw",
+  "vinyl.caprylate": "log10",
+  "X1.alpha.terpineol": "raw",
+  "ethyl..E..linalool": "log10",
+  "ethyl.nicotinate": "raw",
+  "citronellol": "raw",
+  "nerol": "log10",
+  "hydroxy.methyl.furfural": "log10",
+  "E.ocimenone": "log10",
+  "cumin.aldehyde": "log10",
+  "ethyl.phenylacetate": "log10",
+  "isopentyl.hexanoate": "log10",
+  "geraniol": "raw",
+  "beta.cyclohomocitral": "log10",
+  "E.cinnamaldehyde": "log10",
+  "n.decanol": "log10",
+  "neryl.formate": "log10",
+  "X4.ethyl.guaiacol": "log10",
+  "X2.undecanone": "log10",
+  "trans.dihydro.alpha.terpinyl.acetate": "log10",
+  "terpinen.4.ol.acetate": "log10",
+  "X2.undecanol": "log10",
+  "delta.terpinyl.acetate": "log10",
+  "X.E.E..2.4.decadienal": "raw",
+  "methyl.geranate": "log10",
+  "car.3.en.2.one": "log10",
+  "dimethoxy..E..citral": "log10",
+  "X2.butyloctanoate": "log10",
+  "X4.methoxysalicylaldehyde": "log10",
+  "ethyl.hydrocinnamate": "log10",
+  "eugenol": "raw",
+  "gamma.nonalactone": "raw",
+  "methyl.para.anisate": "log10",
+  "X.E..beta.damascenone": "raw",
+  "ethyl..9..decenoate": "log10",
+  "vanillin": "log10",
+  "geosmin": "log10",
+  "dodecanal": "log10",
+  "X4.8.alpha.epoxy.caryophyllane": "log10",
+  "E.caryophyllene": "raw",
+  "X.E..alpha.ionone": "log10",
+  "perillyl.acetate": "log10",
+  "beta.humulene": "log10",
+  "X2.phenyl.ethyl.butyrate": "log10",
+  "X.Z..beta.farnesene": "log10",
+  "pentyl.octanoate": "log10",
+  "X.E..beta.farnesene": "log10",
+  "X2.methylbutyl.octanoate": "log10",
+  "alpha.humulene": "raw",
+  "neryl.propanoate": "log10",
+  "X9.epi..E..caryophyllene": "log10",
+  "ethyl..E..cinnamate": "log10",
+  "linalool.isovalerate": "log10",
+  "alpha.terpinyl.isobutanoate": "log10",
+  "n.dodecanol": "log10",
+  "germacrene.D": "log10",
+  "X.E..beta.ionone": "log10",
+  "valencene": "log10",
+  "neryl.isobutanoate": "log10",
+  "E.methyl.isoeugenol": "log10",
+  "X.Z..dihydro.apofarnesal": "log10",
+  "butylated.hydroxytoluene": "log10",
+  "X.E..dihydro.apofarnesal": "log10",
+  "Z.nerolidol": "raw",
+  "X.E..ortho.methoxy.cinnamaldehyde": "log10",
+  "alpha.calacorene": "log10",
+  "E.nerolidol": "log10",
+  "dihydroisocaryophyllene.epoxide": "log10",
+  "caryophyllene.alcohol": "log10",
+  "neryl.isovalerate": "log10",
+  "spathulenol": "log10",
+  "caryophyllene.oxide": "log10",
+  "humulene.epoxide.II": "log10",
+  "alloaromadendrene.epoxide": "log10",
+  "X1.10.di.epi.cubenol": "log10",
+  "isopropyl.laurate": "log10",
+  "caryophylla.4.12..8.13..dien.5.alpha.ol": "log10",
+  "gamma.eudesmol": "log10",
+  "alpha.muurolol": "log10",
+  "X1.2.dihydro.8.hydroxy..2E..linalool": "log10",
+  "tau.cadinol": "log10",
+  "selin.11.en.4.alpha.ol": "log10",
+  "alpha.eudesmol": "log10",
+  "X14.hydroxy.9.epi..E..caryophyllene": "log10",
+  "tau.muurolol": "log10",
+  "n.tetradecanol": "log10",
+  "foeniculin": "log10",
+  "cadalene": "log10",
+  "X2.3.dihydro.farnesol": "log10",
+  "X2E.6Z.farnesal": "log10",
+  "caryophyllene.acetate": "log10",
+  "X14.hydroxy.alpha.humulene": "log10",
+  "X2Z.6E.farnesal": "log10",
+  "X2Z.6Z.farnesol": "log10",
+  "X2Z.6E.farnesol": "log10",
+  "ambroxide": "log10",
+  "benzyl.benzoate": "log10",
+  "X2E.6E.methyl.farnesoate": "log10",
+  "ethyl.tetradecanoate": "log10",
+  "X2.ethylhexylsalicylate": "log10",
+  "isopropyl.tetradecanoate": "log10",
+  "ethyl.pentadecanoate": "log10",
+  "methyl.hexadecanoate": "log10",
+  "Z.Z.geranyl.linalool": "log10",
+  "ethyl.hexadecanoate": "log10",
+  "manool.oxide": "log10",
+  "X13.epi.manool.oxide": "log10",
+  "isopropyl.hexadecanoate": "log10",
+  "manool": "log10",
+  "ethyl.octadecanoate": "log10",
+  "ethyl.pentanoate": "raw",
+  "X2.ethyl.3.methylpyrazine": "raw",
+  "esters_sum": "log10",
+  "aroma_hops_sum": "log10",
+  "acids_sum": "log10",
+  "sulfur_sum": "log10"
+ },
+ "detail": {
+  "acetaldehyde": {
+   "tag": "log10",
+   "f_pow": 0.996,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "CS2": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "DES": {
+   "tag": "log10",
+   "f_pow": 0.884,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "DMS": {
+   "tag": "log10",
+   "f_pow": 0.996,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_2.methyl_butyrate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_acetate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_decanoate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_hexanoate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_isovalerate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_octanoate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl_propionate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "H2S": {
+   "tag": "log10",
+   "f_pow": 0.96,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "isoamyl_alcohol": {
+   "tag": "log10",
+   "f_pow": 0.992,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "isobutanol": {
+   "tag": "log10",
+   "f_pow": 0.98,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "isobutyl_acetate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "isopentyl_acetate": {
+   "tag": "log10",
+   "f_pow": 0.996,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "MeSH": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "octyl_acetate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "phenethyl_acetate": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "phenethyl_alcohol": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "X4VG": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "SO2.mg.L.": {
+   "tag": "log10",
+   "f_pow": 0.996,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "acetic_acid.g.L.": {
+   "tag": "log10",
+   "f_pow": 0.992,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ammonia.mg.L.": {
+   "tag": "log10",
+   "f_pow": 0.9799196787148594,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "color.EBC.": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "betaglucan.mg.L.": {
+   "tag": "log10",
+   "f_pow": 0.952,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "lactic_acid.mg.L.": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "glycerol": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "iron": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "pH": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "protein.g.L.": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "bitterness": {
+   "tag": "log10",
+   "f_pow": 0.992,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "GFS": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethanol..v.v.": {
+   "tag": "log10",
+   "f_pow": 0.996,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "CO2.PSI.": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 211
+  },
+  "unfermentables": {
+   "tag": "log10",
+   "f_pow": 0.996,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "kcalperc": {
+   "tag": "log10",
+   "f_pow": 1.0,
+   "f_id": 0.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "X1.propanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.3.butanedione": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9875518672199171,
+   "calibrated": true,
+   "n_pair": 241
+  },
+  "X3.methylbutanal": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9958677685950413,
+   "calibrated": true,
+   "n_pair": 242
+  },
+  "propylene.glycol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "propyl.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.pentanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.methyl.1.butanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isopentyl.formate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.isobutyrate": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9796747967479674,
+   "calibrated": true,
+   "n_pair": 246
+  },
+  "X3.methyl.2.butenal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.methyltetrahydrofuran.3.one": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.996,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl.butyrate": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9879518072289156,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "butyl.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "methylpyrazine": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9957983193277311,
+   "calibrated": true,
+   "n_pair": 238
+  },
+  "furfural": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 248
+  },
+  "ethyl.lactate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X3Z.hexenol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.984,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "n.hexanol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.98,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "styrene": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.996,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "X2.furanmethanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X3.methyl.2.hexanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X3.furanmethanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.acetylfuran": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.6.dimethyl.pyrazine": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "amyl.acetate": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 223
+  },
+  "ethyl.tiglate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "benzaldehyde": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9959514170040485,
+   "calibrated": true,
+   "n_pair": 247
+  },
+  "X5.methylfurfural": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "n.heptanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X1.octen.3.ol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X3.methylthio.propanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isomaltol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X6.methyl.5.hepten.2.one": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.pentyl.furan": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.hex..3E..enoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alpha.phellandrene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "dehydroxy.cis.linalool.oxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "hexyl.acetate": {
+   "tag": "raw",
+   "f_pow": 0.004,
+   "f_id": 0.984,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "isopentyl.butanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.ethyl.1.hexanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "beta.phellandrene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "limonene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "eucalyptol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "benzyl.alcohol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.991869918699187,
+   "calibrated": true,
+   "n_pair": 246
+  },
+  "ethyl.hex..2E..enoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "phenylacetaldehyde": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9959677419354839,
+   "calibrated": true,
+   "n_pair": 248
+  },
+  "X.E..beta.ocimene": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9919678714859438,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "prenyl.isobutyrate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.furoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ortho.cresol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.5.methylhexanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.acetylpyrrole": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isoamyl.lactate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.octanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "cis.linalool.oxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "meta.cymenene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "terpinolene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "linalool": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9878542510121457,
+   "calibrated": true,
+   "n_pair": 247
+  },
+  "nonan.2.ol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.nonanal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.methyl.benzofuran": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "heptyl.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X4.methyl.1.pentanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "neo.allo.ocimene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "x.methyl.1.octanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "trans.dihydro.beta.terpineol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "cis.beta.terpineol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "y.methyl.1.octanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "camphor": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isobutyl.hexanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "nerol.oxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.E..2.nonenal": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "cis.dihydro.beta.terpineol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X4.ethyl.phenol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isoborneol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.benzoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.nonanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "terpinen.4.ol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "diethyl.succinate": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 247
+  },
+  "vinyl.caprylate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X1.alpha.terpineol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.992,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl..E..linalool": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.nicotinate": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9919354838709677,
+   "calibrated": true,
+   "n_pair": 248
+  },
+  "citronellol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.992,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "nerol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "hydroxy.methyl.furfural": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "E.ocimenone": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "cumin.aldehyde": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.phenylacetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isopentyl.hexanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "geraniol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9878048780487805,
+   "calibrated": true,
+   "n_pair": 246
+  },
+  "beta.cyclohomocitral": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "E.cinnamaldehyde": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.decanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "neryl.formate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X4.ethyl.guaiacol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.undecanone": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "trans.dihydro.alpha.terpinyl.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "terpinen.4.ol.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.undecanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "delta.terpinyl.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.E.E..2.4.decadienal": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "methyl.geranate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "car.3.en.2.one": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "dimethoxy..E..citral": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.butyloctanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X4.methoxysalicylaldehyde": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.hydrocinnamate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "eugenol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "gamma.nonalactone": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.992,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "methyl.para.anisate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.E..beta.damascenone": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.996,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "ethyl..9..decenoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "vanillin": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "geosmin": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "dodecanal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X4.8.alpha.epoxy.caryophyllane": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "E.caryophyllene": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 1.0,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "X.E..alpha.ionone": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "perillyl.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "beta.humulene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.phenyl.ethyl.butyrate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.Z..beta.farnesene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "pentyl.octanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.E..beta.farnesene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.methylbutyl.octanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alpha.humulene": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.996,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "neryl.propanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X9.epi..E..caryophyllene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl..E..cinnamate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "linalool.isovalerate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alpha.terpinyl.isobutanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.dodecanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "germacrene.D": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.E..beta.ionone": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "valencene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "neryl.isobutanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "E.methyl.isoeugenol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.Z..dihydro.apofarnesal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "butylated.hydroxytoluene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X.E..dihydro.apofarnesal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "Z.nerolidol": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.996,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "X.E..ortho.methoxy.cinnamaldehyde": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alpha.calacorene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "E.nerolidol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "dihydroisocaryophyllene.epoxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "caryophyllene.alcohol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "neryl.isovalerate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "spathulenol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "caryophyllene.oxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "humulene.epoxide.II": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alloaromadendrene.epoxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X1.10.di.epi.cubenol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isopropyl.laurate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "caryophylla.4.12..8.13..dien.5.alpha.ol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "gamma.eudesmol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alpha.muurolol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X1.2.dihydro.8.hydroxy..2E..linalool": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "tau.cadinol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "selin.11.en.4.alpha.ol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "alpha.eudesmol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X14.hydroxy.9.epi..E..caryophyllene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "tau.muurolol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "n.tetradecanol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "foeniculin": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "cadalene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.3.dihydro.farnesol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2E.6Z.farnesal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "caryophyllene.acetate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X14.hydroxy.alpha.humulene": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2Z.6E.farnesal": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2Z.6Z.farnesol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2Z.6E.farnesol": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ambroxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "benzyl.benzoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2E.6E.methyl.farnesoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.tetradecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X2.ethylhexylsalicylate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isopropyl.tetradecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.pentadecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "methyl.hexadecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "Z.Z.geranyl.linalool": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.hexadecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "manool.oxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "X13.epi.manool.oxide": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "isopropyl.hexadecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "manool": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.octadecanoate": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "ethyl.pentanoate": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.988,
+   "calibrated": true,
+   "n_pair": 250
+  },
+  "X2.ethyl.3.methylpyrazine": {
+   "tag": "raw",
+   "f_pow": 0.0,
+   "f_id": 0.9919678714859438,
+   "calibrated": true,
+   "n_pair": 249
+  },
+  "esters_sum": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "aroma_hops_sum": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "acids_sum": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  },
+  "sulfur_sum": {
+   "tag": "log10",
+   "f_pow": null,
+   "f_id": null,
+   "calibrated": false,
+   "n_pair": 0
+  }
+ }
+}

@@ -1,0 +1,44 @@
+OK  Stack mean R²                doc=0.2685 real=0.2685
+OK  RidgeCV mean R²              doc=0.232 real=0.232
+OK  HistGBR mean R²              doc=0.2439 real=0.2439
+OK  RandomForest mean R²         doc=0.2416 real=0.2416
+OK  MT-GNN mean R²               doc=0.2099 real=0.2099
+OK  PLS mean R²                  doc=0.225 real=0.225
+OK  ElasticNet mean R²           doc=0.186 real=0.186
+OK  RRR-K8 mean R²               doc=0.1602 real=0.1602
+OK  区间覆盖率                        doc=0.1706 real=0.1706
+OK  档位完全命中                       doc=0.2378 real=0.2378
+OK  ±1 档内                        doc=0.5594 real=0.5594
+OK  逐维 R²-标签sd Spearman          doc=0.84 real=0.84
+OK  Mouthfeel 组 R²               doc=0.559 real=0.559
+OK  Fault 组 R²                   doc=0.114 real=0.1142
+OK  缺失格                          doc=73 real=73.0
+OK  缺失率                          doc=0.1264 real=0.1264
+OK  地板格                          doc=6807 real=6807.0
+OK  地板占比                         doc=11.8 real=11.8019
+OK  地板列(>=5%)                    doc=95 real=95.0
+OK  原始浓度列                        doc=33 real=33.0
+OK  消融 A RidgeCV                 doc=0.232 real=0.232
+OK  消融 B RidgeCV                 doc=0.2326 real=0.2326
+OK  消融 C RidgeCV                 doc=0.2283 real=0.2283
+OK  消融 D RidgeCV                 doc=0.2348 real=0.2348
+OK  消融 E RidgeCV                 doc=0.232 real=0.232
+OK  消融 F RidgeCV                 doc=0.2339 real=0.2339
+OK  消融 G RidgeCV                 doc=0.2332 real=0.2332
+OK  消融 H RidgeCV                 doc=0.1137 real=0.1137
+OK  消融 I RidgeCV                 doc=0.1886 real=0.1886
+OK  消融 H fixed30                 doc=-0.4712 real=-0.4712
+OK  消融 I fixed30                 doc=-0.0797 real=-0.0797
+OK  消融 A fixed30                 doc=0.0063 real=0.0063
+OK  消融 B fixed30                 doc=0.0223 real=0.0223
+OK  消融 A HistGBR                 doc=0.2072 real=0.2072
+OK  消融 B HistGBR                 doc=0.2072 real=0.2072
+OK  消融 C HistGBR                 doc=0.2072 real=0.2072
+OK  消融 D HistGBR                 doc=0.2093 real=0.2093
+OK  消融 F HistGBR                 doc=0.2082 real=0.2082
+OK  消融 G HistGBR                 doc=0.2098 real=0.2098
+OK  A→H 的 ΔR²                    doc=0.1183 real=0.1183
+OK  Stack - RidgeCV              doc=0.0365 real=0.0365
+OK  Stack - HistGBR              doc=0.0246 real=0.0246
+OK  fixed30 跨度                   doc=0.703 real=0.7032
+stale=none

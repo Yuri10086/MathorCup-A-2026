@@ -12,7 +12,7 @@ venv/
 env/
 
 # ---- 模型与二进制产物（体积大，不入库）----
-# 说明：模型可由 code/scripts/run_final.ps1 与 run_q1.ps1 从 data/ 完整重训，
+# 说明：定稿工程 .joblib 模型可由 code/scripts/run_final.ps1 与 run_q1.ps1 从 data/ 完整重训，
 # 单文件 11–24 MB、总计约 220 MB，故不纳入版本库；需要时按 README 复现即可。
 *.joblib
 *.pkl
@@ -22,6 +22,9 @@ env/
 *.npz
 *.npy
 *.onnx
+
+# 例外：早期实验的生成结果，体积小且无法由现有脚本重建，保留
+!dev_version/output/q3_generated.pkl
 
 # ---- LaTeX 中间产物 ----
 build_rebuild/

@@ -26,9 +26,14 @@
 ├── figures/              最终成图 19 组（PNG + 矢量 PDF）
 ├── figures_project/      可独立运行的科研绘图工程（读自带 support/ 的 CSV 复现全部图）
 ├── docs/                 解题思路定稿 v12（已内嵌 v3→v12 全部修订史）+ 交接说明 + 评估
+├── early_experiments/    方案迭代期的早期实验工程（q1_work 的 src/output/figs）
+├── build_v3/             论文 v3 的技术路线图（PNG + PDF）与 v3.md
+├── tools/                辅助脚本（去重、骨架修复、路线图生成）
+├── legacy_sources/       重构前的旧版模块（closed.py / closed_tables.py / q3_diagnostics.py）
+├── reference_papers/     数据来源原论文：Schreurs et al., Nat. Commun. 2024（原文 + 中译）
 ├── precedent_papers/     历年 MathorCup 大数据竞赛优秀论文（2024×4、2025×4）
 ├── paper_template/       数学建模 LaTeX 模板（Overleaf 可直接编译）
-└── contest_rules/        赛题 PDF、论文格式规范、承诺书与模板
+└── contest_rules/        赛题原文 PDF、问题说明、格式规范、承诺书与模板
 ```
 
 ### 三层工程的关系
@@ -117,11 +122,15 @@ python plot_all.py            # 读自带 support/ 的真实结果 CSV，输出�
 
 | 内容 | 授权 |
 | --- | --- |
-| `code/`、`figures_project/`、`scripts/` 等源代码 | MIT |
+| `code/`、`figures_project/`、`early_experiments/`、`tools/` 等源代码 | MIT |
 | 论文、报告、图表等文字与图像作品（`paper_final/`、`figures/`、`docs/`、`reports/`、`manuscript/`） | 保留署名权，转载/引用请注明出处 |
 | `contest_rules/` 赛题原始材料 | 版权归 MathorCup 组委会所有，仅作存档 |
 | `precedent_papers/` 历年优秀论文 | 版权归原作者所有，仅作学习参考 |
+| `reference_papers/` Schreurs et al. 2024 | 版权归 Nature Communications / 原作者所有（CC BY 4.0 开放获取），此处仅存档以标明数据来源 |
 | `code/data/` 官方附件与补充数据 | 版权归原研究作者/MathorCup 组委会所有 |
+
+> `reference_papers/` 收录的是本赛题数据来源的原始论文（Schreurs et al., *Nature Communications* 15, 2024）。
+> 该文以 **CC BY 4.0** 开放获取发布，转载须保留原作者署名与出处；若需引用请直接引用原文 DOI，而非本仓库。
 
 本仓库仅为参赛作品存档与技术交流之用；如需引用论文结论，请以 `paper_final/v3.docx` 与 `code/paper/competition_final.pdf` 为准。
 
