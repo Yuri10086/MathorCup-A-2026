@@ -25,7 +25,7 @@
 ├── paper_final/          论文 v3（docx + Markdown 初稿 + 配套图）
 ├── figures/              最终成图 19 组（PNG + 矢量 PDF）
 ├── figures_project/      可独立运行的科研绘图工程（读自带 support/ 的 CSV 复现全部图）
-├── docs/                 方案迭代记录 v2→v12 及评审修改清单
+├── docs/                 解题思路定稿 v12（已内嵌 v3→v12 全部修订史）+ 交接说明 + 评估
 ├── precedent_papers/     历年 MathorCup 大数据竞赛优秀论文（2024×4、2025×4）
 ├── paper_template/       数学建模 LaTeX 模板（Overleaf 可直接编译）
 └── contest_rules/        赛题 PDF、论文格式规范、承诺书与模板
