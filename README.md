@@ -26,6 +26,7 @@
 ├── figures/              最终成图 19 组（PNG + 矢量 PDF）
 ├── figures_project/      可独立运行的科研绘图工程（读自带 support/ 的 CSV 复现全部图）
 ├── docs/                 方案迭代记录 v2→v12 及评审修改清单
+├── precedent_papers/     历年 MathorCup 大数据竞赛优秀论文（2024×4、2025×4）
 ├── paper_template/       数学建模 LaTeX 模板（Overleaf 可直接编译）
 └── contest_rules/        赛题 PDF、论文格式规范、承诺书与模板
 ```
@@ -108,6 +109,19 @@ python plot_all.py            # 读自带 support/ 的真实结果 CSV，输出�
 
 ---
 
-## 版权
+## 版权与引用
 
-本仓库内容为参赛队原创作品，仅用于学习、复现与技术交流；赛题原始材料版权归 MathorCup 组委会及原作者所有。
+本项目**代码**采用 [MIT License](LICENSE)，可自由使用、修改与再分发。
+
+但请注意以下分区：
+
+| 内容 | 授权 |
+| --- | --- |
+| `code/`、`figures_project/`、`scripts/` 等源代码 | MIT |
+| 论文、报告、图表等文字与图像作品（`paper_final/`、`figures/`、`docs/`、`reports/`、`manuscript/`） | 保留署名权，转载/引用请注明出处 |
+| `contest_rules/` 赛题原始材料 | 版权归 MathorCup 组委会所有，仅作存档 |
+| `precedent_papers/` 历年优秀论文 | 版权归原作者所有，仅作学习参考 |
+| `code/data/` 官方附件与补充数据 | 版权归原研究作者/MathorCup 组委会所有 |
+
+本仓库仅为参赛作品存档与技术交流之用；如需引用论文结论，请以 `paper_final/v3.docx` 与 `code/paper/competition_final.pdf` 为准。
+
